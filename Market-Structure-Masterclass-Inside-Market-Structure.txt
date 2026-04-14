@@ -1,0 +1,343 @@
+Market Structure Masterclass
+           Episode 1
+
+         Inside Market Structure
+             By Pat x Ritesh
+Internal Topics
+Introduction
+
+1 - Overlooking Basic Market Trend & Price action
+
+-Bullish Trend, Bearish Trend, Ranging environment
+
+-Internal & External Structure
+
+
+
+2 - Identifying A Trend Reversal
+
+-Break of Structure, Bullish & Bearish
+
+-Differentiating between BOS & COS
+
+
+
+3 - Identifying Structures
+
+-Weak Structures
+
+-Structure Reality
+
+-Structure In Detail
+Introduction
+What is market structure? - Market structure is simply the ﬂow of whatever direction the market is moving. It is formed by
+price making swing highs and swing lows. These points can be used as ‘support & resistance’ and will hold until they do not.
+Market structure is developed price action.
+
+
+
+
+Why is market structure important? - MS is seen as the simplest (once understood) and one of the most important part of
+trading and ﬁnding a trend in price. Once you understand ms and the idea behind it you will receive great beneﬁt. You want to
+trade with the ﬂow not against it.
+              Part 1 -
+Overlooking Basic MS & Price Action
+
+      Bullish Trend, Bearish Trend
+         Ranging Environment
+      Internal & External Structure
+Market Structure
+There are 3 types of market structure. Bullish, Bearish & Ranging environment. In this section we will cover all three.
+
+A bullish trend consists of price making higher lows & higher highs. (Uptrend)
+
+A bearish trend is the act of price making lower lows & lower highs. (Downtrend)
+
+A ranging market is price action before the market starts a directional Trend. Also known as accumulation or distribution.
+Bullish Trend
+-Bullish trend is formed with higher highs & higher lows.
+
+-Your key point of interest is your Higher Lows. This is where your trend has originated from and if your
+trend is strong each higher low should make a higher high in price.
+
+-Price can only form a true higher low swing point if leads to a new higher high. (examples on next slide)
+Example One: Price is in a higher low and higher high trend. The same trend we saw on the previous slide. We are
+in a bullish trend. We are consistently forming higher lows that lead to new higher highs.
+
+
+                                          Image on the right is showing the
+                                          same trend but this time a higher
+                                          low does not lead to a new higher
+                                          high straight away but actually
+                                          makes a lower high (written in
+                                          red). This lower high then leads to
+                                          a new higher low (red) which then
+                                          leads to a Higher high.
+This brings me to what I spoke of in the last slide. Your higher low
+cannot be a key swing point if it did not lead to a new higher high. It is
+still a higher low but not a key swing point in your market structure
+until the higher high has been formed. Your higher low (green) is still
+your key swing point as it was the original low before the new high.
+(after BOS).
+Example Two:
+Example Three:
+Bearish Trend
+-Bearish trend is formed with lower highs & lower lows.
+
+-Your key point of interest is your lower high. This is where your trend has originated from and if your trend
+is strong each lower high should make a lower low in price.
+
+-Price can only form a true lower high swing point if leads to a new lower low. (examples on next slide)
+Example One: Price is forming lower highs and lower low price action. We are in a bearish trend (downtrend). Each
+lower high is leading to a lower low.
+
+
+Now explaining the same
+thing as I did for the bullish
+trend scenarios but opposite.
+Like I said before.
+
+
+
+Your lower low can only be
+conﬁrmed if it has originated
+from a true lower high swing
+                                                                                                            Higher low
+
+
+
+
+point. Example here:
+Example Two:
+Example Three:
+Ranging Environment
+A ranging market is very common in crypto. Price spends more time ranging than it actually does trending. If you can ace trading
+a range then you can be very comfortable in most PA that is thrown at you.
+
+Instead of price making consistent highs and lows, price will ﬁnd a range high and a range low. Almost a key ‘support &
+resistance’ area at a low and at a high. Price will bounce in between these levels resulting in a range being formed.
+
+Ranges will constantly change and you will need to
+update your highs and lows as PA develops. It is all
+personal preference at the end of the day.
+
+I see ranges as:
+
+-Accumulation before an uptrend.
+
+-Distribution before a downtrend.
+Identifying A Range:
+
+Like I said in the previous slide your
+range can really vary depending on
+how PA develops and which highs and
+lows act as a consistent reversal point
+for price.
+
+Most of the time as price comes into a
+ranging environment you mark out the
+ﬁrst swing high and ﬁrst swing low
+points. These should act as key
+reversal points for price to act at.
+Internal & External Structure
+-Any time frame you trade with has market structure. Each time frame builds up market structure to develop into a higher time
+frame market structure. The higher the time frame the higher the conviction for your trend.
+
+-When you are watching pa develop you may not have noticed that you are watching internal structure develop inside the
+external structure & that external structure is the internal structure for the next external structure. It is one big cycle.
+
+-Depending on what time frames you trade it is
+so important to understand the structure and
+the trend you are trading with or against. When
+trading, it is a key to understand that trend is
+your friend. Do not play against the trend.
+     Marked with black dots is the
+     H4 trend. Price making lower
+     highs and lower lows
+     (downtrend). This is your
+     external structure. This is the
+     trend you are focusing on.
+
+     Do not ﬁght this trend.
+H4
+
+     Moving into H2 time frame
+H2   you can start to see the red
+     highlighted points. These are
+     just some of the swing points
+     that are making up the
+     internal structure. Sure some
+     of them are making higher
+     highs and higher lows
+     (uptrend). But your external
+     structure is still down.
+                 Swing high/low points marked in black.
+ Example:        This is your market structure. Red is the
+                 internal structure and can be traded as
+                 well. Look at PA as internal and external
+                 structure. Inside these H4 candles you will
+                 have price action made up of lower time
+                 based candles which will run as their own
+            H4   structure.
+                              If the H4 is trending down, try
+                              and trade the lower time
+                              frames in the same direction
+                              until the H4 has a trend
+                              reversal. Try not trade against
+                              the trend at all times.
+
+                              Even though some red points
+                              are trending up, higher time
+                              frame is still trending down. If
+                              you are trading price up here
+                              you are trading against the
+H2                            trend until the swing high
+                              point (black) is broken.
+             Part 2 -
+  Identifying A Trend Reversal
+
+Break of Structure, Bullish & Bearish
+Differentiating between BOS & COS
+Break Of Structure (BOS)
+-Break of structure is a terminology used for PA traders when market structure has broken.
+-In a uptrend it is when price puts in a higher high.
+-In a downtrend it is seen as price putting in a lower low.
+-This is when understanding true market structure and true high/low swing points is very important. If your
+market structure is misunderstood then your break of structure may be invalid thus meaning your outlook
+on the current trend is wrong.
+-Once you fully understand your key swing highs and lows in your trend. Finding the break of that structure
+begins to be fairly straight forward.
+Bullish BOS:
+As I said in the previous slide. Bullish BOS is when you are putting in a higher high in your uptrend. If you
+are conﬁdent from what we went over in the market structure section you will remember that your higher
+high must come from a true higher low also. (Bullish continuation)
+
+Example One:
+Example Two:
+Example Three:
+Example Four:
+Bearish BOS:
+Bearish break of structure is as you would expect, the opposite to what we have just gone through. In a
+downtrend your continuation for the trend is when price is forming lower lows. Thus price is making a lower
+low and breaking structure to the downside. (Bearish continuation)
+
+Example One:
+Example Two:
+Example Three:
+Differentiating between BOS & COS
+-Knowing the difference between Break Of Structure & Change Of Structure is very important when
+following the trend and staying on top of trading with the trend rather than against it.
+-Once you have an eye for when the trend has ﬂipped it becomes fairly straight forward. Again this relies on
+your understanding towards market structure aspect of trading and making sure you have the correct highs
+and lows marked out.
+-The higher the time frame of the change in structure the higher the conviction you should have for a ﬂip in
+trend.
+     BOS = Break of structure, market structure breaks but in the same direction it is already moving.
+COS = Change of Structure, market ﬂips in the direction of which way it was trending. This is your indication
+               for searching for trades in the opposing direction market was just moving.
+Change Of Structure:
+The change of structure is when you have either a change in lows or highs for your current trend. For example:
+
+       If price is in an uptrend, you are making
+       higher lows and higher highs. If price
+       was now to make a lower low, this is
+       your COS. Trend has changed.
+
+
+
+       Vice versa, if you are in a downtrend,
+       price will be making lower lows and
+       lower highs. If price was now to make a
+       higher low this is your COS.
+Important!!!
+BOS & COS
+
+Example One:
+Example Two:
+Example Three:
+       Part 3 -
+Identifying Structure
+
+  Weak Structures
+  Structure Reality
+  Structure In Detail
+Weak Structures
+
+  -A WEAK uptrending structure is
+  caused by a failure of the price to make
+  a new Higher high.
+
+
+
+
+   -A WEAK down trending structure is
+   caused by a failure of the price to make
+   a new Lower low.
+Difference between Strong and Weak Structures:
+-Strong highs/lows: A structural point will be conﬁrmed as strong, when it can break through the latest opposite
+zone. (for example: demand will be strong if it can break through the last supply)
+-Weak highs/lows: A structural point will be conﬁrmed as weak if it can't break through the latest opposite zone and
+rejects on it.
+ Weak Highs are formed when it does
+ not lead to a new low in a downtrend.
+
+
+
+ Weak Lows are formed when price
+ does not lead to a new high in an
+ uptrend.
+- If a weak high breaks a weak low, it will not make it strong.
+Structure reality
+-We know that the market does not always go as
+simple as the markups previously seen, so now we
+will look at a more realistic way to mark structure on
+a real market.
+-In uptrend, buyers (demand) have control of the
+market. When price makes a break of structure
+(BOS) we should expect the price to make a decent
+pullback with multiple mini structure (sometimes)
+also know as your internal structure to create the
+new Low of the uptrend.
+-In a downtrend, sellers (supply) have control of the
+market. When price makes a Break Of Structure, it
+creates the new Lower low of this trend. We should
+expect a decent pullback after the new Lower low to
+create the new lower high of this trend. Structure
+breaks are only conﬁrmed by candle body, not wicks.
+
+
+                  Without Noise                         Reality
+Structure In Detail:
+The Swing Structure:
+
+Larger structural ranges created when
+price is trending.
+
+
+The Sub Structure:
+
+Corrective structure within the
+swing structure consisting of weak
+highs and weak lows. Example
+denotes the same asset but in mid
+timeframe with substructure.
+The Minor Structure:
+
+Minor structure comes under the substructure and often we denote them as lower time frame noisy
+structure. It consists of various weak highs and weak lows but the point to be noted here is that the break of
+minor structures is not equal to break of sub structures and swing structures (less valid). As price is mostly
+all a fractal we can see the same mechanism in all timeframes.
+Homework:
+-Find two examples of a break in structure.
+-Find two examples of a change in structure.
+-Find one example of a Swing Structure with
+Sub-Structure.
+-Find two examples of price making a weak high.
+-Find two examples of price making a weak low.
+
+
+You will be looking at $ETH for this and during the
+month, 1st April - 30th April 2022 on the H1 time
+frame. Enjoy!
+End of MSM Episode 1
+

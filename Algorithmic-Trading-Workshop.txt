@@ -1,0 +1,2380 @@
+
+1
+Algorithmic Trading
+1
+Manish Jalan, Kashyap Bhargava
+26-27
+th
+Nov,2010
+2
+Session I: 
+Introduction to algorithmic trading
+2
+3
+The buzz-words
+Statistical, Volatility & Index 
+Arbitrage
+High/Ultra High Frequency 
+Trading
+Trend Following Systems
+Prop Trading Agency Trading
+Factor Models
+VWAP, TWAP
+Inline, Aggressive, Passive
+Dark Pool Execution
+Smart Order Routing
+4
+What is Algorithmic Trading? 
+• al·go·rithm [noun]
+A set of rules for solving a problem in a finite number of steps
+• Trade [noun, verb, trad·ed, trad·ing, adjective]
+The act or process of buying, selling, or exchanging
+• Algorithmic Trading: Set of rules for buying, selling or exchanging
+• Rules are best followed by machines and not humans
+• Humans have IQ and EQ
+• Hence we let computers do the job
+5
+The myths and reality
+Myths Reality
+Oh! It is complex! Set of simple rules, to make computers do 
+the dirty job!
+It‟s a Black Box! Traders in India have been doing the same 
+thing manually for decades
+It‟s for PhD grads! It‟s for everyone, who is competitive and 
+future looking
+It is expensive and pay-
+off is uncertain!
+It is inexpensive, if priorities are right. 
+Requires right approach and clear know-how 
+of what you want!
+It is for big boys! Its for everyone from single traders to large 
+houses
+6
+Why algorithmic trading?
+• Simple note
+– Trading is a mechanical job!
+– Everyone around us is doing it / thinking about it!
+– Hear more and more in the future!
+– Don‟t want to miss the next bus! 
+– Don‟t want to feel left-out!
+• Serious note
+– Build new revenue stream
+– Build competitive advantage
+– Solidify existing business and not lose it to others
+– Add value to existing clients
+– Attract new clients and investors
+7
+Prop Trading
+• Prop: Proprietary Trading 
+• Development of strategy for in-house trading and profitability
+BSE-NSE Arb
+Cash-Future Arb
+Index Arb - Pure
+Pair Trading Technical
+Trend Following – Technical
+Fundamentals on Equity 
+Research
+8
+Agency Trading
+• Agency: Execution and brokerage services for the clients
+• Development of strategy for superior client executions
+Manual Order Slicing
+Manual Directional Calls
+Manual Market Making
+Basic VWAP and Inline 
+Engines
+9
+The building blocks
+Define End Goal Define Set of Rules
+Collect Data Back-test Optimize Simulate
+Connect to OMS
+Connect to 
+Exchange
+Manage Risk
+Improve and Maintain
+10
+Nature
+• Proprietary Trading
+• Agency Trading
+• Clients Trading (Wealth Management)
+Frequency
+• Low
+• Medium
+• High
+AUM & 
+Strategy
+• Higher AUM, Long term return
+• Lower AUM, Daily profits
+• Non-correlated fresh strategy / Refine old ones
+Defining the end goal
+11
+Defining the set of rules
+Experience
+Logical and 
+business 
+sense
+Simple 
+observations in 
+market
+Simple 
+technical 
+rules
+Talking to 
+traders and 
+analysts
+Exercises
+12
+Exercise 1: Basic Modeling
+13
+Session II:
+The mathematics of algorithmic trading
+13
+14
+Why Mathematics & Statistics?
+Moderate ROI when model 
+is working
+Large draw-downs when 
+model stops
+Long stretch of continuous 
+bleeding in returns
+Pure Technical 
+Models
+Technical & 
+Statistical Models
+User might lose confidence
+Superior ROI when model is 
+working
+Flattish ROI when model 
+stops
+Shorter stretch of 
+continuous flattish period
+User can diversify and 
+make multi-models
+15
+The Mathematics
+Data Distributions
+Time Series Modeling
+Market Microstructure
+16
+The normal distribution
+• Most popular data distribution
+• Standard normal distribution curve
+Source: Wikipedia
+17
+The normal distribution
+• Mean 
+• Standard deviation
+• Variance
+• Correlation 
+• Beta
+2   2
+1
+1
+(   )
+n
+i
+i
+x
+n
+o   µ
+=
+=   ÷
+¿
+i
+x
+n
+µ =
+¿
+(   ,   )
+x   y
+Cov  x  y
+r
+o o
+=
+(   ,   )
+(   )
+s   p
+s
+p
+Cov r   r
+Var  r
+| =
+2
+1
+1
+(   )
+n
+i
+i
+x
+n
+o   µ
+=
+=   ÷
+¿
+18
+Normal vs. other distributions
+• Cauchy distribution
+• Binomial Distribution
+• Poisson Distribution
+• Beta Distribution
+• Chi-square Distribution
+• Exponential Distribution
+• Laplace Distribution
+19
+Time series modeling
+• Behavior of the time-series of data
+– Mean reverting, Trending or Random Walk
+– 50-60% time series is random walk
+– Focus should be on the other 40%
+• Key elements: Mean and Variance
+• Different behaviors
+– Mean reverting (E.g.: Pairs Trading)
+– Non-mean reverting (E.g.: Trend)
+– Constant variance (E.g.: Pairs Trading)
+– Increasing variance (E.g.: Trend)
+20
+Mean and Variance
+0
+2
+4
+6
+8
+10
+12
+Constant Mean
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Constant Variance
+0
+5
+10
+15
+20
+25
+30
+35
+40
+Increasing Mean
+0
+5
+10
+15
+20
+25
+30
+Increasing Variance
+21
+Mean reversion modeling
+• Co-integration: Stationary mean and variance
+• Time series is stationary when
+– The mean is constant
+– The variance is constant
+• Test for co-integration
+– If |r| < 1, the series is stationary
+– If |r| = 1, it is non-stationary (Random walk)
+• Most popular test: ADF (Augmented Dickey Fuller)
+• If ADF < -3.2 (95% probability of co-integrated series)
+1 t   t   t
+y   ry   e
+÷
+=   +
+22
+Generic time series modeling
+• Variance Ratio Test: Test for variance alone
+• Useful when mean is varying w.r.t to the time
+• Ornstein-Uhlenbeck Process: Test for mean reversion alone
+• Useful when only mean reversion rate matters
+(   )
+t   t   t
+dx   x   dt   dW u µ   o =   ÷   +
+(   )
+(   )
+(   )
+k   t
+t
+Variance r
+VR k
+k   Variance r
+A
+A
+=
+×
+23
+Cluster analysis and PCA
+• Grouping of similar data and pattern
+• Useful in factor modeling
+• PCA: To identify principal component 
+0.00%
+2.00%
+4.00%
+6.00%
+8.00%
+10.00%
+12.00%
+14.00%
+16.00%
+18.00%
+20.00%
+0 10 20 30 40 50
+G
+r
+o
+w
+t
+h
+P/E Ratio
+24
+Regression
+• Useful in identifying alpha-generating factors
+-0.2
+-0.15
+-0.1
+-0.05
+0
+0.05
+0.1
+0.15
+0.2
+-0.2 -0.15 -0.1 -0.05 0 0.05 0.1 0.15 0.2 0.25
+2
+0.659
+0.720
+y   x
+R
+=
+=
+y   mx   c =   +
+Exercises
+25
+Exercise 1: Basic Modeling
+Exercise 2: Time Series Modeling
+26
+Market microstructure
+• Used in UHFT, HFT, Agency Trading
+1001.50 13
+1001.00 19
+1000.50 2
+1000.00 17
+999.50 9
+999.00
+10 998.50
+4 998.00
+16 998.00
+7 998.00
+Last Traded Price Bid-Ask Spread
+Price Ask Qty Bid Qty
+27
+The volatility
+• Volatility is deviation from mean
+• Volatility in daily, 5 min, 10 min etc.
+2
+1
+1
+(   )
+n
+i
+i
+x
+n
+o   µ
+=
+=   ÷
+¿
+28
+Market microstructure
+• Market Price of Reliance in 5 min buckets
+09:15 09:30 09:45 10:00 10:45 10:30 10:15
+1005.00 1007.50 1004.50 1003.00 1008.00 1010.50 1009.50
+5 n =   1006.70 µ =
+2
+1
+(   )   35.3
+n
+i
+x   µ
+=
+  ÷   =
+¿
+  2.657 o =
+29
+The spread
+• Spread in BP
+• Spread in ticks
+(   ) Spread Ticks   BestAsk   BestBid =   ÷
+(   )
+(   )   10000
+(   )
+2
+BestAsk   BestBid
+Spread  BP
+BestAsk   BestBid
+÷
+=   ×
++
+30
+The market curve
+• Volume / Market curve
+BucketVolume
+VolumeRatio
+DaysTotalVolume
+=
+0.00%
+1.00%
+2.00%
+3.00%
+4.00%
+5.00%
+6.00%
+7.00%
+09:00 09:50 10:40 11:30 12:20 13:10 14:00 14:50
+31
+Session III:
+Global trends in algorithmic trading
+31
+32
+The size of algorithmic-trading
+• TABB group reported in Aug‟2009
+– 300 securities and large quant funds
+– Recorded $21 billion in profits in 2008!
+• Pure high-frequency firms represents
+– 2% of the 20,000 trading firms in US
+– Account of 67% of all US volumes
+• Total AUM of high-frequency trading funds
+– $141 billion
+– Down 21% from the high
+– Compared to global hedge fund shrinking by 33% since 2008
+33
+The volume rush
+• Volume Characteristics in US
+– In 2005 less than 25% of volume was from high-frequency
+– 2/3
+rd
+of daily US volume now from high-frequency strategies
+– HFT Strategy grew by 164% between 2005 and 2010
+• Trading volume (Non-US)  
+– Europe: 40% of trades
+– Asia: 5-10% (Growing extremely rapidly)
+34
+The Global Rush
+• All global I-bank has desk in algorithmic trading
+• Risk savvy banks - higher Prop focus E.g.: GS (US Banks)
+• Risk averse banks - higher Agency focus E.g.: CS (EU Banks)
+35
+Brokers Algorithmic Platforms
+I-Banks Products Selected Strategies
+BoA Electronic Trading 
+Services (ETS)
+VWAP, TWAP, TVOL, Razor, Market on 
+Close, Arrival Price, Market Call
+Citigroup Alternative 
+Execution
+VWAP, TWAP, MOC and Participation
+CS AES Slippage from Arrival Price,
+Reducing market impact, VWAP and In
+Line with Volume
+GS GSAT VWAP, Implementation
+Shortfall, Piccolo (Small Order
+Spread Capture algorithm) and TWAP.
+36
+Brokers Algorithmic Platforms
+I-Banks Products Selected Strategies
+ITG SmartServer VWAP, TWAP, Implementation Shortfall 
+(Decision Price) and Market Close
+JPM Electronic 
+Execution 
+Services
+VWAP and Implementation Shortfall 
+(Arrival Price, Close Price) and a „trader 
+pre-defined benchmark
+ML ML X-ACT OPL (Optimal), QMOC, VWAP, CLOCK 
+(a TWAP engine), POV (Percentage of 
+Volume) and TWIN (trades two stocks 
+based on a price per ratio or spread).
+37
+The Growth Path
+New Asset 
+Classes
+New Algorithms
+New Markets
+New 
+Clients
+38
+Algorithms across Exchanges
+Source: www.thefinanser.co.uk
+39
+Algorithms across Exchanges
+Source: www.kabu.com
+Exercises
+40
+Exercise 1: Basic Modeling
+Exercise 2: Time Series Modeling
+Exercise 3: High Frequency Modeling
+41
+The Geographical Divide
+• Matured markets 
+– E.g.: US, Japan
+– Getting to next stage of bleeding edge innovation
+– Cut throat competition to save every 1 BP in Agency
+– Cut throat competition for every percentage of additional alpha
+– Lateral shift to ultra-high frequencies and nano second latencies
+• Growing markets
+– Understanding the implications of algorithmic trading
+– Coming in sync with investors and their growing execution needs
+– Computer algorithms eating the bread-and-butter strategies
+– E.g.: Perish of pure Index arbitrage, BSE/NSE arbitrage in India
+SEC cracking on flash trading for 
+un-fare advantage 
+Effort to curb “quote stuffing”, 
+“spoofing” and “gaming” of 
+order book
+Proposal for regulation 
+on certain strategies 
+and trade reporting 
+Proposal for “standing-
+time” on orders before 
+cancellations
+Dark pools under scrutiny for 
+un-fare price discovery
+42
+The Regulatory Structure in US
+43
+Session IV: 
+Lifecycle of Algorithmic Trading
+43
+44
+Lifecycle of Algorithmic Trading
+Strategy/Pattern Recognition
+Data Gathering/Data Cleaning
+Back Testing
+Monte Carlo Simulation (Parameter Optimization)
+Factor Optimization
+Trade/Portfolio Result Analysis
+Simulated Trading/ Risk Management
+Live Trading and Execution
+45
+Identify Trading Patterns
+• Talk to experienced traders
+• Talk to clients
+• Read books and articles on internet and trade magazines
+• Watch market movements (Intra-day, Daily)
+• Test simple technical patterns on excel sheets
+• Brainstorm and team approach
+• Technical analysis is very useful to get the initial signal
+46
+Back-testing
+• Most critical element of algorithm development
+• Why back-test? 
+– Avoid past mistakes
+– See repeated ness of a pattern 
+– Analyze risk, reward, pit-falls etc.
+– Analyze robustness across different market environment
+• Back-test data: bearish, bullish and range-bound markets
+• In-sample and out-of-sample testing
+• How?
+– Programming: Excel, VB Macros, Java, C++
+– Statistics: Matlab, R, Python
+Steps in back-testing
+Data Gathering and Cleaning
+Back testing the trading strategy
+Regressing against profitable factors
+Analyzing Trade/Portfolio Return
+Drawing Return Curve
+Analyzing Sharpe Ratio and Max Drawdown
+Re-run the back tests
+Exercises
+48
+Exercise 1: Basic Modeling
+Exercise 2: Time Series Modeling
+Exercise 3: High Frequency Modeling
+Exercise 4: Back testing
+49
+Alpha generation
+• Identifying factors to improve profitability
+• E.g.: 
+– Pair-trading: co-integration, beta
+– Trend following: SMA, EMA or MACD
+– High frequency: Bid to Offer ratio for short term long position
+• Use statistical and mathematical factors
+• Mathematical modeling
+– Price pattern broken into deterministic and random components
+– Modeling the deterministic component of the time series
+• Regression of trade return vs. statistical factors 
+• Caution: Factors make intuitive, logical and business sense
+50
+Monte-Carlo simulation
+• Identifying optimal parameters for each factor
+• Tests carried across multiple values for one or more factors
+• E.g.:
+– Value of z-score in pair trading (-1.5, -2, -2.5 etc.)
+– Moving average length: 20 period, 50 period etc.
+• Optimal solutions is tested for
+– Annualized percentage return
+– Max peak to trough drawdown
+– Average peak to trough drawdown
+– Annualized Sharpe ratio
+– Maximum non-performing period
+• Caution: Avoid over-optimization and data-fitting
+Transformation – Trade to Equity 
+Curve
+• Trade 1: Buy Tata Motors, 11
+th
+Oct, 2010 @ 767.00
+Sell Tata Motors, 15
+th
+Oct, 2010 @ 791.00  (+3.13%)
+• Trade 2: Buy Tata Steel, 11
+th
+Oct @ 644.75
+Sell Tata Steel, 13
+th
+Oct @ 632.25 (-1.94%)
+Date
+Tata 
+Motors
+Tata 
+Steel
+Trade1 
+Return
+Trade2 
+Return
+Portfolio 
+Return
+11
+th
+Oct 771.00 639.00 0.52% -0.89% -0.19%
+12
+th
+Oct 783.65 633.10 1.64% -0.92% 0.18%
+13
+th
+Oct 800.00 632.25 2.09% -0.13% 1.16%
+14
+th
+Oct 788.00 -1.50% 0.41%
+15
+th
+Oct 791.00 0.38% 0.60%
+51
+The equity curve (portfolio return)
+-0.40%
+-0.20%
+0.00%
+0.20%
+0.40%
+0.60%
+0.80%
+1.00%
+1.20%
+1.40%
+1 2 3 4 5
+Portfolio Return
+52
+53
+The Equity Curve
+• It is a graphical representation of the growth of the 
+portfolio in the terms of profit returns achieved
+-10.00%
+0.00%
+10.00%
+20.00%
+30.00%
+40.00%
+50.00%
+60.00%
+70.00%
+0
+1
+/
+0
+3
+/
+2
+0
+0
+7
+0
+1
+/
+0
+5
+/
+2
+0
+0
+7
+0
+1
+/
+0
+7
+/
+2
+0
+0
+7
+0
+1
+/
+0
+9
+/
+2
+0
+0
+7
+0
+1
+/
+1
+1
+/
+2
+0
+0
+7
+0
+1
+/
+0
+1
+/
+2
+0
+0
+8
+0
+1
+/
+0
+3
+/
+2
+0
+0
+8
+0
+1
+/
+0
+5
+/
+2
+0
+0
+8
+0
+1
+/
+0
+7
+/
+2
+0
+0
+8
+0
+1
+/
+0
+9
+/
+2
+0
+0
+8
+0
+1
+/
+1
+1
+/
+2
+0
+0
+8
+0
+1
+/
+0
+1
+/
+2
+0
+0
+9
+0
+1
+/
+0
+3
+/
+2
+0
+0
+9
+0
+1
+/
+0
+5
+/
+2
+0
+0
+9
+0
+1
+/
+0
+7
+/
+2
+0
+0
+9
+0
+1
+/
+0
+9
+/
+2
+0
+0
+9
+0
+1
+/
+1
+1
+/
+2
+0
+0
+9
+0
+1
+/
+0
+1
+/
+2
+0
+1
+0
+0
+1
+/
+0
+3
+/
+2
+0
+1
+0
+R
+e
+t
+u
+r
+n
+ 
+i
+n
+ 
+%
+Return on gross exposure on daily basis
+54
+The Litmus Tests
+• Peak to Trough Drawdown: Maximum retrenchment of portfolio 
+returns in the equity curve 
+• Annualized Percentage Return
+• Annualized Sharpe Ratio
+Where 
+R = Annualized percentage return
+r  = Average Daily Return
+r
+0
+= Daily risk-free rate of return
+T = No. of Trading days in the year
+σ = Std Dev of Daily Returns
+R   r   T = ×
+0
+r   r
+SH   T
+o
+÷
+=   ×
+55
+Stress Test
+• 3 std-dev (1 in 25 years) happens every 6 months
+• 10 std-dev (1 in 500 years) happens every 2 year
+• Effect of “very fat-tails” in algorithmic trading
+• Stress testing with dynamic  and random price series
+• Analyze large losses and unforeseen drawdown
+• Work on optimization and event-risk
+56
+Simulated Trading
+• Most algorithmic trading fails because of 
+– Lack of execution know-how
+– Gaps between back-test and real-life execution
+– Slippages, transaction costs and other charges 
+– Increasing size and quantity beyond the model capacity
+• Simulated trading is important
+– Trades signal are generated at right time
+– Execution pit-falls are ironed out
+– Slippages w.r.t to the signals are minimized
+– Real-life trading is consistent with back-testing
+• Usual period: 3 weeks to 3 months
+• After 3 weeks, start real-life trading with minimal quantity
+57
+Automated execution
+• Reduce the time between signal and execution
+• Non-emotional and systematic approach
+• No view-point or self-analysis overlay on the signals
+• Execute orders using
+– An execution guy, punching the order as it appears (low-cost)
+– CTCL connectivity of NSE provided by 3
+rd
+party vendor software
+– DMA platform provided by Institutional brokers
+– DSA platform provided by Institutional brokers
+– FIX protocol (global standard) for information exchange
+– In future: Agency algorithms (VWAP, Passive etc.) for execution
+58
+Going live
+• Risk: Limit on daily turnover and on each trade execution
+• Commit to a strategy for a longer term (1 year at least)
+• Start small and consistent quantity and size
+• Set aside a draw-down and stop loss limit (E.g.: Rs.10 lacs)
+• E.g.: I don‟t know, I don‟t care, I know my stop-loss
+• Don‟t change the quantity and trading sizes abruptly
+• Understand the flattish period in the performance
+• Calculate daily 
+– Gross & Net exposure 
+– VAR (Value-At-Risk)
+– Daily Profit/Loss and returns on gross exposure
+• Avoid excess leverage
+59
+Session V:
+Risks, Returns & Roles in algorithmic trading
+59
+60
+What is Risk?
+• Deviation from possible outcomes
+• Fat-tails in the market
+• Risks: Systematic and Non-systematic
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+-3 -2 -1 0 1 2 3
+61
+Systematic Risks
+• Systematic Risks
+• We can foresee and prepare for these risks
+• Market direction risk, net rupee exposure
+• Sector risk
+• Single stock risk (E.g.: Satyam)
+• Slippage risk
+• Execution risk (software crash, power failure etc.)
+62
+Systematic risk mitigation
+• In design
+– Market direction, net rupee risks / Market direction neutral
+– Single sector exposure risks (< y% of the portfolio)
+– Single stock exposure (< x% of the portfolio)
+• During execution
+– Design to take order book (bid and ask) into account
+– Caps on daily turnover in the system
+– Caps on single trade max rupee value to be executed
+– Caps on number of trades in a day 
+– System should handle power failure and software crash
+• When live
+– Live monitoring by the IT people on connectivity, re-start etc.
+– Switch-on and Switch-off during rare market circumstances
+63
+Non systematic risks
+• Event risk
+– E.g..: India elections 17
+th
+May‟2009
+– Large losses, if caught on the wrong side of the market
+– Less frequent in nature
+• Algorithmic wars (New age nuclear war!)
+– More prevalent in matured and 100% electronic markets
+– Triggered when a profitable algorithm becomes too crowded
+– Usually presided by a very profitable period
+– Then stop-losses trigger and some large funds unwind
+– Leads to “ripple-effect”, causing large movements in the positions
+64
+Examples when algorithm fails
+• October‟1987 US stock market crash: Automated trading 
+• August‟2007 Quant meltdown: Crowded factor model
+• May 6
+th
+2010, US Intraday movement: Crowded high frequency
+Source: Wikipedia
+65
+Examples when algorithm fails
+• Long Term Capital Management 
+– Founded in 1994 by John Meriwether and Myron Scholes
+– 40% annualized returns after fees in first 3 years
+– Lost $4.6 Bn. in 1998 within 4 months
+66
+The returns
+• Strategies to yield returns on market direction / direction-less
+• Once designed properly, can become a cash-cow
+• Lesser players implies higher returns
+• Returns in India
+– Stat-arb strategies: 25-40% returns
+– Ultra high frequency: Deterrent in India due to STT costs
+– Trend following and momentum strategies: 25-35 % returns
+– Long/Short equity strategies: 20-25% returns
+– Intra-day / BTST-STBT strategies: 30% returns
+• Best quant funds: Renaissance Technologies & DE Shaw 
+• More then 20% p.a. returns after fees for last 20 yrs.
+-10.00%
+0.00%
+10.00%
+20.00%
+30.00%
+40.00%
+50.00%
+60.00%
+70.00%
+80.00%
+D
+a
+t
+e
+2
+0
+0
+9
+0
+9
+0
+4
+2
+0
+0
+9
+1
+0
+2
+3
+2
+0
+0
+9
+1
+2
+0
+7
+2
+0
+1
+0
+0
+1
+2
+1
+2
+0
+1
+0
+0
+3
+0
+8
+2
+0
+1
+0
+0
+4
+2
+2
+2
+0
+1
+0
+0
+6
+0
+3
+2
+0
+1
+0
+0
+7
+1
+6
+2
+0
+1
+0
+0
+8
+2
+7
+Cum ROI - Notional Cum ROI - On Margin Cum ROI - NIFTY Index
+67
+Example: Pair-trading in India
+68
+Costs
+Securities Transaction Tax
+Product Transaction STT rate Charged on
+Equity-Delivery
+Purchase 0.125% Turnover
+Sell 0.125% Turnover
+Equity-Intraday
+Purchase - -
+Sell 0.025% Turnover
+Future
+Purchase - -
+Sell 0.017% Turnover
+Option
+Purchase 0.125% Settlement price, on exercise
+Sell 0.017% Premium
+Other Charges on Futures
+SEBI Turnover Charges  0.0001%
+Transaction Charges  0.002%
+Total Charges on Futures (Buy & Sell) = 1*1.7 BP+2*0.01 BP+2*0.2 BP 2.12 BP (0.0212%)
+69
+The major costs
+• Slippages
+– India has lowest spreads in Asia: 5 BPS
+– Indian market lacks order book depth
+– Liquidity dries beyond top 70-80 stocks
+– Options: Index and top 7 scrip
+– Hence, slippages occur while executing large orders
+– Trick: Capture the Indian market breadth and NOT depth
+• Brokerage
+– Understand the average per trade return 
+– High frequency ~ 0.08%-0.30% per trade
+– Medium frequency ~ 0.8% to 2% return per trade
+– Low frequency ~ 2% to 10% return per trade
+– Hence brokerage should be at 0.02% and below in high-frequency
+– Can be larger 0.02% to 0.05% for medium to low frequency trades
+70
+Roles - Trader
+• Identify trading patterns and strategies
+• Watch market movements and opportunities
+• Give practical experience & feedbacks
+• Work closely with IT and quant team
+• Check the back tests and historical performance closely
+• Monitor live time risk and positions
+71
+Roles - Quant
+• Convert “business language” into “mathematical language”
+• Gather and clean data
+• Back-test strategies
+• Identify alpha generating factors using statistical tools
+• Build simulated trading environment 
+• Test strategies in live market
+• Take feedbacks and risk-control measures from traders
+72
+Roles - IT
+• Convert “mathematical language” into “computer language”
+• Support Quant in building the IT systems
+• Develop processes to store, clean and manage data
+• Develop systems to back-test and simulate
+• Develop system to manage order execution
+• Support the end-to-end lifecycle of algorithm development
+73
+Roles – risk manager / compliance
+• Risk assessment on strategy level and daily VAR levels
+• Analyze correlation between various strategies
+• Assess limits and exposures in each strategies
+• Ensure compliance with SEBI and exchange regulations
+• Ensure that trades send to the market uses standard 
+connectivity protocols
+• Ensure provision in system to restrict certain stock
+• Inform higher management towards unforeseen risks
+Exercises
+74
+Exercise 1: Basic Modeling
+Exercise 2: Time Series Modeling
+Exercise 3: High Frequency Modeling
+Exercise 4: Back testing
+Exercise 5: Variance Ratio Calculation
+75
+Session VI:
+The trading strategies
+75
+76
+Agency algorithms
+• Agency: Execution of trades on client‟s behalf
+• Heavy use of Market Microstructure
+• Spreads, Volume curve, Volatility, Order book depth etc.
+• Algorithms 
+– VWAP / TWAP
+– Aggressive
+– Passive
+– Liquidity pools and smart order routing
+• Hear more and more about agency trading in future
+77
+Reliance: Intraday VWAP
+0
+10000
+20000
+30000
+40000
+50000
+60000
+70000
+80000
+90000
+1025
+1030
+1035
+1040
+1045
+1050
+1055
+1060
+1065
+1070
+0
+9
+:
+0
+7
+0
+9
+:
+2
+4
+0
+9
+:
+3
+4
+0
+9
+:
+4
+4
+0
+9
+:
+5
+4
+1
+0
+:
+0
+4
+1
+0
+:
+1
+4
+1
+0
+:
+2
+4
+1
+0
+:
+3
+4
+1
+0
+:
+4
+4
+1
+0
+:
+5
+4
+1
+1
+:
+0
+4
+1
+1
+:
+1
+4
+1
+1
+:
+2
+4
+1
+1
+:
+3
+4
+1
+1
+:
+4
+4
+1
+1
+:
+5
+4
+1
+2
+:
+0
+4
+1
+2
+:
+1
+4
+1
+2
+:
+2
+4
+1
+2
+:
+3
+4
+1
+2
+:
+4
+4
+1
+2
+:
+5
+4
+1
+3
+:
+0
+4
+1
+3
+:
+1
+4
+1
+3
+:
+2
+4
+1
+3
+:
+3
+4
+1
+3
+:
+4
+4
+1
+3
+:
+5
+4
+1
+4
+:
+0
+4
+1
+4
+:
+1
+4
+1
+4
+:
+2
+4
+1
+4
+:
+3
+4
+1
+4
+:
+4
+4
+1
+4
+:
+5
+4
+1
+5
+:
+0
+4
+1
+5
+:
+1
+4
+1
+5
+:
+2
+4
+1
+5
+:
+5
+4
+V
+o
+l
+u
+m
+e
+P
+r
+i
+c
+e
+VOLUME VWAP LAST_PRICE
+0
+10000
+20000
+30000
+40000
+50000
+60000
+70000
+80000
+90000
+1025
+1030
+1035
+1040
+1045
+1050
+1055
+1060
+1065
+1070
+0
+9
+:
+0
+7
+0
+9
+:
+2
+4
+0
+9
+:
+3
+4
+0
+9
+:
+4
+4
+0
+9
+:
+5
+4
+1
+0
+:
+0
+4
+1
+0
+:
+1
+4
+1
+0
+:
+2
+4
+1
+0
+:
+3
+4
+1
+0
+:
+4
+4
+1
+0
+:
+5
+4
+1
+1
+:
+0
+4
+1
+1
+:
+1
+4
+1
+1
+:
+2
+4
+1
+1
+:
+3
+4
+1
+1
+:
+4
+4
+1
+1
+:
+5
+4
+1
+2
+:
+0
+4
+1
+2
+:
+1
+4
+1
+2
+:
+2
+4
+1
+2
+:
+3
+4
+1
+2
+:
+4
+4
+1
+2
+:
+5
+4
+1
+3
+:
+0
+4
+1
+3
+:
+1
+4
+1
+3
+:
+2
+4
+1
+3
+:
+3
+4
+1
+3
+:
+4
+4
+1
+3
+:
+5
+4
+1
+4
+:
+0
+4
+1
+4
+:
+1
+4
+1
+4
+:
+2
+4
+1
+4
+:
+3
+4
+1
+4
+:
+4
+4
+1
+4
+:
+5
+4
+1
+5
+:
+0
+4
+1
+5
+:
+1
+4
+1
+5
+:
+2
+4
+1
+5
+:
+5
+4
+V
+o
+l
+u
+m
+e
+P
+r
+i
+c
+e
+VOLUME VWAP LAST_PRICE
+78
+Agency trading – VWAP,TWAP
+• VWAP: Volume weighed average price
+• TWAP: Time weighted average price
+• Most widely used benchmark for agency trading performance
+• Trade execution as per day‟s historical volume curve
+• Aggressive at buying below the VWAP price and vice versa
+• Challenge: Crossing the spread vs. limit order
+i   i
+i
+PV
+VWAP
+V
+=
+¿
+¿
+  i   i
+i
+PT
+TWAP
+T
+=
+¿
+¿
+79
+Agency trading – Inline, 
+Aggressive, Passive
+• Inline: Trade executions in-line with the existing trading volume
+• Aggressive
+– Directional call
+– Very rapid execution till client set prices
+– Aggressively crosses spreads and absorbs bid / offer
+– Aggressive for fixed time period
+– Implemented when sure about the market direction
+– E.g.: Sniper, Guerilla (CS), Stealth (DB)
+• Passive
+– Sits of bid or offer
+– Does not cross spread
+– Waits for fills on limit order, before pushing more volume
+80
+Agency trading – Liquidity pools
+• Market On Close (MoC) beating trading strategies
+• Liquidity pools 
+– Primary exchange
+– Secondary exchanges
+– ECN (Electronic Communication Network)
+– Inter-broker dealer
+– Dark-pools
+– Internal crossing
+• SOR: Smart Order Routing
+• Flash Trading: Flashing orders before routing
+81
+Prop algorithms
+• Factors
+– Technical: To get the initial trade-start right
+– Statistical/Mathematical: To increase probability of profitability
+– Back test: To get the overall strategy right and systematic
+– Risk assessment 
+– Portfolio management and bet sizing
+• Algorithms 
+– Arbitrage
+– Mean reversion (Stat-arb, Pair trading etc.)
+– Momentum
+– High frequency or Low latency
+– Low frequency – Long/Short
+82
+Prop trading – Arbitrage
+• Price difference between two or more markets
+• Risk based / Risk free
+• Simultaneous transactions, Same value
+• E.g.: BSE/NSE, cash/future, India/GDR  
+• Index arbitrage and program trading
+90
+100
+110
+120
+130
+140
+150
+01-06-2010 01-07-2010 01-08-2010 01-09-2010 01-10-2010
+HDFC Bank ICICI
+83
+Pair trading example
+0.65
+0.7
+0.75
+0.8
+0.85
+0.9
+01-06-2010 01-07-2010 01-08-2010 01-09-2010 01-10-2010
+84
+Prop trading – Mean reversion
+• Buy on dips, Short on strength
+• Bet on convergence of time series
+• Single stocks, pairs, baskets of stocks, commodities
+• Frequency: weekly, daily, hourly
+• Technical: Bollinger bands, RSI
+• Statistical
+– Correlation: correlated returns
+– Beta: similar movement in unit returns
+– Co-integration: stationary mean, stationary variance 
+• Risk : Single stock exposure limits
+• Options: Calendar spread, Strike spread
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+Feb-09 Apr-09 Jun-09 Aug-09 Oct-09 Dec-09 Feb-10 Apr-10 Jun-10 Aug-10 Oct-10
+NIFTY 20MA 50MA 100MA
+85
+Trend Momentum example
+86
+Prop trading – Momentum
+• Buy on strength, Short on weakness
+• Bet on trend following / continuation of the rally
+• Single stocks, futures, index, commodities
+• Frequency: weekly, daily, hourly, minute
+• Technical: SMA, EMA, MACD
+• Statistical: 
+– Volatility: Lower volatility is preferred
+– OU process: Non fixed mean time series detection
+• Risk
+– Stop loss
+– Money management / Bet sizing
+– Trailing stop losses
+87
+Prop trading – High frequency
+• Market-making based on order flow (Sell-side)
+• Market-making based on tick data information
+• Short term direction based on tick/quote information (Buy side)
+• Statistical arbitrage & Automated scalping
+• Short holding period: milliseconds to minutes
+• Low-latency trading
+– Provides competing bid/offer
+– Trades on demand/supply imbalance
+– Front-run large orders in the network
+– Co-located in exchange and very sensitive to speed
+– “Talk to Trade” ratio
+88
+Diagram for HFT
+0
+20
+40
+60
+80
+100
+120
+5410
+5420
+5430
+5440
+5450
+5460
+5470
+5480
+5490
+5500
+0
+9
+:
+0
+0
+:
+0
+3
+0
+9
+:
+3
+0
+:
+0
+3
+1
+0
+:
+0
+0
+:
+0
+3
+1
+0
+:
+3
+0
+:
+0
+3
+1
+1
+:
+0
+0
+:
+0
+3
+1
+1
+:
+3
+0
+:
+0
+3
+1
+2
+:
+0
+0
+:
+0
+3
+1
+2
+:
+3
+0
+:
+0
+3
+1
+3
+:
+0
+0
+:
+0
+3
+1
+3
+:
+3
+0
+:
+0
+3
+1
+4
+:
+0
+0
+:
+0
+3
+1
+4
+:
+3
+0
+:
+0
+3
+1
+5
+:
+0
+0
+:
+0
+3
+1
+5
+:
+3
+0
+:
+0
+3
+  Nifty Mid Price   Cum Return in BP
+89
+High frequency example
+• Bid-Ask Density function using equivalent 
+volumes
+1055.00 2
+1054.00 7
+1053.00 15
+1052.00 25
+1051.00 31
+1050.00
+42 1049.00
+20 1048.00
+15 1047.00
+11 1046.00
+6 1045.00
+1 2   1 3   1 4   1 5
+0   1   2   3   5
+(   )   (   )   (   )   (   )
+eq
+VB   B   B   B   B   B =   +   +   +   +
+1 2   1 3   1 4   1 5
+0   1   2   3   5
+(   )   (   )   (   )   (   )
+eq
+VA   A   A   A   A   A =   +   +   +   +
+(   ,   )
+  eq
+eq
+VA
+f   Bid  Ask
+VB
+=
+Short Term Upward 
+Momentum
+90
+High frequency example
+10:00:00 10:00:30 10:01:00
+Trades hitting the Bid
+Trades lifted on the Offer
+10:01:30
+91
+Prop trading – Low frequency, 
+Long/Short
+• Equity basket long/short strategy
+• Fundamentals based on quantitative techniques
+• Growth:
+– 5 years long-term historical growth
+– Forward IBES estimates of next year growth
+– ROE/ROA growth
+• Value
+– P/E
+– P/B
+– P/D
+• Growth basket: Long top 10% growth stock, Short bottom 10%
+• Value basket: Long top 10% value stock, Short bottom 10%
+Hybrid Factor Model
+Price 
+Action
+Growth
+Value
+92
+Factor model example
+Exercises
+93
+Exercise 1: Basic Modeling
+Exercise 2: Time Series Modeling
+Exercise 3: High Frequency Modeling
+Exercise 4: Back testing
+Exercise 5: Variance Ratio Calculation
+Exercise 6: Alpha Generation
+94
+Session VII:
+Business aspect of algorithmic trading
+94
+95
+Launch of algorithmic trading
+• Priority: Proprietary or Agency trading
+• Proprietary trading: higher risk, higher return
+• Agency trading: stable source of revenue as commissions
+• Most I-banks have both desks and priority differs
+• Asset classes: Equities, commodities, interest rates, currency
+• Markets: Supports electronic trading
+96
+Client driven
+• Large Institutional clients want superior execution
+– Agency approach: VWAP, aggressive, passive algorithms
+– Provide intelligence on executing large basket orders
+– Use a mix of sales trader execution and partly algorithms based
+– E.g.: BGI wants to trade large MSCI Index basket
+• Clients want quantitative intelligence on trades
+– Quantitative research and algorithmic support
+– Support client-decision making
+– E.g.: Marshall Wace requires analyst ranking data
+• HNI / Private banking client wants to manage money
+– Internal quantitative hedge fund approach
+– Manage money on profit sharing basis on internal strategies
+– E.g..: Private banking at most major I-Banks
+97
+Product driven
+• Internal research and development (Organic route)
+– Product developed first with Prop focus
+– Then AUM deployment holds larger potential
+– Approach clients for deployment of money  
+– Enter a profit sharing agreement
+– E.g.: Goldman alpha fund
+• Hiring profitable algo desks and quant traders (Inorganic route)
+– Expensive at first go
+– Cut-down the research cycle
+– Aim to generate revenue from day-one based on past track record
+– Sometimes risky as the environment might differ
+– Develop multi-strategy group to act under diverse environment
+– E.g.: Goldman prop desk – always on a look-out
+98
+The costs
+Cost heads Per head cost in INR
+OMS/PMS system 0 – 10 L
+Automated order execution 60 K – 8 L
+Data (live time, historical, intra-day, tick-data) 40 K – 3 L
+Software (Matlab, Excel, Java, C#, R) 0 – 6 L
+Quant Analysts (1 to 5) 2.5 L – 12 L
+IT Engineers (1 to 8) 1.3 L – 8 L
+Total cost range (Rs. p.a.) 4.8 L ~ 47 L
+Front 
+End
+OMS
+Select 
+Algo
+PMS
+Risk
+99
+The system integration
+E
+N
+D
+U
+S
+E
+R
+OMS/PMS
+Algorithm/ 
+Strategy
+CTCL 
+Layer
+Risk 
+Manager
+Historical 
+& Live 
+Data
+Data 
+Collection 
+Engine
+Exchange
+100
+Vendor and 3
+rd
+party in India
+• OMS systems
+– Neat by NSE
+– ODIN by FT
+– Online interface provided by most brokers
+• NSE CTCL & BSE IML: Vendors in India
+– 3i
+– Omnesys
+– Greeksoft
+– Financial Technologies
+• Data vendor in India
+– Bloomberg
+– Reuters
+– Tickerplant
+– Newswire18
+101
+Revenue models in agency 
+algorithms
+• Brokerages and Commissions on
+– Single large order at WVAP over multiple days
+– Program trading and basket execution (E.g.: Index arbitrage)
+– Clients strategy execution (E.g.: Pair trading: ICICI-HDFC together)
+– Special executions like beating MOC prices (E.g.: Futures 30 min)
+– Desks in US and Japan makes more than $100 Mn. Annually
+• Guaranteed VWAP orders
+– Clients off-load execution risk and execute at average price
+– Prop positioning with clients 
+– Desks in US and Japan make more than $25 Mn. Annually
+• DMA/DSA 
+– Client send orders directly to exchange using broker platform
+– Client choose the execution strategy (VWAP, Aggressive etc.)
+– Client choose the quantity, price and order type directly
+102
+Revenue models on prop side
+• A good strategy can yield cumulative 25-50% p.a. return
+• A good strategy Sharpe ratio is > 2.5
+• Diversified strategy
+– Frequencies (High, Medium Low)
+– Strategies (Mean reversion, Momentum)
+– Fundamentals (Growth, Value) 
+– Asset classes: Options, Equities, Commodities, Currencies
+• Run money 
+– In-house
+– Close business associates and friends
+– Clients (usually on a 2/20 hedge-fund model)
+103
+Competitive factors
+• Competitive edge can be built in
+– Algorithms (Superior alpha factors)
+– Execution 
+– Diversification
+– Speed and co-location
+– Brokerage and transaction costs
+– Quantitative & IT team
+– Global outlook and reach to multiple geographies / markets
+Exercises
+104
+Exercise 1: Basic Modeling
+Exercise 2: Time Series Modeling
+Exercise 3: High Frequency Modeling
+Exercise 4: Back testing
+Exercise 5: Variance Ratio Calculation
+Exercise 6: Alpha Generation
+Exercise 7: Risk Management
+105
+Session VIII:
+India in algorithmic trading
+105
+106
+The exchange regulatory structure
+• Unofficial figure quotes that DMA trades
+– 5% of the equities
+– 15% - 25% of the F&O 
+• Strict exchange regulations
+– Exchanges have throttling control on number of trades per second
+– Approval process for algorithmic trading
+– Multi-exchange algorithmic strategies is not allowed
+– Cross-exchange arbitrage and SOR cannot take place
+– STT applicable to all transactions
+107
+The potential
+• Indian market is very big!
+• 10
+th
+largest in dollar value
+• Huge potential as in “number of trades” – 3
+rd
+largest!
+• Worldwide median per trade: $10 K
+• India median per trade: $500
+• All exchanges offer co-location facilities
+• Spreads are amongst the lowest in the world at 5-6 BP
+108
+The cost structure – pros and cons 
+• STT (Securities Transaction Tax)
+– Very high (2 BP in F&O, 12.4 BP in Cash)
+– Deterrent to high-frequency (Making 2-10 BP per trade)
+– Focus on: Intra-day, 10 min. to 3 hour holding strategies
+– Focus on: Medium to low frequency strategies
+• The order book depth
+– Indian market lacks depth 
+– Execution of 5 lots at once, moves the market
+– Beauty lies in breadth and Signal longevity 
+109
+Trends in Indian market
+• Proprietary desks
+– Indian brokers have very large prop focus E.g.: Edelweiss
+– Automated trading becoming popular
+– E.g.: Cash-Futures arbitrage, Pure Index arbitrage
+– Big challenge is alpha-generation
+• Agency desks
+– Awareness is very little
+– Most foreign brokers have quickly replicated electronic/DMA/DSA
+– Indian brokers slow in adoption
+• Major challenges in Agency desk implementation
+– Initial cost to pay-off ratio is very steep
+– Lack of awareness, man-power and skill-set
+110
+Current state of Algorithmic 
+Trading Prop Algos 
+BSE-NSE Arb
+Cash-Future Arb
+Index Arb - Pure
+Present
+Multi-Exchange High 
+Frequency Arb
+Multi-Exchange Cash 
+Future Arb
+Risk-based Index Arb
+Future
+111
+Current state of Algorithmic 
+Trading Prop Algos 
+Pair Trading Technicals
+Tend Following – Technicals
+Fundamentals on Equity 
+Research
+Present
+Pair Trading on Statistical 
+and Advanced Algos
+Trend Following on Multi-
+Statistical Factors
+Factor Modelling
+Future
+Pair Trading on Baskets
+112
+Current state of Algorithmic 
+Trading Agency Algos 
+Manual Order Slicing
+Manual Directional Calls
+Manual Market Making
+Present
+Volume Curve based Order 
+Slicing
+Quote and Tick Analysis 
+based market making
+Spread, Volume Curve, 
+Volatility  Analysis on VWAP
+Future
+High Freq. Analysis based 
+directional calls
+Basic VWAP and Inline 
+Engines
+New Algos: Aggressive, Passive, Basket Executions, MOC Algos
+Exercises
+113
+Exercise 1: Basic Modeling
+Exercise 2: Time Series Modeling
+Exercise 3: High Frequency Modeling
+Exercise 4: Back testing
+Exercise 5: Variance Ratio Calculation
+Exercise 6: Alpha Generation
+Exercise 7: Risk Management
+Exercise 8: Strategy Evaluation
+114
+A note on retail clients - 1 
+• Retail clients forms a big part of Indian markets
+• Smart thinking and execution is required to tap the retail
+• First successful step: online / mobile trading (pure OMS/PMS)
+• New ideas and innovation to beat the competition
+• Smart execution strategies
+– E.g.: Client wanting to buy 1000 shares of Reliance over the day
+– E.g.: Client wanting to execute a HDFC-ICICI pair at ratio of 2.21
+– E.g.: A client wanting to beat the MOC by last 30 min. execution
+115
+A note on retail clients - 2 
+• Smart portfolio management
+– E.g.: Advising clients on Buy, Hold, Sell based on technical
+– E.g.: Advising clients based on analyst rankings on the stock
+• Smart Trade Selection
+– E.g.: Developing automated Intra-day momentum strategies
+– E.g.: Automated Pair-trading strategy which advises 1 or 2 signals 
+in a day
+116
+The challenges and positive side 
+• The challenges
+– Serious lack of skilled man-power
+– Most experienced people are sitting in foreign I-Banks
+– STT (Securities Transaction Tax)
+– Lack of awareness and widespread acceptance
+– Mindset of quick Return on Investments
+– Paying huge upfront costs, getting nothing, leading to frustration
+• The positive side
+– Huge pool of IT resources
+– Street smart traders: Good fundamental and technical know-how
+– New generation willing to accept change
+– Tough competition and feeling of left-out on missing an opportunity
+117
+The challenges to Indian exchange 
+• As markets develop – number of algorithms will explode
+• Highly trained personnel required for evaluation
+• Algorithms might change often and can be very dynamic 
+• Exchanges might not be able to keep track 
+• Intellectual property issues will become prevalent
+• Exchanges might end in invidious position (blame sharing)
+• Strong multi exchange competition
+• High pressure on network and bandwidth
+• Will require new and strong IT system (E.g.: Japan Arrowhead)
+2015-2016: Fully realized HFT at around 30% of volumes
+similar to international markets
+2013-2016: Dark Pools and internalization. Difficult due
+to regulations and could see delayed implementation
+2010-2015: ATS, PTS which are slow to develop due to
+exchange concentration and regulations
+2009-2010: DMA and DSA Evolution
+2010-2012: Execution Algorithms on VWAP, TWAP as
+Co-location and DMA are introduced
+2009-2010: Connectivity improves with SOR, exchanges
+offering co-location, brokers adding multiple connections
+118
+The growth projections 
+Source: Celent Market Research
+119
+Recommended referrals 
+• High-Frequency Trading: A Guide to Algorithmic Strategies and 
+Trading Systems by Irene Aldridge
+• Statistical Arbitrage: Algorithmic Trading Insights and Techniques by 
+Andrew Pole
+• The Encyclopedia of Trading Strategies by Jeffrey Owen and 
+Donna McCormick
+Prop trading
+• Algorithmic Trading and DMA: An introduction to direct access 
+trading strategies by Barry Johnson
+• Quantitative Trading: How to Build Your Own Algorithmic Trading 
+Business by Ernset P. Chan
+Agency trading
+• Wilmott forum:  www.wilmott.com
+• Nuclear Phynance:  www.nuclearphynance.com Web forums
+Summary
+120
+• The steady race to catch the developed markets in terms of turnover,
+liquidity, profitability and sustainability in Algorithmic trading has just
+started.
+• Much depends on the regulatory structure, exchange regulations,
+competitiveness and awareness – as to how the next 3-5 years is
+going to shape.
+• Looking at the global trends India cannot be left far behind in the
+search for its own space on liquidity generated by Algorithmic trading.
+• The big boys of algorithmic trading globally has already started to
+grab a pie of the growth
+• It remains to be seen and sensed whether the domestic players and
+exchange members are well prepared to take the challenge and
+compete with the larger players head on to grab a pie of the lucrative
+business called Algorithmic Trading.

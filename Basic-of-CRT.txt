@@ -1,0 +1,770 @@
+   Time
+     &
+Turtle Soup
+  Presented by Timon
+                      OVERVIEW
+
+
+                            N the Low and Sell the High”
+The idea of turtle soup isO“Buy
+                    M
+
+Price starts from Turtle Soup and Ends with Turtle Soup
+                 TI
+
+
+
+             Ict is the Key to the charts
+             Turtle Soup is the Key to ICT
+                  Pre-Knowledge
+
+Before knowing all about CRT we should know about
+
+OHLC & OLHC , IPDA & Time Cycles.
+
+Time Frame alignment:
+
+Monthly- H4 PO3 , Weekly- H1 PO3 , Daily-M15 PO3 ,4 Hour-
+
+M5 PO3
+      What is CRT?
+
+
+CRT- Candle Range Theory
+
+ Every candle is a Range.
+
+ All candles are Ranges
+
+   Ranges are Angels
+              CANDLE FORMATION
+
+OHLC / OLHC          Bullish     Bearish
+OHLC / OLHC (3 Candle Theory)
+
+
+
+                   1. Range (A)
+
+                   2. Turtle Soup (M)
+
+                   3. Expansion (D)
+OHLC & OLHC (PO3/AMD)
+
+   2 Theories of Candle Deviation
+Smart Money operates on specific quarters
+ 1. A specific Monthly candle of the year.
+ 2. A specific Weekly candle of the Month.
+ 3. A specific Daily candle of the Week.
+ 4. A specific Hourly candle of the Day.
+
+    TIME FRAME ALIGNMENT (HTF -LTF)
+             Monthly- H4 PO3
+             Weekly- H1 PO3
+             Daily-M15 PO3
+             4Hour-M5 PO3
+HTF   LTF
+       Time
+         &
+    Turtle Soup
+Chapter 1-Anatomy of HTF
+         Candle
+      Presented by Timon
+                   Over View
+
+Every Highs & Lows , Every Swing Points , Every
+MSS are Predetermined before the candle gets
+Printed.
+
+Remember Time is more important than Price so
+submit yourself to time.
+
+So in this thread we simply re-define higher time
+frame and their anatomy of Candle from
+(Monthly Daily TF),(Weekly 4 Hour),(Daily 1 Hour).
+                     Monthly Candle
+
+In a month we have 2 high probability week.
+The Low/High of the Month mostly will form
+between 1st or 2nd Week.
+The High/Low of the Month mostly be
+capped on 3rd or 4th Week.
+By Differentiating we can simply play in
+expansion or distribution where price offers
+smooth entries on LTF.
+Monthly Bullish Candle
+Monthly Bearish Candle
+                      Weekly Candle
+
+There are 2 high probability trades per week.
+
+Once at Low and once at High of the week.
+
+The Low/High of the week mostly form
+between Monday-Wednesday.
+
+The High/Low of the week mostly be
+capped between Thursday-Friday
+Weekly Bullish Candle
+Weekly Bearish Candle
+                      Daily Candle
+
+A Daily candle consists of Six 4hour Candles
+
+There are 2 high probability sessions per
+day totally 10 per week.
+
+Once every 1:00 AM candle or 9:00 AM candle
+
+To master a time-based model, choose one
+of the abovementioned and master it with
+precision while hitting from all angles.
+Daily Bullish Candle
+Daily Bearish Candle
+                    Conclusion
+
+Before knowing about Daily Bias , Before knowing Draw
+On Liquidity , Before Knowing about Execution we must
+know how to Narrate HTF before Diving into LTF.
+We simply dont trade patter with step by step
+approach by just learning the concept through a
+single thread.
+So we are slowing building our HTF Narrative with
+logic before diving deeper into the concept.
+Hope this thread helped you to understand
+the Anatomy HTF Candle in the Vision of
+Candle Deviation.
+
+
+Note: You dont need to implement all the HTF time frame into
+chart just get comfortable with One are Two HTF candle and
+master.
+       ICT University
+
+
+
+
+THANK YOU
+Presented by TIMON
+
+
+
+
+      @timon_ict
+      Time
+        &
+   Turtle Soup
+Part 3-BIAS Building
+
+     Presented by Timon
+ Elements to Build BIAS:
+1. Order Flow a.k.a Market Structure
+2. IPDA
+3. IRL->ERL , ERL->IRL
+4. Ranges
+5. Determining DOL.
+          Presented by Timon
+1
+                   Market Structure
+    Market Structure is a Direction of Price Movement
+
+     There are three forms of Market Structure:
+     1.Bullish M S: Market makes Higher high and higher low
+
+     2.Bearish M S: Market makes Lower High and Lower Low
+
+     3.Range/Sideway: Market makes Higher Highs and
+     Lower Lows inside a range bound market.
+
+                   Presented by Timon
+1.2                         Order Flow
+      MARKET STRUCTURE IS HOW PRICE GETTING FORMED , ORDER FLOW IS HOW
+      WE READ MARKET STRUCTURE IN FRACTAL WAY ALONG THE FORMATION.
+             Order flow is very important to determine BIAS , If you
+                understand the order flow the BIAS gets easier.
+
+       Bullish: In a Bullish OF price breaks the High with strong
+       candle closure higher and lows gets swept/rejected.
+       Bullish PD array gets Respected and bearish PD array gets
+       Inversed/Fails.
+
+       Bearish: In a Bearish OF price breaks the Low with strong
+       candle closure lower and highs gets swept/rejected.
+       Bearish PD array gets Respected and bullish PD arrays gets
+       Inversed/Fails.
+                          Presented by Timon
+1.3
+      Market Structure:              Order Flow:
+
+
+
+
+                Presented by Timon
+1.4        Bullish OF
+
+
+
+
+      Presented by Timon
+1.5       Bearish OF
+
+
+
+
+      Presented by Timon
+2                            IPDA
+        IPDA- Interbank Price Delivery Algorithm
+
+                                         Retracement
+
+
+    Consolidation         Expansion
+
+
+                                             Reversal
+
+        Price always does any one of these cycle ,
+        there is nothing else Market does.
+                    Presented by Timon
+2.2           What are the Price Cycles Market
+                       do and don’t?
+      Price starts from consolidation so the Next stage will always
+                            be an Expansion
+                                               Retracement
+
+      Price can goes from     Expansion         Reversal
+
+                                              Consolidation
+
+
+                                              Retracement
+  Price cannot goes from     Consolidation
+                                                Reversal
+
+                       Presented by Timon
+2.3                      Reversal Model (AMD)
+
+
+
+
+Note: *Bearish Example
+2.4                      Continuation Model
+
+
+
+
+Note: *Bearish Example
+2.5
+
+                  Retracement
+
+
+
+
+      Expansion                   Reversal
+
+
+
+
+                  Consolidation
+2.6        The algorithm reaches for 2 things:
+
+                1. Liquidity (Resting liquidity)
+                2. Imbalance (HTF Imbalance)
+
+ IPDA seeks liquidity and reprice to rebalance at the same
+ time to ensure efficient delivery of price.
+
+ Algorithm is very efficient in delivering price, it rather hits two
+                    mangoes with one stone.
+
+                      Presented by Timon
+3
+                 (IRL->ERL)     (ERL->IRL)
+
+    IRL - Internal Range Liquidity - Liquidity Inside a
+    Dealing Range present in the Form of Imbalance
+    ERL- External Range Liquidity - Liquidity outside a
+    dealing range present in the form of SSL/BSL.
+
+    IRL-ERL=Imbalance      Liquidity=>Continuation
+    ERL-IRL=Liquidity   Imbalance=>Counter trend
+
+                   Presented by Timon
+3.2
+      Price is always does two things:
+      Offering fair value (IRL)   Seeking liquidity (ERL).
+
+      This concept can be applied to ALL timeframes
+
+      Combining ERL & IRL will give you a powerful tool for
+             determining where price is likely to go
+
+      Now you got the answer why & where does price
+                      moves from & to.
+
+                      Presented by Timon
+3.3                      (Internal    External)
+
+
+
+
+Note: *Bearish Example
+                          Presented by Timon
+3.4                      (External    Internal)
+
+
+
+
+Note: *Bearish Example
+                          Presented by Timon
+Hope this thread helped you to Build BIAS.
+The Upcoming Chapter 4 - Ranges &
+Chapter 5 - Determining Dol will teach
+you to Narrate Market.
+       ICT University
+
+
+
+
+THANK YOU
+Presented by TIMON
+
+
+
+
+      @timon_ict
+      Time
+        &
+   Turtle Soup
+Part 4- Ranges x Dol
+
+     Presented by Timon
+       Diving Deep into Range
+
+Chapter 1 : Anticipating Range Formation
+
+Chapter 2 : CRT(Candle Range Theory)
+
+Chapter 3 : Determining DOL
+
+
+            Presented by Timon
+0.1                     Over View
+      Before diving deep all into Ranges lets have a short
+      note on turtle soup.
+
+      Turtle soup was vastly known as False breakout , a
+      raid on stops above short term high/lows
+      Turtle soup happens at the beginning of a candle
+      which is the initial stage of Reversal after trapping
+      Retailers at a Key Level X Key time.
+
+                      Presented by Timon
+0.2
+      Graphical Illustration
+
+
+
+
+         Presented by Timon
+0.3   Bearish Turtle Soup:
+
+
+
+
+        Presented by Timon
+0.4   Bullish Turtle Soup:
+
+
+
+
+         Presented by Timon
+1             Anticipating Range Formation
+    What is a Range ?
+    Generation of Liquidity in the form of accumulation
+    where Highs and Low engineers Liquidity.
+    Why Range gets formed?
+    Before making an expansion , price generates
+    liquidity in the form of Ranges so its gets turtle
+    souped.
+    Where does a Range gets formed?
+    Ranges gets formed at the area of PD array or around
+    Liquidity at a Key Time.
+                     Presented by Timon
+1.2    Every Candle has its own Range (Low - High / High - Low)
+
+
+
+
+      So the Range either gets manipulated or Broken Out.
+
+                       Presented by Timon
+1.3           How to Identify a Valid Range?
+      Even through every candle is a Range we dont see all of it.
+
+        Step 1 : Identify the order flow weather its
+                     Bullish or bearish
+        Step 2 : Identify either Market Heading to
+                 IRL-ERL or Diving to ERL-IRL
+        Step 3 : Mark out the recent beefy candle formed
+                     near or at the HTF Array
+        Step 4 : Anticipate for turtle soup to happen at
+                           a key time.
+                      Presented by Timon
+                 Identifying Range Candle
+1.4                Bullish Example : Internal - External
+
+      Step 1 :                 Step 2 :                    Step 3 :
+
+
+
+
+                     Presented by Timon
+                 Identifying Range Candle
+1.5                Bullish Example : External - Internal
+
+      Step 1 :                 Step 2 :                    Step 3 :
+
+
+
+
+                     Presented by Timon
+                 Identifying Range Candle
+1.6                Bearish Example : Internal - External
+
+      Step 1 :                 Step 2 :                    Step 3 :
+
+
+
+
+                     Presented by Timon
+                 Identifying Range Candle
+1.7                Bearish Example : External - lnternal
+
+      Step 1 :                 Step 2 :                    Step 3 :
+
+
+
+
+                     Presented by Timon
+1.8              Note on Range Candle :
+      High Probability range candle forms after/near a Liquidity
+                        Pool or at a HTF PD array
+      Range candle is so crucial to simplify the Context and
+                           Narrative
+      They literally used to build liquidity at the Highs and Lows
+      So the Range candle gets confirmed by the next candle
+               which manipulates either High/Low
+      Moreover the Price we need time in Action which confirms
+                        all the criteria above.
+
+                       Presented by Timon
+2                  CRT (Candle Range Theory)
+    What is Candle Range Theory ?
+
+    CRT is a Reversal Model which revolves around the Anatomy of 3
+    Candle Structure
+
+    CRT combines the concept PO3 with Turtle Soup/HTF POI.
+
+    CRT is much more than Price its the Time which confirms the Exact
+    Reversal in price.
+
+    Where does CRT gets Formed?
+
+    CRT must gets formed at the HTF Liquidity / HTF PD array especially
+    When Both time and price meets.
+
+                         Presented by Timon
+2.2   Graphical Illustration
+
+
+
+          Every highs and lows
+          are formed with this 3
+          candle structure which
+          defines CRT
+
+
+
+
+         Presented by Timon
+2.3                              How to Identify a CRT ?
+                  Step 1 : Identify and mark HTF Liquidity or HTF
+                                      PD array.
+                  Step 2 : Mark out the Range candle formed
+                  near/in the HTF POI & expect 2nd candle to
+                     manipulate either Range High/low.
+                  Step 3 : If price was bullish anticipate range low
+                   to get Purge and revert vice versa for bearish.
+Note: *2nd candle should have a healthy rejection from POI .
+       *2nd Candle should not body close the Range Candle.
+
+                                     Presented by Timon
+2.4          Identifying Purge Candle: Bullish
+      Step 1 :            Step 2 :         Step 3 :
+
+
+
+
+                    Presented by Timon
+2.4         Identifying Purge Candle: Bearish
+      Step 1 :            Step 2 :        Step 3 :
+
+
+
+
+                   Presented by Timon
+3                    Determining DOL
+
+    Determining Draw on Liquidity (DOL) helps us to narrate
+    market movements with the Directional Bias.
+
+    DOL often act as Magnet for price , recognizing them will
+    builds up bias which improves Narrative.
+
+    Knowing the Draw on Liquidity helps to avoid
+    unnecessary stop hunts and low probability setups.
+
+
+                     Presented by Timon
+3.2                    Identifying DOL
+      After identifying the Range candle , after identifying Purge
+      candle its crucial to identify the Expansion Candle.
+      So to identify where the Expansion leads we need to look out
+      for the Draw On Liquidity.
+      Draw On Liquidity always be at the Opposition side of
+      manipulation Candle which purges High/low of the Range.
+
+      In a bullish order flow after range low gets purged we
+      simply target 50% level of Range as (LHF) and Range High
+      as initial Draw On Liquidity(DOL).
+                        Presented by Timon
+3.3   Graphical Illustration
+
+
+
+
+        Presented by Timon
+3.4   Graphical Illustration
+
+
+
+
+        Presented by Timon
+3.5   Identifying Bullish CRT
+
+
+
+
+         Presented by Timon
+3.5   Identifying Bearish CRT
+
+
+
+
+         Presented by Timon
+                     Conclusion
+Parts 2, 3, and 4 provided valuable insights through
+exploring the logic behind market movements.
+They help to establish a directional bias which boosts
+your confidence by offering a clear and logical
+narration of the market's dynamics.
+
+Remember , none of this is random patterns —fuck
+those who trades useless, chaotic nonsense instead of
+following a logical, structured system.
+
+                  Presented by Timon
+      ICT University
+
+
+
+
+THANK YOU
+Presented by TǏMӨӤ
+
+
+
+
+      @timon_ict
+      Time
+        &
+   Turtle Soup
+Part 5- CRT Subtypes
+
+     Presented by Timon
+                Over View
+Do you really think that CRT is always forms with the
+same three Candle Structure , if yes you are wrong.
+
+If you want answer for other variants for CRT just
+dive further into this thread to gain some insight of
+different Price formation.
+
+In this thread we gonna explore the different
+variants or other models of CRT.
+
+               Presented by Timon
+            Subtypes of CRT
+
+Type 1 : 3 Candle CRT (Classic)
+Type 2 : 2 Candle CRT (Aggressive)
+Type 3 : Multiple Candle CRT (LP)
+Type 4 : Inside Bar CRT (HP)
+Type 5 : 3rd Candle Purge & Revert (Rare)
+              Presented by Timon
+              Type 1 : 3 Candle CRT
+
+
+
+1) A classic structure which widely used by most of
+the trader using CRT.
+
+2) 1st Candle forms a Range , 2nd Candle Purges
+Liquidity and 3rd candle Reverts to the opposite
+liquidity .
+
+3) Everything settles within the 3 Candle.
+
+4) We have a detailed notes on this model in previous
+threads.
+                  Presented by Timon
+Graphical Depiction : Bullish
+
+
+
+
+       Presented by Timon
+Graphical Depiction : Bearish
+
+
+
+
+      Presented by Timon
+2                 Type 2 : 2 Candle CRT
+    1) The only difference from the previous model was
+    Price expands and reaches Dol at the 2nd candle.
+
+    2) After 2nd candle purges liquidity from 1st
+    candle price gets delivered Aggressively towards
+    the Draw On liquidity within the 2nd Candle.
+
+    3) Two Candle CRT mostly occurs during a news or
+    when price gets dilation before a Key Time.
+
+                    Presented by Timon
+2.2   Graphical Depiction : Bullish
+
+
+
+
+            Presented by Timon
+2.3   Graphical Depiction : Bearish
+
+
+
+
+            Presented by Timon
+3              Type 3 : Multiple Candle CRT
+    1) This model is so similar to the Classic CRT but the only
+    difference is the 3rd Candle Expansion takes multiple candle
+    to reach the overall Destination.
+
+    2) After 2nd candle purges liquidity from Range candle the
+    Expansion takes longer than the range candle to distribute
+    price towards the DOL.
+
+    3)This Model mostly occur at Counter trend / ERL (External) -
+    IRL (Internal) or at PM session or on a low probability
+    condition.
+                        Presented by Timon
+3.2   Graphical Depiction : Bullish
+
+
+
+
+            Presented by Timon
+3.3   Graphical Depiction : Bearish
+
+
+
+
+            Presented by Timon
+4                   Type 4 : Inside Bar CRT
+    1) This model differs from all other variants , one of the most
+    unique , high probability used by CRT traders.
+
+    2) After 1st candle forms a range then 2nd candle or
+    upcoming candles forms inside the 1st Candle Range which
+    makes Inside bar , when price purges High/Low of the Range
+    then the Expansion towards the Opposition Liquidity said to
+    be high probability.
+    3)Liquidity gets build in the form of inside Range candle so a
+    false breakout happens at Engineered Liquidity.
+                         Presented by Timon
+4.2   Graphical Depiction :
+       Bullish Inside Bar CRT
+
+
+
+
+        Presented by Timon
+4.3   Graphical Depiction :
+       Bearish Inside Bar CRT
+
+
+
+
+        Presented by Timon
+5             Variant 5 : 3rd candle Reversal
+    1) This model forms in the same way as Classic CRT but the
+    difference is after 2nd candle formation the 3rd candle
+    Manipulates 2 nd candle High/Low and Distributes to
+    opposition liquidity.
+    2) Its a Rare case scenario can often seen in Lower Time
+    Frame CRT where its a 3 drive pattern.
+    3)This model occurs during a High Impact News Events to trap
+    early participants , on ERL (External) - IRL (Internal) or on Low
+    Probability Condition.
+                         Presented by Timon
+5.2   Graphical Depiction :
+      Bullish 3rd Candle Reversal
+
+
+
+
+         Presented by Timon
+5.3    Graphical Depiction :
+      Bearish 3rd Candle Reversal
+
+
+
+
+         Presented by Timon
+                     Conclusion
+
+I hope all the variants provide a valuable framework for
+understanding Candle Range Theory (CRT) and the
+different price movements associated with various
+models.
+
+You don’t need to master everything. Just choose one
+model, backtest it, forward test it, and focus on
+mastering it.
+
+                  Presented by Timon
+      ICT University
+
+
+
+
+THANK YOU
+Presented by TǏMӨӤ
+
+
+
+
+      @timon_ict
+

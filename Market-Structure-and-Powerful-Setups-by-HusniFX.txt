@@ -1,0 +1,1480 @@
+     HUSNIFX Setups
+
+
+   MARKET
+   STRUCTURE
+   AND
+    POWERFUL
+    SETUPS
+    SMC & ICT By HusniFX
+Telegram @HusniFX
+                                              CONTENT
+1. The Basics                                         5. Daily Range Price Action
+ 1.    Expansion And Retracement                         1.    Sessions
+ 2.    Fibonacci Retracement                             2.    Asian Session
+ 3.    Break In Market Structure                         3.    London Session
+ 4.    Range High and Range Low                          4.    Ne w York Session
+ 5.    Failure Swing (SMS)                               5.    Accumulation, Manipulation And Distribution
+
+2 . Market Structure                                  6. Powerful Setups
+  2.1. Market Structure In Bullish Conditions             1.   Turtle Soup
+3. Liquidity                                             2. SH + BMS + RTO
+   1. Liquidity Types                                    3. SMS + BMS + RTO
+   2. Buy Stops Liquidity (BSL)                          4. A.M.D
+   3. What to Focus on (For BSL)                      7. putting everything together
+   4. Sell Stops Liquidity (SSL)                         1. Confluence
+   5. What to Focus on (For SSL)                         2. HTF analysis, LTF Entries
+   6. Stop Hunt: Manipulation For Liquidity
+   7. High Impact News Events
+4. Order Blocks                                        8. Marked Up Charts
+  1.   Bullish Order Block
+  2.   Bearish Order Block
+                                                Telegram @HusniFX
+CHAPTER 1: THE BASICS
+
+        Telegram @HusniFX
+              1. THE BASICS
+1.1. EXPANSION AND RETRACEMENT
+Expansion =>occurs when there is an impulse
+movement towards a direction.
+
+Retracement => is the correction movement
+after an impulse movement.
+
+
+
+                   Telegram @HusniFX
+    UPTREN D                         DOWNTREND
+
+                 E            E      R
+             R
+
+         E                               E   R
+     R
+
+E                                                E
+                           E- Expansion
+                           R- Retracement
+                 Telegram @HusniFX
+EXPANSION AND RETRACEMENT
+
+
+
+
+          Telegram @HusniFX
+      1.2. FIBBONACCI RETRACEMENT
+
+USED TO DETERMINE THE END OF THE
+RETRACTION MOVEMENT, USUALLY THE PRICE
+RETRACTS TO 50% OR UNTIL OTE (0.62, 0.705,
+0.79) BEFORE ANOTHER IMPULSE MOVEMENT
+OCCURS.
+
+
+
+
+                  Telegram @HusniFX
+FIBBONACCI RETRACEMENT
+
+
+
+
+        Telegram @HusniFX
+  1.3. BMS - BREAK IN MARKETSTRUCTURE
+
+BMS occurs when the price closes above / below
+a swing high/low, generally, every trader should
+trade in the direction of the Higher Time Frame
+BMS.
+
+
+NOTES:
+AFTER BMS ALWAYS WAIT FOR RETRACEMENT.
+
+
+                    Telegram @HusniFX
+BMS - Break In Market Structure
+
+
+
+
+            Telegram @HusniFX
+       1.4. Range High and Range Low
+After the BMS there will always be the
+formation of a new consolidation, that is
+called RH and RL.
+
+NOTES:
+=> Trade in the direction of the BMS
+=> After BMS Wait for retracement to 50% OR
+OTE of Fibonacci levels.
+
+                    Telegram @HusniFX
+       BULLISH                               BEARISH
+
+         RH                                 RH
+BM S                                             OTE [Low Risk Sell]
+        OTE [Low Risk Buy]                BM S
+
+  RL                                              RL
+
+                      Telegram @HusniFX
+           Range High and Range Low
+
+
+
+
+RH- Range High
+RL- Range Low
+
+
+
+
+                    Telegram @HusniFX
+          1.5. FAILURE SWING (SMS)
+
+When there is an uptrend market and the
+price fails to break the last top (Swing High)
+and breaks the previous bottom (Swing Low),
+an SMS is considered to have occurred (vice
+versa for Bearish).
+
+
+
+                      Telegram @HusniFX
+             FAILURE SWING (SMS)
+
+
+
+                                SM S
+BULLISH      BMS                        BEARISH
+      BM S                   BM S
+
+
+
+
+                    Telegram @HusniFX
+FAILURE SWING (SMS)
+
+
+
+
+       Telegram @HusniFX
+Chapter 2: MARKET STRUCTURE
+           Telegram @HusniFX
+       2. MARKET STRUCTURE
+The price can simply be found in one of the 3
+phases below:
+
+1. In a CONSOLIDATION
+2. In an UPTREND
+3. In a DOWNTREND
+
+
+
+
+                    Telegram @HusniFX
+2.1. Market Structure In Bullish Conditions
+         [VICE VERSA FOR BEARISH CONDITION]
+
+The bullish market is characterized by making
+Higher Highs and Higher Lows, but this
+characterization is not enough, it is necessary
+to say that bullish markets are always
+breaking swing Highs and respecting swing
+lows.
+
+
+                       Telegram @HusniFX
+The fact that the price has broken a swing high,
+indicates that higher prices should be
+expected, so it is negotiated in the trend in
+which the market structure was broken.
+
+
+                     Telegram @HusniFX
+2.1. Market Structure In Bullish Conditions
+       [VICE VERSA FOR BEARISH CONDITIONS]
+
+
+                  BMS
+
+        BMS
+                    OTE[LRB]
+BMS
+            OTE NOTES:
+                 => The Price is breaking the highs only
+                 => After BMS the price Retract to 50%/OTE
+                 of Fibbo Levels.
+                 LRB-Telegram
+                      Low@HusniFX
+                              Risk Buy
+2.1. Market Structure In Bullish Conditions
+       [VICE VERSA FOR BEARISH CONDITIONS]
+
+
+
+
+                     Telegram @HusniFX
+                   MARKET STRUCTURE
+
+                     BMS                    OTE
+
+             BMS
+                       BMS                                      BMS
+      BMS
+              OTE                                        BMS
+                                                                  OTE
+BMS
+       OTE
+
+                                            "Trade In Direction Of BMS"
+
+
+
+                        Telegram @HusniFX
+Chapter 3: LIQUIDITY
+
+        Telegram @HusniFX
+                      3. LIQUIDITY
+The FOREX m a r k e t is a zero sum game, which means t h a t
+for a trader/institution to buy/sell 1 currency pair, it's
+necessary t h a t there is another trader/institution w i t h an
+opposite position.
+
+If Smart Money (Banks) w a n t to buy a currency pair they
+
+will need sellers in t h e m a r k e t , t h e existing facility to
+
+place these positions In t h e m a r k e t is called LIQUIDITY.
+
+
+
+
+                               Telegram @HusniFX
+The Liquidity is defined by Stop losses, where
+the Stop losses exist is where the liquidity
+also exists, Smart Money need to activate the
+stop losses of existing orders in the market so
+that they can place their positions in the
+market.
+
+                    Telegram @HusniFX
+The banks manipulate the price because of
+liquidity, but why? banks negotiate large
+trading volumes and sometimes find it
+difficult to find the other side of their
+trades, so they manipulate the price so that
+they can have their positions in the market.
+
+                    Telegram @HusniFX
+             3.1. LIQUIDITY TYPES
+
+In the FOREX market there are two types of
+liquidity, which are:
+
+ 1. Buy Stops Liquidity (BSL)
+ 2. Sell Stops Liquidity (SSL)
+
+
+
+
+                     Telegram @HusniFX
+        3.2. Buy Stops Liquidity (BSL)
+
+The BSL is originated by Stop Losses of sell
+orders, after the BSL is taken, the market
+reverses to the downside, because banks use
+the BSL to place sell orders in the market.
+
+
+
+
+                    Telegram @HusniFX
+       3.3. What to focus on (for BSL)
+
+PMH - Previous Month High
+PWH - Previous Week High
+PDH - Previous Day High
+HOD - High Of Day
+OLD HIGH - Swing High
+EQUAL HIGHS = Retail Resistance
+
+
+
+                   Telegram @HusniFX
+        BSL TAKEN                                BSL TAKEN
+    X                              X    EQUAL HIGHS
+
+
+
+
+X- PMH, PWH, PDH,
+   HOD, OLD HIGH.
+
+                    Telegram @HusniFX
+PMH - PREVIOUS MONTH HIGH
+
+
+
+
+          Telegram @HusniFX
+PWH - PREVIOUS WEEK HIGH
+
+
+
+
+         Telegram @HusniFX
+PDH - PREVIOUS DAY HIGH
+
+
+
+
+         Telegram @HusniFX
+HOD - HIGH OF DAY
+
+
+
+
+     Telegram @HusniFX
+EQUAL HIGHS = Retail Resistance
+
+
+
+
+            Telegram @HusniFX
+        3.4. Sell Stops Liquidity (SSL)
+
+The SSL is originated by Stop Losses of Buy
+orders, after the SSL is taken, the market
+reverses to the Upside, because banks use the
+SSL to place Buy orders in the market.
+
+
+
+
+                    Telegram @HusniFX
+       3.5. What to focus on (for SSL)
+
+PML - Previous Month Low
+PWL - Previous Week Low
+PDL - Previous Day Low
+LOD - Low Of Day
+OLD LOW - Swing Low
+EQUAL LOWS = Retail Support
+
+
+
+                   Telegram @HusniFX
+X                                          X
+    EQUAL LOWS
+                 SSL TAKEN                     SSL TAKEN
+                                      X- PML, PWL, PDL,
+                      Telegram @HusniFX
+                                         LOD, OLD LOW.
+PML - PREVIOUS MONTH LOW
+
+
+
+
+         Telegram @HusniFX
+PDL - PREVIOUS DAY LOW
+
+
+
+
+        Telegram @HusniFX
+LOD - LOW OF DAY
+
+
+
+
+     Telegram @HusniFX
+OLD LOW - SWING LOW
+
+
+
+
+       Telegram @HusniFX
+EQUAL LOWS = Retail Support
+
+
+
+
+          Telegram @HusniFX
+When BSL is taken, the market reverses to the
+downside.
+When SSL is taken, the market reverses to the
+upside.
+
+
+
+
+                   Telegram @HusniFX
+ 3.6. Stop Hunt: Manipulation For Liquidity
+
+SH is a movement used to neutralize liquidity
+(stop losses). It's a false breakout above /
+below the zone where there is LIQUIDITY.
+
+THE MARKET MARKERS (BANKS) USUALLY USE
+HIGH IMPACT NEWS TO TAKE LIQUIDITY.
+
+
+
+                    Telegram @HusniFX
+Stop Hunt: Manipulation For Liquidity
+
+
+
+
+                                   SH- Stop Hunt
+
+
+
+
+               Telegram @HusniFX
+         High Impact News Events
+
+The High Impact News Events are used to
+hunt liquidity in the market, always pay
+attention to the news calendar, to know the
+pairs that will move, generally, pairs with
+many news forecasts("High Impact"), those
+pairs are going to move (trending) during
+the day or week.
+
+                   Telegram @HusniFX
+Chapter 4: ORDER BLOCKS
+
+         Telegram @HusniFX
+            4. ORDER BLOCKS [OB]
+
+Order Blocks are candles where Market
+Makers (Banks) have placed their positions,
+generally, the market returns to those
+candles and they are never violated ("if they
+are really OB's")
+
+There're 2 types of Order Blocks:
+ 1. Bullish Order Blocks
+ 2. Bearish Order Blocks
+                    Telegram @HusniFX
+         4.1. BULLISH ORDER BLOCK
+
+The Bullish Order Block is the last bearish
+candle before the bullish movement, that
+Break The Market Structure Higher.
+Represents a high possibility of holding
+the price, when the price returns to it.
+
+
+
+
+                    Telegram @HusniFX
+                     BULLISH ORDER BLOCK
+
+
+
+                      BMS
+
+
+
+                                            Buy Entry
+The Bearish Candle
+Before The Bullish
+ Movement, that
+   BMS Higher
+
+
+                            Telegram @HusniFX
+                                      SL below the OB
+BULLISH ORDER BLOCK
+
+
+
+
+       Telegram @HusniFX
+         4.2. BEARISH ORDER BLOCK
+
+The Bearish Order Block is the last bullish
+candle before the bearish movement, that
+Break The Market Structure Lower.
+Represents a high possibility of holding the
+price, when the price returns to it.
+
+
+
+
+                    Telegram @HusniFX
+               BEARISH ORDER BLOCK
+                                          SL above the OB
+
+
+
+The Bullish Candle
+Before The Bearish
+ Movement, that
+   BMS Lower                               Sell Entry
+
+
+
+
+                     BMS
+                      Telegram @HusniFX
+BEARISH ORDER BLOCK
+
+
+
+
+       Telegram @HusniFX
+                                  H
+
+                                      C
+
+
+                =
+                         O
+                                  L
+
+Chapter 5: DAILY RANGE PRICEACTION
+
+              Telegram @HusniFX
+       5. DAILY RANGE PRICE ACTION
+The Daily Range is defined by: Open Price, Low
+     Of Day, High Of Day and Close Price.
+
+                H
+
+                     C                  O- Open Price
+                                        L- Low Of Day
+          =                             H- High Of Day
+                                        C- Close Price
+            O
+                L   Telegram @HusniFX
+Bullish Day                       Bearish Day
+    H                                 H
+
+         C                        O
+
+
+
+
+O                                          C
+
+     L                                 L
+
+              Telegram @HusniFX
+                5.1. SESSIONS
+
+The Daily Range is defined by 3 important
+sessions, which are:
+ 1. Asian Session
+ 2. London Session
+ 3 . N ew York Session
+
+
+
+
+                     Telegram @HusniFX
+              5.2. Asian Session
+
+The Asian session is characterized by being a
+consolidation (of 20 - 40 pips), due to the
+lack of liquidity in the market.
+
+Delimitation:
+The session starts from 02:00 until 08:00 (UTC
++2).
+
+                    Telegram @HusniFX
+ASIAN SESSION
+
+
+
+
+    Telegram @HusniFX
+ASIAN SESSION
+
+
+
+
+    Telegram @HusniFX
+             5.2. London Session
+The London Session is characterized by making
+the Low Of Day or High Of Day, it can be used to
+take traders to the opposite side of the true
+direction of the day (Because Of Liquidity).
+
+
+Delimitation:
+Not the whole London session need attention,
+focus on the first 2-3 Hours a t the beginning of
+the session: From 09:00 until 11:00/12:00
+UTC(+2).
+                     Telegram @HusniFX
+London Open
+
+
+
+
+   Telegram @HusniFX
+London Open
+
+
+
+
+   Telegram @HusniFX
+             5.3. N e w York Session
+
+The NY session is characterized by being a
+retraction after the London Session made the
+Low/High of the day, sometimes the NY session
+can make the Low/High of the day.
+
+Delimitation:
+Not the whole NY session need attention,
+focus on the first 2-3 Hours a t the beginning of
+the session: From 14:00 until 16:00/17:00 UTC(+2)
+
+                      Telegram @HusniFX
+New York Open
+
+
+
+
+    Telegram @HusniFX
+New York Open
+
+
+
+
+    Telegram @HusniFX
+New York Open
+
+
+
+
+    Telegram @HusniFX
+5.4.Accumulation, Manipulation And Distribution
+                    [AMD]
+
+  Accumulation:
+  The accumulation of positions generally
+  occurs during the Asian session, the
+  accumulation is characterized by being a
+  consolidation (Asian session), but it may not
+  be the Asian session.
+
+
+                      Telegram @HusniFX
+Manipulation
+usually occurs at the opening of the London
+session (sometimes it can be NY open), this
+Manipulation consists of taking the price to
+the opposite side of the true direction of the
+rest of the day.
+
+Distribution:
+occurs when MMs liquidate (Exit) their
+positions.
+                    Telegram @HusniFX
+          AMD on the daily Bar
+
+
+
+     D{                               A{
+                                                }M
+
+
+A{                                         D{
+          }M
+
+                  Telegram @HusniFX
+                               Bullish AMD                  DAILY BAR
+                               VICE-VERSA FOR BEARISH
+
+
+                                                        D       D
+             1
+                                                            A
+
+             1                                                      M
+                              M
+
+
+                               LO/ N YO
+1.Accumulation [Asia Session]
+2. London Open / New York OpenTelegram @HusniFX
+Bullish AMD
+
+
+
+
+  Telegram @HusniFX
+Bearish AMD
+
+
+
+
+   Telegram @HusniFX
+The Market Makers (Banks) Buy/Sell
+below/Above the Asian Session/open price
+(Because Of Liquidity).
+
+Asian Session/Open Price:
+Below: Sell Stops Liquidity [SSL].
+Above: Buy Stops Liquidity [BSL].
+
+                      Telegram @HusniFX
+Chapter 6: POWERFUL SETUPS
+           Telegram @HusniFX
+                TURTLE SOUP
+
+Turtle Soup is the same as Stop Hunt, is a
+movement used to neutralize liquidity (stop
+losses). It's a false breakout above / below the
+zone where there is liquidity.
+
+
+
+
+                     Telegram @HusniFX
+Turtle Soup Short [TSS]
+Represent a short setup, it's a false break
+above a zone where Buy Stops Liquidity Exist.
+
+
+Turtle Soup Long [TSL]
+Represent a long setup, it's a false break
+Below a zone where Sell Stops Liquidity Exist.
+
+
+
+
+                     Telegram @HusniFX
+           How To Trade Turtle Soup
+The price usually Sweeps 5-20 pips (even more)
+above or below a point where liquidity Exist,
+after the price sweep the point, enter a trade
+against the movement used to Sweep Stops
+(Liquidity) with Minimum 10 pips SL (In Lower
+Time Frames).
+
+
+That means:
+BSL Raid => Turtle Soup Short
+SSL Raid => Turtle Soup Long
+                     Telegram @HusniFX
+        TURTLE SOUP SHORT
+                 SL
+
+                            10 pips SL(min)
+             SELL
+                                  5-20 pips Sweep
+X BSL                             Turtle Soup Short
+
+
+
+
+                                  X- PDH, HOD,
+                                  OLD HIGH, EQUAL HIGHS
+
+              Telegram @HusniFX
+TURTLE SOUP SHORT
+
+
+
+
+      Telegram @HusniFX
+             TURTLE SOUP LONG
+
+
+
+
+             X SSL                             5-20 pips Sweep
+                                               Turtle Soup Long
+X- PDL, LOD,                       BUY
+OLD LOW, EQUAL LOWS                        10 pips SL(min)
+                      Telegram @HusniFX
+                                          SL
+TURTLE SOUP LONG
+
+
+
+
+     Telegram @HusniFX
+ Stop Hunt, Break In Market Structure and
+   Return To Order Block [SH, BMS, RTO]
+
+
+Where Market Makers (Banks) have taken
+liquidity (SH), they have placed positions in
+these areas and generally the price must not
+exceed these levels.
+
+
+
+                    Telegram @HusniFX
+        How To Trade SH + BMS+ RTO
+
+1.    First, occurs the SH, that movement is used
+     by Market Makers to neutralize Liquidity.
+2.    Second, there's a Break In Market
+     Structure (BMS), Confirming the SH.
+3.    Third, the price Return To Order Block
+     (RTO).
+
+
+
+                      Telegram @HusniFX
+    Bullish SH + BMS + RTO
+
+
+            1st Target
+
+     BM S
+
+
+
+                                 BUY
+X      SH                  RTO
+                                 SL
+            Telegram @HusniFX
+Bullish SH + BMS + RTO
+
+       x BSL [1st TARGET]
+
+
+
+                            x BSL
+
+
+
+
+        Telegram @HusniFX
+Bearish SH + BMS + RTO
+
+                                SL
+X     SH                  RTO
+                                Sell
+
+
+
+    BM S
+               1st Target
+
+
+
+           Telegram @HusniFX
+Bearish SH + BMS + RTO
+
+
+
+
+                      1st Target
+
+
+
+
+        Telegram @HusniFX
+Failure Swing (SMS), Break In Market Structure
+ and Return To Order Block [SMS + BMS + RTO]
+
+
+When the price fails to break a top or bottom, it
+shows that the trend is ending and a reversal
+may occur
+
+
+
+
+                      Telegram @HusniFX
+        How To Trade SMS + BMS+ RTO
+
+1.    First, the price fails to break a top or
+     bottons.
+2.    Second, there's a Break In Market
+     Structure (BMS), Confirming the SMS.
+3.    Third, the price Return To Order Block
+     (RTO).
+
+
+
+                       Telegram @HusniFX
+Bullish SMS + BMS + RTO
+
+
+
+
+            BMS
+
+                                  BUY
+                            RTO
+                                   SL
+              SMS
+
+        Telegram @HusniFX
+Bullish SMS + BMS + RTO
+
+
+
+
+        Telegram @HusniFX
+Bearish SMS + BMS + RTO
+            SMS
+                                   SL
+                            RTO   SELL
+
+         BMS
+
+
+
+
+        Telegram @HusniFX
+Bearish SMS + BMS + RTO
+
+
+
+
+        Telegram @HusniFX
+Accumulation, Manipulation And Distribution
+                  [AMD]
+How To Trade AMD:
+- Accumulation: the price will be ranging.
+-Manipulation: the price will break the range
+direction to trap traders (Because of Liquidity)
+- Distribution: the price will go against the
+Manipulation movement, and here, look to go
+long/short on: Simple RTOs, SH + BMS + RTO,
+SMS + BMS + RTO.
+
+                     Telegram @HusniFX
+                  Bullish AMD
+                 VICE-VERSA FOR BEARISH
+
+                                          Distribution
+
+
+Accumulation
+                                                         Go long on:
+                                                         Simple RTO
+                                                         SH+BMS+RTO
+                                                         SM S+BM S+RTO
+Accumulation
+
+
+               Manipulation
+                      Telegram @HusniFX
+Bullish AMD
+VICE-VERSA FOR BEARISH
+
+
+
+
+     Telegram @HusniFX
+Chapter 7: PUTTING EVERYTHING TOGETHER
+
+                Telegram @HusniFX
+                CONFLUENCE
+Confluence is very important to increase the
+chances of winning trades, a trader needs to
+have at least two factors of confluence to open
+a trade. When the confluence exists, the
+trader becomes more confident on his
+negotiations.
+
+
+                     Telegram @HusniFX
+The Factors Of Confluence Are:
+Higher Time Frame Analysis;
+Trade during London Open;
+Trade during N ew York Open;
+Refine Higher Time Frame key levels in Lower
+Time Frame entries;
+Combine setups;
+Trade during High Impact News Events.
+                      Telegram @HusniFX
+           7.2. HTF analysis, LTF Entries
+Refine HTF key levels in LTF entries or setups
+for confirmation that the HTF analysis will
+hold the price.
+HTF Key Levels Are:
+HTF Order Blocks;
+HTF Liquidity Pools;
+HTF Market Structure.
+
+Note: It's not mandatory to refine all HTF key levels.
+                          Telegram @HusniFX
+Time Frame Setups
+
+For Swing Trading
+HTF: Weekly, Daily, H4.
+Entries: H1, M30, M15 (Sometimes on H4).
+
+For Short Term Trading
+HTF: Daily, H4, H1
+Entries: M30, M15 (Sometimes on H1).
+
+For Day Trades and Scalps
+HTF: H4, H1, M30
+Entries: M15, M5, M1 (Sometimes
+                         Telegram @HusniFX
+                                           on M30).
+                 Swing Trading Example
+
+
+
+
+ Weekly Time Frame
+
+
+
+HTF Setup: Turtle Soup Long.
+                               Telegram @HusniFX
+              Swing Trading Example
+
+
+
+
+                                                 H1
+
+
+
+LTF Setup: SH + BMS + RTO.
+                             Telegram @HusniFX
+                 Swing Trading Example
+
+
+
+
+   Daily Time Frame
+
+
+
+HTF Setup: SH + BMS + RTO
+                            Telegram @HusniFX
+              Swing Trading Example
+
+
+
+
+LTF Setup: Turtle Soup And SH + BMS+ RTO.
+                            Telegram @HusniFX
+            Short Term Trading Example
+
+
+
+                                                         LTF Sell Opportunity
+                                   Adicionar um título
+
+
+
+
+                     BM S
+
+
+
+
+HTF Setup: Simple RTO after BMS.
+                            Telegram @HusniFX
+               Short Term Trading Example
+
+
+
+
+LTF Setup: SH + BMS + RTO.
+Another Confluence: RTO During     New
+                            Telegram @HusniFX York Open.
+             Short Term Trading Example
+
+
+
+
+HTF Setup: Simple RTO, After SH.
+                             Telegram @HusniFX
+             Short Term Trading Example
+
+
+
+
+LTF Setup: SH + BMS + RTO inside of 4H RTO.
+                             Telegram @HusniFX
+             Day Trades and Scalps
+Highlight:
+Asian Range (To buy High or Sell Low) "If it's
+possible".
+
+Enter a trade during:
+London Open
+New York Open
+Price retesting HTF Key Levels
+High Impact News Events.
+                        Telegram @HusniFX
+                    Day Trades and Scalps
+
+                                N YO
+
+
+
+
+Setup: SH + BMS + RTO.
+Confluence: RTO during New York       Open.
+                            Telegram @HusniFX
+                   Day Trades and Scalps
+
+
+
+
+Setup: Turtle Soup Long and SH + BMS + RTO.
+Confluence: Turtle Soup and RTO
+                             Telegramduring
+                                     @HusniFX N ew York Open.
+Chapter 8: MARKED UP CHARTS
+           Telegram @HusniFX
+                            EUR/USD
+
+
+
+
+                                                 BUY
+                                                 SL
+
+PWL Taken Out = SH
+LTF Setup: SH + BMS + RTO    Telegram @HusniFX
+                        N ASDAQ
+
+
+
+
+    BMS
+
+
+
+HTF Setup: Simple RTO ON H4 OB = SHORT SETUP
+                          Telegram @HusniFX
+                    NASDAQ (CON..)
+
+
+
+
+H1 Turtle Soup Short + H4 RTO
+                            Telegram @HusniFX
+                    NASDAQ (CON..)
+
+
+
+
+LTF Setup: SH + BMS + RTO inside of H4 OB
+                            Telegram @HusniFX
+                            GBP/CHF
+
+                                    RTO
+
+
+
+
+                 BMS
+
+
+
+
+HTF Setup: SH + BMS + RTO
+                             Telegram @HusniFX
+                    GBP/CHF (Con..)
+
+      RTO
+
+
+
+
+LTF Setup: SMS + BMS + RTO
+                             Telegram @HusniFX
+                                   N ASDAQ
+
+
+
+
+SH + BMS + RTO
+NOTE: Trade during London Open, Ne w York    Open, High Impact News Events
+                                      Telegram @HusniFX
+                             USD/ CAD
+
+
+
+
+SH + BMS + RTO
+The H4 RTO Could be refined Telegram
+                            in LTF       entry.
+                                     @HusniFX
+                                   EUR/USD
+
+
+
+
+PDL Liquidity run = SH = Turtle Soup Long.
+NOTE: Trade during London Open, Ne w York    Open, High Impact News Events.
+                                      Telegram @HusniFX
+                                   EUR/USD
+
+
+
+
+PDH Liquidity run = SH = Turtle Soup Short.
+NOTE: Trade during London Open, Ne w York    Open, High Impact News Events.
+                                      Telegram @HusniFX
+                                   EUR/USD
+
+
+
+
+SH + BMS + RTO.
+NOTE: Trade during London Open, Ne w York    Open, High Impact News Events.
+                                      Telegram @HusniFX
+                                   EUR/USD
+
+
+
+
+                         x                                      x
+
+
+
+
+                                                               RTO
+
+
+SH + RTO.
+NOTE: Trade during London Open, Ne w York    Open, High Impact News Events.
+                                      Telegram @HusniFX
+                             AUD/USD
+
+
+
+
+SH + BMS + RTO.
+The H4 RTO Could be refined Telegram
+                            in LTF       entry.
+                                     @HusniFX
+
+.
+                                   N ASDAQ
+
+
+
+
+Equal Highs Liquidity run = SH = Turtle Soup Short.
+NOTE: Trade during London Open, Ne w York    Open, High Impact News Events.
+                                      Telegram @HusniFX
+                                     N ASDAQ
+
+
+
+
+SH + BMS + RTO.
+NOTE: Trade during London Open, Ne w York    Open,
+                                      Telegram        High Impact News Events.
+                                               @HusniFX
+                                    EUR/USD
+
+
+
+
+                                                               BUY
+                                                                SL
+
+
+
+SH + BMS + RTO.
+NOTE: Trade during London Open, Ne w York    Open,
+                                      Telegram        High Impact News Events.
+                                               @HusniFX
+                                   GBP/ USD
+
+
+
+
+Equal Lows Liquidity run = SH = Turtle Soup Long.
+NOTE: Trade during London Open, Ne w York    Open, High Impact News Events.
+                                      Telegram @HusniFX
+                             AUD/USD
+
+
+
+
+SH + BMS + RTO.
+The H4 RTO Could be refined Telegram
+                            in LTF   @HusniFX
+                                         entry
+                          GBP/ USD
+
+
+
+
+Bullish Market Structure
+                           Telegram @HusniFX
+Confluence: SH + BMS + RTO AND       SMS + BMS +RTO.
+                                      GBP/ USD
+
+
+
+
+                                                    D
+
+
+                              A
+
+
+                                  M
+
+
+Bullish AMD with a RTO during the Distribution Phase.
+NOTE: Trade during London Open, Ne w York    Open,
+                                      Telegram        High Impact News Events.
+                                               @HusniFX
+                                    GBP/ USD
+
+
+
+
+PDL Liquidity run = SH = Turtle Soup Long.
+NOTE: Trade during London Open, Ne w York    Open,
+                                      Telegram        High Impact News Events.
+                                               @HusniFX
+                                   GBP/ USD
+
+
+
+
+LTF Setup: SMS + BMS + RTO Below PDL.
+NOTE: Trade during London Open, New York Open, High Impact News Events.
+                                       Telegram @HusniFX
+                         GBP/ USD
+
+
+
+
+            X PDL
+
+Accumulation, Manipulation and Distribution| PDH Liquidity Run
+Confluence: London Open.   Telegram @HusniFX
+                         GBP/ USD
+
+
+
+
+Accumulation, Manipulation and Distribution.
+Confluence: London Open.   Telegram @HusniFX
+                         GBP/ USD
+
+
+
+
+Turtle Soup Long and Bullish Market Structure
+LTF Buy opportunities on HTFOTE
+                            Telegram @HusniFX
+                              EUR/USD
+                                               SL
+
+                                               SELL
+
+
+
+
+SH + BMS + RTO
+                           Telegram @HusniFX
+Confluence: RTO during London      Open.
+                             EUR/USD
+
+
+
+
+SH + BMS + RTO
+                           Telegram @HusniFX
+NOTE: The H4 RTO Could be refined       in LTF entry.
+                             EUR/USD
+
+                             RTO
+
+
+
+
+SH + BMS + RTO
+                           Telegram @HusniFX
+NOTE: The H4 RTO Could be refined       in LTF entry.
+                                    EUR/USD
+
+
+
+
+                                                       BUY
+
+                                                        SL
+
+
+SH + BMS + RTO.
+NOTE: Trade during London Open, Ne w York    Open,
+                                      Telegram        High Impact News Events.
+                                               @HusniFX
+                                    GBP/ USD
+
+
+               Equal Highs
+
+
+
+
+                                            SH
+
+
+
+After SH, Buy opportunities available on every RTO.
+NOTE: Trade during London Open, Ne w York    Open,
+                                      Telegram        High Impact News Events.
+                                               @HusniFX
+                                    GBP/ USD
+
+
+
+
+SH + BMS + RTO combined with AMD.
+NOTE: Trade during London Open, Ne w York    Open,
+                                      Telegram        High Impact News Events.
+                                               @HusniFX
+                                   GBP/ USD
+
+
+
+
+PDL Liquidity run = SH = Turtle Soup Long.
+NOTE: Trade during London Open, Ne w York    Open, High Impact News Events.
+                                      Telegram @HusniFX
+                                   GBP/ USD
+
+
+
+
+PDL Liquidity run = SH, After SH, Buy every OB in LTF.
+NOTE: Trade during London Open, Ne w York    Open, High Impact News Events.
+                                      Telegram @HusniFX
+                         EUR/USD
+
+
+
+
+The Market Hardly reverses without taking Liquidity!
+After HTF SH look for LTF entry    setups.
+                             Telegram @HusniFX
+   Thank You For Reading
+
+
+
+                             HusniFX Setups
+
+
+Written By: Abdiwahab H. Abdalle
+Telegram Channel:https://t.me/husnifx
+
+
+                                Telegram @HusniFX
+

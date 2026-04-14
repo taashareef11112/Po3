@@ -1,0 +1,2761 @@
+                                      2022 ICT Mentorship
+
+
+Episode 2: Elements to a trade setup
+
+
+Factors that will impact the weekly candle:
+-seasonal tendencies
+-interest rates
+-earnings seasons and the release of quarterly ER
+-Price action on a weekly and daily chart
+
+When it comes to PA on the weekly chart ask yourself:
+What is market most likely to draw towards? This sets initial bias for week
+
+Majority of analysis should be linked to the daily chart. Figure out where you are in the grand
+scheme of things on that weekly range expanding higher or lower
+
+When it comes to PA of the Daily chart ask yourself:
+Where are the liquidity pools price can seek? (following assumption of the weekly chart)
+  ● The Draw on Liquidity for the most part is found on the Daily Chart.
+  ● The Daily Chart should have the majority of your time and analysis.
+  ● The Daily Chart will give you feedback every 24 HOURS on that Weekly Candle.
+WE USE THAT FEEDBACK TO SUPPORT OUR ASSUMPTIONS OF THE WEEKLY CANDLE
+EXPANDING HIGHER OR LOWER
+
+Above old highs: Buy stops
+Below old lows: Sell stops
+
+Where there are two fair value gaps he’ll let it tradedown to that lower one
+
+If you are bearish you are looking for buy stops to be ran, then a break in market structure
+lower. A short term low being broken. Then it needs to have a fair value gap.
+
+Imbalance: A candle thats only going higher/ and nothing else is there to offset the efficiency of
+price deliver on the opposite end
+    ● One single candle passing up, and the previous candle high and the next candles low.
+       That area is an imbalance.
+
+Any time a significant price move lower is expected always anticipate some measure of a
+stophunt on buy stops or short term high being taken out. Reverse is also true: When looking for
+higher prices generally you will see a short term low taken out and sell stops taken before you
+see a very pronounced rally higher.
+Here is the 15 min
+
+
+
+
+Here is the 2 min. After the break out, let it establish a short term low. Once its broken, look for
+the imbalance and once the market comes back up to it you short. 1,2,3 min timeframes work
+best with finding imbalances. The Fair Value Gap is the highlighted area. You mark the 1st
+candles lows and the 3rd candles high
+         Use fib to find the 50% level. Anything above the 50% level is referred from an algorithmic stance
+as a premium market (means that its expensive). Anything in the lower 50% is a discount. If BEARISH:
+after you get your entry in the FVG, you should be thinking "We are in a premium, so algos want to go to a
+discount. You can have all the buyers in the world come in, but if the algo is in a sell program and its going
+lower it does not matter. Those buyers who come in with a huge influx of buyers get crushed and
+squeezed.
+Look for run on liquidity (Buy stops or sell stops)
+If bearish you're looking for buy stops to be ran, then a break in market structure lower. A short
+term low being broken. Then look for FVG.
+
+
+
+
+Look for breaks in market structure after a pool of liquidity (buy or sell stops), that have been
+taken in an opposing direction of your weekly expected range. In other words are you expecting
+higher or lower prices on weekly range? If you are looking for lower prices your focus is on a
+runup of an old high. Once that forms then you are looking for a break in market structure on a
+lower timeframe. Once that occurs and you get an imbalance thats your trigger. Then split the
+range that was created and find where the 50% is. If short, find an old low or imbalance to aim
+for as your target. Try to get the closest target. Dont get fancy and go for the low hanging fruit.
+Episode 3: Internal Range Liquidity and Market Structure Shifts
+
+
+Market structure break means more in context versus an intraday shift in market structure,
+intraday shift means that there's likely a downside or upside draw intraday by saying the term
+shift.
+In the below example: the buyside/sellside liquidity is where there will be a likelihood of a market
+structure shift.
+
+
+
+
+When the high is taken out on that candle, its significant ONLY if the rundown has traded into
+sell stops. Below and old low of some kind. It could be a double bottom, single low, or just be
+trading under some retail idea that is viewed as support. Reverse is true for buy side liquidity.
+When that run above relatively equal highs happens, you are anticipating a market structure
+shift, NOT FORCING IT OR GET AHEAD OF IT!
+
+
+
+
+Market dives into liquidity. At this point you may or may not know whether its a buy. YOU DONT
+NEED TO. You anticipate a shift in market structure.You see that shift on the candle where the
+light bulb is. Thats when you are thinking “I now have a condition in the market place where I
+might see a opportunity intraday”. Candle does NOT need to close over short term high. Once
+that candle closes, monitor the second candle and see if it creates a fair value gap. Entry is on
+the next candle that dips into the gap. Price then gravitates towards previous buy stops. Use
+those as targets.
+Heres the 1min. When price trades back into here (highlighted zone) this is what actually
+occurs: High frequency algos are hammering, just throwing orders in. That IS NOT causing the
+market to go higher. Its just volume thats coming in. The algos that deliver/offer price in the
+marketplace, thats whats beginning to spool and go higher. Regardless of where you wanna
+trade at, your limit orders, they may not get filled. When u buy with a market order there will be
+slippage. When price starts to rally, all it is is a default to the algo constantly offering price at a
+higher price
+
+
+
+
+See those two candles there in the highlighted zone. That is one consecutive order
+block.Extend it out in time. Its a good bearish order block because it has that gap and it has
+taken liquidity.
+Order Block: Change in the state of delivery.
+In this example the change in the state of delivery is now offering sellside, which means it will
+match up sell stops and keep going below old lows into an imbalance until we get down to a
+discount.
+Whenever there are 2 fair value gaps like this, the idea is to let it trade down to the lower one
+and sacrifice the better entry. If it trades back to the second green box enter in there and expect
+that the lower one wont be re traded to
+
+
+
+
+Example of annotated chart:
+In the open space write how long did it take from the market structure shift occurring to the fair
+value gap being filled. Also how long did it take from entry to target. Also how much drawdown
+did you take.
+Episode 5: Intraday Order Flow and Understanding The Daily Range
+
+
+Dont trade from 12pm-1pm
+Prior to 8:30 am, on the 15 min chart look for the most significant/obvious swing high/swing low
+
+
+
+
+Then drop down into the first lower timeframe for entry, which is the 5min chart. Watch for the 3
+little indians pattern as price approaches the swing high. It doesn't have to see that 3rd high
+takeout the old high. Liquidity is already being built in here because buy stops keep getting hit.
+On the other hand if we don't see the higher highs forming and price is steady rising up, we can
+anticipate the high to be taken out.
+Displacement: Think of an elephant falling into a children's pool. There will be a HUGE splash.
+In the above chart its obvious here the displacement here is. You want to look for a big
+obvious/meaty candle like that. Not lethargic/slow ones. One that displacement occurs look for
+the FVG.
+
+
+After 1:30pm, mark the first swing low and swing high of any importance. Algos turn on at that
+time.
+Look for a swing high/low and look for a stop hunt. Same thing you do in the morning!
+
+
+
+
+When the swing low gets violated (look at pointer), that stop hunt is all thats necessary that will
+start a buy program.
+Buy program: Algos go into the process of spooling which means it just keeps offering higher
+prices. VOLUME DOES NOT MATTER. THIS IS BEING MANIPULATED. So now you can get
+your long entries and then hold for the close.
+
+
+
+
+Buy the sell stops that are resting below the sell side liquidity level and expect the swing high to
+be taken out (referring to the pre lunch range)
+You then have consolidation through lunch. After 1:30 wait for the swing low to be violated then
+rally.
+
+What if you don't get a swing low that trades below it?
+  ● Look for a move higher thats sudden (DISPLACEMENT HIGHER). Then look for a FVG.
+        If it trades back down to the FVG then trade it
+
+
+NQ! Example of the 1:30pm swing low being sweeped. Notice on the left there is a FVG where
+the swing low was sweeped.
+
+
+
+
+Here is the 1min. Below that level there is sell stops and I have the belief that we go higher
+today. I wanna be buying those stops! All the sudden, you get a aggressive drop down. Its
+gonna feel like the floor dropped out.
+
+
+
+
+Look for the REAL moves in the morning and the REAL moves in the afternoon. If you get one
+in the morning dont trade the afternoon. Go to demo and practice there.
+Episode 6: Market Efficiency Paradigm and Institutional Order Flow
+
+
+
+
+Smart money looks at liquidity
+They are asking what is the underlying narrative in the market place right now?
+   ● Bullish or bearish?
+   ● Is the days daily range gonna go higher and how? Is it likely go lower beginning of the
+       day first to sucker traders into going short and run out sell stops? (to acquire long
+       positions at and then rally going into the close or afternoon)
+
+Smart money asks how they can utilize that speculative uninformed money and its liquidity that
+it provides.
+
+The easiest entry would be trading just above candle #3 high. Thats where you put your limit
+order. Place stop right above candle 1 or 2.
+You want a big beefy bearish candle that closes low beneath that displacement low^
+At 8:30am mark that lvl with a vertical line. Look left and mark the first swing high you see. Its
+that simple. That is your buyside liquidity
+
+
+
+
+Once you have that lvl you drop down to ur 5. When it starts to trade lower in that area you go
+into the lower timeframes. You then look for your FVG on the 1,2,3 min
+If in 2 cons, sell one at 50% level and the other at sellside liquidity.
+Partials at Internal range liquidity.
+Close trade at external range liquidity
+Episode 7: Daily Bias and Consolidation Hurdles
+
+
+
+
+After the DAILY gets filled on the FVG, until we get to that sellside liquidity, we are anticipating
+lower prices. BIAS THEREFORE BEARISH. Not every day will be a down close candle but we
+are going to hunt intraday PA with that in mind.
+
+If going long, which is counter trend, leverage is going to be dialed back
+
+Once price breaks the sellside liquidity and begins to hang around equilibrium, it becomes very
+difficult to have a bias. This means you have to rely on the smaller time frame intraday charts
+and simply look for liquidity pools.
+
+Trade the intraday volatility. Running old highs and running old lows. Be much more nimble and
+take ur exits at precise spots. Don't overstay ur welcome
+NQ 15min
+
+
+
+
+Heres the 2min. Notice how there is no FVG. ICT still went long here because he was using the
+S&P as his indicator. These markets move in tandem
+ES 2min
+
+
+
+
+NQ did not show the bullish market shift that ES showed. Just like this example we can also use
+the DOW as an indicator
+
+ICT is looking at a period of time where, and an area in price action that maybe is going under
+accumulation for long positions. Look for the little fingerprint in the algorithm. What this indicates
+is that the DOW is unwilling to go lower that that low that tips off individuals that are looking for
+cracks in correlation. That correlation cracks where NQ and ES went to make new lows, the
+DOW didn't.
+
+
+
+
+How do you know its gonna be a fake break below an old low and go higher?
+How do you know its gonna be a fake break above an old high and go lower?
+Look for runs above old highs to set up a short position if I have the opposite of this condition
+here: Where maybe the DOW didn't make a higher high whereas the S&P and nasdaq did
+make a higher high. By itself it doesn't mean anything. This pattern confirms the accumulation of
+long positions.
+
+Macro: Something inside of an algorithm that prevents or enables delivery of price.
+Episode 8: Applying institutional order flow to forex markets
+
+
+How far will this trade too? Were not looking left at that swing high like its a middle of the range
+idea. For expansion type moves (if we dont have a range to trade inside of) how can we know
+how far it will trade up or down?
+ Take a fib and anchor it to a previous swing. From that low to that high after we leave this
+consolidation to start the trend higher. Target is standard deviation -1.
+Episode 9: Power of 3 and New York PM session opportunities
+
+
+Market traded back into a discount but did not take the recent swing low. Price formed a FVG on
+the daily. Notice the indecisive candle close. If we have that and the market is trading back into
+a discount even though we might have a low down here that we are targeting, this may require a
+retracement.
+
+
+
+
+Power of 3: accumulation, distribution, and manipulation
+
+If bullish, expect the opening price to open near the low of the day/session. Then it trades lower
+making some important low and then rallies. Creates a high and then closes near high of day.
+Typically in London and New York session there are fake runs that start off a move.
+
+
+
+
+If bullish,it opens, where you think its gonna trade higher its most likely gonna be a small little
+move lower. Thats the move you wanna go in and hunt along. If you miss it, you wanna try and
+get long real close to where opening price is. You can use 8:30 am as opening price and mark
+that level horizontally
+HOW TO FIND ORDER BLOCK:
+Consecutive down closed candles right before a price surge that has an imbalance
+
+High probability order block: Your narrative where your bias is bullish. You are looking for
+displacement and the down close candles (prior) you wanna mark that out and anticipate a
+return to that.
+
+
+
+
+Heres the 1min. This sets the stage up of a market run into a higher retracement. We dont know
+yet if that high is going to be the closing perimeter for a daily FVG. We dont need to know that
+yet but its a likely scenario to go long.
+If there is a lot of range movement overnight (2am-5am), when we open at 8:30 we must wait
+for the consolidation and be patient. We wanna see a low form with a turn away from it. When
+that low starts to go higher, anyone who longed overnight is gonna jam there stop loss right
+underneath that low. This is the scenario we look for.
+
+If there is a big run overnight, avoid the NY session! Wait until the other side of lunch. Anticipate
+the NY lunch lows being taken out or NY morning session lows (which is the example below)
+
+We now know the level near 14620 is the high end of that FVG. We know that bc the 14th
+stopped trading and it had that indecisive candle on the daily chart. Its likely we might trade up
+into that range high.
+
+Hes waiting for a sweep of the low near the FVG
+Notice how we don't have a FVG down there, but it gives us the basis for expecting the price to
+start to rally into the afternoon.
+So what are we looking at?
+-we see a price run that we don't think needs to come back down here bc the logic is that
+overnight stops have been ran out. Theres no reason for the market to come back down there.
+-We have 2 lows post NY lunch (12-1pm). The likelihood of price coming all the way through the
+imbalance and going after the first low is not likely. Not after that run up. They dont wanna give
+those traders another chance to get back in. They got stopped out. Its gonna be a little more
+sneakier when they make these setups that continue onto a higher run.
+
+Overall this is a nice little setup on the afternoon. Even though we didnt get a FVG on the
+sellside sweep, it established our bullish bias.
+
+
+
+
+The FVG is even better when you have the sellside liquidity resting below short term low (green
+price box)
+Episode 10: Implementing Economic Calendar Events With The Open+P3
+
+
+
+The market has been going lower. We take out some sell stops below that sellside liquidity. We
+then get a natural retracement thats reasonable. Then we start to decline, come back up one
+more time and fail to go above the recent swing high. Then breaks down and creates an
+imbalance. Then it takes down that short term low. So we rallied, took out short term low with
+the model suggesting the lowest lows on this chart to be taken out. Therefore any rally or
+upclose candle should be viewed as a potential shorting candidate.
+
+
+
+
+Power of 3 refers to the daily chart:
+   ● If bearish, we will anticipate that the daily range opens, rallies, goes down and closes
+      near its low
+   ● If bullish, we will anticipate that the daily range opens, rallies down, then goes up and
+      closes near it high.
+
+Power of 3 refers to Accumulation, manipulation, and distribution.
+The open on a day that is bearish, the open and anything above it is accumulation of shorts.
+Its not limited to just open and above. It can be whatever the range is. The open to the high,
+whatever that range is you take that range and you subtract it from the opening price. That is
+your opening range. Thats where your FVG happen. Thats where your stop raids gonna
+happen. Thats where optimal trade entry is going to happen. Every potential shorting candidate/
+every premium array, will reside in form in the range between the open and its high.
+Every short will reside between the open and it high
+The range from the opening price to that high, is what you project below the opening price.
+Thats your opening range. This gives you an area you can bracket out how much leeway I can
+give the market when it starts to go below the opening price and still take a favorable entry.
+
+There is a lot of opportunities coming in just below the opening price. This is called close
+proximity entries.
+
+When bearish:
+Accumulation of shorts: Whatever the high is from the opening, project that down. Your sell
+setups will form in that..
+Manipulation: is the initial rally up. Thats the sucker play. Goes up just to go down hard
+Distribution: Between where the LOD is and where it closes. Smart money's short positions
+are what is being distributed. They are selling at the open and above or just below it, and riding
+out the daily range.
+When it creates the LOD how do you know when the LOD is formed?
+Time references: If price has been really taking a beating going lower and your getting near
+EOD (like 3:30pm),, its probably really close to the low. Not all the time though, sometimes it
+creates a real fast sudden continuation and if you're not expecting it, it can be bad. Generally its
+the last portion of the trading day. It will create some type of a low. Wherever it closes, between
+that low and where it closes thats where the distribution cycle is occurring.
+
+All I need to know is:
+-Is this daily range more likely to expand higher or lower than the opening price?
+THIS IS THE KEY TO BIAS
+In the circle, we are seeing the market retrace back down into its previous run.
+How far can it go down? Look at your high down to your low. Its probably going to go below
+equilibrium to offer the market a discount. One it gets there, we are thinking its going to be the
+open near the low, and expand higher. Its going to be accumulation of longs at the low and then
+rally higher.
+
+
+
+
+The whole move up we are looking for longs. We may get stopped out but we are not
+abandoning the bullish bias until we get above the highs highlighted in the circle. Price is
+drawing to it. Once it clears those highs we have to read it. Does it wanna go higher? It indeed
+does so you keep expecting the open, rally down, then expansion. Now looking more on the
+right, when price fills that FVG we now have a bearish bias until it moves back down to that
+sellside liquidity.
+Submit to the daily range and learn how to hold to the close. Why sit out on all that range when
+you should have come into the day expecting this?
+
+
+
+
+An efficient market will see the market go back up and repric that. It goes right back up like paint
+being applied to a roller on a wall. You want to make sure you go back and forth to deposit the
+paint evenly so theres an even distribution. On those long drawn out candles there is a strong
+tendency for the price to go right back up and overlap over that entire range.
+
+Why do we have a bearish power of 3 bias on this day?
+We worked the upper end of that FVG on the daily, then we had multiple shifts in market
+structure bearishly. We had a bearish bias on the daily chart anyway. So it gives you a high
+probability that this day is going to be a down close day.
+
+
+Where will setups form?
+First setup will happen above Open price
+Second will happen at/near the opening price
+3rd inside of the range from the high to the opening projected down. Its in that vicinity there
+
+
+Going back to that Daily chart, we are anticipating the opening and rallying up into maybe the
+high end of that FVG or something forming at the news release at 8:30. If we look at price it was
+starting to pump up higher ahead of the release. This is telling us they are pricing in a premium
+market ahead of the news. So they are going to use the news to sink it lower. Because the
+bearish bias is going to come into fruition. They are going to expand price lower and they
+already established their shorts because they accumulated above the opening price.
+
+
+
+
+The first FVG you encounter from the top down approach from the 5min is the one you use.
+
+
+
+
+Breaker pattern: A high, a low, and a higher high
+If we see breaker like this, think the market could potentially trade up into here. Im gonna use
+the breakers candle and just above that for my stop.
+
+
+If margins are raised, thats the exchange tipping their hand to you that huge moves are coming.
+BIG MONSTROUS MOVES ARE COMING
+Daily Bias:
+What swing highs and swing lows can be taken out?
+Look for FVG
+Look for where price is relative to equilibrium (premium/discount)
+Look for a Judas Swing
+
+
+P3 in bullish scenario:
+Green box: Accumulation
+Red box: Manipulation
+Blue box: Distribution
+
+
+
+
+P3 in bearish scenario:
+
+
+
+
+Episode 11
+Swing high- simply anything that has a lower high candle to the left of it and a lower high
+candle to the right of it. The one in the middle is your SWING HIGH
+
+That retracement back into the FVG can lull traders into thinking price is going to likely go
+higher. But we are thinking we go down to that daily level.
+8:30 opens and we get the judas swing. We are anticipating weakness and want to take a short
+somewhere above that price. We are anticipating price to draw towards that daily level (green
+line). You get that imbalance there and a fvg entry and thats where you short.
+
+
+
+
+Episode 12: Market Structure for Precision Technicians (advanced price action theory)
+
+
+We are focusing on the PA in the FVG
+The daily chart has the bulk of the volume thats coming into that marketplace.
+When we look at price, we arent looking for just the simple HH and HL therefore its a bullish
+uptrend.
+
+We are actually looking at
+    ● Is it likely to go up for stops? Or go down for stops?
+    ● Is it going to go higher to rebalance? Or lower to rebalance?
+All minor lower time frame swings are going to be subordinate to the daily chart (the parent of
+this 1hr price structure.)
+Should the LTH be broken to the upside, this means our daily analysis expecting that FVG to
+hold price and to be a factor in the algorithm repricing and going lower at a later time, then we
+are wrong in our analysis.
+
+Long term highs are framed on higher timeframe resistance levels.
+
+Every single time price rebalances an old imbalance, that swing high or low should be
+immediately labeled as a ITH/ITL
+1 hour:
+
+
+
+
+15min:
+
+
+
+
+Break it down to a science. We don't do TA, we do technical science.
+
+ITH have two classifications:
+-ITH that has a lower STH to the left of it and lower STH to the right of it
+-Trades back up to an imbalance to rebalance
+
+If we have a break beneath an ITH/ITL, we have a significant break in market structure.
+
+If the ITH is not higher than two STH, that is telling you that the market is very weak and the
+algo is tipping its hand to those people who are looking at it like this.
+
+The order block is one consecutive series of upclose candles.
+
+The usefulness of that is if were bearish and it rebalances, the next STH should be lower than
+that ITH. WE DO NOT EXPECT THE ITH TO BE TAKEN OUT.Therefore we are forecasting
+and anticipating a failed price swing in the order block.Everytime that green candle on the hourly
+is forming we are looking at that as a bearish order block. From the beginning of that candles
+low we should be looking in time on lower time frame charts(drop to the 15min). If it trades
+higher then that trade idea is prob flawed. Just wait for market structure to get back in sync with
+what ur expecting (something bearish).
+
+Inside that range in the order block, we should be hunting FVGs
+We dont need to see the market trade down below the last highest upclose candle.
+
+Fractal: something that repeats on the smaller or higher timeframe thats similar in its formation.
+In this example its the imbalance candle in the order block
+
+
+
+
+Look at the underpinnings of the marketplace and examine what is it doing high to high and low
+to low within a HTF premise. The premise was we go to the upper level of the daily FVG,
+rebalance and then eventually trade lower down below sell side liquidity.
+Once we establish the market structure on that hourly chart, we are not going down into lower
+time frames below it and marking out all the swing highs and swing lows. We just need to know
+what to look for on the timeframe we're trading on. The logic is based on the daily chart going
+up to the imbalance to go lower. The hourly chart frames the trade. It gives us what we're
+looking for to start hunting entry techniques. The 15min timeframe will give you the actual get in
+and get out. We may not like the risk parameters on that timeframe though. So then we go into
+lower time frames.
+
+
+
+
+2 methods of getting Price targets:
+-If we have a STL taken out and a ITL taken out or just an ITL taken out, then we can go back to
+the range of the LTH and LTL to start getting projections down. That will give you generic price
+targets.
+- If price breaks below the LTL, you can take your fib and anchor it to the highest high down to
+the lowest low (in this case its the ITH because this is where the swing begins on the decline)
+The projection is -1.5 standard deviation. That how much lower it may go under the sell side
+liquidity
+
+
+
+
+Many ways to frame your trade, but you have to have something directly linked to the daily
+chart.
+When you see an imbalance get rebalanced, the high formed as it rebalances should not be
+violated by price going higher than that if bearish
+
+Institutional order flow:
+When bearish, all of your upclose candles should keep price from going higher than them
+
+Look at the markets from a market structure perspective by breaking down the price swings and
+labeling them. Specifically an imbalance thats rebalanced. That ITH or ITL should not be
+violated. Thats a key high or key low. That sets the stage for a market move that should unfold
+and deliver to a HTF objective (Weakness in Nasdaq to take out its daily low).
+
+While the market is moving in your favor, youre going to continue to trust that move and hold on
+to your trade bc if your bearish upclose candles should keep price below it/the. They are speed
+bumps. They may come back and touch them and act as a bearish order block.
+
+ If bullish, down close candles should support price. If it trades back down to them its gonna act
+as a support structure for an order block. If it does go below it its only permissible if theres a
+short term low in close proximity to it. Its then likely to go down and take out some sell stops if
+bullish then reaccumulate and go higher.
+
+Every time the market rebalances, classify that as an ITH/ITL. Then watch how prices stay away
+from violating it.
+Episode 13: Market Structure for Precision Technicians:
+
+
+The area in the circle, when that black candles trades down towards that gap, notice the draw
+on liquidity above at the relative highs. We should be thinking the algorithm is not letting price
+go lower. So its going after everyone thats been profitable going short. So the market starts to
+rally and leaves that down close candle. We're gonna watch and see if that candles can trade
+back down into that because if it does we're going to treat it as a bullish order block.
+
+The area in the highlighted circle is the ITL
+
+
+
+
+When your looking for a price move thats going to be a long term price swing. Dont be scared
+by the upclose or down close candles against your trend. Trust in price not to breach them
+
+
+Below is the 15min chart. There's that hourly down closed candle (in the blue circle) which is a
+bullish order block. Price goes away from it and creates an imbalance. That is how you
+determine your high probability bullish order block. It must have the imbalance coupled with the
+down close candle and the underlying narrative that its likely to reach higher for buyside
+liquidity.
+All it is:
+     ● The FVG
+     ● The down closed candle
+     ● The idea that its likely to go higher for buy side liquidity
+So were trading down into that imbalance there. But now were doing it at the time of day after
+the equities open at 9:30am. This means volatility, the initial move is technically the incorrect
+move going into the opening (JUDAS SWING).
+
+Take a step back and figure out what it is im looking for:
+-Looking for a discount market ( below 50% of swing high to swing low
+-Inside the order block
+-Equities opening has happened. Were bullish and its traded lower. Public is thinking that buy
+side level is resistance after rejecting hard.
+
+DON'T CHASE GOING HIGHER RIGHT BEFORE EQUITIES OPEN AT 9:30
+
+Heres the 5min breakdown:
+-Price hits the 1hr and 5min order block (GET LONG WHEN IT HITS IT) and then rallies
+-Ideal exit would be the buy side liquidity, where there is WILLING BUYERS, with buy stops to
+protect their short positions. When the market trades above that level the buy stops become
+market orders to buy the market which floods the market with liquidity for those that bought
+down where we did. We can sell to those willing buyers at a higher price.
+Entry thesis:
+-Price fills in the FVG and there's an order block on the 5min (thats our entry)
+-It is also in line with a higher timeframe order block.
+-There is a hierarchy: Higher time frame to a lower time frame with the idea framed on its going
+higher for buy side.
+- We have an ITL forming at the order block.
+- Now when price fills the FVG, IT BECOMES AN ITL. Once it starts rallying it should not come
+back down there.
+- Remember that if price is going higher, down closed candles should support price. In the
+picture below notice where the candle trades above the first down closed candle. A FVG is
+forming and you should expect that candle to hold as support. We should look at this move in
+the sense that its only going down to accumulate more long positions. WE BUY MORE HERE.
+
+
+
+
+-Price then rallies again above the new down closed candles. We are not worrying about the
+market as long as it doesn't take out the previous two down closed candles. In this case price
+never went thru the range of those two down closed candles. It just trades down into an
+imbalance SO SMART MONEY CAN BUY AGAIN, LIKE WE SHOULD!
+-Market rallies again and goes into buy side liquidity where we exit
+
+
+Notice in the blue circle how price doesn't even come back down into the order block. It
+generally does not like to go all the way back and rebalance when it's that close to the profit
+objective. The algorithm only has a small retracement inside the fvg. You would be a buyer just
+at that candles low (pointed at in pic below).
+
+
+
+
+Trailing Stop:
+-Once price rallies over that first high (down closed candle in blue circle), YOUR STOP LOSS
+MUST REMAIN UNDERNEATH THE CANDLES LOW (candle with first blue arrow)
+
+
+
+
+-Market then rallies above and takes out those two down closed candles. Now the stop can be
+raised below the next down closed candle.The idea is these down closed candles are one order
+block that should not be violated if bullish. If it comes down and breaks the low of them you did
+the right thing by securing profits.
+
+
+
+
+Here's the 1min:
+
+
+
+
+Pyramiding: Building the biggest position initially and then everytime we buy in again we build it
+with a smaller position than we had prior to the one being entered now. Ex: Buy 3 at first entry,
+then 2 at second, and 1 at third entry.
+Don't become a monster that day trades every single day. Imagine playing a trade like the one
+above. YOUR WHOLE WEEK WOULD BE DONE. These form every single week just be patient
+and wait for the perfect setup.
+
+
+
+
+Episode 15: Live example
+Since this is at open, be cautious because there is a lot of volatility and price can overshoot that
+low and stop you out even though you are right. That's ok, if it goes back into the FVG we will
+still buy it.
+
+We are watching for if it wants to go below that short term low first to take out the sell side. It
+doesn't negate the FVG because we are using narrative. Narrative is that we expect people to
+look at that low and say “okay its going to go up” and begin to buy here. There stops are at that
+swing low
+Above is where he took an entry
+
+-So now we watch price and want to see it expanding.
+-If trading the open stops can be taken really easily and then reverse.
+-Target is the FVG at the 860 level which is also above equilibrium (premium)
+
+-There's a small FVG in the last 3 candles up. It doesn't have to fill in or even revisit. If it were
+to, we would expect price to be supported by that. In other words, not going below the 630 level.
+At this point, we could put the stop loss on at entry, and if it takes us out then we would be
+sidelined and wouldn't take any trades today because its FOMC. ON FOMC DAYS YOU CAN
+TRADE IN THE MORNING BUT YOU HAVE TO BE DONE EARLY
+
+
+
+
+MISSION SUCCESS
+
+
+Episode 16: Idea of multiple setups inside of the trading sessions
+Price breaks over buy side and forms a swing high. Once that down close candle above buyside
+closes, we are looking to go short the next day. So we could anticipate the bearish power of 3.
+Which is a rally at open upside, then fade and close near low of day. We are in a premium
+market here. The idea of price retracing back to that bullish Order Block is favorable.
+We are looking for is:
+-Power of 3
+-Expansion move lower because of that Daily Bullish Order Block
+
+
+
+
+The idea of liquidity resting beneath those relative equal lows (bottom left) without the Order
+block is likely. Its is FURTHER likely if we have a discount array, which is the bullish Order
+Block on the daily. We have multiple factors here for that general area being probed for the
+purpose sell stops being raided.
+
+
+If that swing high trades down to that swing low, and we break that low how far can we go
+down? Use fibs
+
+
+There are two opening prices:
+Midnight 12am
+NY open 8:30am
+It doesn't matter which candle to use
+
+If bearish, ideally you want to see market trade above opening price. That is called manipulation
+(Judas Swing). Later in the day we expect it to go below sell side liquidity. If it accelerates below
+that it will most likely go below relative equal lows sell side (bottom left). Then below that we
+have the Bullish Order Block. Notice there a lot of things are coming together that draw on a
+great deal of probabilities.
+
+
+
+
+How much lower below the daily order block level can we go? So once we get that displacement
+candle on the 15min and break the short term low, we can enter in the FVG. If price breaks that
+key fulcrum point, we get the range from there to swing high and extend it down.
+
+
+
+
+Take fibs from the bodies of candles (lowest open/close to highest open/close)
+Targets would be the -0.5 fib then -1 (which is just below that Daily bullish order bock)
+Notice how accurate that -1 Fib level was. Price bounced off the level to the CENT! The order
+block level is just above, but price stabbed into what the algorithm is going to measure.
+
+The order block + relative equal lows + fib measurements= Precision
+
+Precision element is only going to be beneficial if you have all the other narratives
+incorporated into you analysis:
+-Market is going to go lower bc we ran out those relative equal highs on the DAILY
+-Swing high created
+-Broke lower aggressively, we are likely to trade into that daily bullish order block
+-Retracement on the 1hr/15min which fills in all the imbalance above
+-We get FVG on the 15min
+-We get the candle back into the FVG and once it closes we wanna see acceleration to the
+downside (which we get)
+-Price trades lowe and lower right to the exact fib level
+
+
+
+
+Fibs are most meaningful when you apply and layer other things in analysis like the purpose of
+running to liquidity, below those relative equal lows into a discount array (Bullish Daily order
+block)
+This move up is the market trading into a premium
+-We break aggressively and have a displacement down
+-Did it take out a swing low? Yes
+-trades into imbalance? Yes
+-trades above opening price? Yes
+
+
+
+
+Here's the 5min:
+It looks much different. You probably would not see this as a sell, youd have looked for the 5min
+fvg to get filled. The higher time frame (15min) provides you the FRAMEWORK. Price does not
+need to trade into that.
+
+
+
+
+In the morning session you typically have 2-3 setups
+
+Heres the 1min:
+FIRST OPPORTUNITY: We have a FVG right above a short term high. We trade up into it and
+thats a setup we should take.
+
+
+
+
+There are plenty more setups here on the 1min. Its ok if you miss the 15min gap fill. You can
+play the continuation down.
+SECOND OPPORTUNITY: Target here would be the sell side liquidity from the fulcrum pivot for
+first partial. Then final scales on Daily OB
+THIRD OPPORTUNITY: You get another short term low broken off an imbalance candle. Take
+an entry in FVG
+
+
+
+
+FOURTH OPPORTUNITY: We have the imbalance after we aggressively moved lower and then
+the retracement back to the FVG
+-YOU HAVE NO REASON TO BE MAD YOU MISSED A TRADE. TRADES ARE JUST LIKE
+BUSES. THEY WILL ALWAYS BE THERE AND COME AROUND. DON'T WORRY.
+
+-Your #1 goal is to understand where price is likely to go to. Where is it likely to reach
+for? By knowing this it is easy to know what you are looking for
+
+
+PM Session Buy Side liquidity pool: This high was the most energetic one in the morning
+session. It took us all the way down to the target we were looking for (Daily Bullish Order Block)
+
+Because its friday and because it hit the daily time frame objective, its in a discount market. End
+of week there's going to be a retracement back into the weekly range.
+It can aim for that liquidity right there because a lot of ppl are going to place there stops there
+over the weekend if they wanna hold their shorts.
+
+That area is where you would anticipate on Fridays where liquidity could be a draw because
+price is likely to pull up into a premium.
+                              (Draw fib from this pivot high to low highlighted in the circle to find
+50% level)
+
+
+
+
+There's going to be short covering once our higher time frame objective is met.
+Who is short covering? SMART MONEY!
+So if they are covering a short they are NO LONGER BEARISH. This means they are now
+bullish. If they are going to be smart money and buy down there or if they're going to go long off
+an imbalance down in that area, they are targeting the buy stops at PM SESSION BUY SIDE.
+Notice the relative equal lows right before price hits the daily order block. This sells the retail
+crowd that it was support broken and they're going to wanna short the retest. This creates more
+liquidity for buying.
+This engineers buy side liquidity on the basis of sell side flow.
+
+Oversimplified explanation of how the market works:
+The algorithm seeks discount to premium, premium to discount.
+Within that logic, the market is reaching for liquidity (buy stops/sell stops) and/or imbalances or
+the creation of an imbalance FVG, or returning back to a FVG. Thats all these Algos do and
+they do it on the basis of time then price.
+ALL WE LOOK FOR:
+-LIQUIDITY
+-IMBALANCES
+-TIME OF DAY
+
+Price falls back into an imbalance as well as mitigation block (not taught yet). Target on this
+entry is the PM session buy side liquidity.
+
+
+
+
+If you look to the left of the highlighted area you will see an old high.
+Old highs are a discount array.
+If we trade above an old high it becomes a discount array. This is where old highs being broken
+become support (SOMETIMES).
+
+What makes an old high/low real support or resistance?
+We are saying the market is going to bounce from the Daily bullish order block up into the PM
+session buyside. So if the market comes back down in and touches, it couldve touched that
+previous high but there was an old high to the left. Price came down and hits that and also fills
+in an imbalance. When you have that old highs broken will act as support.
+
+
+
+
+Price has fulfilled part of buy side liquidity. We see a market structure shift and price going
+lower. A FVG forms which presents a short entry. You aim for the low near 4526 or the bullish
+order block.
+OR
+wait for confirmation entry. After we get a break in the structure of the market place on the 1
+minute chart, a couple imbalances are created. Price trades up into them (remember if there's
+more than 1 let price trade into the second one and enter when price get back into the first)
+Episode 17: Applying the ICT strat to forex
+
+
+Heres a daily chart. Since that most recent down closed candle didn't hit that sell side
+(highlighted) or the one below that, we have unfinished business. We are therefore still bearish.
+Every single time price rallys up above opening price doesnt necessarily mean thats a time to
+get in. BUT, when you couple that with time of day and price it becomes a lot better.
+
+
+
+
+Price overshoots the imbalance but what it really wanted to go to the last upclose candle
+(bearish order block). We know its a bearish order block because we have the imbalance and
+displacement move down.
+Heres the 5min:
+
+
+
+
+Price ralles once more above the opening price at midnight.
+Why doesnt it take out that high to the left?
+Because it has an imbalance which tells you its an intermediate term high. If we are bearish we
+shouldn't take that high out
+
+
+
+
+This is an ITH because were expecting lower prices, it went above the opening price at
+midnight, and it has an imbalance. Price retraced there just to hit the OB.
+
+
+
+
+How to find the Bearish order block:
+-the body of last upclose candle prior to a displacement move down
+
+Your buy stop is going to flood the market with buyers willing to pay at a higher price than it was
+here before it runs higher and youre going to buy the counter partys side of the smart money
+that wants to sell short because every buyers has to have a seller
+
+Index trading:
+FOCUS ON 8:30am-11am
+Episode 18: Good info on OB
+(everything in this video is specific to forex)
+
+Which is lower?
+The discount low of the FVG (Bottom FVG)
+
+
+
+
+Price has come way down in terms of the range from the swing high to swing low. This makes
+the area were in now discount. As soon as the FVG forms we know that it is likely to see it rally
+up into it (a short term little bounce). That occurring and trading back to the bottom FVG is
+enough to set the stage for a new round of selling.
+
+Now look for targets. That daily low is an ideal scenario but it is not likely to do that in one day.
+Frame your previous daily Highs/Lows. The low of that FVG creating candle is your most
+probable intra day target. LOTS OF LIQUIDITY ON PREVIOUS DAILY HIGHS/LOWS
+
+
+
+
+If you mark the last 3 days highs and lows there will always be a fresh supply of setups.
+This is what chart would look like when FVG forms. Once you get the FVG fill you look for shorts
+with the expectation of price drawing down towards daily SSL. The low of that candle will give
+you the intraday range. Then we watch price and look for setup on smaller timeframe
+
+
+
+
+We run the highs and now we wanna see a displacement. We get that here
+Heres the 5min:
+We know price must at least get up into the 15min FVG.
+THE HIGHER TIMEFRAME FVG ARE GOING TO BE PARENT TO THE SUBORDINATE
+SMALLER TIMEFRAMES.
+
+
+
+
+Why did we like this FVG over the others?
+The low of the candle being pointed to is where the order block begins.
+We have all three of these candles making one consecutive bearish order block
+That run there is the run above the imbalance and the run on liquidity. Thats the bearish order
+block.
+What makes an order block valid? It has to have an imbalance
+
+
+
+
+As soon as we get below that candles open, the market starts delivering sell side, then breaking
+that swing low. Now we have changed gears internally. Any rally after that is just setting up
+another run to go lower. Therefore this high is an intermediate term high where your stop loss
+should be
+
+
+
+
+If we are going short in a FVG and it has a small one above it, expect that it might trade up there
+so your risk has to incorporate that.
+
+
+
+
+Stop loss should be here:
+Episode 19: mean threshold/Purge and revert
+We remain bullish
+
+
+
+
+Here's the 1hr:
+Targets would be sellside liquidity grabs and ultimately the 50% equilibrium
+
+
+
+
+Institutional order flow is rooted on higher time frame bias.
+
+Do not try to pick tops and bottoms. Theres a lot of opportunity between intermediate term highs
+and lows.
+Heres the 15 min:
+We have a bearish order block here. We can use the low of the lowest upclose candle and its
+opening price. You draw that out in time and we hammered it.
+Why is this an order block? Its because its where price was delivered on the upside, even
+though they are indecisive candles there that upclose right before the displacement to the
+downside.
+
+
+
+
+GO TO MINUTE 23 FOR REALLY GOOD ORDER BLOCK ANALOGY (think of the OB as a
+bookmark)
+
+
+Daily EUR/USD:
+
+
+
+
+Heres the 1hr:
+The 62% and 79% retracement levels are what ICT teaches as optimal trade entry range, but its
+not optimal trading entry for the setup. In other words we could be a buyer down in that FVG
+highlighted and trade back up to the 62% retracement level. This is a version of a contrarian
+trade against the higher timeframe bias.
+
+So now we are in a sideways congestion/chop area. We have to wait for displacement now. If
+we get a displacement lower, we wanna look for the same type of move down we just saw just
+repeated later on. If it goes higher we dont care at that point because it hit our objective. Our
+objective was we wanted to see euro go below that daily low.
+
+Here's the 15min:
+Keep in mind we have now taken out sellside so the next thing the market may want to do is run
+up to take buyside liquidity. When price trades back down into that FVG, we are thinking that
+since it created that short term high its going to want to run back up into that to take buy stops.
+But, even if it doesnt, if we just get above the bodies of the candles at that high and reach up
+into that 62% retracement level on the hourly thats a good enough place to sell. This isnt a trade
+setup ICT recommends for beginners because you are going against the order flow of the
+market
+
+
+
+
+ES 1D:
+Below we see price hit the equilibrium/short term discount of the daily dealing range. Because
+of that there is a likelihood that the daily bias is going to be bullish and retrace. What can we do
+with that info?
+If its likely to go higher the next day or the day after that, its ok if the next day price goes
+down/doesn't move. Simply go into the next day expecting it to go higher.
+
+
+
+
+—---------------------------------------------------------------------------------------
+Mid point of this candle is the mean threshold
+Mean threshold: The half point of an order block
+
+Why should we be concerned about this highlighted green candle?
+Because right before that downside displacement it was the last upclose candle.
+
+This is your premium array: Price is going to draw up into that.
+Targets could be the low of that candle which is the easiest (bearish order block), the open, the
+mean threshold, and the high (less likely)
+
+
+
+
+As developing students we want to sell at the low hanging fruit and pick the easiest targets. In
+this case that would be the low of the candle.
+Purge and Revert: On the daily we purged selltops and its going to revert back to the high of
+the last 3 days (pointed at below). This is because that level has buy stops above from ppl who
+are short and use trailing stops
+
+
+
+
+1HR:
+
+
+
+
+What is the narrative here?
+-We have the market trade below that short term low about 50% of its daily range.
+-We purged the sell stops so now where is it going to go? Higher because it needs to go to buy
+side because it's now collected sell stops so smart money is going to offset those buy orders
+that they used to pair up with the sell stops below these lows (highlighted above). They bought
+those sell stops so now they are net long.
+-How do they get out? They have to sell them to willing buyers
+At that low and highlighted low, whos going to buying from them at a higher price? The buy
+stops resting at those relatively equal highs
+
+
+
+
+Heres the 15min:
+
+
+
+
+Midnight price is preferably the price we want to be buying below in this case.
+
+There are times where price goes straight up from midnight and never goes below it. This is
+when we use the 8:30 time because of the news drops
+
+Last ditch for power of 3 is 8:30.
+This means that if bullish: if the opening price at midnight is lower than what price is trading at
+after 8:30, then its likely not going to be a factor. You would use 8:30.
+
+If there is a day like in the example above where we have the opening price at midnight there
+and we are BULLISH bias and were already below it and then after 8:30 were still below it, WE
+ARE REALLY IN A DISCOUNT. We are REALLY CHEAP!
+So if were bullish and we think its going up to those relatively equal highs, we like this
+movement down. Wait for 8:30. If we drop below its opening price and were below the
+opening midnight price WE ARE REALLY REALLY OVERSOLD! That move there is like a
+micro judas swing (building low of NY session) for the session of NY. The midnight move
+down was a judas swing on the daily range/candle (building low of daily candle). Both are
+using P3 concept
+
+
+
+
+Heres the 5min:
+There is a FVG and bullish order block. At 8:30 were looking left and asking where are our short
+term swing lows because we wanna absorb sell stops because smart money will pair that with
+their buys and looking for an imbalance.
+Heres the 1min:
+Market has a run above that short term high. So we have a shift in MS thats bullish and a FVG.
+You then have the bullish order block with those 3 consecutive down closed candles prior to fvg.
+This is your long entry.
+
+
+
+
+We have a second entry when price goes up over the midnight open price, it has a fvg below.
+Episode 20
+Dollar 1hr:
+
+
+
+
+Heres the 15 min:
+
+
+
+
+Dollar is inverted with the euro
+EUR/USD 1h:
+Price went and reached into the previous weeks high and at that same instance the Dollar made
+its low and hits it objective. If there is a buying opportunity on dollar its a selling opportunity on
+EUR/USD.
+
+EUR/USD 15min:
+
+
+
+
+2min:
+Has the very clean FVG after sweeping liquidity. It trades lower and breaks a short term low.
+Why dont we use this low (highlighted) as the short term low to break?
+The FVG forms once that green one minute candle closes. The very next candles essentially
+opens right at that low. So it hasn't really moved away and it hasn't really shown you
+displacement (something energetic where it moves away from that FVG).
+
+
+
+
+So now we have that FVG there. Price then moves lower than that STL and we have a shift in
+market structure.
+
+
+
+
+Look at how much money you have in account and times it by 1%. 1% is maximum risk you
+should take
+5min:
+Targets would be equilibrium from swing low to swing high. FInal target is that FVG highlighted
+Episode 21: Example of P3 not working
+
+
+Risk off scenario: Implies that generally every other market or asset class will start to decline.
+Money pours into the dollar and out of foreign currencies.
+
+
+
+
+As the dollar went up, ES went down
+May is usually a seasonal decline. We are going to be looking for signatures to warrant
+downward pressure in this particular asset class and reaching for those relatively equal lows on
+the daily chart
+Why did we think price would go down to the 99.92 level?
+If we were making the market we would dip it down below 100 and stop somewhere short
+beneath that level and go to 99.5 or 99.92 then start to work it higher. Why? Because it would
+convince everyone out there that the dollar is probably topped. Then it rips to highs lol.
+
+
+
+
+Why did we think it was gonna rally from there?
+We are bullish on the dollar
+
+Why did we hint that we would be going lower into the S&P relative equal lows?
+As we enter into May thats a seasonal tendency
+
+ES 1D: price is going to draw towards daily SSL after filling FVG
+
+
+
+
+1hr:
+
+
+
+
+15min:
+ICT wanted to see a bit of a judas swing here at the midnight open around 15-20 pts but we
+didnt get it.
+
+
+
+
+Keep in mind we are bearish for today
+Did we rally above midnight open? NO
+Did we rally above 8:30 open? NO
+
+What does this indicate?
+Its EXTREMELY BEARISH. Price can't even rally to a short term premium above opening price
+at key levels and time.
+
+-These types of movements are going to be frustrating because you will feel like they are
+changing something. This actually happens a lot and it's nothing to worry about. Sometimes the
+markets are simply too heavy and they aren't gonna rally for you to short into.
+
+
+Midnight open price: Useful for trading the london session (2am-5am) and it helps us frame P3
+for the daily range.
+-If bearish, look for something to rally above opening price in london session
+-If bullish, look for decline below opening price
+
+8:30 opening price: Use for P3 for NY session (8:30-11:00am)
+
+
+
+
+London open setup:
+This was the move that setup the only real sound entry that took place today.
+Notice the MSS below short term low, Displacement,FVG, & Bearish OB
+
+
+
+
+This imbalance here can be traded to on a spike. Its ok, your entry is still on the lower FVG. You
+are going to use a stop that allows the market to trade up into there. You may not like that much
+risk or you may not be able to even take the trade. Thats all part of the game.
+
+
+
+
+Heres the 8:30am 5min open:
+Normally with the mentorship model we are taught to look for something to the left prior to 8:30
+(some type of short term high we wanna rally up to, run some stops, then break down and
+create displacement, run into imbalance and sell off)
+
+The model DOESNT EXIST in today 5min chart PA
+
+
+
+
+Heres the 4min chart:
+
+
+
+
+What happens at 9:30am open?
+There is initial volatility. It can be whipsaw, where it can go up and down real short term, and go
+both directions in a small or even large range and clear both sides of the buy and sell liquidity.
+Then whatever the real move is going to be for the day, we wait for that to unfold.
+
+Heres the 3min:
+This bearish OB here is useful because you have a bit more insight into what its doing. Its too
+heavy, its not likely to rally, theres no reason to look to go long. Start looking for reasons to get
+short and any time you get an imbalance and were above those relative equal lows on the daily
+chart bc its going to draw down into that. Thats the heaviness objective. Price is gravitating
+towards it.
+
+
+
+
+When we wake up and look at the market, were looking at what has happened over night and
+did we create a scenario that we would be looking to trade if we were awake during london. If it
+happens then we know that were really built in with an advantage on the daily bias because if
+we are bearish and it creates a rally above the midnight opening price and it starts to decline
+and we are below that around 7am in the morning (when ict wakes up) we know that price is
+likely to create another little short term rally ideally above the 8:30 open! In this case it did not
+do that and price just remained heavy.
+
+
+
+
+Heres the 2min:
+Heres the 1min:
+These are all simple little imbalances to get in sync with whats already in motion, not needing to
+see it rally above the 8:30 opening price bc its not likely to. It takes a bit of courage to get in and
+trade these types of setups but thats what you do. OR you dont do anything and just tape read
+
+
+
+
+You need to have time and price behind you before you start moving your stop loss
+Episode 22: Amazing examples of the model setup in fractals
+
+
+ES 1D:
+
+
+
+
+1hr:
+
+
+
+
+15min:
+Price broke short term high at open and then breaks lower
+It then creates an imbalance down
+Did it take a high out? YES
+Did it break below a low? YES
+Was there displacement? YES it was energetic
+Did we trade back up into it? YES. In there we can be a seller and get in sync with the run to the
+REQ
+
+
+
+
+—-------------------------------------------------------------------------------------------
+
+Here the 8:30 open is marked. We traded above it, making price in a premium. Price being
+above that old high also makes it a premium. This is P3 in effect.
+Smart money would be selling short the buy stops and riding the move down. Then
+offloading their shorts to sell stops below those relative equal lows.
+
+  ● Any time the market trades above an old high, that is a short term premium.
+WHY? Because its going into liquidity
+  ● Any time the market trades below an old low, thats a discount
+Lot of ppl/retail out there that wanna short the break of the lows. Thats going to flood the
+market with market orders to sell at the market. Thats a perfect counter part for smart
+money being short up there because they want to buy it at a lower price.
+
+Market structure is not the answer. It helps you frame the idea but the idea must be in alignment
+with the present narrative.
+
+Narrative is: Why should the market go where you think its gonna go on that particular day?
+Based on the climate, the economic calendar events, and the volatility thats being offered for
+that particular trading day
+
+5min:
+
+
+
+
+1min:
+Is there a short term low broken? YES (pointed at)
+Was there displacement? YES
+Does the market come back up into the FVG? YES
+Is it above opening price? YES
+THIS IS ENOUGH FOR A VALID SHORT ENTRY
+
+
+
+
+5min again:
+ After 1:30 theres usually some sort of a retracement higher when bearish
+Or retracement lower when bullish.
+Below price retraces above REH into an imbalance (You can go short here)33
+
+
+
+
+NASDAQ 5min:
+We ran buy stops and broke a short term low with strong displacement
+Notice here we have 2 FVGs. We can enter on the first one but stop has to take into account
+that we expect price to stab up into the higher one!
+
+Key thing to note about these FVGs: They are in a premium above equilibrium and in
+OTE of displacement range. Thats why we dont mark that big ass one
+
+
+
+
+Also notice that we have a fractal within the setup we spoke about above. We break buyside,
+take a short term low, and break it with displacement creating another small FVG. Therefore
+that highest high we see on the chart is considered a LONG TERM HIGH. The lower high we
+see next is considered an ITH.
+
+This is going to be a short term high inside of a market structure that is really predisposed to go
+lower bc we have long term and intermediate term highs above us. This highlighted high should
+respect the underlying order flow and go lower
+
+
+
+
+1min: Below we see the 5min OB highlighted, but now we must refine it
+Refined for the 1min OB. Get in at the 50% level of it
+Also notice how we get ANOTHER fractal of the MODEL SETUP:
+-Break of short term low on displacement, trade back up into FVG as well as bottom of the
+bearish OB and short.
+
+
+
+
+SMT:
+ES 5min: notice the rally after 8:30 is lower than the high around 2:30am
+
+
+
+
+NQ 5min: Over here the rally is higher
+
+
+
+
+Its showing a willingness to crack the correlation between markets.
+If we are bearish and expecting lower prices and we see NQ make a new high but the S&P
+doesn't, thats showing us that NQ is doing a stop run and it shows that S&P is REALLY weak.
+
+
+
+
+This gives you like an x-ray view of real accumulation and distribution. That higher high on NQ
+is distribution
+
+
+When using FIBS: Use the bodies of the lowest open/close of the swings
+Why? Its the bulk of the volume. We look at the wicks as stop running. We want to get to
+the heart of the matter.
+
+
+
+
+Episode 23
+Go short in the yellow FVG zone targeting the recent low and finally the checkered flag area.
+Sweep the high :Sweeping just above buy/sell side and coming back down. Example of this
+above
+Running the high: Runs right over the high and doesn't look back
+
+
+
+
+There are 8 setups here, can u spot them?
+
+TIP: For fomc draw fibs from bodies not wicks. This takes into account the extra volatility
+Episode 24: Quick refresher on mentorship model
+
+
+Daily: We wanted for price to run the buyside THEN make its move lower. We ddnt get that
+
+
+
+
+1h: Looking for run above highlighted BSL. If it can get above that then it could wash out and go
+lower.
+Whats the reason to be interested in these REHs? Its Thursday and ahead of NFP friday.
+NFP can usually be messy, volatile, and unpredictable. We wanted for those highs to be taken
+out then create the mentorship model. V
+Whats the catalyst that sets the run up into those REHs?
+
+If our focus is those REHs and price is dropping down ahead of 9:30am, we are likely to see a
+drop down getting traders to think it will go lower and then rally up.
+
+That FVG below is a POI for us so that we can go in and look for something that gives us our
+setup. Its an area where it may/could give us a setup.
+
+
+
+
+So at 9:30 am we are expecting a drop down into this FVG.
+We are now looking for price too meet our criteria:
+   ● Trading beneath an old low to capture sell stops:
+   ●   Displacement back above those old lows:
+5min:
+We DID NOT get displacement above that old low.
+
+
+
+
+Mentorship model review:
+There is no trade trigger until short term low is broken with strong displacement
+
+
+
+
+FVG based entry (Imagine a fvg above and price is approaching from below)
+Episode 25: Great top down example+stop loss tips
+Price should not trade above the high of this order block. We are aiming for the fvgs below and
+finally that sell side. Why? Its May
+
+
+
+
+Seasonal tendencies: Times of the year where specific asset classes will usually (not always)
+produce price swings that follow a seasonal tendency.
+
+May tends to be a down month
+Every year about the last week of April going into the month of May theres usually a tendency
+for these markets (S&P,NQ,DOW, RUSSEL) to be WEAK.
+What took place here?
+Smart money sold to the buy stops. They are now sitting with a net short position.
+How do they get out of that position? They have to buy it back.
+
+
+
+
+How can they buy it back at a cheaper price, guaranteeing them that they are going to be
+buying from lower priced sellers? Find the sell stop here:
+Once price takes out old lows like this what can it do?
+-Notice on chart there is no FVG in the prior three days
+-Notice what Monday's candle did: opened, extended down, and closed near low on a rather
+large rang day. What do we do with this information?
+
+
+
+
+Go back to the previous day's low! This is going to be important because the next trading day, if
+we open UP and bc we are below those relative equal lows on the DAILY chart and below the
+swing low (to the left). We are now in a DEEP discount!
+
+
+
+
+Retail will call this day a mixed/indecisive day. That's just not true
+1hr:
+Market runs above BSL at 9:30am and hits that old low. Now all the buy stops have been
+purged. They've been dragged into the market by their hair kicking and screaming. They are
+caught long or they've been short and are knocked out of their position. Either way it doesn't
+matter to us we just know that BSL is likely to be utilized to set up and idea for smart money to
+be short. Why?
+
+BIAS IS STILL BEARISH. We are not trying to pick the bottom
+
+So if were doing this like smart money and we wanna be short up there at this trigger event,
+where would you wanna sell that? Prev swing low on the 1hr and PDL SSL.
+Lets go in and use the logic with this idea of rebalancing mondays daily range keying off of the
+the red level. Notice that the BSL is ran first. This is REALLY important!!! If we would have
+gone down and took the previous low out first THEN ran up, that is not bearish.
+
+ Price running above BSL at 9:30am, hitting the PDL level without having that SSL below
+taken out is BEARISH bc it in the context of the bias that were looking for.
+
+When were operating in a bearish bias, what were essentially saying is the markets going to go
+up to a premium for one of two reasons:
+    - Run an old high or highs to take out BSL so that way smart money can counterparty
+        them with their short positions by selling to those buy stops then seeking to buy cheaper
+        sell side liquidity.
+
+Essentially we are just running to a premium then seeking discount.
+
+
+
+
+The liquidity resting below that labeled SSL is not necessarily a target or utilization for anybody
+in any other retail idea. No one except smart money expects it to be taken out.
+15min:
+At 8:30 we are looking for the news embargo to lift which means the algorithm will start seeking
+liquidity as early as that time. It might wait till 9:30 (like below).
+
+Price is rebalancing that entire Monday range. Its going back to the old low of the previous day
+prior to monday (Friday). When you see that it tricks people into thinking that it has made the
+low and its going to keep going up when the only thing it has done is its gone up to a logical
+level on that daily time frame that rebalances all of that sell off on monday.
+
+On the 15min it does not look like its an imbalance but on DAILY candle its a large down day.
+All that movement is big in terms of distribution on the downside.
+
+
+
+
+Framework (keep in mind we have a bearish daily bias):
+-Look for REH
+-At 8:30 price is going to start looking for high or highs to run
+-How far can it go? Fridays Low
+-Power of 3 Judas swing up? Yes
+5min:
+When were bearish, the hour long interval (from 8:30-9:30) we are expecting a run higher to set
+up shorts.
+The short could form inside that hour or it could provide the leg that sets up the framework that
+will eventually provide you the setup.
+
+All of it is a matter of studying what the markets providing you.
+
+Highlighted area is the Judas swing. At the time retail wont see this and they will be caught off
+guard.
+
+
+
+
+Highlighted range below is the displacement price swing. That's the leg on a 5 min chart you
+strip down and start going from 5,4,3,2, and 1 until you find your FVG.
+
+
+
+
+4min:
+Is there an FVG here? NO
+Why is the FVG pointed to not valid? Its in a discount and we only short in a premium.
+
+
+
+
+3min:
+Is there an FVG? NO
+
+
+
+
+2min:
+Is there a FVG? YES
+Lets discuss stops:
+
+Initially when you open a trade up the rule is you wanna use the high of the candle that creates
+the FVG and set your stop 1-2 ticks above that.
+
+When do you start moving your stop?
+You wanna see a larger shift in structure. When this low is taken out, then you can move your
+stop down here for example (pic on right).
+
+Why? Because it's already broke down. It's not gonna break that low and go all the way back up
+where your stop is. If it does well then you're probably wrong or it's gonna consolidate which
+means its going to be ugly conditions to be working within anyway.
+
+See the logic? I'm accepting the fact that I'm probably going to be wrong if it stops me out but
+who cares if it does.
+Episode 26: Example Of Tape Reading Practice
+Episode 27: Counter Trend Ideas
+NQ Daily: Price is drawing towards those REH pointed at. We want to look into the lower
+timeframes for a setup that will allow us to participate in the expansion move up there. We don't
+have to get there though to make money
+
+
+
+
+NQ 1H:
+
+
+
+
+NQ 15 min:
+At 9:30 we see a manipulation move down and takes out the overnight London Low then rallies.
+
+
+
+
+NQ 5 min:
+-NY session creates LOD (judas swing) taking sell side from the REL then rallies and makes a
+high at 12:10 (Lunch time usually creates a retracement/consolidation of some sort).
+-Price then retraces lower
+-At 1:30 the algorithm will start seeking liquidity.
+If its going to continue higher, what is it likely to do? Seek SELLSIDE IN DISCOUNT
+
+
+
+
+This displacement on the upside is a shift in market structure in a day that's:
+- likely to be bullish
+-Counter trend to a higher time frame
+-Were working with the logic that its probably going to be a retracement because we've been
+down for a long time now and most people are probably going to wanna get out over the
+weekend so that algorithm is going to start SQUEEZING on them to get their positions squared
+before the close of the Friday.
+
+
+
+
+NQ 2 min:
+-Here we have the down closed candles prior to displacement acting as the OB.
+-We have a shift in market structure creating FVG
+-We have an imbalance
+-Price retraces down and we enter long
+
+
+
+
+Look at how the market created this counter trend idea still using FVG principle and concept
+BSL rests above.
+
+The day was bullish
+
+The algorithm kept pricing higher higher and higher.
+
+Logic was delivered
+
+Take first partial at halfway from high to low because we want to take a profit once were in a
+premium
+Episode 28: 2min example video
+
+
+ES 1 min:
+Notice the SMT which shows ES is the stronger contract because it didn't make a new low
+
+
+
+
+NQ 1min:
+
+
+
+
+ES1min step by step walk thru:
+Bagged and Tagged
+Episode 29: Brief review of 5/16/22
+ES 1D:
+
+
+
+
+ES 1 min:
+Around 9:30 we see the market take out a STH and decline. We dont short because it does not
+give us a pattern anway. The market then creates some REL then starts to rally. We want to see
+it create a buying opportunity.
+
+The logic behind this is that we are in a day before the FED chair speaks. So there is going to
+be very low volatility as a result of that. There's going to be a small range day. This doesn't
+mean we cant trade it but it does take more experience. Overall its best to avoid.
+
+
+
+
+ES and NQ 1 min:
+-Notice how NQ made a lower low here when ES made a higher low.
+-ES resisted going lower
+-We then retraced higher
+-NQ then comes back down and makes another lower low whereas ES isnt going lower than the
+10am low
+-We now have a divergence. The importance of that is that I already have a bullish bias. There
+was no short trades that were lined up with the model today. There was no interest in being
+short, we wanted to go long.
+
+
+
+
+ES 1 min:
+We get this nice setup off a SSL grab that displaces up and creates a MSS with FVG. We don't
+think price will trade all the way down to that SSL left of the chart bc we are BULLISH. Notice
+how many times the FVG GAVE US A CHANCE TO GO LONG!
+Core Content - Month 1 - Elements Of A Trade Setup
+
+
+
+
+-When the market consolidates, the market will be looking to do an expansion.
+
+-All markets start from a consolidation and move into an expansion. That means there's an
+impulse move or an impulse expansion.
+
+-After that impulse swing either it goes back into consolidation again or it goes into a
+retracement.
+
+-When the retracement happens it goes back down into another level of expansion or after the
+expansion it can go to a reversal pattern. After the reversal pattern itll see another retracement
+then back to potentially consolidation.
+
+-These 4 conditions interchange throughout the ups and downs of the marketplace. You're only
+gonna get 1 of these 4 conditions
+
+You just need to know:
+-Where its at right now
+-Where its likely to go
+-Where it came from
+All the moves that start in the marketplace start from a measure of consolidation bc that's where
+the markets are building orders.
+
+-The market maker keeps the market in a tight/defined range until there's enough money on
+both sides of the upper and lower end of the range that's being defined.
+
+- Whichever one has the highest amount of money to be absorbed, thats the direction its going
+to move in. We don't always know what that is but we WAIT for the expansion. When that
+occurs we get the clue as to what the market is most likely going to be doing.
+
+-We then wait for either retracement or another consolidation or reversal. Sometimes it expands
+so far that we cant do anything with it. We have to wait for the retracement or next
+consolidation.
+
+-Price will always be delivered by one of these 4 conditions.
+When the market drops aggressively like this there's going to be pockets where price wasn't
+actually delivered on every available price level in that range. It moved too quickly and skipped
+or created gaps.
+Notice how fibs are from wicks
+Episode 30: Down top example
+1min:
+At 2pm the Fed chairman was speaking. We saw a judas swing up that fell 1 tick short of the
+morning high at 12535.50.
+
+The market then drops down below REL which are the LUNCH HOUR LOWS.
+
+We are taught that many times when there is an Afternoon continuation to the upside, you'll see
+that the lows at lunch time will get swept.
+
+
+
+
+Price fell right into this imbalance. This whole move down is manipulation before the true move
+up. All longs who took that flag break are trapped. Any long holders from the morning are trailing
+there stop below REL. So the market takes them both out before making the real move.
+
+Entries could be right in the imbalance or on the retracement to the OB
+
+
+
+
+5min:
+The REH was treating the retail market like “hey you can trust us price wont come back up
+here”. It looked too clean.
+
+Notice how there was no model in the manipulation move down.These algorithmic principles are
+not likely to appear in markets that aren't likely to deliver like were taught. Thats ok. We can get
+in on the real move up once manipulation is over.
+
+
+
+
+15min:
+Price falls back into an OTE of 15m dealing range then rallies up to BSL
+1h:
+
+
+
+
+Daily:
+We were bullish bias aiming for REH
+If you are bullish and price consolidates during lunch, find the lunch lows, wait for it to
+get run out, then price will resume up.
+
+
+
+
+Episode 31: Top down example
+1D:
+1H:
+Attention should have been on May 16 lows being taken out
+
+
+
+
+15min:
+Notice entry was at 15min -OB
+5min:
+Here that zoomed in on the 5. Stop would be where pointer is.
+
+
+
+
+2min:
+We can fine tune our entry a bit more here
+A swing high is created here. Once that red candle on the right of pointer closes, we are going
+to just get in short.
+
+We trust the fact that:
+- we've had a FVG
+- we went though the fvg
+ -we have a swing high and it's bearish
+-We are looking for a run below the May 16th lows
+Once we are in, our stop is just above the swing high. Everything Is reduced in terms of risk on
+this type of entry.
+
+
+
+
+Lunch time plays:
+Since were bearish, look for the lunch time high to be taken out for a move further down. Price
+taken it out and runs right into a FVG.
+We then get another play shortly after. Price consolidates, takes out the stops, and runs right
+into a FVG in OTE
+
+
+
+
+Episode 32: Consolidation/chop day example
+ES 1d:
+We had an outside day couple days ago.Price falls short of running the old low and when this
+happens it tends to be a choppy day.
+
+
+
+
+1hr:
+We will be looking deeper into this fractal
+
+
+
+
+It could be easy to fall victim to in this type of trading day. Its choppy, back and forth.
+5min:
+Statistically bias moves to 50/50 when we start trading back into the middle of the range.
+
+Why didnt price move lower and take out the STL at 3855? It went below 3872.25 STL then
+started rallying towards REH at 3933.25.
+
+ICT said to add a vertical line to 3pm and 4pm. Between this time the setup that forms to take
+us back down into middle of the range occurs.
+
+ICT outlined how the market would use the running up to take out buystops and also induce ppl
+that it was going to go higher so that way it builds up liquidity below the higher lows.
+
+
+
+
+If we are looking for setups that are gonna be based on a run above buyside and then pullback
+into the range, it needs to be specific in terms of time. In this case 3-4pm
+1min:
+Do we have MSS/break a swing low? Yes
+Is there a FVG? Yes
+Do we trade back into the fvg? Yes
+Price then works lower back into the middle of the range
+
+
+
+
+This day was a consolidation day. Market starts trading and creates an initial range and then
+stays in that range until the afternoon.
+
+At 3pm-4pm, thats sets the tone for on close orders.
+
+What does that mean?
+Market was rallying up prior to 3pm. It went up for buy side liquidity.
+Traders gonna look at that as a breakout to go higher and they are going to pair that with the
+market participants that are considered smart money.
+Price ran above all the buystops that are in the highlighted circles. These are where all the
+shorts palace their stops. Once those are hit they become a rushing liquidity wave of willing
+buyers at the market.
+
+Willing buyers at the market at 3pm on a day like this where its consolidated, its going to want to
+go back to the middle of the range.
+
+So when you look at that type of event, its going to range bound trade between 9:30 open and
+HOD (where we shorted)
+
+IF YOU ARE LOOKING AT PRICE ACTION DAYS LIKE AND IF YOURE CAUGHT UP IN IT
+AND DONT KNOW WHAT YOURE DOING/BEING CHOPPED UP, WAIT UNTIL 3PM.
+
+Many times at 3-4pm the algorithm will do something where it goes outside the bounds
+of the daily range like it did in the example above.
+Episode 33: example of taking fvg not in “premium”
+ES daily:
+We made a run below that May 12 low
+
+
+
+
+1h:
+We see price bounce off the 1hr FVG and make a strong move down sweeping sellside.
+15min:
+ ICT wanted the 3915 level to be broken before placing ANY TRADES. The reason why is bc
+where it was previous to the break was just a bunch of consolidation. He didn't want to catch a
+break below a short term low and then a run over REH. We wanna know that we know price
+wants to go down.
+
+Logic is that price will reach for that 3855 level only if we break below 3915 and then have a
+FVG. We will then look for price to break the next sell side target and see if it gets another FVG
+that will allow us to get in for price to deliver lower.
+
+
+You could play the short down to sellside draw. Then long it off the sellside liquidity sweep.
+Target for the long reversal would be the fvg in premium of this range (pointed at)
+
+
+
+
+Usually we measure the displacement leg and wait for price to comeback into a premium before
+shorting. We don't expect it to go to a premium here bc its going to be in a hurry to get down
+below the 3855 lvl for the week.
+
+
+
+
+5min:
+ Price makes a small drop back into the FVG, AFTER 3PM. The market then starts sending it
+into an algorithmic spool where all this price action starts running aggressively into the close
+
+
+
+
+Now lets take a closer look at the shorts that could have been played on the 5min:
+
+Heres a FVG. We have price rally into it a couple times then breaks lower
+Heres another FVG which gets traded into then sells off
+
+
+
+
+NOTICE THAT ITS OCCURING AT THE LEVELS (old lows where SSL would be resting)
+THAT WE HAVE ON THE CHART. Were using the FVG after a run below.
+
+In other words think of it like support broken, return back into FVG.
+DONT THINK “go back to the old low broken and act as resistance”! Thats not how we
+look at it!
+
+If the FVG does not exist we don't trust that level as an old support broken turned
+resistance
+
+
+
+
+1min:
+We measure the 1min displacement leg down and find that we have a FVG in equilibrium we
+can base our entry off of. Price trades into a premium and thats where we ENTER!
+Episode 34: Sundays Gaps
+
+
+ES 15min:
+We see price have a morning selloff which fills the Sunday gap and taps the top of a 15min
+FVG. It then reverses and draws towards our BSL target 3938.5 which is also the gap.
+
+
+
+
+5min:
+We get PERFECT price delivery in this 5min FVG!
+Same 5min chart with Sunday Gap marked more visibly:
+
+We then tap the top of that 15min fvg and get some consolidation before lunch. We then see a
+TYPICAL retracement during the lunch hour all the way back to the opening range.
+It then breaks lower under a short term low and rebalances which also happens to be inside of
+the old Sunday gap which acted as resistance.
+
+It then trades lower down into an OB, then starts to accumulate, then rallies up back above the
+gap opening from Sunday which then trades back down into it and rallies. It falls short of
+reaching buyside and then retraces down into the gap which is also discount low.
+
+
+
+
+Price then rallies and comes back into a 5min FVG which lines up with a 15min +OB. It rallies
+away from it and comes all the up to our final target of 3952.75
+The opening gap on Sunday, if we plot it across the entire week we will see that many
+times there's a lot of valuation around that gap. It'll be treated as a dynamic
+support/resistance.
+
+If we have a swing high for example and we trade down from it, if its gonna trade down
+into the sunday gap opening look for it to run above its high.
+15min:
+If we go back above this area (the gap) that probably means were going to go into a deeper run
+on the daily.
+
+
+
+
+1d:
+We have a Daily -OB there and a high just below it.
+We are looking for expansion swings to draw our fibs on to be able to long in a discount. We
+DONT want to be drawing the fibs from the price leg down and look to short once it gets in
+premium.
+
+WE ARE LOOKING FOR IMPULSIVE PRICE SWINGS IN THE DIRECTION WE ARE TRYING
+TO TRADE!
+Episode 35: SMT example
+ES daily:
+Initial draw was the daily imbalance and bearish daily OB.
+
+The low,open, and mean threshold of the OB are the sensitive areas you are watching for.
+
+Mean threshold was taken.This bodes well for a continuation to take out this short term high
+
+
+
+
+15min:
+REH were left untouched and the low of the daily OB was right above (orange line)
+
+
+
+
+5min:
+Notice how the downwards price leg delivered in one single pass through.
+Notice how the price leg that followed up came in 2 stages
+
+Because it had two stages to that delivery we want to use the most recent one as our dealing
+range. We run a FIB on that and wait for it to drop into discount
+
+
+
+
+Market rallies from the FVG then drops down into a newly formed FVG at 8:30am then drops
+back in and explodes up at 9:30am.
+
+
+
+
+Heres an example of SMT. Remember to set setting to plot on the LOW.
+NQ made a lower low while ES made a higher low.
+NQ is taking liquidity out whereas ES is accumulating there
+
+Usually they move in tandem but at certain times (8:30, 9:30, news events) they'll create this
+divergence. If you have a bias it's helpful.
+
+On the other hand, if you don't know where it's going, youre going to many times encounter
+what would look like SMT divergence and then it disappears as they start moving in concert with
+one another.
+
+We are taught to know what price is reaching for. In this case bias has been bullish.
+The NQ move is a stop out while in ES is the accumulation of longs is the telltale sign that its
+going to the higher. Price here is being compressed getting ready to explode.
+
+
+
+
+We are now watching to see if it can make its way up to mean threshold. The OB is on the 15
+min.
+1hr:
+We've completely rebalanced this whole move down. We will most likely draw towards 1hr BSL.
+Notice the middle of the chart. We formed a low, price rallied, and then came back into a FVG in
+discount then rallies. This same pattern forms 2 more times after that!
+
+We then consolidate, rally, then come back down into the smaller time frame FVG (highlighted)
+where there is also SMT.
+
+
+
+
+Framework and BIAS is what keeps us from shorting here
+Why won't we short here and expect it to drop straight down through all the consolidation.
+This is a High resistance liquidity run ( Its not as likely to occur/pan out).
+
+We had so many supporting ideas here to be bullish. For example the down closed candles are
+supporting price. Its just finding underlying order flow that's bullish so it's likely to go up just to
+keep going higher. NOT GO UP TO GO DOWN.
+
+We have A LOT of ranges we would have to break through and that requires a lot of intent, not
+selling pressure. The INTENT is to send this higher on the daily chart.
+
+
+
+
+Final words from episode:
+Because it gave a nice run here here earlier before 7am, that means were probably going to
+have a deep retracement and look for an ideal scenario like we outlined with the SMT
+divergence.
+
+SMT will usually occur around a 9:30am time period when there has already been a nice early
+run before or at 7am.
+
+If we get an early run like this, our first thought is, we need to go to SMT later on at 9:30 bc its
+going to require some kind of a crack in correlation to setup the next leg if its going to have one.
+
+
+
+
+Episode 36: 1hr down to 1 min example
+1h:
+Market drops down into a discount. Market is in an oversold condition
+
+
+
+
+5min:
+We get MSS, displacement, FVG, then move down into FVG. The FVG is in a discount of the
+displacement range and we enter long there and aim for HOD (red line). We end up trading
+higher than that going into FVG in a really deep premium
+
+
+
+
+1min:
+We consolidated in the premium then dropped down to take sellside.
+Anyone who was lucky to long at the bottom and rides it to the top of this range gets stopped
+out. The algorithm drops down and clears the board taking out the sell stops below here in order
+to go higher. We are buying those sell stops.
+1min:
+This was a counter trend play (highlighted). We are expecting price to move back into a
+premium prior to dropping further. We see a MSS and drop back into FVG. We didn't believe we
+were going to take out the lows here because we should have done it at 8:30 news but it
+couldn't do it so we view this as deep retracement which then rallies into a premium right before
+9:30am.
+
+Notice there is no model entry on the huge move down. That's the market tipping its hand to us.
+Because there is no real setup and its a rush to get down here its clearing out SSL. It rallies a
+but suckering in longs bottom picking. They get knocked out and now they are not able to go
+long again (Retail won't usually reenter after taking a loss like that, they are afraid)
+
+
+
+
+There are also some great 1min trades off the FVG you can simply scalp. Sell at FVG above
+REH.
+Episode 37: Top down example
+
+
+ES Daily:
+We came down and filled the daily fvg which also aligned with bullish breaker.
+
+If price doesn't take out BSL over night and at 8:30 am were above the fvg high, we would
+expect for price to attempt to get through that level. It doesn't have to go through it but the bias
+is that it attempts to take it. Non farm payroll is occurring on that very day so you should NOT be
+trading it anyways. It good to study though and watch price action.
+
+ON NFP WEEKS STOP TRADING ON WEDNESDAY BY NY SESSION
+
+
+
+
+Tip for daily bias:
+When the market has moved from a low like this and starts to trade higher and creates a swing
+low, its easy to assume that it might wanna come back to that most recent swing high.
+
+Notice how each day up to it was bullish. We would be bullish bias until we take out that high.
+Then we have a day or two of retracement which is logical because we create a FVG.
+1h:
+
+
+
+
+15min:
+Notice P3 in effect here. We accumulated around midnight open. We saw manipulation down in
+the morning session and then price rallied up.
+5min:
+Notice the fvg above. Our expectation was to draw up into it from here (where circle is) in the
+PM session.
+
+In other words, as we go into lunch and on the other side of lunch we could have easily traded
+into the 5min fvg as an upside objective.
+2min:
+We were not given a model down where the 15min sell side was taken. This trade down below
+was the only entry to have been able to play this move up. Its a continuation trade
+
+There is still some time before lunch for price to potentially deliver to the 5min FVG above. Also
+note how we already had a manipulation move down creating LOD and we are now above
+midnight open price.
+
+Notice the 2min +OB and FVG that is formed on the displacement up. Draw fib from that
+displacement leg up which starts at the 2min OB. Price falls into a discount+FVG+OB which
+triggers an entry. Sell at 5min FVG
+Episode 38: Changing gears w Bias
+Daily:
+Going into the day we were expecting price to draw towards 4070 SSL. instead price has
+bounced away from the daily FVG and is drawing towards previous HOD
+1hr:
+Going into the morning we were looking for a potential run into 4070. We did not get that
+
+Notice what were seeing: Multiple lows are being taken as we inch towards 4070 and then
+market reverses all while never presenting any high opportunity short setups. 4070 level never
+got tagged.
+
+PDH (4168.25) was not traded to. Also notice the bearish FVG to the left of it. We now have 2
+premium arrays that may be a draw on liquidity
+
+
+
+
+15min:
+We see displacement and a short term shift in market structure relative to the 15min.
+That is our area to watch and see if price supports a run.
+If it digs into that FVG and starts to repel higher and we take out that short term high to the left,
+that is enough to set up a stage for the afternoon trend/setup or price swing.
+
+Why?
+The market failed to get to an objective we were looking for. It was also respecting that daily
+FVG and it rallied up. Price also displaces up and takes out that short term high to the left which
+means we now have absolute market structure shift bullish.
+
+We are now looking for entry in the FVG created by the MSS (highlighted in second pic)
+
+
+
+
+5min:
+Notice the imbalance pointed at and the REH/BSL just right of it. Bc of this we would look to
+take partials prior to breaking BSL. This is bc this could easily be a stop run and price makes a
+lower high after our entry. We are protecting ourselves in case this scenario unfolds.
+
+
+
+
+If we've been in a bullish market structure and order flow is bullish (everythings going in one
+direction and markets obviously going higher on all time frames) then thats an easy trading
+scenario.
+In this case were inside that little trading range area on the daily chart. Market is more difficult to
+read
+
+-Initially we wanted that 4070 level. We failed to go outside the shaded area (daily FVG)
+
+-If we're bullish we want to be buying at/close to the opening price.
+
+If you know the market is likely to go down to go up, then you can wait for price to give
+you this setup right here:
+    ● Price goes down
+    ● You get a shift in market structure
+    ● Come back down into a 15m FVG
+    ● This is a day trade setup (not scalp)
+
+We also got an SMT with ES and NQ where ES showed strength printing a higher low
+
+
+
+
+Price then rallies once more of the 15min fvg
+Once we see this happen we are good to go and are waiting for the afternoon setup.
+
+If you are bullish, the market has ran higher in the morning then consolidates into the
+lunch hour. After the lunch hour it'll drop down and sweep the sell stops or below some
+short term low made in lunch.
+
+Notice what happens here: Price creates a low ahead of the lunch hour at noon then drops
+down into the FVG. This is doing what the rules said in terms of what liquidity is doing in the
+afternoon post NY lunch.
+What's the difference? It's not consolidating. Its retracing
+
+Because it's a retracement going IN TO LUNCH, that signals that the algo will work through
+lunch.
+
+
+
+
+The algo drops into a discount then creates that short term low. It rallies a bit and leaves smooth
+highs. Retail will see it as resistance. Price then drops one more time below that STL and
+triggers sell stops.
+Once price crosses over here (highlighted), we are immediately thinking it could potentially be
+running PDH. We don't know it yet so we don't take an entry. We don't want to be premature
+and stopped out
+
+
+
+
+When price drops into here (highlighted), and then rallies from that then I KNOW its going for
+that PDH. That's the narrative. We want to see something that makes sense logically.
+
+This basically means:
+Do we see displacement? OH YEAH WE DO
+Is that an energetic price run? OH YEAH IT IS
+We now get the measurement of that low to high to see premium/discount and seek to enter in
+discount
+What happens if price went here and rallied? Well we would have missed the move and thats ok
+
+We are looking for sellside liquidity. We want to see a stop run bc what that's doing and how this
+fits into narrative is:
+If I'm thinking that this move (swing leg zoomed on) is setting up an afternoon run potentially to
+PDH by close of day, we wanna be like smart money and buy sell stops.
+
+
+
+
+ICT executions for study:
+SMT
+Notice on NQ there is a higher low. When were bullish plot the NQ comparison below as a
+compare and contrast tool. In this case we pull it out bc price is in a discount, in a fvg, in OTE
+and breaking STL
+
+
+
+
+Classic Buy Day:
+Open at midnight
+Trade down creating LOD
+Rally then creating a OTE or FVG or youre gonna buy the STL during SMT diversions
+
+Theres real accumulation here between NQ and ES. This SMT divergence here is telling us that
+NQ is failing to go lower so its under accumulation. What's happening with ES is just a stop hunt
+below that short term low.
+Episode 39: Diving into TIME
+
+
+Daily and 1H:
+We were interested in price drawing towards 4070 today and if we traded past that, into the
+Daily FVG. We don't think its going to sweep 4070 to go up. We are expecting price to trade into
+FVG.
+
+We don't just assume every time we sweep REL we sweep those and just go the other way.
+Narrative must be understood! Narrative is learned through EXPERIENCE!
+
+On the 1h chart we have a swing low traded through with DISPLACEMENT and a FVG. Price
+rallied up and traded into the FVG and bearish OB. We expect price to take 4076 low.
+
+So we have a bearish bias and a clear draw on liquidity. Now look for P3! Notice the
+accumulation and manipulation run up into a short term premium. The market then distributes
+lower past sell side ultimately into daily FVG.
+
+If we are short we take partials at 4070 and leave runners and submit to the daily range. That
+means wait until 3-4pm. We will get the delivery of price into the daily FVG during that time
+
+
+
+
+15 and 5 min:
+5m:
+During the London session price rallies and starts building in a premium ahead of the 8:30 time
+window. The market creates the high and goes lower, taking short term SSL. Price then retraces
+up into premium of displacement range down. It then consolidated for the majority of the
+afternoon. Then it breaks lower and aggressively attacks the sell side below 4070 and then
+going to 4040 level. We then consolidate and close inside the Daily FVG.
+The rules for an afternoon session trade:
+   ● Before you even consider trading the afternoon session, you must consider what the
+       daily range trying to do.
+   ● Is it trying to expand higher or lower?
+   ● Did it reverse in the morning session and is it going to have a counter trend move?
+   ● Is it going to consolidate bc its waiting on a big news event the following day?
+
+
+Today we had a big news event (employment data). The market consolidated and we had a
+bearish bias. We were looking for 4070 to be broken then move into daily FVG. The framework
+was one sided and it was not ambiguous.
+
+If we are bearish the market will clear stops during the lunch hour. This is bc they dont want
+participants to be profitable that may have assumed a short position from the morning
+secession. At 1pm the algorithm reprices and runs to take the stops above BSL.
+
+If you are aggressive you can place a trade on that stop raid bc we are in a directional move
+and are trying to anticipate a large range day. Large range days can typically form with a
+busy lunch schedule. If its going to be a fast market, during the lunch hour it can create a
+significant high or low.
+
+
+
+
+What is a breaker?
+A breaker is a pattern where price runs out a pool of liquidity, then retraces and trades back
+down below that short term low. If it trades back up to that and the narrative is BEARISH its
+valid(YOU MUST KNOW WHAT THE MARKETS LIKELY TO BE REACHING FOR). If you
+leave that part out its a gamble/guess.
+
+We expect price to reject off this breaker and go lower. We don't expect to reverse once we take
+the highlighted sellside. We wanna see it go through it and accelerate down towards 4070 SSL
+since its the larger pool of liquidity. Then we wanna see it aggressively run un to the daily FVG
+bc thats the imbalance that the algorithm is going to want to reprice to.
+
+
+
+
+Notice how fast price accelerates down past 4070 without retracements or return back to old
+lows broken.This is an algorithmic sell day. Retail doesnt get to do a lot of those retail concepts.
+
+
+
+
+1min:
+   ● What Time of day
+   ●   What Day of week
+   ●   What week of month
+   ●   What month of year
+   ●   What seasonal influences
+
+These are several factors encoded in the algorithm that will seek these recurring phenomena
+that can be capitalized on by those individuals that know their hunting.
+
+READ THESE NOTES BELOW
+
+
+
+
+We're looking for days where we can go in and engage price when there is a medium or
+high impact news event
+OR
+ if there is a lack of one, we can practice but we shouldn't be engaging with our normal
+risk percentage.
+
+
+
+
+What's the first element to algorithmic theory? TIME
+8:30 am news embargo lifts
+9:30 am NY open
+
+Did the market rally above the opening midnight price AT 8:30? YES
+Are we bearish? YES
+
+Notice we take out short term high at 8:30am. The algorithm doesn't care how much
+volume/orders is above that STH, it just has to take out a short term high.
+
+Price is now at a premium and it took out BSL. What's it likely to do now bc its a bearish day and
+were above the opening price and its at 8:30am? Reprice for sell side at 4100.
+
+The algorithm goes from BSL at 8:30am on a bearish day above the opening price.
+Wait for the market to trade lower which it does. Then watch for the break of the swing
+low. We see price trades through it and creates a FVG. We take a short entry there
+expecting to run to SSL. This is the 2022 model
+
+ICT teaches his son to exit position once up 5pts when first trading live money. No matter how
+far the target is, sell immediately at 5pts and just observe price deliver. He's looking for his 5pt
+trade at 8:30 or 9:30am. If he doesnt get a win he can wait for the afternoon. If he wins, paper
+trade afternoon. This teaches you to have confidence that you can make money from this
+system and don't have to worry about it ever not working
+The next area of opportunity is 9:30am. We should expect price to sweep BSL at 4105 and hit
+that FVG above. We short there and sell at SSL which was LOD.
+
+This setup eventually came back and came all the way back up to midnight open price. We are
+now in a premium. Price consolidates and then breaks down
+
+In short, what should have happened was we run BSL at 9:30am, creating the hod and then
+break lower. Because price took out the OB, after taking multiple levels of SSL, what's the
+algorithm gonna do? SEEK BUY SIDE
+At 1:30 (lunch session starts) we leave an area of buy stops that have been taken, breaking
+down then returning to a bearish breaker. We see displacement off it creating a FVG. That
+could've been an entry right there.
+
+
+
+
+We then see price trade below REL. What's resting below that? SSL on a BEARISH day.
+Does it wanna drive down into the REL? IT DOES
+Does it create an imbalance there? IT DOES
+Does it trade back up into it? YES.Thats where we sell short and sell when we are up 5
+points. We then watch and study to see if it goes to that 4070 level or that daily FVG
+mentioned.
+
+Doing this will deposit pseudo experience that over time evolves into real experience
+ICTs son model
+There's 3 opportunities a day (8:30,9:30,afternoon)
+Looking for just one of them to just yield 5pts
+
+
+Go take a look for yourself how many 5pt moves you can find at these specific times outlined in
+this episode.
+Episode 40: Key to daily bias
+
+
+US/CAN Daily and Hourly:
+
+We see price trade above BSL and create a swing high. The day after candle 3 we would
+expect the market to trade lower.
+
+Notice the highlighted circle. That rally happened prior to 8:30am open. That's MANIPULATION
+that runs us up into a FVG running a STH/buyside.
+15 and 5 min:
+Take first partial at the FVG discount array. Final target the SLL.
+
+
+
+
+4min:
+We need price to get above equilibrium or higher to short
+
+
+
+
+These are our possible entries. Top price is the SL.
+
+
+
+
+In depth 4 min chart:
+KEYS TO DAILY BIAS:
+
+
+
+
+We're not trying to get a daily bias every day. We are trying to determine the DIRECTION of the
+weekly expansion:
+-Does it want to run to an old low?
+-Does it look like its gonna run to an old high?
+-Is it running to an imbalance below or above the market price?
+-Is it likely not to move because there is no data for it that week ?
+
+Think of WHO IS IN the crosshairs?
+Have people been making money going long? Is there a low they're gonna try to run down and
+stop them out with it? That will be enough for us to frame an expansion going lower.
+
+
+
+
+Where are the high or medium impact news events for the market that you trade?
+What day of the week and what time?
+
+Lets say for example we are expecting the weekly range to expand lower, on the news
+events we wanna hopefully see something that runs us higher into a FVG or run above
+stops, then break down showing displacement then creating a FVG to SHORT!. We are
+looking for these setup intraday in our kill zones at the time the economic calendar says
+the news drops.
+To sum it up SIMPLY:
+We are looking for the higher time frame weekly to expand in a specific direction: THIS STARTS
+OUR BIAS
+
+Then…
+
+If I think it's going higher/lower for a specific target or imbalance, then we will go to the
+economic calendar to look for when that might occur.
+
+
+
+
+1hr:
+The movement being pointed at is whipsawing both sides of the market place taking out SSL
+and BSL. Whenever we see price action like this we ignore both large wicks. The real range is
+the swing that follows
+So now that we have determined our swing range, if price is going to go higher its gonna want
+to go into a premium.
+Why don't we consider this FVG a premium?
+Its overlapping with that equilibrium level. We wanna see it dig into a premium.
+
+
+
+
+Therefore we highlight this FVG as our expected spot (low hanging fruit approach)
+
+
+
+
+15min:
+London creates the higher low most of the times (if you're directional bias is correct)
+
+We then rally and see a short term shift in market structure which is bullish
+
+
+
+
+5min:
+Price rallies away from the OB then back down into the last down closed candle on the 5min
+chart.
+
+We have the market starting with a run from a low to a lower low. Whats took place there?
+
+The market then comes back down into a short term discount, rallies, and at 9:30 consolidates
+then starts to run.
+
+
+
+
+3min:
+We can buy this FVG (highlighted) and trust it wont take previous low out. Why?
+Because we already had a stop run event (labeled below).
+
+Market drops into a discount prior to that run up in the NY session.
+
+It already made a move of manipulation with the stop raid earlier, we then retrace into discount,
+then off to the races.
+
+We are trading into an hourly discount and hit OB (blue line). Then it creates a short term
+discount relative to the swing it just formed. The market then rallies and comes back into a
+OB+FVG entry in discount and rallies. It consolidates at 9:30. PRICE IS NOT LIKELY TO
+COME BACK AND TAKE THAT LOW OUT (BLUE CIRCLE).
+
+This is because its already closed in the only FVG thats here. Price has rebalanced it and
+theres no reason to go down.
+
+
+
+
+If were likely to see lower prices on Dollar Cad, were likely to see lower dollar and higher
+foreign currency. When the dollar goes down its easy for ES to go higher.
+
+Risk on: Foreign currencies, index futures, stocks go higher: Dollar goes down
+Risk off: Dollar higher and everything else going down.
+
+If you go into the day with the idea of risk off risk on, it makes it a lot easier to look for
+supporting ideas with intermarket relationships.
+Episode 41: Final episode/risk management
+
+
+ES 1h:
+
+
+
+
+ES 15m:
+ We had the Powell event at 10am. The market runs up and takes intraday BSL but we were
+looking for BSL on the hourly chart above to be swept.
+
+We dont reach our 1h level but we draw back down and fill in a 15m FVG.
+
+Notice how there is a smaller FVG right above the one marked.
+Why dont we use that one? The reason is that since the bottom of that first FVG is also the top
+of the bigger one, its likely to go over it and stab into the bigger one.
+
+Its doing this as we go into NY lunch until 1:00 where it makes the low of the session after
+closing in the FVG. Then from 1:30-4pm (Afternoon session) the market creates a willingness to
+want to go higher, drawing all the way up to our 1hr target we looked for in the morning!
+
+Initially in the morning we were looking to go above that 1h BSL then sell off and go back down
+into the FVG area in discount and then go beyond 3805. We didnt get that so we wait
+
+We prefer to see some type of stop run in the lunch hour. We got tha and price runs into a FVG
+in deep discount between swing low to high.
+
+
+
+
+ES 5 min:
+ICT recommends to wait until 1:30 to begin trading as there is cleaner price action
+
+Take your attention to the highlighted circle. The market starts to rally away and draws back into
+a +OB AND FVG. We then have a 5min MSS which leads to a small return to the new FVG.
+
+
+
+
+2min morning session:
+Since we never saw strong displacement beneath the pivot being highlighted, we couldn't short
+in that 2m FVG. If we did we would absolutely short it and ride it down to the LOD pivot. If we
+didnt get there by 12pm we would just close positon.
+
+
+
+
+2min afternoon session:
+We see a short term shift in market structure at a key time of day (1:30pm). Price trades back
+down into an OB with FVG(not marked) in OTE. THIS IS IS THE GOLD STANDARD OF
+PATTERNS.
+This is all happening within the 15m FVG.
+
+
+
+
+5min:
+
+
+
+
+5min w entry annotations:
+We trade into the 15min FVG. Does is show willingness to go higher? YES
+Is there a short term shift in market structure? YES
+Is there a FVG? YES
+Down closed candle to the left of it? YES
+Price then drops down into bullish OB in OTE where we should have a limit order at 3754.75 (a
+tick below fvg). Our stop is about 9 pts away. Our TP is above that pivot marked in premium of
+our swing range down, about 25.5 pts. Thats about 2.5 RR.
+
+What do you do if you get stopped out here? On the next trade use 0.5%. Before you can go
+back you have to make 50% of what you originally lost. For example you get stopped
+here and take a -$100 loss. You must now make 50$ back using 0.5% risk before going
+back to full 1% risk.
+
+What happens though if you also get stopped on the 0.5% trade? You now use 0.25% risk.
+
+
+
+
+Stop management:
+From SL to entry, split that range in terms of pts. For example if this went up 12.5
+pts(half of 25), then your SL can be trimmed by 25% of that range.
+
+
+Now that you have your stop set just watch and analyze price delivery:
+-Do down closed candles keep supporting price?
+-Does it run below STL then run higher with a lot of energy?
+-Is it dropping down into a FVG and reaccumulating and sending another price leg higher?
+
+As long as price is doing those things collectively or individually you are on the right side of the
+market and you should keep holding for your position to hit target.
+

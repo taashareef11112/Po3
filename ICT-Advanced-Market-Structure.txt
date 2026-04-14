@@ -1,0 +1,301 @@
+Market Structure For Precision Technicians
+
+ICT market structure refers to the way the market behaves and shifts based on various
+factors such as institutional order flow, imbalances, and key levels. It represented in a
+series of either higher lows and higher highs - bullish, or series of lower highs and lower
+lows - bearish.
+
+
+
+
+Market Structure Concept
+
+
+The actual turning points that include high and lows within it (Intermediate highs and
+lows).
+
+
+The market trades in a generic pattern or rhythm and it is easy to read if you are aware of
+the basic structure price tends to move in.
+
+
+1. Generally, the market trades from short term low (STL) to short term high (STH) back
+to a new short-term low (STL). As these STL’s and STH’s form, they will develop a
+“market structure” of price action.
+
+
+2. Any short term low (STL) that has higher short-term lows (STL) on both sides of it is
+considered an Intermediate term low (ITL).
+
+
+3. Any short term high (STH) that has lower short-term highs (STH) on both sides of it is
+considered an Intermediate term high (ITH).
+4. Any Intermediate term low (ITL) that has higher intermediate term lows (ITL) on both
+sides of it is considered long term low (LTL).
+
+
+5. Any Intermediate term high (ITH) that has lower intermediate term highs (ITH) on both
+sides of it is considered long term high (LTH).
+
+
+Interbank Traders do not view Market Structure with Retail's method.
+
+
+Interbank Traders view Price in terms of Liquidity and Imbalances.
+
+
+
+
+1) The highest time frame will act as a Long-term Perspective
+
+
+   •   This time frame will show you Higher Time Frame Levels which will oﬀer Trade
+       Setup Opportunities.
+
+
+   •   Trade Ideas will be built upon levels derived from the Higher Time Frame.
+
+
+2) The mid-level timeframe will act as an Intermediate-Term Perspective
+   •   Following the Trade Setup Opportunity found on the HTF, Mid-level will give you
+       more definition in terms of structure based on that HTF Level
+
+
+   •   Managing Trades will be done via a mid-level time frame.
+
+
+3) The lowest time frame will act as a Short-term Perspective
+
+
+   •   Following the Trade Setup Opportunity found on the HTF and insights given with
+       Mid-level, the short-term perspective will give you even more definition in terms of
+       structure.
+
+
+   •   Timing trades with entries will be done via the lowest time frame.
+*Intermediate Term High/Low – Any short term low (STL) that has higher short-term
+lows (STL) on both sides of it is considered an Intermediate term low (ITL). Any short
+term high (STH) that has lower short-term highs (STH) on both sides of it is considered
+an Intermediate term high (ITH).
+If you see a Rebalanced ITH, that is telling you that the market is VERY weak. That is the
+market “tipping it’s hand” towards Interbank Traders.
+
+
+
+
+                                      [Credit to Braveheart]
+
+
+To eﬀectively recognize Market Structure in a manner akin to that of an Interbank Trader,
+it's imperative to first grasp the prevailing market narrative.
+
+
+The narrative guides us towards assessing liquidity conditions. Specifically, a liquidity
+draw serves as the foundation for establishing our daily bias.
+Key questions arise:
+
+
+          -   What is the current market narrative?
+          -   Is it going higher for Buy Side Liquidity or to Rebalance a SIBI?
+          -   Is it going lower for Sell Side Liquidity or to Rebalance a BISI?
+
+
+FAILURE TO UNDERSTAND MARKET STRUCTURE LIKE AN INTERBANK TRADER,
+
+
+WILL LEAD YOU TO FALL VICTIM TO FALSE MARKET STRUCTURE BREAKS.
+When you look at the charts, look each time to see if the market is retracing an
+imbalanced candle . Classify this as an intermediate high/low. Then make sure prices
+don't violate it.
+
+
+If you are bearish and your intermediate high is broken, then you need to step aside and
+not enter again. Wait for another setup.
+
+
+The daily chart is exactly what institutions and banks are using. That's where the money
+is. This is also where your preferences will be determined. Most of your time and study
+should be focused on determining where the daily chart will be for the next day, two, or
+week.
+
+
+Market Phases
+
+
+There are 3 phases in the market:
+
+
+        •   Accumulation phase:
+
+
+Accumulation is the process of opening a large position by a market maker without
+significant price movement against the direction of this position.
+
+
+        •   Manipulation phase:
+
+
+The release of negative news makes weak players panic. They become very
+predictable. Namely, if the market falls, these players begin to massively sell everything,
+which is responsible for a large increase in supply.
+
+
+The first manipulation leaves several questions: “What kind of demand can absorb the
+current volume?”, “Who is on the other side of the deal?”.
+
+
+Weak players tend to often miss bull market formation points. After which they are
+overcome by greed, they begin to get nervous, which brings with it the thought that the
+current trend is passing by. That is why the “crowd” begins to buy everything.
+Remember, market weakness manifests itself in moments of an uptrend, strength -
+downtrend .
+
+
+       •   Distribution phase:
+
+
+Distribution is the reverse process of accumulation.
+
+
+ICT frames things based on a top down approach starting from the daily because that’s
+where banks and institutions trade oﬀ. Number one question is what the current market
+narrative is.
+
+
+Does the market have a reason to go up for BSL or to rebalance an imbalance (or FVG,
+Volume Imbalance)? Or is it likely to go lower to sweep Sellside liquidity or to rebalance
+an imbalance (or FVG, V.I.)? Imbalance, rebalance and liquidity, that’s all they’re doing.
+
+
+The daily is where your bias is going to be determined. That’s what makes or breaks your
+trend continuation. So the majority of your time should be where that daily chart is going.
+If you’re trading against what the daily chart is likely to do, you are absolutely asking for
+failure. That’s not to say that you can’t go long when the daily will go lower, but why
+would you? Why would you swim against the tide? If you line up with the daily, you will
+avoid a lot of mistakes.
+
+
+From Narrative to Market Structure:
+
+
+How Market Structure is built:
+
+
+Market profiles will assist in market structure analysis concepts. Are we trending, in a
+reversal pattern or in a consolidation preparing for a breakout scenario? It helps you
+determine if we are bullish or bearish.
+
+
+Below you see two examples of how market structure is built. To the left you see a
+market rally into a key (Higher Time Frame) resistance level followed by a Smart Money
+Reversal (SMR) and then a decline (which can be a retracement or a reversal dependent
+on if we’ve taken HTF external or internal liquidity) and to the right the opposite. Here the
+decline reaches into a key (HTF) support level. These support and resistance levels are
+your so called “PD arrays” (ICT Core Content month 4) and you have to use the highest
+timeframe to identify those levels. Without key support and resistance levels you’re not
+going to get a directional bias regardless of what trading model you’re using.
+
+
+
+
+Swings consist of consolidation and expansions until we reach a key support/resistance
+level where the smart money reversal (SMR) takes place. The SMR takes place at the top
+by either a turtle soup or a failure swing (CC month 5 ep. 5). Same goes for the support
+level. You can anticipate an entry at the SMR after we hit the key support/resistance level.
+
+
+The consolidations are the building blocks that we work with. During a consolidation you
+look for dynamic support/resistance levels to trade oﬀ until we reach the key
+support/resistance level (HTF). Those levels are very clear. So as price declines, you
+want to see these swing lows being formed and every swing low that forms there will be
+a discernible OTE at the retracement.
+Which timeframes to use to break down market structure depends on the type of
+trade(r)?
+
+
+
+
+There are lots of diﬀerent timeframes, and that can be overwhelming. Your primary
+objective is to know the timeframe that you’re trading. That depends on what type of
+trader you want to be, as disposed in the image above. You see 3 timeframes per type of
+trade(r):
+
+
+            -   HTF: trade idea based on this, directional bias and manage trade.
+            -   Middle timeframe: manage your trade.
+            -   LTF: short term, for timing your entry and looking for early reversal signs, so
+                you know it’s time to take profits.
+[Blue dots: are ITH/ITL, Orange arrows: those ITH/ITL are LTH/LTL. Green = STH/STL]
+
+
+
+
+If Price is Bearish, we want to see price spend little time above highs, create shallow runs
+on highs, reject, and/or Respect Premium Arrays. We also want to see DISPLACEMENT
+LOWER. Violating discount arrays and/or LT,IT,ST LOWS.
+Below you see 2 charts. The daily timeframe and the price action between the red lines
+from a 1h perspective. The daily is the parent of the 1h price structure so minor price
+swings are subordinate to it.
+
+
+
+
+[On this daily you see the dealing range and a retrace into premium (just above EQ to
+rebalance that FVG)]
+
+
+
+
+                                          [1h TF]
+As you see you will have 2 possible entry points, an aggressive entry and a low risk high
+confirmation entry as displayed below.
+
+
+
+
+*Once a ITH/ITL is broken, you have a significant break in market structure(BMS/MSB).
+Once we break down and take out the STL and ITL or just a ITL/ITH, then we have a
+significant break in market structure. This is more significant than just simply going into a
+chart and saying okay well it took out a short term low there it is.
+
+
+Your entry should be based on the lowest of the 3 timeframes.
+
+
+Now let’s assume we are a swing trader; market structure is bullish and we’ve traded oﬀ
+of a higher timeframe support level and we had a market shift to the upside on the
+highest timeframe chart. Our midlevel timeframe has allowed us to find a key
+support/resistance level that converges with the HTF s/r level. Our confluence: pattern
+overlaps with that s/r level.
+
+
+We now have a bias and that’s bullish. Keep in mind that not every day a setup will be
+delivered and every day the bias is both directions. You have to decide what it is that
+you’re trading and you want the bias that you are holding to line up with price action, you
+can’t force price action to do what you want it to do, you want to get in sync.
+During the Killzone (time!) you wait for the key support level to be hit (as in the example
+below) and you look for a market shift there (based on the highest of the 3 timeframes) in
+the form of either a stop run or a failure swing (cc month 5 episode 5) and after that
+market shift happened you look for an entry on the lowest timeframe.
+
+
+After MSS and you’ve found your entry, you can use standard deviations for target
+projections. Once we break that ITL, we can use the fib standard deviations to determine
+price targets from this consolidation.
+
+
+
+
+[You see the yellow price swing on the left. As soon as the low is taken out, you can use
+the swing projection for targets]
+Above, as you can see, I drew the FIB from the ITH at the top to the LTL at the bottom of
+the range. Why anchor the FIB like this? This is not random of course. Because that’s the
+up move, so the swing, from where the decline starts. It’s the retracement swing up
+that fails that starts to decline. The projection is -2.0 STDV.
+
+
+Once you are in trade, use institutional order flow to know if the move is still good. When
+you’re bearish, all of your up close candles should keep price from going higher than that.
+So they are your resistance. For bullish price action, down close candles should support
+price.
+

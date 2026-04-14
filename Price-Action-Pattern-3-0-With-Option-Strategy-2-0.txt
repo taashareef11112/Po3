@@ -1,0 +1,894 @@
+Copyright © 2023 SADANAND KUMAR. All rights
+reserved. No part of this e-Book may be reproduced, stored, or
+transmitted in any form or by any means, electronic, mechanical,
+photocopying, recording, scanning, or otherwise, without the prior
+written permission of the author.
+
+
+
+This e-book is provided for informational purposes only. The information
+contained in this e-book is the opinion of the author and not to be construed as
+financial advice or guidance. The author makes no warranties of any kind,
+express or implied, about the completeness or accuracy of the information
+contained in this e-book. All readers should seek professional advice before
+making any decisions related to their financial investments or trading decisions.
+The author shall not be liable for any losses or damages incurred as a result of
+the information provided in this e-book.
+
+
+
+I am not a SEBI Registered Analyst or Investment Advisor. All
+information provided on this website and e-book is purely for
+educational and informational purposes only and should not be
+considered as investment advice. Please consult a financial
+advisor before making any investment decisions.
+Introduction
+Trading is the process of buying and selling goods or services in
+exchange for money. It is an integral part of the global economy
+and can be found in almost any country. Trading can be done in a
+variety of ways, from physical trading in a marketplace to online
+trading. This e-book will explain the basics of trading, how to get
+started, and how to become a successful trader. The Basics of
+Trading The goal of trading is to buy low and sell high. This means
+that you are trying to buy goods or services for a lower price than
+what you plan to sell them for. This is done in order to make a
+profit. Traders will often look for price discrepancies between
+different markets or different goods and services to take
+advantage of. In order to make money in trading, you need to
+understand the fundamentals of the market. This includes
+understanding supply and demand, market trends, and the
+different types of orders you can place. It is also important to have
+an understanding of pricing strategies and how to read charts and
+analyse data. Getting Started The first step in getting started with
+trading is to understand the different types of markets and
+instruments available to you. This includes stocks, bonds,
+commodities, derivatives, and cryptocurrencies. Each of these
+markets have their own set of rules and regulations, so it is
+important to research and understand the different markets before
+getting started. Once you have a better understanding of the
+markets, you can start researching different trading strategies and
+techniques. This can involve researching different types of orders,
+such as limit orders, stop-loss orders, or market orders. It is also
+important to understand the risks associated with trading and how
+to manage these risks. Finally, it is important to find a broker or
+platform to trade with. This can be an online platform or a physical
+broker. It is important to do your research and find a broker or
+platform that is reliable, secure, and trustworthy. Becoming a
+Successful Trader Becoming a successful trader takes time,
+dedication, and patience. It is important to understand the basics
+of trading and to practice your skills before investing real money.
+It is also important to have a plan and stick to it. This means that
+you should have an idea of what you want to achieve with trading
+and how you plan to achieve it. It is also important to stay up to
+date on the markets and to have a good risk management strategy.
+This means understanding the risks associated with trading and
+how to manage them. Finally, it is important to have a good trading
+system and to track your progress. This will help you identify any
+mistakes that you may be making and make adjustments
+accordingly.
+Conclusion
+
+Trading can be a lucrative and rewarding activity, but it is
+important to understand the basics before getting started. This
+e-book has provided an introduction to trading, how to take
+trade with price action patterns, and how to become a
+successful trader. It is important to do your research,
+understand the markets, and practice your skills before
+investing real money. With dedication and patience, you can
+become a successful trader
+Open Your Demat Account
+Table of Contents
+
+Introduction
+  1.   INTRODUCTION OPTION STRATEGY PART 2
+  2.   UPTREND STRATEGY IN DETAILS
+  3.   DOWNTREND STRATEGY IN DETAILS
+  4.   FIBO ADVANCED STRATEGY FOR BEGINNERS AND PRO TRADERS
+  5.   PRICE ACTION 3.0 + TEST YOUR TRADING STRATEGY
+
+
+
+
+BOLD WORDS: HINDI LANGUAGE
+NO BOLD WORDS: ENGLISH LANGUAGE
+   OPTION STRATEGY (2)
+INTRODUCTION
+IS PART MAIN HUM YEH SIKHENGE KI ACTUALY MAIN TRAP KESE WORK KRTA HAI
+OR KYA TRAP SACH MAIN FASANE KE LIYE BANAYE JATE HAI MARKER MAIN.
+AGAR AP TRADE LETE SAMYE MARKET KA PICHALA STRUCTURE DEKHOGE TO
+SB CLEAR HO JAYEGA KI TRAP BNA HAI KI HUM KHUD TRAP MAIN FASS RHE HAI.
+
+
+
+In this part, we will learn how traps actually work and whether traps are created in
+the market to deceive traders. If you observe the previous market structure while
+taking a trade, it will become clear whether a trap has been set or if we are falling
+into the trap ourselves.
+PATTERN KIO FAIL HOTA HAI OR KONSE TIME FRAME MAIN JYADA PATTERN FAIL
+HO JOTE HAI JO KI KAAM NHI KRTA HAI NICHE APKO DETAIL MAIN ISKME BAARE
+MAIN JANKARI MIL JAYEGI.
+. Why do patterns fail and in which time frame do patterns fail more often, which
+does not work? Below, you will find detailed information on this topic
+
+
+
+
+   1. Market unpredictability: Patterns are based on historical data and trends, but
+      the market can be unpredictable, leading to pattern failures.
+
+   2. False signals: Patterns can sometimes generate false signals, leading to
+      incorrect predictions or trades.
+
+   3. Changing market conditions: Market conditions can change, rendering
+      previously successful patterns ineffective.
+
+   4. Low probability: Some patterns have a low probability of success, making
+      them more likely to fail.
+   DOUBLE TOP PATTERN
+                          STRATEGY
+
+
+
+ JESE YEHA PR DOUBLE TOP PATTERN BANA HAI. JRURI YEH HOTA HAI KI
+ YEH TOP PR BANE TB YEH JYADA EFFECTIVE HOTA HAI.
+
+
+Like here a double top pattern has been formed. It is important that this pattern is formed
+at the top for it to be more effective.
+    YEH STRATEGY BHUT POWERFULL HAI, YEH METHOD HMESHA
+UPTREND MAIN KAAM KRTA HAI MID RANGE MAIN NHI.
+
+
+This strategy is very powerful, it always works in an uptrend but not in the mid-range.
+IS TARAF KE MARKET MAIN DOUBLE TOP PATTERN BAHUT RARE KAAM
+KRTA HAI.
+
+
+In this type of market, the double top pattern works very rarely.
+YEHA EK HOR EXAMPLE HAI DOUBLE TOP PATTERN KA AGAR BREAKDOWN
+DEKE RETEST NA DE TO KESE TRADE LE OR RETEST PR KESE TRADE LETE
+HAI.
+SBSE PHELE APKO YEH JRUR PATA HONA CHAYIE KI RETEST OR BREADOWN
+MAIN TRADE KESE LETE HAI. MAIN EXAMPLE DIKHA DETA HU KESE TRADE
+LENA HAI OR JAB RETEST MARKET NA DE TO US SAMYE KESE TRADE LENA
+HAI NHI SB EXAMPLA MAIN DIKHA DE RHA HU.
+
+
+In order to trade the double top pattern, it is important to understand how to enter
+trades on both the breakdown and retest. Here's an example to demonstrate how to
+enter trades and what to do when the market does not provide a retest.
+
+Let's say we have identified a double top pattern on a stock. The first step is to wait
+for a breakdown below the neckline of the pattern. Once the breakdown occurs, we
+can enter a short trade with a stop loss above the highest point of the double top.
+
+If the market provides a retest of the broken neckline, we can look for a retest entry.
+This means waiting for the price to come back up to the neckline and then showing
+signs of rejection or bearish confirmation. This could be in the form of a bearish
+candlestick pattern, a lower high, or a decrease in volume. Once we have
+confirmation of the retest rejection, we can enter a short trade with a stop loss above
+the retest high.
+
+However, there may be instances where the market does not provide a retest. In
+such cases, we can still enter a short trade based on the breakdown signal alone.
+This means entering the trade as soon as the price breaks below the neckline,
+without waiting for a retest. In this scenario, we would still place a stop loss above
+the highest point of the double top.
+
+It's important to note that trading patterns like the double top requires careful
+analysis, risk management, and consideration of other factors such as market
+conditions and trend strength. It is recommended to practice and gain experience
+before implementing such strategies in live trading.
+ RETEST ENTRY
+
+
+
+
+     JB PATTERN KA BREAKDOWN HO EXAMPLE JESE KE FIRST RED
+CANDLE NE BREAKDOWN DIYA HAI PR SECOND CANDLE FIRST CANDLE KE
+NICHE CLOSE NAHI HUYA HAI TO ESE SITUATION MAIN HME INTZAAR KRNA
+CHAYIE RETEST KA NAHI TO JITNA HO SKE TRADE MAIN ENTRY KRNA
+AVOIDE KRO.
+
+
+When there is a breakdown in the pattern, for example, if the first red candle gives a
+breakdown, but the second candle does not close below the low of the first candle, it
+is advisable to wait for a retest in such a situation. If there is no retest, it is best to
+avoid entering the trade as much as possible.
+WITHOUT RETEST ENTRY
+
+
+
+
+IS STRATEGY MAIN AGAR BREAKDOWN WALE CANDLE KO DUSRA CANDLE
+SUCCESFULL NICHE CLOSE DE DE TO BINA RETEST KE ENTRY LE SKTE
+HAI ISKA EK DISADVANTAGE YEH KI ISME THODA SA BADA STOPLOSS
+LGTA HAI JAB KI RETEST WALE CONCEPT MAIN CHOTA STOPLOSS LAGTA
+HAI.
+
+
+In this strategy, if the second candle successfully closes below the low of the
+breakdown candle, you can enter the trade without waiting for a retest. One
+disadvantage of this approach is that it may require a slightly larger stop loss
+compared to the retest concept, where a smaller stop loss is typically used.
+
+
+
+YEH STRATEGY SB PATTERN MAIN KAAM KRTA HAI.
+This strategy works in all patterns.
+    DOUBLE BOTTOM PATTERN
+
+                         STRATEGY
+
+
+
+
+YEHA PR DEKHO STRAIGHT BUYING PRESSURE THA JISKE KARN MARKET
+NICHE KI TARAF FALL KRNE LAGA. YEH PR DEKHO NICHE DOUBLE
+BOTTOM PATTERN BNA HAI. JO NICHE A KE HI BNA HAI. YEHA PR IS
+PATTERN KI SUCCESS PROBABILTY BHUT HIGH HAI. AGAR YEHI PATTERN
+MID MAIN BANA HOTA TO ISKI SUCCESS KI PROBILITY BHUT KM HAI LIKE
+50 – 50
+
+
+
+
+look at this, there was strong buying pressure here, which caused the market to start
+falling downwards. look here, there is a double bottom pattern formed below. this
+pattern has formed only below. here, the success probability of this pattern is very
+high. if this pattern had formed in the middle, the success probability would have
+been very low, like 50-50.
+
+
+
+
+YEHA PR CONFIRMATION MILA HAI TRENDLINE BREAKOUT + SWING
+BREAKOUT + DOUBLE BOTTOM PATTERN YESI OPPORTUNITY KO MISS MT
+KIYA KRO PR FIR KUCH NEW TRADER YEHA PR GLTI KR JATE HAI.
+here, we have received confirmation of a trendline breakout + swing breakout +
+double bottom pattern. do not miss such opportunities, but some new traders make
+mistakes here.
+
+
+
+
+KUCH NEW TRADER YEH GALTI KR JATE HAI KI BAHUT CHOTTA STOPLOSS
+LGA DETE HAI JISKE KARAN UNKA STOPLOSS HIT HO JATA HAI . JB KI
+UNKA TRADE SETUP BILKUL THEEK HOTA HAI.
+
+
+some new traders make the mistake of placing a very small stop loss, which causes
+their stop loss to be hit. even though their trade setup is perfectly fine.
+SAME TRADE SMART TRADE NE BHI LIYA PR RETEST PR FIR VHI DEKHO
+INKA STOPLOSS CHOTTA NAHI HAI. JAB KI SIMPLE BREAKOUT MAIN
+STOPLOSS ALREADY BIG HOTA HAI OR RETEST TRADE SETUP MAIN
+STOPLOSS CHOTTA HOTA HAI PR FIR BHI HME STOPLOSS BUFFER DE KE
+LAGANA CHAHIYE.
+
+
+smart trade also took the same trade, but look at it again on the retest, their stop loss
+is not small. while in a simple breakout, the stop loss is already big, in a retest trade
+setup, the stop loss is smaller, but still, we should place a stop loss buffer.
+WITHOUT BUFFER SL
+
+
+
+
+  WITH BUFFER SL
+ANOTHER EXAMPLE OF TRENDLINE BREAKOUT + EMA 44
+YEHA PR SELLING ANEE KE BAAD BILKUL BOTTOM PR HI PATTER BNA HAI
+JISKI ACCURACY BHUT JYADA HOTI HAI SATH MAIN YEHA PR
+CONFIRMATION KE LIYE EMA 44 INDICATOR KO USE KRENGE.
+
+
+here, after the selling, the pattern has formed right at the bottom, which has a high
+accuracy. we will also use the ema 44 indicator for confirmation here.
+HOW TO FIND INDICATOR
+
+
+GOOGLE PR SERCH KRE TRADINGVIEW.COM JESE WEBSITE OPEN HO
+JAYEGA APKO UPER KI OR EK OPTION DIKHEGA JISKA NAAM INDICATOR
+HOGA BS UP PR CLICK KRNA HAI FIR SEARCH KRNA EMA JESE HI SEARCH
+KROGE APKO EMA INDICATOR MILL JAYEGA. FIR IINDICATOR MAIN KUCH
+DHORE SE CHANGE KRNA HAI VALUE KO LIKE THIS
+
+
+search on google and open a website like tradingview.com. you will see an option at
+the top called "indicator". simply click on it and then search for the ema indicator. you
+will find the ema indicator. then, make some changes to the values in the indicator
+like this.
+DEFAULT SETTING
+CHANGES SETTING
+
+
+
+
+AB IS INDICATOR KO USE KESE KRNA HAI JAB MARKET EMA KO NICHE SE
+UPAR KI OR CROSS KRE OR BULLISH CANDLE BNAYE THEN BUY POSITION
+BNANA HAI OR JAB MARKET EMA KO UPAR SE NICHE KI OR CROSS KRE
+OR BEARISH CANDLE BNAYE TB SELL KA POSITION LENA HAI.
+
+
+now, how to use this indicator? when the market crosses the ema from below and
+forms a bullish candle, you should enter a buy position. on the other hand, when the
+market crosses the ema from above and forms a bearish candle, you should enter a
+sell position.
+
+
+
+
+EXAMPLE:
+DOWN TRADE CONCEPT
+
+
+
+
+UP TRADE CONCEPT
+DYAAN RAKHE KI AP SIFR INDICATOR PE DEPENT MT HONA. INDICATOR KO
+CONFIRMATION KE TRADE LENE KE LIYE USE KIYA JATA HAI NA KI SIRF
+INDICATOR KE BASE PR TRADE LENA.
+
+
+
+
+keep in mind that you should not rely solely on one indicator. indicators are used for
+confirmation purposes to take trades, not to trade solely based on indicators.
+YEHA PR BAHUT ACHA ENTRY OPPORTUNITY HAI PR VHI MARKET KE
+SWING KO DEKHA CHAHYIE LIKE THIS
+
+
+here, there is a very good entry opportunity, but you should also observe the
+market's swing like this.
+SWING TRADE CONCEPT
+
+
+
+
+      IS SETUP MAIN TRADE LENA THODA RISKY HOTA HAI KIOKI IS
+SETUP MAIN BAHUT BAARI FAKE BREAKOUT MILTA HAI IS LIYE AGAR IS
+SETUP MAIN TRADE LETE HO TO CONFIRMATION JRUR HONA CHAHYIE KI
+YEH REAL BREAKOUT HAI.
+
+
+taking a trade in this setup can be a bit risky because there are many fake breakouts
+in this setup. therefore, if you take a trade in this setup, it is important to have
+confirmation that it is a real breakout.
+IS SETUP MAIN SIMPLE TRANDLINE OR SWING DONO KA BREAKOUT HOTA
+HAI JISSE YEH PATA CHALTA HAI KI AB MARKET BUYERS KE CONTROL
+MAIN HAI. IS SETUP MAIN RISK THODA HOTA HAI KIOKI ISME HME BAHUT
+SARE CONFIRMATION MILTE HAI.
+
+
+in this setup, there is a breakout of both the simple trendline and swing, which
+indicates that the market is now under the control of buyers. there is a slightly higher
+risk in this setup because we receive many confirmations.
+CONCLUSION YEH METHOD SB BOTTOM PATTERN PR WORK
+KRTA HAI JESE KI DOUBLE BOTTOM PATTERN, TRAIPLE BOTTOM PATTERN
+INVERTED HEAD SHOULDER PATTERN AND RISING WEDGE PATTERN.
+
+
+
+
+this method works on all bottom patterns such as double bottom pattern, triple
+bottom pattern, inverted head and shoulders pattern, and rising wedge pattern.
+              FIBO ADVANCED STRATEGY
+
+INTODUCTION ABOUT FIBO
+SBSE PHEL YEH SMJHO FIBO JISKO FIBONACCI KEHTE HAI ISKO IS LIYE
+USE KIYA JATA HAI KI MAREKT MAIN KITNE PERCENTAGE PEOPLE KA
+STOLOSS HIT NHI HUYA HAI.
+JESE KI EK EXAMPLE DETA HU AGAR APKE 100 RUPESS KA SHARE HAI OR
+USKA PRICE 200 RUPEES INCREASE HO GYA OR AB AP 100 RUPEES KE
+PROFIT MAIN HO OR AB APNI POSITION KO HOLD KR RHE HO OR JYADA
+PROFIT KRNE KE LIYE PR THODE DR MAIN PROFIT APKA KM HO KE 130 PE
+CHALA GYA . JAHA PR PHELE APKO 100 KA PROFIT HO RHA THA OR BHI
+AB KO 30 KA PROFIT HO RHA HAI. AB AP YEH 30 RUPEES KA PROFIT LE KE
+MARKET SE EXIT KR JAOGE IS DAAR SE KI YEH 30 RUPEES KA PROFIT BHI
+KAHI CHAL NA JAYE.
+
+
+First of all, understand the Fibonacci sequence, which is used in the market to
+determine the percentage of people who have not experienced a loss. Let me give
+you an example: Suppose you own a share worth 100 rupees, and its price
+increases to 200 rupees. Now, you are in a position to profit from the 100 rupees.
+However, in order to maximize your profit, you decide to hold it a bit longer, but
+unfortunately, the profit decreases to 130 rupees. Initially, you had a profit of 100
+rupees, but now it has reduced to 30 rupees. At this point, you decide to exit the
+market, fearing that even this 30 rupees of profit might disappear elsewhere.
+FIBO KE HELP SE 2 ESE STRATEGY APKE SATH SHARE KRUNGA JISKI
+ACCURACY 80 TO 90% HAI. IS STRATEGY KO FOLLOW KRNE KE LIYE RISK
+MANAGAMENT BAHUT BAHUT JARURI HAI AGAR AP IS STRATEGY MAIN
+RISK MANAGEMENT KO FOLLOW NAHI KROGE TO APKA CAPITAL ZERO BHI
+HO SKTA HAI.
+
+AGAR AP PROPER RISK MANAGEMENT FOLLOW KRTE HO TO 10 MAIN SE 8
+TRADE APKE BILKUL THEEK JAYENGE .
+
+SBSE PHELE YEH TOOL APKO SARE TRADING PLATFORM PR FREE OF
+COST MIL JAYEGA MAIN IS TOOL KI SETTING SHARE KR DETA HU JO KI
+APKO APNE DEFUALT FIBO TOOL MAIN SETTING KARNI HAI.
+
+
+I will share with you two strategies using Fibonacci, which have an accuracy rate of
+80 to 90%. It is crucial to follow risk management when implementing these
+strategies, as failure to do so could result in the loss of your capital.
+If you properly follow risk management, 8 out of 10 trades will be successful.
+Firstly, this tool is available for free on all trading platforms. I will share the settings
+for this tool, which you need to configure in your default Fibonacci tool.
+SAME APKO YEH SETTING APKO APNE DEFAULT FIBO TOOL MAIN APPLY
+KRNA HAI.
+STRATEGY EXPLAIN KRNE SE PHELE MAIN APKO YEH APKO SIKHA DETA
+HU KI STOPLOSS KESE PATA KRE OR FIB TOOL KI HELP SE , STOPLOSS
+HUNT KI HELP SE HI HUM TRADE LENGE.
+
+
+You need to apply these settings in your default Fibonacci tool.
+Before explaining the strategy, let me teach you how to determine the stop loss using
+the Fibonacci tool. We will take trades based on stop loss hunting with the help of
+the Fibonacci tool.
+YEH JO SETUP DEKH RHE HO ISME YEH EXPLAIN KRNE KI KOSHISH KI GAYI
+HAI KI KESE SB MOMENT MAIN BUYER OR SELLER KO TRADE SE NIKAL
+DIYA JATA HAI. MATLAB 70% SE JYADA TRADERS KA SIRF STOPLOSS
+HUNTING HI KI JATI HAI. IS 50-60 AND 70% KE LEVELS SE HUM STOLOSS
+HUNTING MAIN TRADE LETE HAI. JISME SIRF HUM HI NHI OPERATORS VHI
+ENTRY KRTE HAI. HMKO OPERATORS KI MOVES KO FOLLOW KRNA HAI NA
+KI RETAILERS KO.
+
+
+ISME APKO 2 TARAH KE METHODE SIKHAUNGA KI DOWNTREND OR
+UPTREND MAIN TRADE KESE LETE HAI FIB KI HELP SE.
+
+
+The setup you are observing here is an attempt to explain how buyers and sellers
+are forced out of trades during market movements. This means that more than 70%
+of traders are targeted for stop loss hunting. We take trades in stop loss hunting from
+the levels of 50-60% and 70%. In this strategy, not only us but also operators enter
+the market. We need to follow the moves of operators, not retailers.
+
+
+I will teach you two methods in this setup on how to take trades using Fibonacci in
+downtrends and uptrends.
+FIB SETUP IN DOWNTREND
+
+
+
+
+YEHA PR DEKHO PEHLE SHORTS PE WALE PORFIT MAIN THHE OR MARKET
+NICHE SUSTAIN KRKE UPAR GYA 50 TO 60% LEVEL TK FIR NICHE AGYA
+ISSE HME HME YEH PATA CHAL RHA KI ADHE SE JAYDA SHORT PE WALE
+TRADER APNA POSITION NIKAL DIYA HAI. JB SHORTS WALE NIKL RHE THE
+TB BUYER CE WALE UPAR KI OR JA RHE THE AB BUYERS PROFIT MAIN
+MARKET AB NICHE BUYERS KA STOPLOSS HIT KRNE NICHE AYA 50-60%
+LEVEL TK FIR UPAR CHAL GYA AB ISE YEH PATA CHAL RHA HAI KI BUYERS
+NIKAL GYA HAI SELLERS KA POSITION LG CHUKA HAI OR UNKE STOPLOSS
+UPAR KI TARAF HAI.
+
+
+Here, you can see that initially, the profits were in favor of the shorts, and the market
+sustained downwards until it reached the 50 to 60% level. Then it went down again,
+indicating that more than half of the short traders have exited their positions. When
+the short traders were exiting, the buyers were moving upwards. Now, as the market
+is in profit for the buyers, it is coming down again, hitting the stop loss of the buyers
+towards the 50-60% level, and then moving upwards. This indicates that the buyers
+have exited, the sellers have taken their positions, and their stop loss is above.
+
+
+
+
+JAHA SE MARKET GIR RHA HAI BHA SE FIB TOOL KO USE KRNA JHA TK
+MAREKT GIRA HAI OR SUSTAIN KR RHA HAI LIKE THIS.
+
+
+From here, as the market is falling, we will use the Fibonacci tool where the market
+has dropped and sustained.
+YEH STRATEGY SIRF DOWNTREND MAIN HI KAAM KRTA HAI ISKI JYDA
+ACCURACY DOWNTREND TRADE SETUP MAIN HOTA HAI. IS STRATEGY KO
+AP SABHI MARKETS MAIN USE KR SKTE HO JESE KI FOREX, STOCK
+MARKET AND CRYPTO..
+IS STRATEGY HUM OPERATORS KE SATH HI ENTRY KRTE HAI KOI
+OPERATORS SL HUNTING KRTE HAI OR HUM OPERATORS KE MOVES KO
+FOLLOW KRTE HAI JISKA RESULT 80-90% PROFIT MAIN LANDING KRTA HAI
+TRADE.
+
+
+This strategy only works in a downtrend, and its accuracy is higher in a downtrend
+trade setup. You can use this strategy in all markets such as forex, stock market,
+and cryptocurrency.
+
+
+In this strategy, we enter the market along with the operators. Some operators
+engage in stop loss hunting, and we follow the moves of these operators, resulting in
+a landing of 80-90% profit in the trade.
+YEHA PR DEKHO DOUBLE BOTTOM PATTERN SE TRAP KIYA GYA OR BAHUT
+BADA RED CANDLE BANA DIYA YEH CANDLE OPRATORS OR BIG PLAYERS
+KE HOTE HAI ESSE CANDLE . YESE BADE BADE CANDLE JYADA TR
+STOPLOSS HUNTING KRNE KE LIYE HI BNAYE JATE HAI. CHALTI HUYI
+TRADE MAIN BILKUL VHI ENTRY NA KRO KOIKI ESE CANDLE MAIN PROFIT
+BOOKING BAHUT TEZZI SE ATTI HAI IS LIYE ISME HUM 50-60 % PROFIT
+BOOKING OR STOPLOSS HUNTING KA INTZAAR KRTE HAI.
+YEH PATTERN KIO FAIL HO GYA ALREADY MENE START MAIN YEH SB
+BATA DIYA THA KI KAHA PR PATTERN KAAM KRTA HAI OR KAHA NHI KRTA
+HAI..
+
+
+Here, you can see that the double bottom pattern was trapped, and a very large red
+candle was formed. These candles are created by operators or big players. Such
+large candles are often created to target stop loss hunting. In an ongoing trade, do
+not enter at that moment because profit booking happens very quickly in such
+candles. Therefore, in this case, we wait for 50-60% profit booking or stop loss
+hunting.
+
+
+This pattern failed because I already mentioned at the beginning where the pattern
+works and where it doesn't work.
+FIB SETUP IN UPTREND
+
+
+
+
+                                                       UPTREND
+MARKET MAIN BILKUL ULTA HOTA HAI DOWNTREND KE . DOWNTREND
+MAIN HUM UPAR SE NICHE FIB KO DRAW KRKE LEVELS FIND KRTE HAI JB
+KI UPTREND MAIN NICHE SE UPPAR FIB KO DRAW KRKE LEVELSL KO FIND
+KRTE HAI.
+IS STRATEGY MAIN PSYCHOLOGY YEH HOTHI HAI KI BUYERS NICHE SE HI
+PROFIT MAIN HOTE HAI MAREKT UNKA STOPLOSS HUNT KRNE KE LIYE OR
+UNKA PROFIT KM KRNE KE LIYE NICHE ATTI HAI JB MARKET UNKE
+STOPLOSS HIT KRKE BAPAS UPAR JANE LAGATA HAI TO HUM BHI SATH
+MAIN TRADE LE KE UPAAR KI MOVEMENT KO CAPTURE KRTE HAI.
+APNE YEH JARUR SUNA HOGA
+TREND IS YOUR FRIEND
+
+
+In an uptrend market, things are completely opposite to a downtrend. In a
+downtrend, we draw Fibonacci levels from top to bottom to find levels, while in an
+uptrend, we draw Fibonacci levels from bottom to top to find levels. The psychology
+behind this strategy is that buyers are able to make profits from the bottom, as the
+market comes down to hit their stop loss and reduce their profits. When the market
+starts moving back up after hitting their stop loss, we also enter a trade to capture
+the upward movement.
+
+You must have heard the saying, 'Trend is your friend'
+JESE MENE ALREADY APKO BATA DIYA THA KI MARKET DOWNTREND HO
+YA UPTREND SBKA YA TO PROFIT KM KR DETA HAI YA TO UNKA
+STOPLOSS HIT KR DETA HAI FIR APNE TREND KO CONTINUE KRTE HAI.
+
+
+IMPORTANT : AGAR MARKET UPTREND MAIN HO OR FIB STRATEGY KO USE
+KR RHE HO AGAR MARKET FIB KE 0.7 KE NICEH SUCCESFULL RED
+CANDLE CLOSE KR DE YE 1 LEVEL SE NICHE TRADE KRNE LG JAYE TB
+SAMJH MAIN JAYE KI AB TREND PURA CHANGE HONE WALA HAI. SAME
+DOWNTREND MAIN VHI YESA HOTA HAI.
+AGAR AP DOWNTREND MAIN IS STRATEGY KO USE KR RHE HO TO JAB
+MARKET 0.7 KE UPAR SUCCESFULL GREEN CANDLE KI CLOSING DE DE YA
+1 KE UPAR MARKET SUSTAIN KRNE LG JAYE OT BAHUT JAYDA CHANCE
+HOTA HAI KI MARKET KA TREND CHANGE HONE WALA HAI.
+
+
+As I already mentioned, whether the market is in a downtrend or uptrend, it either
+reduces profits or hits stop losses and then continues the trend.
+
+
+IMPORTANT: If the market is in an uptrend and you are using the Fibonacci strategy,
+if the market successfully closes a red candle below the 0.7 Fibonacci level, it
+indicates that it may start trading below the 1 level, indicating a potential change in
+the trend. The same applies to a downtrend.
+
+If you are using this strategy in a downtrend, when the market successfully closes a
+green candle above the 0.7 Fibonacci level or sustains above the 1 level, there is a
+high chance that the market's trend is about to change.
+PRICE ACTION PATTETN 3.0
+PRICE ACTION PATTTERN 2.0 MAIN SIRF APNE PATTERN KE BAARE MAIN
+READ KIYA HOGA KI PATTERNS SE KESE TRADE LETE HAI. 3.0 MAIN PRICE
+ACTION KE BASE MAIN KESE TRADE LETE HAI ISKE BAARE MAIN EXPLAIN
+KIYA GYA HAI .
+ISME MOST IMPORTANT PATTERN KE BAARE MAIN EXPLAIN KIYA GYA HAI
+JISE MAIN PERSONALY USE KRTA HU JO SABHI MARKET MAIN KAAM KRTI
+HAI.
+
+
+In Price Action Pattern 2.0, you have only read about your own pattern and how to
+trade using patterns. In 3.0, it explains how to trade based on Price Action. It also
+explains the most important pattern that I personally use, which works in all markets.
+
+
+
+
+ISME PATTERN KE SATH SATH CANDLE KE COMBINATION SE KESE
+CONFIRMATION TRADE LETE HAI SB SIKHO KO MILEGA OR TEST YOUR
+TRADING PSYCHOLOGY SETUP VHI HAI.
+
+
+Learn how to take confirmation trades using a combination of candlesticks along with
+the SME pattern. This setup will help everyone learn and test their trading
+psychology.
+YEHA PR AP UP KI TRADE LOGE YA DOWN SIDE KA TRADE LOGE. AGAR AP
+DHYAAN SE DEKHOGE TO AP KUCH PATTERNS OR MARKET KA
+STRUCTURE DHEKNE KO MIL JAYEGA.
+
+
+Here, you will take trades in the upward direction or the downward direction. If you
+observe carefully, you will be able to identify certain patterns and market structure.
+IS PATTERN KA NAME BULLISH FLAG PATTERN HAI ISKI ACCURACY 80 TO
+90 % HAI. YEHA PR JB BREAKOUT HUYA TO BAHUT TEZZI MOVEMENT A
+GYA TO ESE TRADE SETUP MAIN RETEST KA WAIT KRE NAHI TO TRADE
+JITNA HO SKE AVOIDE KRE.
+
+
+This pattern is called the Bullish Flag pattern and it has an accuracy of 80 to 90%.
+When there is a breakout in this pattern, there is often a rapid movement. In this
+trade setup, it is advisable to wait for a retest, otherwise, try to avoid trading as much
+as possible.
+IS PATTERN KA NAME HEAD AND SHOULDER PATTERN HAI. ISKI
+ACCURACY 80 TO 90 % HAI KI HAI. OR AGAR YEH PATTERN UPTREND MAIN
+BNE OR UPAR STRONG RESISTANCE VHI TB ISKI ACCURACY UPTO 100%
+HO JATI HAI.
+
+
+
+
+This pattern is called the Head and Shoulders pattern. Its accuracy is 80 to
+90%. And if this pattern forms in an uptrend and encounters a strong resistance
+above, then its accuracy can go up to 100%.
+OPERATORS JAN BHUJ KR YEH SB PATTERN BNAYENGE TAKI NEW
+TRADERS IN PATTERNS MAIN ENTRY KRE. SBSE JRURI HAI KI JAB BHI AP
+KOI VHI PATTERN PR TRADE LETE HAI TO SBSE PHELE MARKET KA PICHLA
+STRUCTURE DEKH LIYA KRO JESE KI STRONG RESISTANCE , PYSCHOLOGY
+LEVEL AND TRENDLINE.
+
+Operators intentionally create these patterns so that new traders can enter trades
+based on these patterns. The most important thing is that whenever you take a trade
+based on any pattern, first analyze the previous market structure, such as strong
+resistance, psychology levels, and trendlines.
+YEHA PR JITNA PATTERN KA SUPPORT NHI USSE JYDA TO TRENDLINE OR
+DOUBLE RESISTANCE OR LOW BUYING PRESSURE SHAMIL HAI.
+
+Here, in addition to the support provided by the pattern, there is even more
+significance given to trendlines, double resistance, and low buying pressure .
+PHELE WALE IMAGE MAIN DEKHO DOUBLE BOTTOM PATTERN KA TRAP
+BNAYA OR RETES BHI DIYA AGAR AP PICHLE STRUCTURE KO DEKHOGE
+TO PATA CHALEGE MARKET STRONG RESISTANCE SE REJECTION LE KE
+NICHE AA RHA HAI.
+
+
+In the previous image, you can see that a trap was formed with the Double Bottom
+pattern and a retest was also done. If you observe the previous structure, you will
+notice that the market is experiencing rejection from a strong resistance and moving
+downwards.
+ISME HMARI KOI GALTI NAHI HOTI HAI BS HUM MARKET KA PICHLA
+STUCTURE KO NHI DEKHTE HAI OR TRADE LENE LGTE HAI.NATIJA
+STOLOSS HIT HO JATA HAI MARKET KO BLAME KRTE HAI KI KOI BHI
+PATTERN KAAM HI NHI KRTA HAI.
+
+
+In this, we don't make any mistakes, we just fail to observe the previous market
+structure and jump into trades. As a result, our stop loss gets hit and we blame the
+market, saying that no pattern works at all.
+AGAR AP DYAAN SE DHEKHENGE KI PATTERN KI BEECH MAIN JHA
+BREAKDOWN MILA USSE PHELA KA CANDLE HAI ISE HUM INDECISION
+CANDLE BOLTE HAI. PERSONALY YEH MERA FAVOURITE CANDLE HAI. IS
+CANDLE KA POWER YEH HAI KI AGAR KOI BHI CANDLE ISKE UPAR YA ISKE
+NICHE CLOSE DE DE TO MARKET US HI DIRECTION MAIN JANE LAG JATA
+HAI.
+REMEMEBER : YEH CANDLE SB JAGAH KAM NHI KRTA HAI YEH CANDLE
+JESE KI STRONG SUPPORT AREA HO YA STRONG RESISTANCE AREA HO
+YA KISI VHI PATTERN MAIN BNE OR TO OR TRENDLINE PR BNE TO ISKI
+ACCURACY 80 TO 90% HOTI HAI.
+
+
+If you carefully observe, before the breakdown in the middle of the pattern, there is a
+candle known as an indecision candle. Personally, this is my favorite candle. The
+power of this candle is that if any candle closes above or below it, the market trends
+to move in that direction.
+
+
+REMEMBER: This candle does not work everywhere. It works best in scenarios such
+as strong support or resistance areas, within patterns, or on trendlines. In these
+cases, its accuracy is around 80 to 90%.
+BADE CANDLE KE BREAKOUT BREAKDOWN PR TRADE NHI KRNA CHAHIYE.
+BAHUT SARE NEW TRADER IS TRAP MAIN FAS JATE HAI JIKSKE KARAN
+UNKA LOSS HO JATA HAI MARKET MAIN .
+
+
+One should not trade on the breakout or breakdown of a large candle. Many new
+traders fall into this trap, resulting in losses in the market.
+
+
+
+
+YEHA PR FIB STRATEGY USE KRENGE BIG CANDLE PR NICHE SE UPAR KI
+OR.
+
+
+Here, we will use the Fibonacci strategy to trade on the big candle from the bottom to
+the top.
+BINA BUFFER STOPLOSS KE APKA STOPLOSS HIT HONE KA BAHUT
+JAYADA CHANCE HOTA HAI ISLIYE JB BHI STOPLOSS LAGAYE TO THODA
+SA BUFFER DE KE HI STOPLOSS LAGAYE.
+
+
+There is a high chance of your stop loss getting hit without a buffer stop loss, so
+whenever you set a stop loss, always give it a little buffer.
+YEH
+CANDLE DOWNTREND, SUPPORT, BREAKOUT HONE KE BAAD CANDLE BNE
+OR KIS VHI PATTERN MAIN TO ISKI VHI ACCURACY 80 TO 90% HOTA HAI.
+
+
+After this candle forms in a downtrend, support, or breakout, and forms in the same
+pattern, its accuracy is typically around 80 to 90%.
+YEHA PR HUM 1ST SCALPING KRENGE RESISTANCE TK AGAR ISKA
+BREAKOUT HOGA TO HME YEHA EK PATTERN VHI DEKHNE KO MILL JAYEHA
+OR EK NEW ENTRY OPPORTUNITIES MIL JAYAGI,
+
+Here we will do our first scalping until the resistance level. If there is a breakout, we
+will look for the same pattern here and find a new entry opportunity.
+AGAR BINA RETEST KE TRADE LETE HAI TO STOPLOSS KO BADA RAKHAN
+PADATA HAI AGAR AP BINA BUFFER DIYE STOPLOSS LGAOGE TO
+STOPLOSS BAHIUT JALDI HIT HO JATA HAI IS LIYE AGAR BINA RETEST KE
+ENTRY KR RHE HO TO
+
+
+If we trade without a retest, we need to keep a larger stop-loss. If you place a stop-
+loss without giving a buffer, it gets hit very quickly
+BAHUT SARE TRADER RETEST OR PULLBACK KA INTZAAR KRTE HAI JO KI
+BILKUL SAHI HAI AGAR APKO LGE KE JO BREAKOUT OR BREAKDOWN
+HUYA YEH FAKE TO AP RETEST OR PULLBACK KA WAIT KRE NAHI TO
+TRADE NA KRE .
+
+
+Many traders wait for a retest or pullback, which is absolutely correct. If you feel that
+the breakout or breakdown that occurred is fake, then wait for a retest or pullback
+before entering the trade. If not, then do not trade.
+IS METHOD KO RETEST KHA JATA HAI.
+This method is called a retest
+
+
+
+
+OR IS METHOD KO PULLBACK KHETE HAI.
+And this method is called a pullback.
+YEHA DEKHO DOUBLE TOP PATTERN BANA ISKO DEKH KR TO KOI BHI
+TRADE LE LEGA KHAASS KRKE NEW TRADER AGAR MAIN APKO ISKA
+PICHLA STRUCTURE DIKHAUNGA TO PTAA CHLEGA KI YEH DOWNTREND
+MAIN BNA HAI JISKI ACCURACY 40 - 50% HAI.
+
+
+Look, a double top pattern has formed here. Seeing this, anyone would take a trade,
+especially a new trader. But if I show you its previous structure, you will realize that it
+has formed in a downtrend, with an accuracy of 40 - 50%.
+IS EXAMPLE MAIN DEKHO DOUBLE BOTTOM PATTER DOWNTREND MAIN
+BANA HAI JISKI ACCURACY 90 TO 100% HAI. AGAR YEH PATTERN KAHI MID
+RANGE MAIN BANTA TO ISKI ACCURACY KAM HO JATI.
+
+
+In this example, look at the double bottom pattern formed in a downtrend. Its
+accuracy is 90 to 100%. If this pattern were to form somewhere in the mid-range, its
+accuracy would decrease.
+INCOMPLETE PATTERN
+
+
+
+
+BAHUT SARE NEW TRADER INCOMPLETE PATTERN PR HI TRADE LENE
+LAAG JATE HAI KO BAHUT GALAT HAI APKO KABHI BHI YESA NAHI KRNA
+CHAYIE,
+
+Many new traders start taking trades based on incomplete patterns, which is very
+wrong. You should never do that.
+YEHA PR SUCCUCFULLY BREAKOUT HUYA HAI AP YEHA PR BUYING
+KROGE YA SELLING KROGE?
+HERE IS SUCCUCFULLY BREAKOUT OF THIS PATTERN AND WOULD YOU
+BUY OR SELL HERE?
+AGAR SIMPLE BREAKOUT PR TRADE LETE HO TO APKA STOPLOSS BHI
+BADA HOTA HAI OR DIRECT BREAKOUT BAHUT BAAR TRAP BREAOUT
+BNATA HAI. IS LIYE BINA RETEST KE ENTRY MAIN JITNA HO SKE RISK KO
+MANAGE KRO.
+If you take trades based on simple breakouts, your stop loss is usually larger, and
+direct breakouts often turn out to be trap breakouts. Therefore, without a retest, try to
+manage your risk as much as possible in your entry.
+                   RETEST CONCEPT
+
+
+
+
+PULLBACK CONCEPT
+RETEST OR PULLACK BACK MAIN DIFFIRECE YEH HAI KI JAHA SE
+BREAKOUT OR BREAKDOWN HOTA BHA MARKET EK BAAR FIR ATA HAI
+LEVEL KO TEST KRNE JISE RETEST KAHA JATA HAI.
+
+PULLBACK MAIN MARKET NICHE NHI AATA HAI BREAKOUT DENE KA BAAD
+EK YA DO CANDLE RED BNAYEGA THEN BAPAS APNE TREND KO CONTINUE
+RAKHEGA.
+
+
+
+The difference between a retest and a pullback is that in a retest, the market comes
+back to test the level from where the breakout or breakdown occurred.
+
+
+In a pullback, the market does not come down after giving a breakout. It may form
+one or two red candles and then continue with its trend.
+YEHA PR SUCCUCFULLY BREAKOUT HUYA HAI AP YEHA PR BUYING
+KROGE YA SELLING KROGE?
+HERE IS SUCCUCFULLY BREAKOUT OF THIS PATTERN AND WOULD YOU
+BUY OR SELL HERE?
+BREAKOUT AGAR ACHE VOLUME KE SATH HO PR BADA CANDLE BANE TB
+HUM TRADE NHI LETE OR HUM YEHA PR RETEST OR PULLBACK KA WAIT
+KRTE HAI.
+AGAR ACHE VOLUME KE BREAKOUT OR BREAKDOWN MILE PR CANDLE KA
+SIZE 50 TO 60 % POINTS CANDLE KA SIZE HO TO HUM BINA RETEST OR
+PULLBACK KE VHI ENTRY KRTE HAI.
+
+
+If a breakout occurs with good volume but a large candle is formed, we do not take
+the trade and wait for a retest or pullback.
+If a breakout or breakdown occurs with good volume and the candle size is 50 to
+60% of the previous candle's size, we take the entry without waiting for a retest or
+pullback.
+MARKET YEHA PR DOWNTREND MAIN HAI OR LOWER HIGH LOWER HIGH
+KA PATTERN TIYAAR KR RHA HAI. YESE MARKET MAIN HUM Jyadatr down
+side ka hi trade lete hai kioi trend is your friend.
+
+
+The market is currently in a downtrend and forming a lower high lower low pattern. In
+such a market, we mostly take trades on the downside because the trend is our
+friend.
+YEHA PR DESCENDING TRIANGLE PATTERN KA BREOUT HUYA HAI KYA
+YEHA PR DIRECT BUYING KROGE YA SELLING KROGE?
+
+
+Has the descending triangle pattern breakout Will you do direct buying or selling
+here?
+YES YEHA PR AP DIRECT BUYING KR SKYE HO KOIKI AGAR AP DYAAN SE
+DKHOGE TO APKO PATA CHALEGA KI YHA MULTIPLE CONFIRMATION
+BREAKOUT HUYA HAI JES TRENDLINE BREAKOUT, SWING BREAOUT ,
+TRIPLE BOTTOM PATTERN BREEAKOUT AND DOUBLE BOTTOM PATTERN
+BREAKOUT.
+ITNA CONFIRMATION MILE TO TRADE LE LENA CHAHYIE KOI AGAR AP RISK
+NHI LOGE TO PROFIT VHI NAHI KR PAOGE.
+
+
+Yes, you can do direct buying here because if you look closely, you will see that
+there are multiple confirmations of a breakout. These include a trendline breakout,
+swing breakout, triple bottom pattern breakout, and double bottom pattern breakout.
+
+
+When you have so many confirmations, it is advisable to take the trade, as if you
+don't take risks, you won't be able to make profits.
+YEHA PR DEKHO BIG CANDLE BREAKDOWN HUYA. BAHUT SARE NEW ESE
+SETUP ENTRY KR JATE HAIY. YEH SETUP BAHUT RISKY HOTA HAI . AGAR
+APKO RETEST OR PULLBACK KA WAIT NHI KRNA DIRECT BREADOWN OR
+BREAKOUT PR ENTRY KRNA HAI TO AP CANDLE KE 50 TO 60% PR
+STOPLOSS LAGA DO FIR SE BATA RHA HU YEH SETUP BAHUT JYADA
+RISKY HOTA HAI.
+
+
+Look here, there has been a breakdown with a big candle. Many new traders enter
+such setups without waiting for a retest or pullback. This setup is very risky. If you
+want to enter directly on the breakdown or breakout without waiting, then place a
+stop loss at 50 to 60% of the candle and I am repeating again, this setup is very
+risky.
+YEHA STRATEGY ALREADY PART 1 MAIN BTAYA HUYA HAI, KI AGAR
+TRENDLINE BREAKOUT HONE KE BAAD KESE TRADE LETE HAI SWING OR
+TRENDLINE KE BASE PR.
+
+
+This strategy has already been explained in Part 1, where it is discussed how to
+trade based on swings and trendlines after a trendline breakout.
+IS STRATEGY MAIN HUM TRENDLINE KE BASE NHI TRADE LETE HAI JB
+TRENLINE KE UPAR KA SWING SUCCUSFULLY BREAKOUT HOTA HAI TB
+TRADE LETE HAI AGAR SWING BREAKOUT NA HO OR REJECTION CANDLE
+BNE YA STRONG RED CANDLE BNE TB HUM DOWN SIDE KA TRADE LETE
+HAI.
+
+YEH JYADA TR 5 MINUTE OR 15 MINUTE CHART FRAME MAIN HI WORK KRTA
+HAI.
+
+In this strategy, we do not trade based on the trendline itself. Instead, we wait for a
+successful breakout of the swing above the trendline to enter a trade. If the swing
+breakout does not occur and there is a rejection candle or a strong red candle, then
+we take a trade on the downside.
+
+This strategy works best on the 5-minute or 15-minute chart timeframe
+Open Your Demat Account
+

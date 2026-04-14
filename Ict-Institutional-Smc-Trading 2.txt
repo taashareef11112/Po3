@@ -1,0 +1,650 @@
+         ADVANCED ICT
+      INSTITUTIONAL SMC
+        TRADING BOOK
+
+
+
+
+ Smart Money Concept, Liquidity, HTF
+   Circle, Algo Market Structure, Price
+      Action, Order Block/Breaker
+Block/Rejection Block, TDI Indicator, Top
+ Down Analysis, One Minute Ping pong
+          Mastery, Algo Concept.
+                               David Woods
+
+
+
+
+                   Copyright ©2022 DAVID WOODS
+                            All rights Reserved
+No part of this publication may be reproduced, distributed or transmitted in
+  any form or by any means including photocopying, recording, or other
+electronic or mechanical methods, without the prior written permission of
+                               the publisher.
+                               DEDICATION
+
+
+I David Woods, has written this book ADVANCED ICT
+INSTITUTIONAL SMC TRADING BOOK as a trading guide and it’s
+dedicated to all Forex trader’s, learner’s and newbies who are interested in
+learning and trading in the forex market including old traders as well with
+little or no experience, but still dedicating time and effort in doing what it
+takes to win in forex trading, instead of giving up and shying away from
+their dreams of becoming a successful trader. Without you this book
+wouldn’t have been written and published. I hope you read carefully,
+understand and implement everything learnt in this book. Wishing you all
+the best in your trading journey.
+THE ALGO OBJECTIVE
+1. Encourage investors to take a position
+2. Spread fear and panic to induce panic among traders.
+3. Deactivate the orders and hit the stop losses.
+4. Put traders in danger with their margin and profit from it
+LIQUIDITY
+The most significant factor in this market is liquidity. Many SMC traders
+sincerely think they understand the concept of liquidity. They actually don’t
+understand it. The market is driven by liquidity, not by supply and demand.
+Instead, liquidity is preferred because this market is driven by price
+manipulation, and to be present means to engage in price manipulation. Let’s
+go on to the most crucial phase, which is how do we know where the
+liquidity is in the chart, after understanding why liquidity is vital. You must
+first have some knowledge, though. We lack the Center Bank’s data, so we
+are unable to determine the location of the Liquidity. There are prospective
+locations with very high liquidity and probability locations with low
+liquidity, therefore we can only predict where liquidity can be discovered.
+You must understand that liquidity determines every market top and bottom.
+The larger the time frame, the greater the liquidity, and therefore the
+liquidity is more; however, the more we go down to smaller time frames, the
+more weak the liquidity will be, so in order to know whether or not this is
+important liquidity, we must understand that HIGHER TIME FRAME
+LIQUIDITY is not the same as LOWER TIME FRAME LIQUIDITY.
+As a result, we will classify liquidity and its significance into three
+categories.
+Major Liquidity
+Medium Liquidity
+Minor liquidities.
+MAJOR LIQUIDITY
+PREVIOUS MONTHLY HIGHS AND LOWS
+PREVIOUS ANNUAL HIGHS AND LOWS
+PREVIOUS WEEKLY THE HIGHS AND LOWS
+PREVIOUS DAILY HIGHS AND LOWS
+SWING STRUCTURES HIGHS AND LOWS (HTF)
+
+
+
+
+Example
+
+
+
+
+Where is the Liquidity? All this highs and lows are actually liquidity, which
+looks more important
+It REVERSES after taking a liquidity price. Well, it’s not quite that easy.
+You could be asking how we’ll find out whether the price will change or not.
+Ignore this query; once you’ve finished reading this book, you’ll know the
+answer. Now I just want you to pay attention and understand that after the
+price takes important liquidity (important liquidity means that there is a lot
+of money there is enough for the price to make a big movement because we
+are in the monthly chart). the price will reverse and WE CALL THAT
+(TRAP)
+MAJOR LIQUIDITY, MAJOR MOVE
+PWH=PREVIOUS WEEKLY HIGH
+PMH=PREVIOUS MONTHLY HIGH
+PDH=PREVIOUS DAILY HIGH
+PML=PREVIOUS MONTHLY LOW
+PWL=PREVIOUS WEEKLY LOW
+PDL=PREVIOUS DAILY LOW
+PYH=PREVIOUS YEARLY HIGH
+PYL=PREVIOUS YEARLY LOW
+
+
+
+
+MEDIUM LIQUIDITY
+STRUCTURE HIGHS AND LOWS ON THE HOURLY CHART
+
+
+
+
+LET’S TAKE A LOOK AT WHAT THE RETAIL TRADERS SEE
+WHEN THEY OPEN CHARTS
+
+
+
+
+Beautiful Breakout for the Retail Trader Take a sell, shall we? Algorithmic
+trader: Aha Let’s acquire a beautiful fake breakout (TRAP). After taking The
+picture of the Retail Traders Stop Losses here
+RETAIL SUPPORT AND RESISTANCE
+You see how much pips after price grabs a MEDIUM LIQUIDITY
+
+
+MINOR LIQUIDITY
+The Minutes contains the minor Liquidity (30min..15min..1min Also)
+We Can Use This Liquidity Today…
+CONFIRMATION ENTRY AND SCALPING ADDITIONALLY Therefore,
+if you want 20 pip every day, the difference in liquidity will affect the
+movement. Minor is sufficient, but if you want A LOT OF PIPS, you should
+concentrate on medium and major liquidity.
+IN ALL:
+THEY NEED TO MOVE AFTER PRICE GRAB LIQUIDITY, SO THE
+ALGO SET THE ORDER AND PRICE REVERSE>HTF LIQUIDITY,
+LTF LIQUIDITY MINUTES LIQUIDITY > HOURLY LIQUIDITY>
+DAILY LIQUIDITY > WEEKLY LIQUIDITY > MONTHLY LIQUIDITY.
+INDUCEMENT
+IS NOTHING ELSE BUT A LIQUIDITY CLOSE TO AN OB.
+
+
+
+
+DIALY CIRCLE
+So What Happens in a Typical Day?
+3 sessions: ASIA>LONDON>NEW YORK. Accumulation of initial high
+and low of the day are set trap force move out of the Asia range against the
+real intended move. Trend move, real move from the (HIGH OF THE
+DAY)end of the Reversal (CLOSE OF THE DAY)
+THE POWER OF CIRCLE: CIRCLE CAN BE FOUND ON ALL THE
+FRAMES WITH PATTERNS THAT REPEAT.
+• ASIA RANGE TO INCREASE LIQUIDITY
+• LONDON PRICE GRAB FRANKFURT LOW +PDL (so it’s possible that
+this low is the day’s low)
+• New York Trap On the New York Open Price MAKE A TRAP That supply
+zone is only a trap since the fake momentum shift (BOS) to understand
+better (I describe the fake BOS on the Algo structure part). Many Smart
+Money kids waste money on this trap.
+
+
+D.O (Daily opening price) (Daily opening price) Discounted prices are
+above premiums below D.O.
+Construction >INDUCE>Trap>SHIFT London session’s worst performance
+of the day NY Finish what London had in mind You may see A NY Trap is
+followed by more maneuvers to create highs of the day.
+ALS: SWEEP ASIA LOW FFH:
+FRANKFURT HIGH Frankfurt always make a fake move to make FFH only
+about availability and price.
+Take advantage of the FFL liquidity and the Asian low on the London Open
+money entry to the market in London or New York. High turbulence Times
+… 90% of The Times in London and New York forms The Day’s Highs and
+Lows LOW OF THE DAY (LOD)
+(HOD): HIGH OF THE DAY The Middle of Asia has Minor Liquidity,
+whereas the High and Low of Asia have Medium Liquidity.
+After taking Asia Low Price, it moves the other way to take Asia High Price.
+Focus, once you identified where you are from circle, then you can drop
+down the lower time to find a trade setup.
+1 MIN TIMEFRAME VERY CLEAR
+BUILD UP LIQUIDITY>GRAB LIQUIDITY
+
+
+
+
+NOTE: See the swept of Asia High and Asia Low Aggressive to Grab all the
+Liquidity
+
+
+
+
+Cycle: BUILD UP>AGGRESSIVE GRAB>REVERS
+Case 1
+ON THE ASIAN PRICE BUILD UP LIQUIDITY IN FRANKFURT
+FALSE MOVE. ON THE LONDON OPEN AGGRESSIVE MOVE TAKE
+ALL THE LIQUIDITY, THEN GO ON THE OPPOSITE DIRECTION.
+Case 2
+We have a significant Asian Low in this case.
+Strong Low structure refers to the Low Grab Liquidity and Break structure.
+We have Asia Low Grab, a crucial source of liquidity, here “The Orders
+Enter On Asia In This Situation, and Algo Will Protect This Order
+PREVIOUS DAILY LOW Notes: This case occurs during reversals (HTF
+reversals) or when trends are particularly strong (see example).
+HTF Direction Bearish
+If you don’t see any liquidity building up on the LTf, click here to find out
+where the liquidity is building up in price.
+Before
+After
+
+
+
+
+Price Build Up>Trap
+Follow Liquidity= Follow Algo
+• 90-Minute Circle
+We begin at midnight, New York time (00:00).
+Every 90 minutes. The risk of a significant price change prompts us to
+specify the opening price every 90 minutes. KNOWING WHERE THE
+FAKE MOVE IS
+HTF LIQUIDITY CYCLE
+We must understand that the price fluctuates every three to five days, but
+why? Because of INTERNAL BANK PRICE DELIVERY. ALGORITHM is
+always searching for information for the previous three or five days, three or
+five weeks, months, or years, and from this they understand that ALGO is
+broken down into types. Short-term and long-term algorithms Algo
+Internal Bank: It is the one who keeps the information for all the locations
+with liquidity.
+Let’s Start with the LIQUIDITY CIRCLE
+
+
+
+
+Case 1: BULLISH WEEK
+• Monday Manipulation Move to Grab, The high and low points of the week
+frequently emerge on Monday.
+• Tuesday Price will increase with more orders and continuation
+• Wednesday REACCUMULATION AND SOMETIMES REVERSAL
+(BASED ON HTF STRUCTURE)
+• Thursday completes the movement that occurred on Wednesday
+• Friday DISTRIBUTION
+
+
+
+
+Case 2:
+• On Monday, price increases engineering liquidity; the reason for this is that
+the Algo need more liquidity since more orders join the market on Monday.
+Accumulation
+• Tuesday price manipulation Take Friday high and Monday high. Thus, the
+manipulation attempt was made on Tuesday.
+• Wednesday and Thursday going forward Just create a range for the price to
+stack more orders. Friday’s continuation/low of the week
+The HTF Cycle
+You must be aware that there are two categories of algorithms: short-term
+algorithms and long-term algorithms. The amount of liquidity that the algo
+took will determine whether his targets are short or long in the long run once
+he takes significant liquidity and SETS There orders.
+Once price Take advantage of significant liquidity and break the PDH
+(BULLISH MOMENTUM SHIFT)+Ms. When we go to February’s first
+day, we see The Last 20/40/60/90 Days. Additionally, we define the highest
+highs during the previous 20 and 40 days. The algorithm target is this. 20
+Days After The Trap There is a strong likelihood that the price will change;
+it may not do so immediately after 20 days, but it does so frequently after
+that number of days, which is typically 20 days
+Always for confirmation, Here we have a bearish momentum shift
+You see the reversal has not happened after 20 days because it is not
+necessary( the price moves after taking important liquidity) CONFLUENCE
+HER BEARISH MOMENT SHIFT
+
+
+
+
+Right now the trap and the target, hits on the same month, this will make the
+price build liquidity in this case go to the HTF see where the Liquidity price
+is built and where that in
+Price ENGINEERING LIQUIDITY And Break Structure
+
+
+
+
+MONEY TRANSFER
+A shift in focus and increased spending on targeting The BS The SSL
+CHANGE FROM THE SELL SIDE PRICE DELIVERY, TO THE BUY
+SIDE, PRICE DELIVERY.
+Price delivery change from bullish to bearish (From BSL to SSL)
+ALGO MARKET STRUCTURE
+
+
+
+
+Market Organization The map is what will make it possible to understand
+and foretell the movement to come. And it’ll let you realize where you stand
+—whether you need correction or not—making the HTF MARKET
+STRUCTURE crucial.
+Okay, structure is not that simple when you see a structure like this. It
+indicates that there is no liquidity because the price has not used much of it.
+It is easy to interpret the structure and the price rises slowly if there is
+enough liquidity, but at the same time, a trend like this ENGINEERS
+LIQUIDITY FOR THE FUTURE. If there is not enough liquidity, the price
+builds up liquidity that it perceives across ranges and the price manipulation
+is quite huge. It increases liquidity so that it can flee in the future and wipe
+everything                                                                   off.
+ON A BEARISH OR A BULLISH TREND This low price is just liquidity
+and not an HL or LH image if the price breaks structure and fails to move to
+a discount or premium price.
+
+
+
+
+DEEP RETRACEMENT = REAL STRUCTURE ASK YOURSELF
+WHERE THE LAST STRUCTURE IS AT ALL TIMES CONSIDERING
+THIS PRICE Observe the price structure. VISIT A DI OR PREI. AND
+BREAKING THIS STRUCTURE.
+
+
+
+
+STRONG TREND IF YOU VISIT LIQUIDITY AND PRICE BUILD UP
+SHIFT AND GRAB A MAJOR OR IMPORTANT LIQUIDITY THIS
+predicts a strong trend, which implies the price won’t go back to its previous
+level since algorithms must safeguard orders; as a result, they create new
+structures and adhere to them. IN THIS CONTEXT GO TO THE HTF AND
+USE THE WEEKLY + DAILY CYCLE TO SEE WHERE YOU ARE
+FROM THE HTF STRUCTURE(DIS/PRE)
+Price Grab a lot of Liquidity=Strong trend
+Notes: The Real structure formed after Price Grab Important Liquidity
+Basic logic
+Before they take liquidity, keep in mind the algorithms. Increase Liquidity.
+What is the purpose of this?
+They construct their upcoming targets.
+REMEMBER TO FOLLOW THE STRUCTURE THAT PRICES CREATE
+AFTER GRABBLING LIQUIDITY
+DISCOUNT AND PREMIUM
+Discount price equals a low cost;
+premium price equals a high cost.
+DAILY OPENING PRICE OR USE MID NIGHT NY OPEN (00.00)
+ABOVE THE BSL = PREMIUM PRICE
+BELOW THE SSL = DISCOUNT PRICE
+
+
+             STRONG HIGH/ LOW WEAK HIGH/ LOW
+Strong High is the High that Caused Manipulation and Structure Breaking,
+while Strong Low is the Low that Caused Manipulation and Structure
+Breaking.
+Weak Low High is the Low that fail to break structure
+For every strong LOW, there is a weak HIGH, and for every strong HIGH,
+there is a WEAK LOW (WEAK HIGH OR LOW PRODUCED ALWAYS
+FROM A powerful HIGH OR LOW).
+VERY STRONG HIGH = HIGH GRAB LIQUIDITY (HIGH CAUSED
+MANIPULATION) BREAK STRONG HIGH + HAVE AN INDUCEMENT
+BEFORE
+AFTER
+
+
+
+
+BEFORE
+AFTER
+
+
+
+
+WHEN A HIGH OR A LOW DEVELOPS WEAKNESS THE STRONG
+H/L BECOMES WEAK MITIGATION WHEN THE PRICE IS
+MITIGATED. BUILDING LIQUIDITY FOR THE FUTURE WITH A
+STRONG HIGH OR LOW (OB)
+CASE 3
+FAKE BMS THIS PATTERN HAPPENS A LOT, AND TWO THINGS
+WILL SHOW YOU
+First, WHERE ARE THE STRONG’S?
+2. WEAK HIGHS AND LOWS AND HIGH AND LOW POINTS
+3. HTF Structure (INTENTION)
+4. INTERNAL/EXTERNAL LIQUIDITY
+
+
+
+
+False Break in Market Structure (FBMS)
+FMS: Fake MOMENTUM SHIFT
+INTERNAL AND EXTERNAL
+Both internal and external liquids are considered to be within a range.
+
+
+
+
+We use external liquidity, which is the leg’s highest point, to create this
+target
+
+
+
+
+FAILURE SWING
+
+
+
+
+PRICE FAIL TO CREATE A NEW LL
+PRICE FAIL TO CREATE A NEW HIGHER HIGH
+Before
+After
+Before
+After
+Pattern of Market Makers
+You must be aware that RANGES account for 80% of a price’s swings. Why
+Does The Price Vary? I’ll share with you the most crucial models that the
+price creates because it is the most effective approach to control prices and
+build liquidity.
+1.AMD
+AMD = AMOUNT + MANIPULATION
+
+
+
+
+DISTRIBUTION
+
+
+LIQUIDITY ACCUMULATION BUILD UP
+FAKE MOTION (MANIPULATION MOVE TO INDUCE RETAIL
+TRADERS IN THE WRONGSIDE OF THE MARKET)
+THE REAL MOVE IS DISTRIBUTION. You’ll have no trouble
+understanding this model because it is so straightforward. This is an
+example. Understanding it will allow you to execute numerous trades each
+day because it occurs every day, every week, and every month. It is, in my
+opinion, the most effective model.
+Before
+After
+BULLISH CANDLE
+BEARISH CANDLE
+
+
+
+
+MARKET MAKERS BUY/SELL MODEL
+Buy Model
+Sell Model
+Before
+After
+IOF
+IOF = Institutional Order Flow
+I want you to ALWAYS FOCUS ON THE LIQUIDITY FIRST, OK?
+THERE IS ALWAYS A FAKE SUPPLY AND DEMAND ZONE
+UNDERSTAND THE LOGIC
+
+
+ALGO CANDLE
+AC = ALGO CANDLE
+
+
+
+
+1. The candle is what develops when it absorbs fluids and (it forms FVG
+immediately afterwards).
+AC IS WHAT MAKES THE HIGH OR LOW STRONG
+VERY STRONG ALGO CANDLE= GRAB LIQUIDITY/BREAK
+STRONG HIGH OR LOW (MOMENTUM SHIFT) HAVE AN
+INDUCEMENT/ FVG
+
+
+
+
+What is the most efficient inducement
+PRINCIPLES:
+*Identify The Strong High and Low.
+*Follow Structure
+* Where the Price Build Up Liquidity (weak Low and High)
+
+
+
+
+*Where is the liquidity?
+
+
+
+
+15mins
+15MINS
+
+
+
+
+1 MIN
+2. FAIR VALUE GAP/INEFFICIENCY
+Inefficient Pricing calls for a SELL to accompany every BUY in order to
+maintain market equilibrium. When we only observe pure purchasing or
+selling, price voids are created, which the central banking algorithm must fill
+in order to restore price efficiency.
+This is referred to as a “Liquidity VOID” or “Void of Market Liquidity”
+
+
+
+
+ALSO ALGO NEED TO FILL THE VOID AS THE HTF LIQUIDITY
+VOID IS MORE IMPORTANT THAN THE LTF LIQUIDITY VOID
+(UNDERSTAND THE LIQUIDITY VOID JUST LIKE U UNDERSTAND
+LIQUIDITY).
+When you see AFVG fully stocked, there is a strong likelihood that the price
+will reverse. Depending on how significant it is Use many time frames to
+view all of this FVG (HTFFVG>LTFFVG).
+REMEMBER FVG IS JUST A LIQUIDITY VOID BUT EXACTLY LIKE
+LIQUIDITY (FILL>REVERSE)
+
+
+
+
+THE DIFFERENCE BETWEEN EFFICIENCY PRICE ACTION AND
+INEFFICIENCY PRICE ACTION
+DISPLACEMENT
+
+
+
+
+Move       to      generate      IMBALANCE              using       VECTOR
+CANDLE=ENGULFING CANDLE The retail trader buys when they
+notice a strong, quick movement like this out of fear of missing the
+opportunity; we, on the other hand, are looking for a chance to sell.
+VECTOR   CANDLE=ENGULFING                   CANDLE         move       create
+IMBALANCE.
+THE RETAIL TRADERS
+They are afraid of missing the opportunity, when they see a strong fast move
+like this, they buy, we do the opposite, WE LOOKING FOR AN
+OPPORTUNITY TO SELL
+
+
+
+
+VC= Vector Candle
+HIGH VOLUME IMBALANCE
+HVI: HIGH VOLUME IMBALANCE
+HVI HIGH VOLUME IMBALANCE
+ALGO CANDLE
+VC: VECTOR    CANDLE   (ENGULFING   CANDLE   CREATE
+EFFICIENCY)
+15MINS
+1mins
+CONFLUENCE:
+
+
+
+
+FOLLOW DAILY CYCLE >Full Fill FVG > Mitigate LTF Algorithm
+Candle >REVERSE SHIFT IN MARKET STRUCTURE (-MS)
+15MINS
+1MIN
+BREAKER BLOCK
+
+
+
+
+NOTE: HAVE AN INDUCEMENT +FORMS ON A SESSION = STRONG
+REJECTION BLOCK ( HIGH OR LOW ) The sessions’ high and low tend
+to be just liquidity, regardless of whether they are in New York, London, or
+occasionally Asia: HTF REJECTION BLOCK IS A LTF ALGO CANDLE.
+When the momentum shift is aggressive, the breaker is very strong
+REJECTION BLOCK
+STRONG REJECTION BLOCK = HAVE AN INDUCEMENT +forms
+on a session (HIGH OR LOW) THE NY HIGH OR LOW, OR LONDON
+HIGH OR LOW AND SOMETIMES ASIA TOO BUT MOST OF THE
+TIME, THE HIGH AND LOW OF THE SESSION IS JUST LIQUIDITY.
+
+
+
+
+HTF REJECTION BLOCK IS A LTF ALGO CANDLE
+HIGH VOLUME BREAKOUT
+45 MINS
+1 MIN
+DIVERGENCE
+
+
+
+
+DV: Divergence
+STOCH RSI
+TOP DOWN ANALYSIS
+CONFLUENCES: fake momentum shift
+HIGH VOLUME IMBALANCE
+INDUCEMENT
+
+
+
+
+When the LTF structure is not followed by the last structure, the price
+RESPECTE.
+Monday
+LET’S SEE IF IT WANTS TO WAIT FOR CONFIRMATION ON THE 1
+MIN
+If you want to sell from this strong high, you will lose. Pay attention to the
+timing. NY OPEN TRAP
+
+
+
+
+You can set your stop loss above the high volume imbalance.
+BREAK EVEN: Move your sL to BE WHEN THE PRICE BREAK
+STRUCTURE
+RISK ENTRY
+
+
+
+
+CONFLUENCE: Market Maker Sell Model + Daily Cycle + Very Strong
+Algo Candle + Extreme Premium.
+FIRST TRADE
+CONFIRM ENTRY
+
+
+
+
+CONFLUENCE: HIGHER TIME FRAME MITIGATION + AHS + AVB
+SECOND TRADE
+LTF CONFLUENCES: AMD / HIGH IMPACT EVENTS/RETAIL
+SNR/DIV/+HTFFALSE FLAG
+
+
+
+
+THIRD TRADE, BREAKER BLOCK
+NY TRAP EXAMPLE
+
+
+
+
+CONFLUENCES:TIMING + FMS+HVI +INDUCEMENT
+LC: London Close
+PRICE ACTION CONFIRMATION
+
+
+
+
+80% OF THE TIME, ALGO CREATE FAKE PRICE ACTION PATTERNS,
+BUT IF WE KNOW WHERE THE ALGO USES TO CREATE A REAL
+PRICE ACTION PATTERNS, WE CAN USE THIS PATTERN FOR
+CONFIRMATION ENTRY
+JUST LIKE REJECTION BLOCK + DISPLACEMENT
+PING PONG MASTERY
+
+
+
+
+For you to learn this concept, you must master the narratives
+Remember to consider whether you contributed to a loss when you lose. No,
+I’m not in charge. I abide by the laws. I’m not mistaken. I don’t make errors.
+I follow the laws. But keep in mind to adhere to risk management principles
+and implement the strategy as intended.
+PASSION PAY
+Let’s see how we can take all this trades
+
+
+
+
+DON’T TRY TO CATCH EVERY SINGLE MOVE, USE THE PING
+PONG WHEN YOU SEE HIGH IMPACT NEWS OR USE IT IN THE LO
+AND NYO.
+PRICE MITIGATE HVI 1H+ALS+ NY TRAP
+

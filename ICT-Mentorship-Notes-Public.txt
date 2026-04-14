@@ -1,0 +1,2000 @@
+Episode 1: (Introduction)
+
+   -   Have an independent mindset. See things yourself and come to decisions on your own.
+       Do not be codependent on him.
+   -   Don’t cut corners in his teachings.
+   -   Do your homework, study, do the things he suggests. Study hard and fully understand
+       the concepts.
+   -   Backtest, backtest, backtest.
+
+Episode 2: (Elements To A Trade Setup)
+
+Weekly
+
+   -   Before the new trading week begins, think about what the next weekly candle is likely to
+       do. Establish a weekly bias/assumption based on this weekly candle, either lower or
+       higher. This is your weekly bias.
+   -   When it comes to price action on the weekly chart.. Ask yourself this question: ‘What is it
+       most likely to draw towards? Ie: is there an imbalance higher, is there a liquidity pool
+       lower? This sets your initial bias for the week.
+
+Factors that can impact the weekly candle…
+   - Seasonal tendencies
+   - Interest Rates
+   - Earnings seasons & the release of quarterly earnings
+   - Price action on a weekly and daily chart
+Daily (Long Term Perspective)
+
+   -   Next, go into the daily time frame and figure out where you are in the grand scheme of
+       things on that weekly range expanding higher or lower.
+   -   If we are bearish biased on the weekly candle; then on the daily timeframe, every short
+       term low, underneath those lows are sell stops aka liquidity.
+   -   Learn to recognize where the market is going to draw to.. It’s drawing to 1 of 2
+       things, buy/sell stops (liquidity) or it's running to an imbalance.
+   -   Ask yourself this question: Where are the liquidity pools price can seek? Smart money
+       will be looking at old lows and old highs. Liquidity providers will be looking to take
+       business in around these same levels.
+   -   Look for swing highs and swing lows to get your liquidity.
+   -   The draw on liquidity is for the most part found on the daily timeframe.
+   -   The majority of your analysis should be on the daily chart.
+   -   Anytime a significant price move is expected; always anticipate some measure of
+       a stop hunt or a short term high/low being taken out.
+   -   The market constantly engineers liquidity.
+   -   The daily chart should have alot of your time and analysis,
+   -   The daily chart will give you feedback every 24hrs on that weekly candle.
+   -   We use that feedback to support our assumptions of the weekly candle expanding
+       higher/lower.
+How to determine draw on liquidity
+
+   -   The DOL will either be 1. a liquidity pool or 2. an imbalance.
+   -   Large funds aka smart money will be looking at these two things on higher time frames.
+
+1 Hour (Long Term Perspective)
+   - With a bias and a draw on liquidity from the higher time frames we can now build a
+      framework on the 1h chart.
+   - Once the algorithm (IPDA) seeks the induced liquidity to move the market higher/lower
+      we want to jump to the lower time frames to look for a specific entry.
+
+15 minute (Intermediate Term Perspective)
+   - Once you see a MSS or BOS with displacement, you want to look for your FVG.
+   - Measure displacement range with fib. Your FVG’s will form in this range, from the 15m
+      down to the 1m.
+
+Make sure you are buying at a discount in the displacement range if you’re long (draw fib from
+bottom of range to top)
+Make sure you are buying at a premium in the displacement range if you’re short (draw fib from
+top of range to bottom)
+
+Enter trade with a limit order in the FVG, stop loss below candle that created FVG
+Use FVG’s & liquidity (previous highs/lows) as exit target for your setups.
+
+Rule of thumb, target the low hanging fruit first
+
+5m (Short-Term Perspective)
+Charting Routine
+
+   -   Check forexfactory.com for high impact news drivers
+   -   Start on the weekly timeframe and set your initial bias for the week based off of the
+       weekly candle.
+   -   Move to the daily timeframe and figure out where you are in the grand scheme of things
+       on that weekly range expanding higher or lower.
+   -   If we are biased short/weak based on the weekly candle; on the daily timeframe, every
+       short term low, underneath those lows are sell stops aka liquidity.
+   -   Recognize where the market is going to draw to.. Its drawing to 1 of 2 things, stops
+       AKA liquidity or its running to an imbalance.
+   -   Move to hourly chart, use the daily levels , daily low/high, zoom into 1 hr, liquidity
+   -   Anytime a significant price move is expected; always anticipate some measure of
+       a stop hunt or a short term high/low being taken out.
+   -   find imbalances and order blocks. 1h is used to identify trend (swing lows swing highs
+       and volume imbalance)
+   -   Drop down into 15m, identify the 15m imbalances within them
+   -   drop down to 1 2 3 5m chart and find FVG
+
+the 1m, 2m, 3m chart tends to be the best for finding imbalances in indices because this is what
+the high frequency algorithms operate on nothing higher than 3 minutes
+IPDA moves the market
+Like watching 8:30 - 11 am there is usually a setup in there still watches after, but that is
+generally the sweet little spot
+
+Trading Times: EST
+
+8:30am -12:00am
+No Trade Zone from 12:00pm -1:00pm
+1:30pm - 4:00pm
+
+want to try to be positioned and be riding something into lunch, or taking some off into lunch
+
+1:30 is the point in time where you look for a stop hunt for the pm session, so same as
+8:30 for am session
+
+Episode 3: (Internal Range Liquidity & Market Structure Shifts)
+
+Market Structure Breaks (MSB) aka Break of Structures (BOS) lead to the prolonged movement
+of a multi-day trend, thus they are more significant than Market Structure Shifts.
+BOS is a break of strong swing highs and lows, MSS is a break of minor lows and highs within
+the range of the strong swing highs and lows.
+
+A Market Structure Break AKA Break of Structure requires more context when compared to
+Market Structure Shifts.
+
+Swing high is the highest swing point before the pullback.
+
+
+
+
+Market Structure Shifts (MSS) lead to an intra-day draw to intra-day liquidity pools or FVG’s.
+
+After the intra-day draw occurs, the prolonged trend continues. When price takes out liquidity
+in the market, Market Structure Shifts become more significant.
+After a MSS, the market will start to seek opposing liquidity.
+
+Market Structure Shifts Areas of Interest
+   - An old low or clean low for a Bullish MSS
+   - An old high or clean high for a Bearish MSS
+
+Where are you looking for liquidity
+  - Highs and Lows of Asian Session (8:00PM - 0:00AM)
+  - Highs and Lows of London Session (2:00AM - 5:00AM)
+  - Highs and Lows of NY Session (7:00AM - 10:00AM)
+  - Intraday highs and lows before equities open (9:30AM)
+
+Buying and selling strength/pressure has absolutely zero effect on where price is going to go
+It is algo’s pricing things higher or lower. Whichever way algos are offering price is the way it
+will go, buying/selling pressure has no effect. The market seeks liquidity at swing highs and
+lows. The market constantly engineers liquidity.
+
+Episode 4: (Backtesting)
+
+Be like a deer hunter, train your eye to track this setup. Go in looking for it and know what it
+looks like. Stalk this pattern. 8:30 am starts the “hunt” for the setup
+When backtesting, annotate it and look for similarities in setups. Annotate important factors like
+how long did it take from the BMS to get up into the FVG. How long did it take from your entry to
+your target. How much drawdown did you weather before it hit your target? How much draw
+down to get stopped out for loss? The rules of the setup force the market to show it’s hand.
+Backtest. Collect tons of examples of trades.
+
+Episode 5: (Intraday Order Flow & Understanding The Daily Range)
+
+You want to trade the futures monthly contract with the most liquidity. can see it on barchart.com
+Whichever contract has the most open interest, trade that
+Must always respect stop loss and have sound risk management
+
+want to see displacement
+the only two patterns you need
+displacement, fair value gap
+Important episode, go over again
+
+Morning session
+Looking for swing highs and swing lows prior to 8:30, 1:30 looking for swing highs and swing
+lows. Buy program is when algo’s go into the process of “spooling” where algos continuously
+offer higher prices
+3 Drives Pattern
+
+The 3 drives pattern is followed by 3 swing highs and swing lows creating HL and HH
+This happens to grab liquidity
+Happens near buyside liquidity
+
+Displacement is the official breakthrough candle that will create the FVG. looks like “VVM” thick
+bodied momentum candle.
+
+Episode 6: (Market Efficiency Paradigm & Institutional Order Flow)
+
+How we internalize price delivery
+
+    -   Do not trade patterns for patterns sake
+    -   We do not trade indicator readings or momentum
+    -   We look to enter longs where retail sells
+    -   We look to enter shorts where retail buys
+    -   We anticipate price seeking liquidity
+    -   Time of day is vital when engaging with price
+
+Smart money is not looking at price patterns. They’re looking at liquidity. What is the underlying
+narrative right now in the market? Is today’s daily range going to go higher and how? They may
+take it lower at the open, engineer liquidity, then run it up towards end of the day. It’s efficient for
+smart money traders to view the market in that perspective. They are looking at liquidity every
+day. As opposed to technical analysis.
+The first element algorithms operate under is time. There is an algorithm that delivers efficient
+market delivery. Go into price action with a “market efficiency paradigm” perception. The market
+wants to engineer liquidity.
+
+
+
+
+The ICT Bearish Fair Value Gap
+
+   -   Institutional order flow pattern based on a Three Candle formation
+   -   The optimal formation of the bearish FVG will be found after a run into buy side liquidity
+   -   Typically found just above a single price high or multiple price highs in a relative basis
+       (double top)
+
+Three candle formation, The first candle’s low has to be traded below by the following 2nd
+candle. The third candle (continuation candle) has to trade with an extended low below the 2nd
+candle's low. But cannot have a high, that goes back to the first candle’s low. stop loss above
+candle 1 or the swing high
+In that little gap space, the first candles low and the 3rd candles high (two red lines), price is
+only being offered to the sell side by algorithms. The market wants to trade back into that area
+at some future time to efficiently balance itself out. Stop loss is placed above the high of the first
+candle.
+
+The Bearish Market Structure Shift
+
+   -   The market will see price delivery of a rally above an old high or highs, then quickly shift
+       lower
+   -   It needs to be a strong move and thick bodied candle
+   -   Significance is placed on the term quick and with displacement lower
+   -   Mark displacement high and low, look for a FVG inside.
+   -   If there is no FVG inside it, there is no trade
+
+
+
+
+The ICT Bullish Fair Value Gap
+
+   -   Institutional order flow pattern based on a Three Candle formation
+   -   The optimal formation of the bearish FVG will be found after a run into sell side liquidity
+   -   Typically found just above a single price low or multiple price lows in a relative basis
+       (double bottom)
+   -   Stop loss below candle 1 or the swing low
+The Bullish Market Structure Shift
+
+    -   The market will see price delivery of a decline below an old low or lows, then quickly shift
+        higher
+    -   It needs to be a strong move and thick bodied candle
+    -   Significance is placed on the term quick and with displacement higher. not a wick, or
+        small candle
+    -   Mark displacement high and low, look for FVG inside
+    -   If there is no FVG inside it, there is no trade
+
+
+
+
+really good description of backtesting / trade management on setup
+
+Episode 7: (Daily Bias & Consolidation Hurdles)
+
+Use the daily timeframe to determine bias
+
+Get a read on where it likely is going to next, where is it going to draw? Is it going to draw higher
+to an old high, or lower to an old low.
+
+there will be “grey areas” where things aren’t always so clear. there will be losing trades.
+
+when price is hanging around equilibrium .5 50%
+
+it gets very difficult to determine a bias
+so when that happens you have to rely on intraday charts and look for liquidity pools, running
+out old highs and old lows. be alot more nimble and don’t look to hold too long.
+
+when algorithms are “spooling” it mines they are offering price directionally one way
+
+algorithms run on time then price
+
+Episode 8: (Apply Institutional Order Flow To Forex Markets)
+
+Market context, confluence
+Look at amzn aapl msft /vx , relative strength? How are market leading equities holding up
+
+Episode 9: (Power of 3 and New York PM Session Opportunities)
+
+Power of 3 is accumulation, manipulation and distribution
+
+specifically dealing with daily time frame (but the concept is fractal)
+
+If bullish, he expects the opening price to be near the LOD or of the session, trade lower making
+an important low, and then rallies. Creates a high, then closes near HOD.
+
+Entries are not the most important thing; knowing where price is most likely trying to go to is.
+
+Episode 10: (Implementing Economic Calendar Events With The Open)
+(very good explanation of daily bias with power of 3)
+
+on the daily mark the daily high of range and daily low of range then mark .50 equilibrium with
+fibonacci
+
+above .50 (equilibrium) is premium market
+below .50 (equilibrium) is discount market
+
+if there is an imbalance the market is going to want to rebalance it
+
+
+
+
+                  long daily bias power of 3
+                       short daily bias power of 3
+
+the algorithm (IDPA) opening price is 12 midnight EST.
+also mark the opening price of the 8:30 am candle
+
+you want to see a fakeout high above opening price (manipulation) then drop below
+(accumulation), then bottom (distribution)
+
+this is the judas swing
+
+Episode 11:
+
+entire daily range = opening price at midnight
+
+morning session = 8:30 am opening price
+look at all the swing highs
+
+swing high is a 3 candle formation. It is a high that has a lower high candle to the left of it and a
+lower high candle to the right of it . the highest candle in the middle is your swing high.
+
+when the displacement comes it’s like a confirmation. just sit back and relax. let it do it’s thing
+
+Episode 12: (Market Structure For Precision Technicians | Advanced Price Action Theory)
+
+Use daily timeframe structure to construct daily bias, if price trades and remains above the
+structure, your analysis is wrong. If you’re bearish, the long term high from the daily should
+remain intact. market structure will always validate/invalidate your trade ideas.
+
+WE ARE NOT interested in picking tops & bottoms of the market.
+
+Every single time price rebalances an old imbalance, that swing that is created is labeled in his
+mind as an intermediate term high or low.
+
+Any time an imbalance is rebalanced, that is labeled as an intermediate term high/low.
+(ITH)
+When we look at price, we are looking to see, does the market have a reason to go
+up/down for stops/liquidity, or is it likely to go to rebalance an imbalance.
+
+What is the current market narrative? What is it likely to be doing right now?
+This is the #1 ICT determines right when he sits down.
+
+Use market structure to determine which way price is likely to go up/down
+
+(LTH/LTL) Long Term High/Low: Framed on a high time frame resistance level.Generally
+going to be framed on the daily chart. Based on the daily level, if we believe price is going lower,
+we should expect the LTH to hold. If it does not hold; we can assume our analysis was wrong.
+
+(ITH/ITL) Intermediate Term High/Low: Every time price rebalances an imbalance, the swing
+that is created is labeled as an intermediate term high/low. Or a short term high that has a lower
+short term high to the left of it and a lower short term high to the right of it. The inverse for ITL.
+Those are the only two forms of ITH/ITL. Once you mark this ITH the STH that follows it
+should be lower. It should not be violated if you are bearish. If it does not hold you can
+assume your analysis was wrong. If an ITH/ITl breaks that is a significant break of
+structure.
+
+STH/STL: Short Term High/Low:
+
+You want to blend this with institutional order flow, AKA When you’re bearish all of your up
+close candles should keep price from going higher than them. They should not be
+violated. The market should respect the institutional order flow.
+Typically what you’ll see is ITL has a higher STL to the right of it and a higher STL to the left of
+it. An ITH has a lower STH to the left of it and a lower STH to the right of it. But it is not required.
+
+If the ITH is not higher than the STH’s the market is weak and is tipping it’s hand to you that it is
+going to go lower. Vice verse for ITL and STL’s. The STH that follows the ITH should not trade
+above it.
+If a STL and ITL taken out then we can go to the LTL
+
+A LTH/LTL is generally going to be linked to the daily chart
+
+The majority of your analysis should be on the daily chart.
+You should be determining where that daily chart is going over the next day, or two, or week. Try
+not to forecast longer than a week. Keep your perspective limited to a 5 day time horizon.
+
+There are lots of ways to frame a trade, but you have to have something that links directly to the
+daily chart, because the daily chart is exactly what institutions and banks are trading off of.
+
+Daily chart, where your bias is determined, makes or breaks your trend continuation, etc.
+
+If we have a break below an ITL then we have a significant break in market structure.
+This ITL is more significant. This tells you then you can start using the LTH/LTL and start getting
+projections down.
+
+The LTH and LTL are your framework from the daily.
+If your ITH/ITL get violated, you know your trade idea is incorrect and you move on from the
+trade idea.
+
+If you can frame a context around a price swing/structure that is linked to a higher timeframe
+chart like the daily, you have a wonderful framework and high probability trade.
+
+Do not trade against the daily time frame
+
+“If you are trading against what the daily timeframe is likely to be doing; you are
+absolutely asking for failure. Don’t swim against the current. Swim with the current. Align
+with the higher timeframes.”
+
+
+
+
+Episode 13: (Market Structure For Precision Technicians | Advanced Price Action Theory)
+
+You must be emotionless and indifferent to losing.
+
+You must determine your plan before you enter the market. Stop loss, risk, partials, profit target,
+etc.
+
+Episode 16: (Multiple Setups Within Trading Sessions With Index Futures)
+
+Opening price for index futures is midnight 12:00am or 0:00
+
+Opening price for equities 9:30am
+
+8:30am
+
+Majority of your analysis should be framed on the daily chart, ask yourself based on the daily:
+where is it likely to go? Where is the expansion likely to take price, higher or lower? That’s going
+to carve out your bias.
+
+no more than 4 trades a day, 2 trades in the morning. 2 trades in the afternoon
+
+Your #1 goal is to understand where price is likely to go to/reach for? When you have the
+understood, it becomes easy to know what you’re looking for.
+The algorithm seeks discount to premium, premium to discount.
+
+oversimplified: all the algorithms do is reach for liquidity in the form of buy stops and sell stops,
+and/or imbalances or the creation of an imbalance (FVG) or return back to a FVG. and they do it
+on the basis of time then price.
+
+Episode 18:
+
+if he got funded with 100k and was starting over again
+he says he’d use this 2022 model and do exactly as follows
+
+bread and butter video
+
+goes over basically everything in detail
+
+Episode 19:
+
+You don't need to be pinpoint accurate with entries, you just need to have sound money/risk
+management
+the only time my trades are profitable is when I was in line with what the algorithm would
+do anyway
+
+Institutional order flow is rooted on higher time frame bias
+
+Episode 21: Does not hold overnight, does not swing, typical trade time is 90m -2h
+
+any time the market trades above an old high, it’s a short term premium because it’s tapping into
+liquidity
+
+any time the market trades below an old low, it’s a short term discount, because it’s tapping into
+liquidity
+
+market structure helps you frame an idea
+
+your trade ideas must be in alignment with the present narrative.
+
+narrative: why should the market go where you think it’s going to go on that particular day
+
+based on the climate, economic calendar, and the volatility of the session
+really good video showing trade examples
+Episode 24:
+Bearish scenario: Run above old highs or relative equal highs, grab the liquidity, short term low
+taken out with displacement (MSS), then go through the displacement leg looking for FVG’s as
+an entry.
+
+great video simplifying,summarizing the model
+
+I promise that i will endure losses.
+Trading is about managing losses
+Where do setups form?
+
+Old Highs/Lows and Relative Equal Highs/Lows
+
+Run above Old Highs/Lows Relative Equal Highs/Lows (Liquidity Grab)
+As soon as that happens, find the nearest short term high/low.
+Wait for an energetic move with displacement to take out that short term high/low.
+This is your market structure shift with displacement.
+Measure the discount/premium of displacement range.
+Look for FVG to form within displacement range.
+
+
+
+
+Fair Value Gaps
+
+Run into an old fair value gap.
+Wait for a MSS with displacement.
+Measure the discount/premium of this displacement range.
+Look for FVG to form within displacement range.
+
+Episode 25:
+
+Pay attention to seasonal tendencies
+
+the last week of april going into may
+
+there is a tendency for markets to be weak
+
+Don't try to pick bottoms/highs in the market, you will lose money doing that
+It is not necessary..
+
+The algorithm operates on new york time
+
+a fractal is a piece of price action , a very small segment of price action
+many times when there is an afternoon continuation to the upside, you will see the lows from
+lunch time, get swept (aka liquidity grab) before continuation
+
+on those choppy, range does, wait for 3 o’clock afternoon session for market to grab liquidity
+from of range
+
+episode 38:
+narrative is the understanding of what price should do, why, and what things will price encounter
+to prove the narrative you are assuming place, is in fact underway.
+
+day trading the 2022 model:
+
+use the 15 and 5m, with the logic and narrative that you’re going to trade the daily range
+
+afternoon session,
+
+if you’re bullish, the market has ran higher in the morning, then consolidates into lunch, then
+after lunch, drops down below a short term low and sweeps sell stops before running again
+
+once you can read the market, where it’s drawing to, and where it’s turning. where is going to
+go.. then entries become the easiest part
+
+understand what price is likely to do and where it’s drawing to
+
+understand narrative
+
+submit to higher time frame trend
+the market is likely to follow its higher timeframe trend/direction
+
+don’t try to pick tops and bottoms
+
+don’t take low probability setups.
+low probability = no trade.
+
+if there is not a strong conviction one direction then it is low probability.
+
+high probability conditions with ICT is the algorithm presenting something in price that is so one
+sided and so obvious that it wants to go higher or lower, that it’s very difficult for you to justify the
+other side. It should feel obvious and one sided. If you can justify an opposing setup, that is not
+a high probability trade.
+
+Daily Bias
+
+find liquidity
+check the daily , see where we have taken liquidity
+if we just took sellside, price is going to seek buyside, and the inverse, if just took buyside, price
+will now seek sellside. this establishes our daily bias
+
+
+Futures:
+
+Morning Session: 8:30am - 11:00am
+
+Afternoon Session: 1:30 - 3:00pm
+
+Indices
+
+Midnight Open: 0:00am
+New York Open: 8:30am
+Equities Open: 9:30am
+
+Forex Sessions:
+
+New York: 8:00am - 5:00pm
+London: 2:00am - 11:00am
+Asia: 7:00pm - 4:00am
+
+
+Killzones
+
+London: 2:00am - 5:00am
+New York: 7:00am - 11:00am
+
+Key Concepts & Terms
+
+submit to time & price
+submit to the higher timeframe trend.
+
+time & price
+price is always drawing to liquidity or imbalances
+
+algo runs on two principles : liquidity, rebalancing & creating imbalance
+
+
+Price is delivered by an algorithm. There is no buying or selling pressure.
+Algorithmic theory is based on time & price.
+Price Levels are useless until time is considered. (submit to time.)
+Time is of no use unless price is at a key PD Array.
+Blending the two yields astonishing results and precision.
+
+
+
+
+Kill Zone: Certain times that we trade in because they are when the market is most predictable
+bc that’s when the algorithm is on
+kill zones are when you determine your entry, place your orders & walk away
+
+Discount/Premium: 0.5 fibonacci retracement that shows oversold/overbought conditions.
+run the fib using the candle body, it is more accurate
+
+Only get long in a discount, only get short in a premium
+
+Liquidity Pool: Liquidity pools or resting liquidity, is an established level in the market where
+stops and orders can be resting, leaving these areas exposed for smart money to hunt these
+areas taking stop losses and triggering new buy and sell orders into the market. buy stops and
+sell stops are sources of liquidity above and below short term and long term highs and lows.
+Liquidity can also be engineered by smart money knowing they will trigger these levels at a
+future time in price, crouching the "true value" of the currency pair.
+
+Liquidity Void: A range in price delivery where one side of the market liquidity is shown in wide
+or long one sided ranges or candles. Price typically will want to revisit this area. This is an
+inefficiency/imbalance that price will want to retrace to for redelivery.
+
+WITH A LV you never really get that run on stops
+The rapid movement of price with the same series of candles (speed)
+
+Swing High/Low:
+Swing high/low consists of 3 candles, a candle with a lower high, a candle in the middle
+with a higher high, and another candle with a lower high on the other end. For a swing
+low it is the same idea but inverse.
+
+
+
+
+Internal structure: Everything between the swing high and swing low
+After BOS, expect a pullback on that timeframe
+Trend change = swing highs and lows taken out
+MSS: is intraday internal structure
+The very first sign of weakness/strength
+
+Break Of Structure (BOS): When a key high or low are taken out with the expectation of price
+continuing in that direction. Swing highs and lows taken out as trend continues
+Market Structure Shift (MSS): When an intraday short term high or low is taken out with
+displacement. Only significant if price has traded into buy/sell stops (after a liquidity grab)
+Anticipate MSS after a liquidity grab. You want to see displacement and FVG’s created within
+the displacement range. 15m timeframe
+Trending Down: Want to look at the highs for the MSS
+Trending Up: Want to look at the lows for the MSS Take out a high and a low with
+displacement
+
+
+
+
+Dealing Range:
+A range where price has taken out buyside, then reversed and taken out sellside.
+
+Dealing range stays dealing range until external liquidity is swept then thats the new one
+
+Bullish Dealing Range:
+Takes out sellside first then buyside external range liquidity, look for internal range liquidity pd
+arrays in a discount to get long
+
+aka the external high gets broken
+
+Bearish Dealing Range:
+Takes out buyside first then sellside external range liquidity look for internal range liquidity PD
+arrays in a premium to get short.
+aka the external low gets broken
+Displacement: an energetic move that breaks the previous market structure.
+Should result in a FVG created within the displacement range.
+
+Displacement marks: the end of a counter trend false more, or the beginning of a reversal.
+
+
+Fair Value Gap: A price delivery range where one side of the market is offered and usually
+confirmed by a liquidity void on the lower time frame charts in the same price range. (imbalance)
+
+
+
+
+Requirements to be a FVG
+   - Must have a run on liquidity first (BSL or SSL)
+   - Found within the displacement range of a Market Structure Shift
+
+Breaker Block:
+Form of mitigation, A run on liquidity, followed by a MSS
+Bullish Breaker: A bullish range or up close candle in the most recent swing high prior to an
+old low being violated. AKA liquidity grab below an old low, sellers are then trapped short. The
+sellers that sold this low and later see this low violated, will then look to mitigate the loss. When
+price returns back to the swing high, this is considered a bullish setup. Mark the breaker using
+
+
+
+
+the last up candle of the swing high.
+Bearish Breaker: A bearish range or down close candle in the most recent swing low prior to
+an old high being violated. Aka a liquidity grab above an old high, buyers are then trapped long.
+The buyers that buy the low and then later see the swing low violated, will look to mitigate the
+loss. When price returns back to the swing low, this is considered a bearish setup.
+Mark the breaker using the last down candle of the swing low.
+
+- A bearish breaker will keep your ability from reaching an OB (or any PDA that comes after it)
+which is the top of the hierarchy. When you see bearish breakers, it will prevent price from
+hitting the OB. Its the most dominant PDA.
+- breakers by themselves is most likely the first thing you encounter, even though its near
+bottom of list
+Order Blocks: A change in the state of delivery. An OB is manipulation. Gathers buy orders
+then a FVG Should print as the buy orders are inefficiently delivered. Order blocks are basically
+bookmarks for IPDA. If the wick is overlapping with an FVG then you use the wick. If the
+wick isn’t overlapping with an FVG then use the body.
+
+
+   -   Liquidity Grab
+   -   BOS
+   -   FVG
+   -
+
+
+
+
+A High Probability Order Block
+   - Liquidity grab
+   - Break of structure
+   - FVG + displacement
+   - made during sessions
+
+This is institutional order flow, price should respect it.
+50% of the body is what matters; the mean threshold is what is important
+Once passed 50% it bodes well for continuation that way
+
+Bullish draw on liquidity, bullish order blocks should be respected and price should not trade
+below them.
+Bearish bias, bearish order blocks should be respected and price should not trade above them.
+
+if the wick is overlapping with an FVG then you use the wick. If the wick isn’t overlapping
+with an FVG then use the body.
+
+
+Invalidating: When an OB is traded through if it doesn’t have a reaction is can be invalidated
+or when we trade all the way below/above an OB. Or through mean threshold.
+
+If we are bullish and DOL on daily is bullish seeking buyside, only enter/trade with bullish
+ob’s and target/take profit at bearish order blocks.
+
+draw using open close (bodies of candle)
+displacement within these OB’s is the evidence in price action that we have institutional
+sponsorship behind the move. Only trade with the OB’s that align with high tf bias and DOL
+
+Bullish Order Block: The lowest candle or price bar with a down close that has the most range
+between open to close and is near a support level. Series of down close candles before strong
+move with displacement.
+
+A change in the state of delivery, algorithmically
+
+
+   -   Liquidity grab of a low
+   -   Break of structure
+   -   FVG/displacement (confirms institutional sponsorship is behind the move)
+   -   Preferably 2-3x as big as the ob
+   -   Near a support level (IRP, PD Array)
+Bearish Order Block: The highest candle or price bar with an up close that has the most range
+between open to close and is near a resistance level.
+
+A chance in the state of delivery, algorithmically.
+
+    - Liquidity grab of a high
+    - Break of structure
+    - FVG/displacement (confirms institutional sponsorship is behind the move)
+    - Preferably 2-3x as big as the ob
+    - Near a resistance level (IRP, PD Array)
+If we are bullish and DOL on daily is bullish seeking buyside, only enter/trade with bullish
+ob’s and target/take profit at bearish order blocks
+
+Bullish Rejection Block:
+When a price high has formed with long wicks on the high(s) of the candlestick(s) and price
+reaches up above the body of the candles to run the buyside liquidity out before price declines.
+
+
+
+
+Bearish Rejection Block:
+When a price lowhas formed with long wicks on the low(s) of the candlestick(s) and price
+reaches down below the body of the candles to run the sellside liquidity out before price moves
+higher.
+
+
+
+
+Volume Imbalance: A segment in price where the algorithm delivers inefficiently , it leaves an
+imbalance of volume. Price
+
+Balanced Price Range:
+Liquidity: The degree to which a market asset or security can be bought or sold in the market
+without affecting the asset’s price.
+
+Low Resistance Liquidity:
+Liquidity with a low amount of resistance for it to be taken, for example, lows in a down trend.
+
+High Resistance Liquidity:
+Liquidity with a high amount of resistance before it can be taken, for example, protected highs in
+a down trend.
+Liquidity Void: a range in price delivery where one side of the market is shown in wide or long
+one sided ranges or candles. Price typically will want to revisit this range or void. Clear
+displacement.
+
+Buyside Imbalance, Sellside Inefficiency (BISI): bullish imbalances, there is an inefficiency in
+sellside delivery
+
+Sellside Imbalance, Buyside Inefficiecy (SIBI):
+bearish imbalances, there is an inefficient in buyside delivery
+
+Power of 3: Accumulation, Manipulation, Distribution
+
+Judas Swing:
+
+3 Drives Pattern:
+
+Draw On Liquidity: Where price is drawing to. This is always either liquidity or an
+imbalance/inefficiency.
+
+Consequent Encroachment: .5 of an imbalance/gap/wick
+
+Mean Threshold: .5 of an order block
+
+Inducement: inducing liquidity from retail
+
+SMT Divergence: Smart Money Technique, indicates relative strength/weakness by
+comparing /ES, /NQ & DOW.
+
+a crack in correlation of correlated or inversely correlated assets
+
+Institutional Order Flow: The underlying direction of i flows at the institutional level. It is the
+higher probable direction of the delivery of price… on the majority of near term candles.
+IPDA will look to initiate significant price runs when the IOF is directional and when the state of
+delivery has changed into opposing order flow.. at a key PDA.
+
+
+Look at order blocks
+
+Bullish: every down close candle will provide support and every up close candle is being
+broken
+
+Bearish: every up close candle will provide resistance and every down close candle will
+be broken
+
+When you’re bearish all of your up close candles should keep price from going higher than
+them. They should not be violated. The market should respect this institutional order flow.
+
+Price swings that are bullish, the down close candles are your support aka IOF.
+Price swings that are bearish, the up close candles are your resistance aka IOF.
+You can trail your stop loss based on the lows/highs of these candles IOF
+Blend this IOF with market structure
+
+Internal Range Liquidity: All of the structure and liquidity within the swing high and swing low
+(swing range).
+
+inside of the dealing range
+
+   -   When the current trading range is likely to remain. Liquidity voids will fill in - Gap risk
+   -   When the current trading range is likely to remain, Fair value gaps will fill in - Gap risk
+   -   Orderblocks inside the trading range will be populated with new buy and sell orders
+   -   Market maker buy & sell models will form inside trading ranges.
+
+External Range Liquidity: The liquidity of the swing high and swing low points, (liquidity on the
+outside of the swing range.)
+
+   -   The current trading range will have buyside liquidity above the range or high.
+   -   The current trading range will have sell side below the range or low.
+   -   Runs on liquidity seek to pair orders with pending order liquidity in the form of liquidity
+       pools.
+   -   External range liquidity runs can be low resistance or high resistance in nature.
+   -   As a trader, you want your trades to be in low resistance liquidity conditions.
+High Resistance Liquidity: Liquidity resting with a large amount of resistance before it can be
+swept. ie: uptrending market, (higher highs and higher lows) these highs are going to provide a
+lot of resistance.
+High high resistance liquidity is usually going to need some form of high impact economic news
+driver (NFP, CPI, FOMC) to cut through it aggressively. Without the injection of volatility the high
+resistance liquidity is usually well defended and will cause price to stall. This results in price
+taking much longer to trade to its objective.
+For shorts, you would want to avoid this type of price action since it is high resistance liquidity.
+Long positions would make sense here. Targeting high resistance liquidity is lower
+probability and we want to avoid doing so. Price is going to stall and take longer to achieve
+its objective during these conditions. They are not going to feel effortless and clean like low
+resistance liquidity runs do. Thus, we want to avoid high resistance liquidity run signatures.
+Old defended highs/lows are high resistance liquidity. These defended high/lows are unlikely to
+get ran. You basically want to trade in the direction of the trend. In this scenario, the sellside
+liquidity or defended lows are the high resistance liquidity. We want to target the buyside liquidity
+which is the low resistance liquidity run.
+
+
+Low Resistance Liquidity: Liquidity resting with a minimal amount of resistance for it to be
+swept. Looks like an impulsive move; displacement. The range from the MSS, to the
+displacement high/low is the low resistance liquidity.
+
+This is the ideal condition you want to trade in. Targeting low resistance liquidity is much
+higher probability. It is the easiest area to trade in price action. These trades will feel
+simple, quick and effortless. Use these low resistance liquidity run signatures to catch
+your simple 2R trades.
+
+
+
+
+After a large expansion, displacement type of move lower, once we get that MSS, above the old
+high, the market will have an easy time trading back up to the old low. This is the easiest area to
+trad in e in the marketplace.
+In this scenario, the defended highs are the high resistance liquidity runs. We want to take
+shorts targeting the buyside liquidity under the lows. These are our low resistance liquidity runs.
+
+https://www.youtube.com/watch?v=22XkhpJR5eA&t=336s
+
+Interbank Price Delivery Algorithm (IPDA): Controls price along side with the
+commercials(Central Banks) This is part of how I setup myself up as a trader to be more
+successful moving into a new trading month.
+
+IBDR: Interbank Dealing Range
+
+Consolidation, Expansion, Retracement, Reversal
+
+SMT Divergence: A break in correlation between positively or negatively correlated
+markets.
+
+Power Of 3: Accumulation, Manipulation, Distribution
+
+Immediate Rebalance: efficiently delivered price
+When price displaces, an immediate rebalance is instantly delivering price back to the
+BISI/SIBI, before continuing higher. With an immediate rebalance, an FVG will never
+form, because price has already been efficiently delivered. This basically shows a
+willingness for price to expand.
+
+
+
+Price Delivery Array Matrix
+
+Bearish Premium Arrays
+
+   -   Old high/low
+   -   Rejection block
+   -   Bearish JB
+   -   FVG
+   -   Liquidity Void
+   -   Bearish breaker
+   -   Mitigation block
+
+Bullish Premium Arrays
+
+    - Mitigation block
+    - Bullish breaker
+    - Liquidity void
+    - FVG
+    - Bullish JB
+    - Rejection block
+    - Old high/low
+    -
+3 things when he goes to the chart
+
+See where did price come from?
+
+See what price is doing
+
+See where price is going, where it wants to draw to (DOL)
+
+Establish bias and narrative
+
+the algorithm works and pushes price for smart money
+
+the algorithm likes to use the advantage from news
+Often time will see big moves aligning with high impact news
+the market is going to move regardless of if there is news or not, and it’s a good reason from
+price to get to its areas of interest quicker if there’s news involved
+(the only thing that really matters is interest rates, long term daily timeframe)
+use as many things in confluence as you can
+
+A+ Setup Checklist
+
+   -   Liquidity Grab
+   -   MSS + Displacement
+   -   FVG/OB above/below .5 fib of displacement range
+   -   Return to the FVG/OB
+   -   Solid Risk:Reward
+
+price will always make a run for PHOD or PLOD
+
+every day price is going to make a run for the previous day high or previous day low
+
+we focus on time more than price
+
+you want time to be a confluence
+
+we trade during killzones because volatility is in the market, we have a lot of volatility
+
+because the algorithm is on
+
+they say the algorithm
+turns back on after 1:30
+
+things that happen during killzones are of more significant
+
+days you don’t trade
+
+fibonacci retracements
+
+bearish, place top of displacement range to bottom
+
+bullish, bottom of displacement range to top
+
+Use the daily to figure out what the range can trade to
+
+The lower time frame tells the story before the higher time frame
+
+do not get mad at your loss
+go back to your losses, go back to them, play out what you did wrong etc
+
+Ict takes off half of october, december, then starts demoing half way into jan
+
+/ES /NQ opening prices
+
+0:00 (midnight open) & 8:30am (NY morning session)
+
+Usually there's some form of fake move in the AM
+
+midnight open: 0:00
+
+NY morning session open: 8:30am
+
+equities open: 9:30am
+
+london session open:
+
+asia open:
+
+First I look on the monthly/weekly/daily PD Arrays (mainly focusing on old highs and lows, OB’s,
+breakers and FVG’s
+
+After I dive into the 4 hour chart and see where we are with price
+
+In a range, did we take liquidity on a certain side, did we hit a PD Array and move away from
+that zone? Stuff like that
+
+How the market moves based off the daily and 4h help give me a sense of market direction
+
+I then look for the closest pd arrays on the 4 and 1 hour and these are where I’ll take my trades
+
+I wait for the market to hit a PD Array then I drop to a 15/5 min to find a setup
+
+This is where I’d want to see the market so a stop hunt and move away from that zone, which is
+the HTF pd array.
+
+After the stop hunt, I want the market to break structure and retrace back to the area of the HTF
+level. In there you you look for 5/1min pd arrays, mainly OB’s and FVG’s
+
+I would place my stop on the low, if bullish, and high, if bearish targeting the closest pool of
+liquidity which usually forms around London KZ or maybe it’s the previous days high or low
+
+institutional market structure
+reaching for liquidity
+reaching for imbalances
+
+smart money looks at the market with the perspective of liquidity and imbalances
+
+
+Daily Bias/Analysis
+   - previous liquidity taken
+   - swing highs/lows (market structure)
+   - Market structure shifts (MSS)
+   - Imbalances (FVG)
+   - Discount or Premium of daily range (use open/close of candles, not wicks) swing high to
+       swing low
+
+if your weekly bias is correct
+
+there’s a 70% chance tuesday is the low of the week and thursday is the high of the week
+
+The moat basic way to understand ICT IA to understand that you are learning exactly why the
+IPDA algorithm does what it does. ICT didn't invent it, he only cracked the code.
+
+just master the 2022 mentorship model
+
+ict says that is the easiest, most simple model
+
+don’t waste time learning things that aren’t tough in this model
+
+always trade in line with the higher timeframe narrative (higher probability)
+
+everything is more significant on a higher timeframe
+
+running a level means running through it and not looking back
+
+sweeping a level means tapping into it, going above or below, grabbing liquidity and then
+reversing back
+
+the bodies of the candles may tend to respect areas. not necessarily the wicks
+
+
+Also sticking to the times (submit to time) is TRUE. If you veer outside those times things
+get weird, and not in a good way. You'll find yourself waiting a long time for price to come
+back or move away or whatever it is you want it to do. But in the off times, theres not as
+many traders , or money, present and you'll remember him saying that you have to
+submit to time.
+Always target the low hanging fruit
+
+Use the main timeframe to watch structure,
+
+Don't exit a trade based off 1m-5m structure
+
+Go by the 15m-30m-1h for trade structure
+
+target the low hanging fruit
+
+The algorithm runs certain macros
+Macros are certain lists of orders and instructions, do this do that, if then or..
+Logic behind how price is being designed, delivered and booked.
+
+
+retail trading techniques, books, courses etc are made to trick you into blowing your money and
+become liquidity for smart money.
+
+they want to sell you the easiest thing so you blow your money in the market. ie: support &
+resistance.
+
+
+Daily Bias
+    - Previous liquidity taken?
+    - Swing highs / swing lows (market structure) (resting liquidity)
+    - Short term highs / short term lows (market structure) (resting liquidity)
+    - Relative equal highs / relative equal lows (market structure) (resting liquidity)
+    - Market structure shift (MSS)
+    - Imbalances ( FVG & OB)
+    - Discount or Premium
+    - Highers highs, higher lows, lower highs, lower lows
+Likes to look for setups from 8:30-11am (sweet spot)
+Does not tend to take trades from 12-1
+Wait until 1. Typically from 2-3 there is a setup in the afternoon trend
+
+
+
+
+If a day is bullish.. The market rallied all AM session
+
+In the PM session the market should seek the sell side liquidity formed by the lows of
+that AM session and then reprice to any BISI (buyside imbalance sellside inefficiency)
+once it is there, expect a return to premium inside the range.
+The 4 Price Delivery Market Conditions
+
+   -   Consolidation
+   -   Expansion
+   -   Retracement
+   -   Reversal
+
+
+
+
+Daily Bias
+
+Where is price right now
+Where did price come from
+
+Check dealing range
+
+Bullish or bearish dealing range
+
+Mark recent swing highs and lows
+
+Weekly Bias
+
+Monday weekly candle, power of 3
+https://www.youtube.com/watch?v=Yqio1Ja0lIQ
+Draw line from opening price of week
+Look for power of 3
+
+Tuesday Wed 70% chance of high of week in bearish scenario
+
+Tuesday wed 70% chance of low of week in bullish scenario
+
+Thursday Chance of high of week
+
+Thursda chance of low of week
+
+
+When identifying orderblocks, they are going to give you your bias.
+
+price should respect these order blocks.
+
+
+Bullish price action = bullish PD Arrays
+
+
+
+
+do not trade fomc days, nfp days, cpi days
+
+
+
+
+price is always either rebalancing an imbalance or taking liquidity
+ICT Killzones
+New York
+  - 7:00am - 9:00am
+  - The New York session usually has two scenarios - continuation of london’s move or a
+      complete reversal on the daily direction.
+  - When the daily is in a clear one sided momentum, it is best to look for confirmation of
+      that direction from London’s price action.
+  - If London agrees with the daily bias, we can anticipate new york to post a continuation
+      setup. Reversals require more insight.
+
+London
+   - 2:00am - 5:00am
+   - EUR & GBP are ideal for this killzone
+   - The London Open generally has the highest probability of creating the high or the low of
+     the day
+   - This helps you determine, when bearish/bullish when the actual high/low of the day is
+     going to form
+
+
+Asia
+
+   -   AUD, NZD, & JPY are ideal for this killzone
+   -
+
+
+
+
+Forex Session Times
+
+New York
+
+8:00 - 5:00pm
+
+London
+3:00 am - 12
+
+
+
+
+After 5 winning trades, size down a little
+This is in preparation for a losing streak
+
+This will flatline your equity draw down.
+
+
+Money management
+https://youtu.be/RtMRykCZtC4
+
+Risk Reward 1:2+
+
+Size down half after 5 winning trades
+
+Size down half after a loss
+Continue sizing down half after each loss, until you win
+
+(Need rules to plan for and weather draw down)
+
+5 winning trades is a complete win set cycle
+
+After that streak drop back to the lowest increment for leverage/risk
+
+anytime a significant move is expected, anticipate some measure of a stop hunt / liquidity grab
+prior
+Only trade FVG’s within displacement range and that are in discount (longs) or premium
+(shorts)
+target low hanging fruit. liquidity & imbalances
+can trail stops based on IOF
+sometimes bias will not be clear and the trading conditions will not be high probability because
+you don’t have clear conviction one way. when that is the case, just wait and don’t trade it
+scale out at order blocks
+look for IOF to confirm what side of the market you’re on
+Look for PD arrays and IOF to be respected
+which ones aren’t , resistance or support pd arrays
+this tells you the direction we currently moving in
+
+If we are at a bullish OB if price isn’t sending that higher then the direction isn’t up
+
+Any rallies when bearish should be seen as a stop out or false rally. Vice versa bullish
+Timeframes:
+W, D, 4h, 1h, 15m, 5m, 3m, 1m
+
+Weekly:
+Determine the likely weekly candle expansion. Higher or lower?
+Daily: Establish draw on liquidity and daily bias. Use PDH and PDL as targets for price to
+ultimately seek. PDH when bullish bias and PDL when bearish bias.
+
+4h:
+
+1h:
+
+15m: Bellwether chart, use for trade management, intraday structure,
+
+5m: use for trade management
+
+5m, 3m, 1m: Use for trade entries on FVG.
+
+use dealing ranges
+
+Trade Checklist
+
+      -   Killzone
+      -   Clear Draw On Liquidity
+      -   Liquidity Grab
+      -   MSS + Displacement
+      -   FVG/OB above/below .5 fib of displacement range
+      -   Return to FVG
+      -   2R+
+
+
+take 70-80% off at low hanging fruit internal range liquidity (2R)
+
+leave 20-30% for runners / external range liquidity
+high probability = feels so one sided that you can’t even make a case for trading the other side
+of the market
+
+
+TradingView Chart Layout
+
+Daily chart
+1hr chart
+15m chart
+5m entry chart on laptop
+
+/ES & /NQ DXY
+
+Indices Killzone:
+Morning Session: 8:30am - 11:30pm
+
+Afternoon Session: 1:30pm - 3:30pm
+
+
+Risk Management:
+
+Account Equity: 100k (2.7k drawdown)
+Risk Per Trade: 2%)
+
+size down half after a loss
+     - 1st trade of the day 1% loss
+     - 2nd trade of the day size down to .5% risk
+if you take a 3rd trade of the day size down to .25% risk
+
+size down half after a loss
+1-2 trades a day
+
+swing high is the highest point before the big pullback
+
+same with swing low
+
+after this swing high is broken this confirms break of structure
+
+BOS = continuation of structure , breaking a swing point in continuation
+
+Trade Management:
+
+Partials
+
+
+
+
+Money Management:
+https://youtu.be/RtMRykCZtC4
+
+
+4% risk per trade
+(work down to 1-2% risk per trade)
+
+1-2% Risk Per Trade
+
+Size down half after a loss
+
+Continue to size down half after losses.
+Go back to normal risk once you’ve made half of that first losing trade back.
+
+
+
+
+Stop Loss
+
+Trail based on Institutional Order Flow, in a bearish scenario, the up candles should not be
+violated or over taken. The market should respect institutional order flow.
+
+When price moves 50% of expected target range, the stop loss can be trimmed by 25%
+Range is entry fill to profit target
+
+When price moves 75% of the expected target range, the stop loss can be trimmed to break
+even.
+Range is entry fill to profit target
+Every element of studying should focus on studying the narrative.
+
+Who is getting harmed, who is getting manipulated and for what reasons
+
+
+RULES:
+
+   -   Do not try to predict tops and bottoms of the market.
+   -   Let the institutional order flow switch and price tell you when we are ready to
+       move higher/lower
+   -   STAY ALIGNED WITH THE ALGORITHM
+   -   Stay aligned with daily bias and high timeframe orderflow
+   -   Never trade against your daily bias
+   -   Submit to time and price
+   -   Only trade in during killzones
+   -   Only long in a discount
+   -   Only short in a premium
+   -   Target the low hanging fruit
+   -   Low resistance liquidity runs
+   -   Only exit a trade if you are stopped or hit your profit target. the rest is noise
+   -   Do not trade on FOMC and NFP days
+   -   Do not trade AM sessions after large range days
+   -   large range days usually lead to consolidation & sub optimal price action
+   -   Trade in the direction of your bias and higher timeframe
+   -   IOF should be respected , order blocks
+
+Tips
+    -   Aim for the low hanging fruit as targets, take off bulk of position at these low hanging fruit
+    -   Only trade low resistance liquidity run signatures
+    -   “70% of your time analyzing these markets should be on the daily timeframe. Once you
+        can understand where the market is likely to reach for next, it becomes easy.” - ICT
+    -   Candles should wick in FVG, should not close full body through. They should respect the
+        FVG
+    -   Become an artist with your chart logs
+    -   Take paper notes
+    -   Note your sticking points then move on
+    -   Let price show you
+    -   with FOMC, the new york session prior to FOMC is usually chop, sloppy conditions,
+        building liquidity to use the news driver to send price wherever
+   -
+For me right now it is intraday structure and aligning with the direction
+
+after a large range day you can expect consolidation, seek and destroy environments.
+
+watch the order flow, bullish / support order blocks and fvgs should be respected on kings
+
+bearish /resistance pd arrays will be respected on shorts
+
+High probability conditions with ICT concepts is the algorithm presenting something in
+price that is so one sided and obvious that it is difficult to make a justification for the
+opposing side of the market.
+
+Use ICT market structure
+TRADE ALIGNED WITH THE HIGHER TIMEFRAME STRUCTURE, BIAS and LOGIC
+
+Align with the daily chart. Submit yourself to what the daily chart is doing. Align your trade ideas
+with it.
+
+IOF should be respected, use that to help manage trades
+
+“If you’re linking all of your trade ideas based on the logic of higher time frames, you’re going to
+avoid a lot of losing trades.”
+Anytime a significant price move is expected; always anticipate some measure of a stop hunt
+just use the swing range measure discount premium
+
+get into a daily routine
+
+get mind and eyes used to analyzing
+
+break of structure , align with bias daily
+intraday bias daily
+you’re daily bias is not always going to be right
+u have to be able to adjust on your lower timeframes
+follow the structure
+
+mainly use the 15m 1h for structure intraday
+
+Backtest daily
+
+Know my routine for setups
+
+your trade ideas must be in alignment with the present narrative.
+Get aligned with the algorithm
+stay aligned with the higher timeframes and institutional order flow
+
+don’t take trades against the higher tf trend and order flow
+don’t take trades against your daily bias
+Watch price, understand what price is doing, let price show u, don't try to predict it. Narrate it
+Don't try to pick the tops and bottoms
+
+Just catch part of the expansion after price has shown you
+
+Watch for power of 3 judas swing
+
+
+
+
+I Am The Algo Analysis Routine / Model
+
+Weekly Range Expansion
+  - What is our weekly bias? Where is the weekly candle likely to expand, lower or higher?
+      Power of 3, weekly candle delivery
+
+Daily Draw On Liquidity
+   -   Where is the draw on liquidity on the daily chart? (ie: liquidity pool, imbalance)
+   -   Where is price likely to draw towards on the daily? (PD arrays, equal highs lows, etc.)
+
+Narrative
+   - Interbank traders view price in terms of liquidity and imbalances. This is what price
+       draws towards. This is our #1 priority to look for when we sit down at the charts. This is
+       how we build a narrative. Narrative leads towards a draw on liquidity. A draw on liquidity
+       gives us our daily bias. This will be derived from our long term perspective (4h, Daily)
+
+Ask yourself:
+   - Are we going higher for buy side liquidity or to rebalance a SIBI?
+   - Are we going lower for sell side liquidity or to rebalance a BISI?
+
+Time
+   - Submit to time.
+   - Stay aligned with the algorithm and only trade during killzones.
+
+Liquidity
+   - Wait for a liquidity grab to occur
+
+MSS
+  -    Wait for a market structure shift with displacement to occur after a liquidity grab.
+
+FVG
+  -    Identify fair value gaps within the displacement range to enter your trade.
+  -    Measure the discount/premium, only take long’s in a discount and shorts in a premium.
+
+Essentials To Trading The Daily Bias
+
+   - All daily bias is attaining the likelihood of an up close or down close day.
+   - Look for Intermediate Term Highs/Lows and Short Term Highs/Lows.
+   - Use dxy to confirm
+Look for key turning points, ITH/ITL , key swing high/lows,
+
+Check and see, are we coming off a liquidity grab, (a run above an old high/low?)
+
+Bullish bias, price should seek PDH and show an inability to breach PDL.
+Bearish bias, price should seek PDL and show an inability to breach PDH.
+
+Very rarely do you see both PDH and PDL traded through in one daily candle.
+When this happens it usually signals a reversal on the daily.
+
+This is called an outside day, leading to a reversal.
+when you go live with the ict model,
+trade with 0 emotion. have risk management rules in place. 1% per trade? 0.5?
+
+remove P&L if you have to. know your $$ risk based on the fvg candle high and then remove
+P&L if necessary.
+
+make monthly withdrawals from apex
+give yourself a budget monthly
+
+
+Daily Bias
+Keys To Daily Bias
+
+   -   Everyday bias is unrealistic
+   -   Determine the likely weekly expansion
+   -   Look for obvious liquidity in that direction
+   -   Identify imbalances in price delivery top down
+   -   Focus on the high or medium calendar event dates
+   -   Look for directional price runs in killzones intraday
+
+is price action/ market structure bullish or bearish?
+
+are resistance or support PD arrays being respected
+
+what did price most recently do?
+identify any MSS after liquidity has been taken
+
+Where has price most recently come from?
+
+Where is the nearest FVG or liquidity?
+
+What price level changes your bias?
+
+
+
+
+daily time frame and bias
+“there are going to be times when you don’t know.”
+
+Sometimes daily bias isnt clear, WHEN IT ISNT, JUST WAIT AND SIT ON HANDS
+Mark daily swing range with fib. (premium or discount?)
+Do not try and pick tops and bottoms.
+
+Look for setups that are about to target a specific pool of liquidity
+Clear idea of where price is going to go
+
+when institutional orderflow is established price should respect it
+
+IOF is orderblocks and market structure
+
+Daily Bias
+Determine the likely weekly expansion:
+Does it look like it's going to run to an old low/high? Is it trying to run to an imbalance above or
+below? Or is it likely not to move because there is no data for it that week. Look for the direction
+of the weekly expansion move.
+
+The best setups occur when calendar events are in play, and the setups occur around that same
+time.
+
+Ignore the “both sides” type movement
+
+once open interest is higher on following month, rollover to next months contract
+use bar chart.com to see it
+ict doesn’t trade on mondays
+
+Have an area that invalidates your bias
+
+Price should respect bearish movement (bearish ob’s, fvg’s etc)
+
+in a bullish example tuesday is 70% chance of being low of the week
+
+in a bearish example tuesday is 70% chance of being high of the week
+
+swing range
+
+most recent swing high and swing low on that specific time frame
+
+don’t try to predict anything
+
+trend is your friend
+
+Look for points of interest
+
+Old highs and lows, REQH/REQL, imbalances order blocks etc
+Once we get to POI, look on lower timeframe for FVG model.
+
+
+Pay attention to the weekly range. Power of 3
+
+
+
+
+timeframes work together
+
+price will make the same signatures on all different timeframes
+
+the high timeframes act like a boundary
+
+every time frame works together
+and the timeframe above acts like a boundary or framework for the ones below
+
+if price breaks out of that boundary, you have to go back to the higher timeframe to get a new
+perspective
+
+order blocks give you your bias, they act as a sort of confirmation for what side of the
+market you’re on
+
+these order blocks should be respected by price
+
+u can trail your stops based on them as price should respect them
+
+the lower timeframes will give hints at what the higher timeframes are trying to do
+
+Mark PDL, PDH, Weekly Open, Midnight Opening Price, 8:30 Opening Price
+
+
+
+
+W, D,4H general direction & “bias”
+
+1h & 15m structure intraday and framework
+15m get in sync intraday
+
+1h 15m giving hints to what the higher timeframe going to do. 15m is your “bellweather” time
+frame
+
+5m and below for trade entries using FVG model
+
+backtest every week on the weekends. go back, figure out what you could’ve done better.
+record what you did right, and how you can optimize it.
+What were your mistakes? Were they technical, emotional, etc?
+It’s all about refinement and constant improvement. Review every week and your
+trades/journal. Backtest every week.
+
+looking for price to reach down into a point of interest
+15m / 1h / 4h / D
+then looking for the youtube model to form inside of that area
+
+
+use dealing ranges, master them
+Pay attention to what PD Arrays are being respected/disrespected.
+For example, if we are respecting bearish PD Arrays and disrespecting bullish PD arrays, price
+is showing you it’s hand.
+
+you need to be able to read price action and build a narrative
+
+form a storyline around what it’s telling us
+
+learn ICT market structure
+
+go through braveheart pdf
+
+5 points a day
+
+25 points a week
+
+the algorithm is always going to be right
+
+build a storyline around what the algorithm is doing
+
+there is going to be times with you get your overall draw on liquidity and narrative wrong
+or
+you simply don’t know based on the chart and have to wait for more clarity.
+
+When you’re able to justify both sides of the market, that is low probability
+
+Your trades should feel extremely one sided and sure, same with DOL and bias.
+
+Pay attention to what PD arrays order flow is respecting and disrespecting
+Is price respecting bullish pd arrays or bearish pd arrays
+
+you want to trade low resistance liquidity runs
+and take majority off at low hanging fruit
+work on framing a narrative daily
+
+understand why fvg or pd arrays won’t work at times
+
+IPDA Insights
+Institutional Order Flow & Secrets of Efficient Price Delivery
+
+This is how the markets book, how price is created.
+
+Interbank Dealing Range:
+Range where both buy side and sell side has been ran
+Based on how the algorithm refers to old data
+
+Find the interbank dealing range
+
+The dealing ranges are on every time frame
+Be able to build a bias, dol, narrative,
+
+Every price range needs to be efficiently delivered
+
+External to internal liq, internal to external liq. Rinse and repeat
+
+study weekly profiles
+
+study new york session daily profiles
+
+Draw On Liquidity creates bias
+Narrative is how price should deliver to the draw on liquidity
+this is the foundational premise for your analysis
+
+learn break away gaps
+
+40:00 into ict 2023 episode 1
+
+The bus comes around at the same time every day!
+
+low resistance liquidity runs = low hanging fruit
+
+take LRLR signatures, grab 2R and be satisfied
+2R is all you need to pay the bills
+
+follow the displacement for the DOL
+Follow the orderflow
+
+SIT ON 15m chart, 1h (bellwether)
+use the 15m for structure always
+don’t get fooled by 5m structure
+
+ALIGN WITH THE 15m, 1h before looking to enter
+
+use the 15m & 1h orderflow and structure (MSS) to confirm price intention
+
+1h orderflow and structure is key to determine dol, narrative etc
+
+keep an eye on 15m, 1h structure (MSS) to confirm the structure shift
+
+be fluid with price be able to switch on a dime
+
+take profit along the way
+
+KEEP A DETAILED TRADERSYNC JOURNAL
+
+only limit orders on entries. don’t chase price. be okay with it leaving without me.
+
+be okay with missing the bus. it comes around at the same time every day.
+hold 30% runners for external, PDH/PDL
+
+let order flow dictate where stop should be and how to trail. don’t trail too tight, give trades room
+to breathe.
+
+Target liquidity or pd array from matrix
+
+I try to hold for daily range, will take partial at 1st opposing PD array beyond equilibrium and
+hold runner for external liquidity. 1.5-3R is what I go for, all comes down to what price offers. SL
+is probably about 7.5pt on average, its rare I take trades with max 10pt SL
+
+Not much more to it than that, pay yourself at low hanging fruit and hold on for terminus
+
+be okay with missing movrs and not getting files
+be okay with missing the bus. remember the bud comes around the same time everyday
+
+take your 2R trade and dip. you don’t need to catch all of the move, and you don’t need to catch
+every move.
+
+Build a narrative
+POI’S: Daily/4H/1H
+Observe on 15m until I have a reason to cycle through ltf for entry
+5m 4m 3m 2m 1m entry model
+
+I think in its simplest form, '22 is taking advantage of daily PO3 within the NY killzone, don't
+make it any more complicated than that. Wait for immediate BSL/SSL on 15m to the left of 8:30
+to be swept and then wait for indication the '22 model is setting up. You know the rest for entry
+criteria.
+
+ICT basically zeroes us in on the manipulation of the PO3 to be positioned for the distribution.
+
+we just just look for a run on liquidity above below midnight open PO3
+
+Good, price needs to pair traders who chase the short breakdown inducement with smart
+money who want to buy those stops at a discount. At any time, PDH or PDL can be draw on
+liquidity but you look at the order blocks from 1H and 15M to see if the order flow is subservient
+to daily/4H bias. If daily bias is bullish and bull OB are getting blown through then price has yet
+to reach a relative discount and take out SSL to begin respecting bull OB on 1H/15m etc. So
+price needs to still decay from a premium before ripping higher. Always a dip before a rip, or a
+climb before the dive.
+
+
+
+
+                                                            🐂
+This is all I do, straight up. You see my entry checklist in lower right with daily/1H bias. Price
+was squeezing into a deeper premium and on the 1H still          so SSL needed to be swept prior
+to any long setup forming. Rest was history. Pick w/e htf PD array you want to exit position at
+You can treat the hourly as your daily bias, so yes a reduced size counter trend trade. Or just
+wait for the two to be in alignment
+
+You see how OB/FVG and order flow can be used to enter long after 22 model
+discount/premium entries have come and gone?
+
+look for intraday high/low that forms right before 9:30 equities open
+
+Look at 1h orderflow and establish bias/DOL
+
+study cj_fx
+
+chart es & nq
+
+learn SMT for added confluence
+SMT only works if you have an existing HTF narrative/bias because you are looking for
+confirmation of bull or bear signals
+
+look for layered FVG’s for added confluence
+FVG in a breaker block added confluence
+
+stay aligned with higher timeframe bias / narrative
+
+look at orderflow
+see what is being respected/disrespected
+
+follow the displacement for DOL
+
+study cj_fx
+
+get his 2022 model entry criteria
+
+define entry model criteria to a T
+to the last detail
+
+then backtest extensively
+
+Do not trade NFP days
+Do not trade FOMC days
+
+bodily candle close invalidates the fvg, wicks do not
+
+SMT divergence can help you confirm if it’s a true stop hunt because if one fails to run stops, it
+gives a strong indication
+SMT only works if you have an existing HTF narrative/bias because you are looking for
+confirmation of bull or bear signals
+
+pay attention to dealing ranges 15m , 1h, 4h, D
+
+be able to switch on a dime and be fluid with the bias/DOL. align with IPDA
+
+SMT for added confluence (ES, NQ, DXY)
+
+15m highs and lows, BSL/SSL, will dictate MSS for me from now on
+
+OHLC is all you need, add time elements and understanding of time and the macros of the
+algorithm
+
+sessions highs and lows are very important for liquidity that gets targeted
+
+
+These ob’s should support price and be respected until we reach our higher timeframe objective
+
+Orderflow should be respected
+
+You have to know where price is likely to go to before you even think of putting on a
+trade.
+
+time is the most important then price.
+
+there’s 3 macros that run between 3:00pm and 4:00pm
+not every day does all 3 occur, usually 2 but always at least 1.
+
+highest probability longs are in a deep discount of the range, and we want to target premium pd
+arrays
+
+highest probability shorts are in a deep premium of the range and we want to target discount
+arrays
+
+we look to trade from one PD array to the next, ideally from premium to discount / discount to
+premium
+
+if you can’t come up with a narrative and dol, no trade
+
+if the dol and narrative is not clear, sit out, wait for clarity
+bias = what direction price is going to trade in
+
+narrative = how is the market going to get there
+
+
+
+
+when the DOL is higher, bullish order flow should be respected
+
+bullish order blocks should act as support
+
+
+
+
+pyramiding is valid until crossing equilibrium of the target range
+
+
+
+
+Price Cycles
+
+Consolidation
+   - When price is accumulating/ranging in an equilibrium state
+
+Expansion
+   - Price impulsively breaks out of consolidation leaving behind inefficiencies in price
+   - Expansion looks like strong displacement
+
+Retracement
+   - When price pulls back and redelivers to the inefficiencies in price and induces liquidity.
+   - All retracements do is target inefficiencies and induce liquidity.
+
+Reversal
+   - Continuation move away from the consolidation phase after the retracement.
+
+
+Monday
+likely accumulation, look for
+
+Tuesday
+high likelihood of being a large range day
+
+Wednesday
+high probability of consolidating
+Thursday
+
+
+Friday
+
+If we are bullish, there is a 70% chance the low of week occurs on a monday tuesday or
+wednesday.
+
+90% of the time if Monday creates the low or high of the week Thursday caps the weekly range.
+
+ES ORDER FLOW IS KING
+
+FOLLOW THE ORDER FLOW
+
+
+                                                                 🧲
+Here's the thing...that is the classic/breaker IDEAL retracement entry. However, you've been
+neglecting all the continuation entries available until terminus  is reached
+
+I mean OB/FVG/VIB are all far game after the classic/breaker setup occurs
+
+Just have to get used to continuation entries
+
+I think what would also be beneficial is to qualify HTF PDA as part of your model. I.e if it isn't a
+15m +PDA I am not interested
+
+always indentify the current market condition
+consolidation expansion retracement reversal
+
+90% of the time if Monday creates the low or high of the week Thursday caps the weekly range.
+
+
+price is always doing 1 of 2 things; either drawing to imbalance or liquidity pool
+
+time & liquidity poools (power of 3, OHLC)
+
+
+
+
+When are we likely to consolidate, S&D
+
+   -     At equilibrium of HTF range
+   -     When we have red folder news late in the week and none early in the week
+   -     Pre-major red folder news like: FOMC, CPI, NFP
+   -     In london session when the asian range expanded extremely large
+   -   In new york session when the london session expanded extremely large
+
+Some more useful 22 mentorship notes:
+(huge shout out to the creators, their twitter handles are attached)
+
+https://drive.google.com/drive/folders/1VSLmplzEXoEymr9mj9V8sxKRkqjonJ4G
+(@bravehearttrade)
+
+https://drive.google.com/file/d/1f0SGuIAtdR-orFX4a6cWBXE1aZuDN4C9/view?usp=drives
+dk (@_amtrades)
+
+https://arjoio.notion.site/ICT-2022-Mentorship-Notes-97a31979307a48f5ab11bc553fb04ffe
+(@arjoio)
+

@@ -1,0 +1,3859 @@
+                                               LOGIN
+
+
+
+
+    Home / Trading strategies / 200 Trading Strategies
+    (Free) 2024 — Backtests, Rules, Settings And
+    Types
+
+    TRADING STRATEGIES
+
+
+
+    200 Trading
+    Strategies (Free)
+    2024 — Backtests,
+    Rules, Settings And
+    Types
+            By Oddmund Groette | August 21, 2024 |   |
+
+    Trading strategies
+
+
+
+    With trading strategies, there are many
+    different ways to trade and as many
+:
+    different types of trading strategies. It’s
+    important to remember that what works well
+    for one person might not yield the same
+    results for you. Conducting thorough data
+    analysis and backtesting, along with
+    considering historical evidence and
+    applying quantitative
+    research and statistics, can help you make
+    leaps and bound in your trading.
+
+
+    Choosing the best trading
+    strategy depends on who you are, how you
+    live, and what you have to work with. On
+    this page, we have compiled a guide with all
+    the trading strategies we have published
+    since our start in 2012 (plus
+    relevant trading strategy articles). The
+    page contains links to many hundreds of
+    trading strategies plus articles about
+    indicators and trading strategy-specific
+    articles.
+
+
+    Many of these are completely free. We are
+    confident you find a viable trading
+    system or at least trading ideas among all
+    these articles. These trading strategies can
+    help you create your own trading plan, test
+    new trading techniques or even improve
+    upon your existing trading strategy.
+
+
+    All our trading strategies are
+    backtested and are published with trading
+    rules in plain English and code in multiple
+:
+    platform code languages. (Contact us and
+    let us know.)
+
+
+    OUR BEST TRADING STRATEGIES
+    Buy 20 Trading Strategies + Many Extra
+    Buy Our Best Trading strategies (From
+    Strategy Database)
+    Buy Multiple Strategies in Bundles
+    Futures Systems For Sale
+
+
+
+
+          Get FREE e-book
+          with two trading
+             strategies!
+          2 Free Trading Strategies (Backtested)
+
+
+
+                         Send Free Copy
+           Enter your email
+
+
+
+
+    Swing trading
+    strategies
+:
+    Swing trading strategies are the first stop
+    on our trading journey. Swing trading
+    involves buying (or shorting) an asset and
+    holding it for a few days, perhaps up to a
+    few weeks. The aim is, of course, to buy
+    low and sell high, or vice versa if you go
+    short. Swing trading is the most popular
+    form of trading there is.
+
+
+    Below are a few examples of swing trading
+    strategies:
+
+
+        10 free swing strategies that work
+        (backtested buy and sell signals)
+        3 free mean reversion trading system
+        (backtested buy and sell signals)
+        3 Bullish Candlestick Patterns That
+        Work
+        Which Is The Best Indicator For Swing
+        Trading?
+        Which Time Frame Is Best In Trading?
+
+
+    Here you can find all our Strategies
+    for Swing trading.
+
+
+
+
+    Volatility trading
+    strategies
+    Volatility trading strategies are like riding a
+    roller coaster – you are looking to profit
+:
+    from volatility and big moves. Traders prey
+    on volatility, but only as long as they have
+    used quantified analysis to find profitable
+    trading strategies.
+
+
+    Typically, bear markets have significantly
+    higher volatility than bull markets, making it
+    possible to make money on BOTH long and
+    short. As a rule of thumb, short works best
+    in a bear market, but long also works well in
+    a bear market, perhaps counterintuitive. If
+    you are a short-term trader, you should
+    welcome a bear market, but also if you are
+    a long-term net buyer of stocks.
+
+
+    Most traders and investors shun volatility,
+    but you can use it to your advantage.
+    However, it requires systematic thinking and
+    testing. Below, we have summarized our
+    most important volatility trading strategies:
+
+
+        Using the VIX to trade S&P 500 (VIX
+        trading strategies)
+        VIX Futures Strategy (Backtest And
+        Example)
+        What happens after an “extraordinary”
+        big fall in the S&P 500?
+        Bollinger Band Squeeze Strategy
+        Explained — Backtest And Performance
+        Should You Buy Or Sell Stocks In A
+        Volatile Market? (Backtest With
+        Historical Data)
+:
+    Here you can find all our volatility
+    strategies.
+
+
+
+
+    S&P 500 trading
+    strategies (ES and
+    SPY)
+    Next, we explore the strategies surrounding
+    the esteemed S&P 500 index. S&P 500
+    trading strategies involve trading the stocks
+    or index funds that make up the S&P 500
+    index, using various techniques such as
+    trend following, mean reversion, and sector
+    rotation. You can trade SPY, the ETF that
+    tracks S&P 500, or you can trade ES, the
+    corresponding futures contract. There is
+    even a Micro futures contract to
+    accommodate traders with small trading
+    accounts.
+
+
+    Trend-following strategies can be
+    implemented using moving averages, with
+    the price above the average indicating an
+    uptrend and below it a downtrend. On the
+    other hand, mean reversion strategies are
+    based on the principle that stock market
+    returns tend to follow a predictable long-
+    term upward trend, and deviations from this
+    trend can indicate overvaluation.
+:
+    S&P 500 is the world’s most followed stock
+    index. You can trade it either via futures
+    (@ES) or the oldest ETF still trading (SPY).
+    Below, we have compiled the SP 500
+    trading strategies we have covered since
+    we started this blog:
+
+
+        The Turnaround Tuesday trading
+        strategy
+        Lower highs and lower lows pattern
+        (trading strategy)
+        NR7 trading strategy — The Narrow
+        Range 7 (we improved it)
+        A simple trend-following
+        system/strategy on the S&P 500 (By
+        Meb Faber and Paul Tudor Jones)
+        S&P 500 mean reversion using IBS and
+        RSI (Classical mean reversion strategy
+        S&P 500)
+        RSI SPY trading strategy (RSI(2) on
+        SPY)
+        The 5-day low and low of the range
+        trading strategy (S&P 500 mean
+        reversion)
+        Triple RSI Trading Strategy (90% Win
+        Rate)
+        MACD-histogram trading strategy
+
+
+    Here you can find all our S&P 500 trading
+    strategies and SPY trading strategies (more
+    than 50 trading strategies).
+:
+    Overnight trading
+    strategies
+    The overnight edge is from the close of the
+    stock exchange until the open the next day
+    (and we can argue until the close of the
+    next day) – outside regular trading hours.
+    often driven by news events or global
+    market developments.
+
+
+    One such strategy is buying at the close of
+    the market and selling at the next day’s
+    open, taking advantage of the momentum
+    from the previous close to the next day’s
+    open. Most of the gains in the S&P 500
+    have come from the overnight session since
+    1993.
+
+
+    It’s an edge that works for stocks and
+    partially for gold. Below are a few overnight
+    trading strategies for you that take
+    advantage of this edge:
+
+
+        Night strategies trading (overnight
+        edges/strategies)
+        How do you do overnight trading? (How
+        to make money overnight trading)
+        4 Overnight Trading Strategies In The
+        S&P 500 (Strategies From Close To The
+        Next Open)
+        The 5-day low overnight trading
+:
+        strategy (S&P 500 overnight)
+        3 Days Down Overnight Trading
+        Strategy (S&P 500, Nasdaq, Rules,
+        Performance)
+
+
+    Here you can find all our overnight trading
+    strategies and a deeper explanation of how
+    to make money on the overnight edge.
+
+
+
+
+    Day trading
+    strategies
+    Day trading is popular, and that’s probably
+    understandable. It’s scalable, and if you are
+    successful you can make a lot of money in
+    a short period of time.
+
+
+    But unfortunately, most end up losing
+    money. We know, because we day traded
+    full-time for 17 years and we witnessed a lot
+    of traders come and go (but we made
+    money, though).
+
+
+        Day Trading Strategies
+        Day Trading Price Action Strategy —
+        What Is It? (Backtest)
+        Outside Day (Bar) Trading Strategy
+        (Rules, Settings, Performance,
+        Backtest)
+        Intraday Trading Strategies (Backtests
+:
+        And Examples)
+        SPY sets low or high in the last hour —
+        a day trading strategy
+        Is It Possible to Make Money Day
+        Trading? Can you make money day
+        trading? (My numbers 2002–2012 —
+        real money)
+
+
+    Here you can find all our day trading
+    strategies.
+
+
+
+
+    Mean reversion
+    trading strategies
+    A mean-reverting strategy assumes any
+    trends and moves will reverse and return to
+    the mean. In statistics, this term is
+    called regression to the mean.
+
+
+    Traders aim to capitalize on the principle
+    that stock market returns tend to follow a
+    predictable long-term upward trend, and
+    deviations from this trend can indicate
+    overvaluation. For example, an oversold
+    asset tends to have higher returns in the
+    next few days than when it’s overbought.
+
+
+    An effective mean reversion trading
+    strategy recognizes the stock market’s
+    long-term uptrend and chooses buying
+:
+    opportunities accordingly during favorable
+    market conditions. Just like a boomerang,
+    prices in a mean reversion trading strategy
+    are expected to return to their mean.
+
+
+    Any data or observations that are on the
+    tails of a normal distribution are most likely
+    abnormalities that will sooner or later turn
+    around a revert to the mean. At least, that’s
+    the idea (most of the time).
+
+
+    Since the start of derivatives trading, in the
+    early 80’s, mean reversion trading
+    strategies have worked very well for US
+    stocks. Below we have a few examples of
+    mean reversion strategies:
+
+
+        What happens when stock markets are
+        oversold?
+        What happens when stock markets are
+        overbought?
+        3 free mean reversion trading system
+        (backtested buy and sell signals)
+        Lower highs and lower lows pattern
+        The Turnaround Tuesday trading
+        strategy
+
+
+    Here you can find all our Mean reversion
+    strategies.
+:
+    Nasdaq trading
+    strategies (@NQ
+    Futures and QQQ
+    ETF)
+    Nasdaq 100 is, together with S&P 500, the
+    most-watched equity index in the world.
+    You can trade the index via QQQ (which is
+    an ETF), or with futures (@NQ). There exist
+    three two different @NQ contracts: E-mini
+    and Micro.
+
+
+        RSI QQQ (RSI mean reversion trading
+        strategy QQQ)
+        Monday/Tuesday trade in Nasdaq
+        Nasdaq (QQQ) mean reversion
+        The Internal Bar Strength (IBS) Indicator
+        for @NQ And QQQ
+
+
+    Here you can find all our Nasdaq futures
+    trading strategies and qqq trading
+    strategies.
+
+
+
+
+    Fixed Income
+    Trading Strategies
+    Trading strategies for fixed
+:
+    income securities, such as bonds and
+    treasuries, concentrate on changes in
+    interest rates, assessing credit quality, and
+    analyzing yield spreads.
+
+
+    Fixed Income can be a great complement to
+    stock trading strategies. Just like stocks,
+    they have a great advantage: they have a
+    tailwind, i.e., they go up over time. Here are
+    a few of our fixed-income trading
+    strategies.
+
+
+        Bond Trading Strategies — Why And
+        How To Trade Them (Backtests)
+        Bond MOVE Index And TLT Trading
+        Strategy (Backtest)
+        Calendar effects in long-term
+        Treasuries (TLT seasonal trading
+        strategies)
+        Trend following strategies Treasuries
+
+
+    Here you can find all our Fixed Income
+    Strategies.
+
+
+
+
+    Candlestick
+    strategies (patterns
+    and formations)
+    Candlestick patterns are a popular charting
+:
+    technique. They are used in technical
+    analysis to identify potential trading
+    opportunities based on historical price
+    action and market psychology. At least 75
+    recognized candlestick patterns can be
+    categorized into single, double, or triple
+    candlestick patterns.
+
+
+    These patterns include, for example, the
+    Hammer candlestick pattern, which
+    suggests a strong buying pressure that
+    could indicate the end of a bearish trend
+    and the beginning of a bullish trend. The
+    Inverse Hammer pattern signals that buying
+    pressure is present and the market rejects
+    lower prices, which might lead to an
+    impending bullish trend.
+
+
+    Candlestick formations and patterns are
+    popular, but seldom backtested with strict
+    trading rules. We have compiled all
+    candlestick patterns and coded them with
+    strict rules. We backtested all patterns and
+    compiled our research into a backtested
+    encyclopedia of candlestick patterns. It
+    turns out that many candlestick patterns are
+    very profitable!
+
+
+        Bullish Engulfing
+        Inverted Hammer
+        Bearish Engulfing
+        Dark Cloud Cover
+        Evening Star
+:
+    Here, you can find all our Candlestick
+    Patterns and strategies, in addition to a
+    much more detailed description of
+    candlestick trading.
+
+
+
+
+    Treasuries and
+    bonds trading
+    strategies
+    Treasuries and bonds trading
+    strategies involve trading government and
+    corporate debt securities. They focus on
+    interest rate movements, credit quality, and
+    yield spreads. Bond trading strategies can
+    provide diversification and potentially
+    uncorrelated returns, serving as a
+    complementary element in a portfolio.
+
+
+    Bonds can be a great complement to stock
+    trading strategies. And just like stocks, they
+    have a great advantage: they have a
+    tailwind, ie. they go up over time.By
+    understanding fixed-income trading
+    strategies, you can add another layer of
+    sophistication to your trading toolkit. Some
+    common fixed income trading strategies
+    include:
+:
+        Bond Trading Strategies — Why And
+        How To Trade Them (Backtests)
+        Bond MOVE Index And TLT Trading
+        Strategy (Backtest)
+        Calendar effects in long-term
+        Treasuries (TLT seasonal trading
+        strategies)
+        Trend following strategies Treasuries
+
+
+    Here you can find all our bond trading
+    strategies.
+
+
+
+
+    Technical Indicator
+    strategies
+    Technical indicators strategies use various
+    technical analysis tools to identify potential
+    trading opportunities. Moving average
+    crossover strategies involve analyzing the
+    intersection of two moving averages to
+    identify potential trading opportunities. The
+    Moving Average Convergence Divergence
+    (MACD) indicator, which compares two
+    EMAs of different lengths, is also employed
+    in trend following strategies to identify
+    when to enter and exit trades based on the
+    crossing of these averages.
+
+
+    While numerous technical indicators are
+    available, each offering a unique view of the
+:
+    market, the key is to find a combination that
+    aligns with your trading style and goals.
+
+
+    There are a zillion trading indicators, but we
+    have covered many. Below are just a few of
+    the ones we have explained and coded into
+    specific trading rules:
+
+
+        The stochastic indicator — does it
+        work? (Stochastic trading strategies)
+        Williams %R explained — does it work?
+        (Williams %R strategies)
+        CCI Indicator — What is it? (Trading
+        Strategy And Backtest)
+        Does the MACD indicator work?
+        (Including strategies)
+        Chande Momentum Oscillator Trading
+        Strategy — Setup, Rules, Backtest
+        Ultimate Oscillator Indicator Trading
+        Strategy (Backtest)
+
+
+    Here you can find all our technical indicator
+    and trading indicator strategies.
+
+
+
+
+    Russell 2000 trading
+    strategies (IWM)
+    Next, we delve into the world of small-cap
+    stocks with Russell 2000 trading strategies.
+    These strategies involve trading the stocks
+:
+    or funds that make up the Russell 2000
+    index, using momentum, trend following,
+    and sector rotation techniques.
+
+
+    The Russell 2000 Rebalancing Trading
+    Strategy takes advantage of the annual
+    rebalancing of the Russell 2000 index,
+    which has historically been a strong period
+    for stocks in the index. Divergence trading
+    strategy involves monitoring the
+    performance differences between the
+    Russell 2000 and other large-cap indices,
+    using the premise that major divergences
+    can signal impending changes in market
+    trends.
+
+
+    Russell 2000 behaves differently compared
+    to S&P 500 and can thus complement many
+    other stock trading strategies. We have
+    compiled a few Russell 2000 trading
+    strategies:
+
+
+        The Russell 2000 rebalancing strategy
+        IWM (Russell 2000) Trading Strategy —
+        What Is It?
+        E-Mini Russell 2000 Trading Strategy
+        (Backtest And Futures Example)
+        Russell 2000 Death Cross Trading
+        Strategy (Backtest And Returns)
+
+
+    Click here for more: IWM Trading
+    Strategies and Russell 2000 strategies.
+:
+    Seasonality Trading
+    Strategies in Stocks
+    Seasonal strategies in stock trading try to
+    capitalize on shifts in sentiment depending
+    on the season or calendar. For example,
+    the Santa Claus Rally and Turn of The
+    Month Effect are such strategies.
+
+
+    Another example is the seasonal strategy
+    called the January Effect, which involves
+    purchasing stocks at the end of December
+    and retaining them through January.
+    Similarly, “Sell in May and Go Away”
+    suggests divesting your holdings in May
+    followed by reinvesting in November to
+    bypass what is traditionally a summer
+    slump for stocks.
+
+
+    Market trends might have their rhythms,
+    much like natural seasons do. Seasonality
+    trading strategies seek to exploit these
+    repeating cycles within the stock market.
+
+
+    We like seasonal patterns. There are many
+    of them in the stock market. In this section,
+    we have covered all we know: around 50
+    patterns. If you are willing to take the time,
+    you can find many tradable seasonal
+    trading strategies:
+:
+        The options expiration week effect
+        (options week anomaly and
+        seasonality)
+        The turn-of-the-month trading strategy
+        (end of month effect)
+        First trading day of the month trading
+        strategy (first day of the month effect)
+        The End Of The Year Rally In Stocks
+        (Santa Claus Rally/Effect Strategy)
+        The Holiday Effect In Stock Markets
+        (Holiday Effect On The Stock Market)
+        4-Year Presidential Election Cycles
+        Stock Market — What Are They? (Rules,
+        Backtest, Returns)
+        Last trading day of the month trading
+        strategy (last day of the month
+        seasonality)
+
+
+    Here, you can find all our seasonal trading
+    strategies.
+
+
+
+
+    Stock and sector
+    rotation strategies
+    (momentum)
+    Stock and sector rotation strategies are
+    popular strategies, even though they
+    frequently tend to break down.
+:
+    A sector strategy might work like this:
+    Investors practicing sector rotation switch
+    between assets based on certain criteria,
+    for example, based on momentum or mean
+    reversion.
+
+
+    Here is an example: gold might have
+    outperformed stocks over the last three
+    months, and thus, you go long and hold for
+    one and then rinse and repeat. Such
+    strategies are relatively easy to backtest,
+    but our experience is that many rotation and
+    sector strategies “break down” after a
+    while.
+
+
+    Our experience is that short-term intervals
+    tend to be less effective than employing
+    longer periods when pursuing rotation
+    strategies because it can exacerbate
+    whipsaws, not to mention transaction costs
+    and slippage.
+
+
+    Rotation strategies are popular, but many
+    tend to be curve-fitted and don’t last long.
+    Below, we have a few sector rotation
+    strategies that have been profitable for
+    quite a few years:
+
+
+        Weekly Trading Strategy (Backtest With
+        Weekly Charts — Returns And
+        Performance)
+        Weekly Rotating System Between S&P
+:
+        500 And Utilities
+        S&P 500 and gold miners rotation
+        strategy/system
+        S&P 500 and gold rotation strategy
+        (SPY and GLD rotation)
+        Lumber/Gold Ratio Trading Strategy For
+        Stocks And Bonds (Rules, Backtest,
+        Performance)
+
+
+    Here, you can find all our Sector rotation
+    trading strategies.
+
+
+
+
+    Momentum trading
+    strategies
+    Momentum is one of several anomalies that
+    have persisted for decades. In short, a
+    momentum strategy involves exploiting
+    recent momentum by buying strong stocks
+    and selling weak stocks. Empirically, this
+    has worked on time frames from 3 to 12
+    months. Shorter and longer time frames
+    have not been very consistent. This means
+    that a stock that has risen for the last 3
+    months, is more likely to continue rising
+    over the next 3 months.
+
+
+    We have backtested a few momentum
+    trading strategies:
+:
+        S&P 500 Momentum Strategy — As
+        Simple As It Gets (Backtested)
+        Dual Momentum Trading Strategy (Gary
+        Antonacci) — Rules, Setup, Backtest
+        All-Time High Trading Strategy For
+        Stocks (How Often All-Time High?)
+        TLT vs SPY — Bond Rotation Strategy
+        — (Monthly Momentum Strategy In S&P
+        500 and Bonds)
+        A Monthly Momentum Strategy In ETFs
+        (Sector/ETF Rotation Strategy In EEM,
+        SPY, And TLT)
+
+
+    Here, you can find all our Momentum
+    trading strategies.
+
+
+
+
+    Trend following
+    trading strategies
+    (indicator)
+    A trend trading strategy acts on the general
+    direction of market movement. This
+    approach might employ moving averages to
+    determine trends, where a price above the
+    average suggests an upward trend, and one
+    beneath it signals a bearish trend. The 200-
+    day moving average is frequently used as a
+    trend filter; presumably, the famous
+    investor Paul Tudor Jones uses it.
+:
+    Other trend strategies and indicators
+    examples are the Golden Cross (the
+    opposite is a Death Cross), the Supertrend
+    Indicator, and the Fabian Timing model.
+
+
+    There are many ways to determine a trend,
+    but you should backtest to see how your
+    hypothesis has performed in the past.
+
+
+    Trend following is synonymous with huge
+    gains and gut-wrenching drawdowns.
+    Below, we have a few backtested trend-
+    following indicator trading strategies:
+
+
+        The 200-day moving average trading
+        strategy: How MA systems work
+        (backtest and indicator)
+        ADX indicator backtest (Strategies —
+        does it work)?
+        What is a Death Cross in Trading? Does
+        it work?
+        What Is A Golden Cross In Trading?
+        Does It Work? (Backtest)
+        The Supertrend Indicator — What is it?
+        (Backtest And Performance)
+        Donchian Channels — What is it and do
+        they work? (Backtest commodities and
+        S&P 500)
+        Turtle Trading Strategies: Rules,
+        Statistics, and Backtests — Does It Still
+        Work?
+:
+    Here you can find all our Trend following
+    strategies.
+
+
+
+
+    Larry Connors
+    Trading Strategies
+    Larry Connors Trading Strategies are a set
+    of trading techniques and trading rules
+    developed by trader and author Larry
+    Connors.
+
+
+    They focus on short-term trading and are
+    mainly based on mean reversion strategies.
+    Larry Connors is famous for being the brain
+    behind the 2-day RSI strategy, which is a
+    mean reversion strategy providing short-
+    term buy and sell signals based on the
+    Relative Strength Index (RSI).
+
+
+    Larry Connors is a famous strategy
+    researcher. We have no idea if he’s a trader,
+    but he has published several books on
+    stocks and ETFs. Some of it is useful. Here
+    are some Larry Connors trading strategies:
+
+
+        Larry Connors’ Double Seven strategy
+        (Double 7 trading strategy)
+        Larry Connors’ multiple days up and
+        multiple days down strategy
+        Larry Connors’ %b strategy (Bollinger
+:
+        Bands)
+        Larry Connors’ R3 strategy
+        Larry Connors’ 3-day high/low strategy
+
+
+    Here you can find all our Larry Connors
+    Trading Strategies.
+
+
+
+
+    Trend reversal
+    trading strategies
+    Trend reversal trading strategies aim to
+    identify and profit from changes in market
+    trends – what we call reversals.
+
+
+    These strategies involve looking for
+    indications of a loss of momentum,
+    sometimes combined with volume analysis.
+    However, it’s up to you what criteria you
+    use. The main point is that it should provide
+    profits in the long run if it has a positive
+    expectancy.
+
+
+    Over the last four decades, the stock
+    market has been mean revertive; thus,
+    short-term trend reveals have worked well.
+    There are no guarantees it will continue
+    doing so in the future, though!
+
+
+    Who doesn’t dream of selling the top and
+    buying the bottom? For those traders, trend
+:
+    reversals are the main topic in any
+    conversation. However, it’s easier said than
+    done.
+
+
+    Nevertheless, below are a few trend
+    reversal trading strategies:
+
+
+        Reversal Day Strategy Backtest
+        Averaging Down Trading Strategy
+        Bear Trap Trading Strategy
+        123 Pattern Reversal Strategy
+
+
+    Here you can find all our Trend reversal
+    trading strategies.
+
+
+
+
+    Sentiment Indicator
+    Trading Strategies
+    Sentiment Indicator Trading Strategies use
+    market sentiment data, such as investor
+    surveys and put/call ratios, to identify
+    potential trading opportunities.
+
+
+    When sentiment readings are extremely
+    high or low, traders may act contrarian,
+    such as buying when there is fear or selling
+    when there is greed. For example, a put-call
+    ratio greater than 0.7 or exceeding 1 signals
+    that traders are buying more puts than calls,
+    implying a bearish market sentiment, and it
+:
+    might signal a selling climax. One famous
+    Wall Street saying says you should buy
+    where blood is in the streets is a typical
+    sentiment strategy.
+
+
+    When the last optimists turn pessimists, we
+    have a bottom. At least, that’s what the
+    saying says. Below are a few sentiment
+    trading strategies that try to capture and
+    fade optimism and pessimism.
+
+
+        TRIN — Arms Index Trading Strategy —
+        What is it? (Backtest)
+        What Is The Put Call Ratio? Does It
+        Work? (Backtest And Strategy)
+        NAAIM Exposure Index (Backtest
+        Trading Strategy)
+        AAII And Market Sentiment Indicators
+        — How To Trade It (Examples And
+        Backtests)
+        Investors Intelligence Sentiment Index
+        (Contrarian Sentiment Indicator)
+
+
+    Here you can find all our Sentiment
+    indicator trading strategies.
+
+
+
+
+    Moving average
+    strategies
+    Moving average strategies use moving
+:
+    averages to identify trends, support and
+    resistance levels, and potential trading
+    opportunities. You can also use moving
+    average crossover strategies, which involve
+    analyzing two moving averages that cross
+    each other to identify potential trading
+    opportunities.
+
+
+    Moving averages are also used to create
+    indicators, such as the Moving Average
+    Convergence Divergence (MACD) indicator,
+    which compares two EMAs of different
+    lengths.
+
+
+    However, moving averages are mostly used
+    as trend filters, such as the 200-day
+    moving average. When the price is above
+    the 200-day moving average, we have a
+    bull market, and when it’s below, we are in a
+    bear market. This simple indicator has
+    worked well historically.
+
+
+    Moving averages are popular among retail
+    traders despite many of their inherent flaws.
+    The biggest disadvantage is that they lead
+    to many whipsaws and a low win rate. We
+    know from empirical evidence that a low
+    win rate makes many traders abandon a
+    trading strategy. That said, Paul Tudor
+    Jones presumably uses the 200-day
+    moving average as a trend filter for much of
+    his trading.
+:
+    Below are a few moving average trading
+    strategies — all with one or more backtests.
+    The landing page below the examples
+    contains more than 25 moving average
+    articles:
+
+
+        Simple moving average (backtest
+        strategy)
+        Exponential moving average (backtest
+        strategy)
+        200 Day Moving Average Trading
+        Strategy — (With Backtest And
+        Indicator)
+        20 EMA Trading Strategy — Does It
+        Work? (Rules, Setup, Backtest,
+        Performance)
+        9 EMA Trading Strategy — Does It
+        Work? (Rules, Setup, Performance,
+        Backtest)
+        50 EMA Trading Strategy — Does It
+        Work? (Setup, Rules, Backtest)
+        13/48 Trading Strategy (Risks, Rules
+        And Performance)
+
+
+    Here you can find all our Moving average
+    strategies.
+
+
+
+
+    Macro Economy
+    Trading Strategies
+:
+    Trading strategies that focus on the macro
+    economy consider broad economic
+    variables, including interest rates, inflation,
+    and GDP expansion. Investment funds such
+    as hedge funds and mutual funds
+    frequently use global macro strategies
+    when considering economic and political
+    outlooks of different nations or by adhering
+    to their macroeconomic fundamentals.
+
+
+    There is a reciprocal link between interest
+    rates and the stock market. Typically, when
+    interest rates increase, stock prices tend to
+    decline, whereas they often rise when rates
+    fall.
+
+
+    We believe it’s close to impossible to predict
+    macro and the economy, and they are
+    better used as indicators for the stock
+    market. Below we have backtested some
+    interesting macroeconomy trading
+    strategies:
+
+
+            How Does The S&P 500 Perform When
+            Interest Rates Are Rising? (Setup, Rules
+            Backtest, Performance)
+            Is Copper A Leading Indicator For
+            Stocks? (Copper vs. Stocks Strategy
+            Backtest)
+            NFP (Non-Farm Payrolls) Trading
+            Strategy (How To Trade It — Backtest)
+            What Happens to Stocks When Inflation
+            Is High? (How Does Inflation Affect
+:
+        Stocks)
+        ISM Manufacturing Index PMI —
+        Trading, Investing Strategies (Backtest
+        and Performance)
+
+
+    Here you can find all our Macro Economy
+    Trading Strategies.
+
+
+
+
+    Bear market trading
+    strategies
+    Trading strategies for a bear market are
+    designed to capitalize on declining markets
+    through short selling, deploying inverse
+    ETFs, and choosing stocks with defensive
+    characteristics. Alternatively, you can go
+    long on short-term pullbacks. Perhaps
+    surprising for many, over the last three
+    decades, long have worked well by buying
+    oversold markets in a bear market – given
+    you exit a sudden spike and don’t hold for a
+    long time.
+
+
+    There is no reason to fear a bear market. As
+    a matter of fact, if you’re a short-term
+    trader or a long-term investor you should be
+    happy for a bear market. Why? Long has
+    worked just as well in bear markets as in
+    bull markets. And in a bear market, short
+    strategies suddenly start working.
+:
+    But what if you’re a long-term investor? If
+    you are a future net buyer of stocks, you’d
+    prefer to buy cheap — not expensive.
+    Capisce?
+
+
+        The anatomy of a bear market: 2000
+        -2003 (Nasdaq and the S&P 500)
+        How To Make Money In A Bear Market
+        (2 Simple Steps)
+        End Of Bear Market Trading Strategy
+        (Python Code)
+
+
+    Here you can find all our Bear market
+    trading strategies.
+
+
+
+
+    Gold trading
+    strategies
+    Make no mistake: gold is a very hard asset
+    class to trade. If you find a good trading
+    strategy, you better put it into incubation
+    before you risk your capital. Most gold
+    trading strategies end up in the graveyard.
+    Why? We can only guess, but we assume
+    the main reason is that gold tends to be
+    heavily influenced by macro and politics.
+
+
+    However, gold has a long-term tailwind of
+    rising prices, just like stocks and bonds.
+    Thus, not all hope is lost:
+:
+        Gold weekend trading strategy (GLD
+        swing trading)
+        Gold New High Trading Strategy —
+        (Rules, Backtest, Performance, and
+        Setup)
+        Gold Overnight Trading Strategy (Night
+        Trading)
+        Trend-following system/strategy in gold
+        (12-month moving average)
+        Gold silver chart ratio strategy
+        (backtest)
+
+
+    Here you can find all our Gold trading
+    strategies.
+
+
+
+
+    Market-neutral
+    trading strategies
+    Market-neutral strategies strive to deliver
+    steady profits regardless of whether the
+    market goes up or down. Methods like pairs
+    trading, arbitrage, and combining long and
+    short positions aim to achieve this.
+
+
+    On the other hand, systematic global macro
+    funds employ algorithms and fundamental
+    analysis to construct portfolios and carry
+    out trades.
+
+
+    Jim Simons and his Medallion Fund most
+:
+    likely use many market-neutral trading
+    strategies. If so, perhaps it’s worth looking
+    into this type of strategy.
+
+
+        Long Short Equity Strategy (Backtest
+        And Example)
+        A pair trade in SPY and TLT (pairs
+        trading strategies)
+        How does pairs trading work? (Pairs
+        trading strategies)
+        Market-Neutral Trading Strategies
+        (Rules, Backtest, Returns)
+        Merger Arbitrage Trading Strategy
+        (Performance, Backtest, Results)
+
+
+    Here you can find all our Market-neutral
+    trading strategies.
+
+
+
+
+    Breakout trading
+    strategies
+    Oh, the sweet breakout! But watch out, it
+    depends on which asset you are trading.
+    Stock indexes tend to revert to the mean,
+    and so do bonds.
+
+
+    Breakout trading strategies focus on
+    assumed important pricing thresholds and
+    initiating trades following the direction of a
+    breakout. This event is defined by an
+:
+    asset’s price surpassing a resistance level
+    or descending below a support level – often
+    requiring increased volume.
+
+
+    A breakout can take many forms and
+    shapes. For example, it doesn’t need to be a
+    breakout of resistance or support; it can
+    also be a breakout from volatility bands,
+    such as Bollinger Bands. These strategies
+    can lead traders to initiate purchases as
+    prices thrust through the upper band or
+    commence sales when they plummet
+    beneath the lower band, reflecting shifts in
+    market volatility. The essence is that you
+    must backtest the strategy with specific
+    trading rules before you commence trading.
+
+
+    You might have better luck on other asset
+    classes, but breakout trading strategies are
+    not easy to make money on:
+
+
+        52-Week High Trading Strategy
+        Opening range breakout — what is ORB
+        trading strategy — does it work (Day
+        trading, daily, and weekly)
+        London Breakout Trading Strategy
+
+
+    Here you can find all our Breakout trading
+    strategies.
+:
+    Volatility indicator
+    strategies
+    Strategies leveraging volatility
+    indicators harness instruments like the
+    Average True Range (ATR) and Bollinger
+    Bands to measure market turbulence and
+    possible ways for developing trading
+    strategies. The ATR provides a glimpse into
+    an asset’s price fluctuations by reviewing its
+    price range over a given lookback period.
+    Bollinger Bands track how close prices are
+    moving towards the higher or lower
+    thresholds, suggesting potential entry and
+    exit points.
+
+
+    When volatility picks up, volatility indicators
+    such as the VIX indicator can be useful. In
+    the links below, we explain a few volatility
+    indicator strategies:
+
+
+        Are the Bollinger Bands profitable?
+        (Including strategies)
+        Average True Range trading strategy
+        (ATR indicator — how to use it)
+        Keltner Bands strategies (Keltner
+        Channels strategies)
+        What is the VIX and how does it work?
+        (VIX trading strategies)
+        WilliamsVixFix explained — does it
+        work? (Including trading strategies)
+:
+    Here you can find all our volatility trading
+    strategies with an article that looks more at
+    the importance of volatility.
+
+
+
+
+    Oscillating indicator
+    strategies
+    Strategies utilizing oscillator
+    indicators make use of tools such as the
+    Relative Strength Index (RSI) and Stochastic
+    Oscillator to detect when markets have
+    reached overbought or oversold states.
+
+
+    The RSI assesses recent gains against
+    losses to determine whether market
+    conditions are excessively bullish or bearish
+    based on mean reversion, meaning a fall
+    signals better than average gains over the
+    coming days.
+
+
+    On the other hand, by comparing a stock’s
+    final trading price with its range over a
+    specified timeframe, the Stochastic
+    Oscillator points out potential entries when
+    a stock moves below an established lower
+    bound (typically 20, but you can backtest
+    and try different values based on the
+    number of days in the lookback period) and
+    potential exit points when it rises above an
+    upper boundary.
+:
+    Oscillator indicator strategies work like a
+    pendulum for market momentum.
+
+
+    The stock market has been prone to mean
+    reversion since futures trading picked up in
+    the early 1980s. Jim Simons, the man
+    behind the Medallion Fund, presumably said
+    that mean reversion is “low-hanging fruit”.
+    Below you will find the most obvious and
+    used oscillating indicator strategies:
+
+
+        Which oscillating indicator is the best
+        for trading strategies?
+        MACD and RSI Trading Strategy (Rules,
+        Setup, Backtest — 80% Win Rate)
+        RSI & ADX Trading Strategies (Backtest,
+        Rules, And Examples)
+        Williams %R explained — does it work?
+        (Williams %R strategies)
+        MACD Trading Strategy — Indicator
+        Explained (Backtest and Settings)
+        RSI Trading Strategies (Backtest, Setup,
+        Rules and Performance) — How The
+        RSI Indicator Works
+        The internal bar strength (IBS) indicator
+
+
+    Here you can find all our Oscillating
+    Indicators Trading Strategies.
+
+
+
+
+    Price action trading
+:
+    strategies
+    Trading strategies based on price
+    action use past price movements and chart
+    patterns to analyze potential trading
+    opportunities while not using technical
+    indicators. Candlesticks are typical
+    examples of price action, not to mention the
+    pin bar pattern, which indicates a reversal.
+
+
+    Another strategy example of price action is
+    the inside bar pattern – a trading setup
+    consisting of two bars where the inner bar
+    is contained within the high and low of the
+    previous bar. An inside bar typically
+    happens when markets are consolidating or
+    just before they start “exploding”.
+
+
+    Price action refers to the price of a security,
+    and it’s the foundation of most (if not all)
+    technical analysis (head and shoulders,
+    double bottoms, etc.). Because we like to
+    quantify and backtest, we don’t have a
+    huge list of this type of strategies.
+
+
+    That said, many discretionary traders spend
+    all their time and effort on price action
+    trading strategies.
+
+
+        OHL Trading Strategy — What Is It?
+        (High, Low, Backtest, Performance)
+        Day Trading Price Action Strategy
+:
+    Here you can find all our Price action
+    trading strategies.
+
+
+
+
+    Random indicator
+    trading strategies
+    Some trading indicators are hard to put in a
+    specific folder. We have gone through more
+    or less all the trading indicators there are,
+    and below you find plenty:
+
+
+        Which indicator is best for swing
+        trading?
+        Divergence Trading Strategy — What Is
+        It? (Backtest)
+        Heikin Ashi Trading Strategy (Backtest
+        And Performance)
+        Rate of Change Indicator Strategy —
+        What Is It? (ROC strategy and backtest)
+        The Chaikin Oscillator — does it work?
+        (Chaikin Trading Strategies)
+
+
+    Here you can find all our technical indicator
+    and trading indicator strategies.
+
+
+
+
+    DAX 40, Euro
+    Stoxx50, and Bund
+:
+    trading strategies
+    DAX-40 and the German Bund are the
+    Kingpins of European trading. The best part
+    is that DAX in the very short-term behaves
+    a bit different than @ES/SPY. This makes
+    them somewhat attractive for short-term
+    traders.
+
+
+        Why trade the DAX? (How to trade it)
+        Seasonal Trading Strategy For DAX 40
+        And German Stocks (Rules, Setup,
+        Backtest, Performance)
+        Why trade the Euro Stoxx 50? (How to
+        trade it)
+        The Santa Claus Rally in DAX 40 and
+        Euro Stoxx 50 (End of year rally)
+        Trading the futures expiration week in
+        DAX 40 and Euro Stoxx 50
+
+
+    Here you can find all our Eurex
+    Strategies, DAX Strategies, and Stoxx50
+    strategies.
+
+
+
+
+    Short-selling trading
+    strategies
+    Is it possible to make money short-selling?
+    It is, but it’s very hard. Please have a look at
+    our short strategy bundle, which contains 3
+:
+    short strategies for three different ETFs.
+    Short is not the opposite of long. Short is a
+    completely different beast. In the stock
+    market, you are fighting the long-term rising
+    trend by going short, and the same applies
+    to both bonds and gold. That said, when a
+    volatile bear market comes, short works.
+
+
+        Is high short interest good or bad? How
+        is short interest used in trading?
+        Short Squeeze Trading Strategy —
+        What Is It? (Example)
+        Hard-To-Borrow Stocks Trading
+        Strategy
+
+
+    Here you can find all our Short selling
+    trading strategies.
+
+
+
+
+    NIFTY 50 strategies
+    India has one of the largest stock
+    exchanges in the world with thousands of
+    listed companies. Below we have a few
+    NIFTY 50 trading strategies:
+
+
+        End of month effect in NIFTY 50 (turn
+        of the month)
+        The Santa Claus rally in NIFTY (The
+        end of year rally)
+:
+    Penny Stock Trading
+    Strategies (OTC)
+    Penny stocks are the dreams of striking it
+    rich. Unfortunately, you are more likely to
+    end up in the poor house. Penny stocks
+    have, as a group, negative returns! We
+    believe you face better risk and reward by
+    trading “regular” stocks and ETFs.
+
+
+        Why are pump and dump strategies
+        bad (Why avoid penny stocks)
+        Why scalping is a waste of time (do this
+        instead)
+        Why are penny stocks bad? (why avoid
+        them)
+        Over-The-Counter Trading Strategy —
+        What Is It? (Backtest And Performance)
+
+
+    Here you can find all our Penny Stock
+    Trading Strategies.
+
+
+
+
+    Meb Faber Portfolios
+    And Strategies
+    Meb Faber is a very active money manager
+    in social media. He’s the co-founder of
+    Cambria, and has also published a lot of
+    papers which are very easy to read even for
+:
+    amateurs. Below we present the most
+    known Meb Faber Portfolio and strategies:
+
+
+        Meb Faber Ivy Portfolio — Does It
+        Work? (Backtest)
+        Meb Faber Tactical Asset Allocation
+        Trading Strategy (ETFs, Rules,
+        Backtest, Returns)
+        Is Meb Faber’s momentum/trend-
+        following strategy in gold, stocks, and
+        bonds still working?
+        The Get Rich Portfolio Strategy —
+        Returns, ETFs, And Risk (Meb Faber)
+        The Stay Rich Portfolio — Strategy,
+        Returns, ETFs, Risk (Meb Faber)
+
+
+    Here you can find all our Meb Faber
+    Portfolios And Strategies.
+
+
+
+
+    Investment
+    Portfolios And Asset
+    Allocation
+    Most investors are better off investing more
+    or less passively for the long term. We have
+    covered the most known investment
+    strategies, portfolios, and asset allocations.
+    Below are the most obvious ones. Please
+    press the link below for 20 more investment
+:
+    strategies:
+
+
+        Ray Dalio’s All Weather Portfolio
+        investment strategy (what is it, returns,
+        performance, backtests)
+        The 60/40 Strategy Portfolio
+        (Backtests, Alternatives, And
+        Substitutes)
+        Larry Swedroe Portfolio (30/70, Small-
+        cap value) — Backtest
+        Warren Buffett ETF Portfolio (90/10) —
+        Performance And Returns
+        Bogleheads 3 And 4 Fund Portfolio —
+        Backtest And Performance
+        David Swensen Portfolio (Yale
+        Endowment Fund/Model)
+
+
+    Here you can find all our Investment
+    Portfolios And Asset Allocation.
+
+
+
+
+    Market timing
+    strategies
+    Most are unsuccessful market timers due to
+    a number of reasons, one of them being not
+    having a plan. Thus, most investors should
+    not time the market. In this article, we look
+    at some strategies that have historically
+    proved to be successful market timing
+    strategies:
+:
+        Market Timing: What Is It And How To
+        Be Successful
+        Coppock Curve Strategy — What Is It
+        And How Does It Perform? (Backtest)
+        Fabian Timing Model — What Is It?
+        (Performance, Strategy Rules, and
+        Backtest)
+        Yale Hirsch’s The Best 6 Months Timing
+        Model (Rules, Backtest, Performance)
+        The PENTAD Timing Model Strategy By
+        Nelson Freeburg (Rules, Backtest,
+        Performance)
+
+
+    Here you can find all our Market timing
+    strategies.
+
+
+
+
+    Investment
+    strategies
+    Instead of trading, you might be better off
+    investing — more like buy and hold. You
+    work, save, invest, and “forget about it”.
+    You can spread your capital into broad and
+    diverse ETFs or mutual funds. We have over
+    30 articles covering investment strategies:
+
+
+        Peter Lynch Investment Strategy And
+        Portfolio
+        8 Best Vanguard Funds For Retirement
+        (Costs, Returns, Performance)
+:
+        9 Best Vanguard ETFs For Ultimate
+        Diversification (Costs, Returns,
+        Performance)
+        10 Best Vanguard ETFs To Buy And
+        Hold (Costs, Returns, Performance)
+        Stock Vs. Bond Investment Strategy:
+        Which Asset To Choose (Returns,
+        Performance, Risk)
+
+
+    Here you can find all our Investment
+    Strategies.
+
+
+
+
+    Technical analysis
+    trading strategies
+    and classical chart
+    pattern
+    Most technical indicators are not working,
+    but some are good. Technical analysis is
+    typically based on price action, and thus
+    hard to quantify. We have gone through and
+    explained more or less all technical
+    indicators there are, and backtested where
+    we managed to make specific trading rules:
+
+
+        Head and shoulders trading strategy
+        (backtest and example)
+        Cup And Handle Pattern (backtest and
+        example)
+:
+        Double Bottom Chart Pattern Strategy
+        (How To Trade It — Backtest)
+        Double Top Chart Pattern Strategy —
+        What Is It? (Backtest)
+
+
+    Here you can find all our Technical analysis
+    trading strategies.
+
+
+
+
+    Sector trading
+    strategies
+    The S&P 500 Index is categorized into 11
+    sectors. Below we have a backtested
+    trading strategy for each sector.
+
+
+        These Are The Worst Sectors To Invest
+        In (How You Can Benefit From It)
+        Real Estate Sector Trading Strategy
+        (Backtests And Examples)
+        Energy Sector Trading Strategy (Rules,
+        Backtest, Example)
+        Financial Services Sector Trading
+        Strategy (Backtest And Example)
+        Technology Sector Trading Strategy
+        (Backtest And Example)
+
+
+    Here you can find all our Sector trading
+    strategies.
+:
+    Consumer staples
+    trading strategies
+    (XLP)
+    The stocks that can be labeled consumer
+    staples have proven to offer diversification
+    because they move differently than many of
+    the other stock ETFs, thus providing a
+    hedge.
+
+
+    The ETF with the ticker code XLP is a good
+    trading vehicle. Below are a few examples
+    of strategies:
+
+
+        XLP trading systems (Is XLP good for
+        trading?)
+        Rubber Band Trading Strategy — What
+        Is It? (Backtest)
+
+
+    Here you can find all our Consumer Staples
+    Trading Strategies.
+
+
+
+
+    Utilities trading
+    strategies (XLU)
+    The utility sector is a different beast. It’s a
+    highly regulated sector and moves a lot less
+    than the overall market. It’s also more
+:
+    influenced by the interest rates.
+
+
+        Why trade XLU and utility stocks
+        Utilities Sector Trading Strategy
+
+
+    Here you can find all our Utilities trading
+    strategies.
+
+
+
+
+    Factor investing
+    strategies
+    Factor investing involves targeting specific
+    documented drivers of return across asset
+    classes. Some common factors include
+    value (value has performed better than
+    growth), Quality, Momentum (stocks are
+    those that have been outperforming the
+    market in recent months), Size (small caps
+    have performed better than large caps), and
+    volatility (low volatility stocks have
+    outperformed volatile stocks).
+
+
+        Piotroski F-Score Strategy — Backtest
+        And Performance
+        The Magic Formula Strategy
+        (Greenblatt) Backtest
+        Low Volatility Stocks Strategy —
+        Performance, Volatility, And Returns
+        S&P 500 Equal-Weight Trading Strategy
+        — What Is It? (Backtest And Example)
+:
+        Quality Factor Trading Strategy: What Is
+        It And How Does It Perform?
+
+
+
+
+    Buy and hold
+    strategies
+    A buy and hold strategy involves holding an
+    asset (most likely stocks, bonds, or gold)
+    believe over the long term. These assets
+    have proven to rise over time, and thus
+    maximizing returns by staying invested. A
+    buy and hold investor does not try to time
+    the market.
+
+
+        The Best Performing Stock Markets In
+        The World Since 1900
+        Buy and Hold Trading Strategy — What
+        Is It? (Backtest)
+        How does war affect the stock market
+        historically?
+        Do stocks outperform Treasury Bills?
+        (Not what you expected)
+        Dollar Cost Averaging vs. Lump Sum
+        Strategy Backtest — Sequence Of
+        Return Risk (Luck, Skill, Or Magic?)
+        How likely are you to go broke as
+        retired or FIRE? (Sequence risk,
+        diversification, and withdrawal rate)
+
+
+    Here you can find all our Buy and hold
+:
+    strategies.
+
+
+
+
+    World markets
+    trading strategies
+    (International)
+    Even though stock markets might correlate
+    in the short term, over time they move
+    differently. We looked at a few world market
+    trading strategies:
+
+
+        China Trading Strategy (Backtest — FXI
+        Strategy)
+        India Trading Strategy (NIFTY Backtest
+        And Example)
+        Trading Brazil (Day Trading, Swing
+        Trading)
+        Australian Trading Strategies (Strategy,
+        Backtest, Performance)
+        Italian Stock Market Trading Strategy
+        (Setup, Rules, Backtest, Performance)
+
+
+    Here you can find all our World markets
+    trading strategies.
+
+
+
+
+    AI, ChatGPT, Bing,
+    and Bard trading
+:
+    strategies
+    Can you make money by using AI
+    strategies? Not yet, we are skeptical. We
+    have tried, but AI is still lacking. Below we
+    have a few related articles:
+
+
+        How To backtest A Trading Strategy
+        Using ChatGPT
+        How I Made A Bollinger Band Strategy
+        Using ChatGPT (Backtest)
+        ChatGPT Trading Strategies
+        Robotics and AI Trading Strategies
+
+
+
+
+    Forex trading strategies
+    (FX)
+    Forex is an immensely popular trading
+    asset, and we guess it’s because of the
+    leverage and easy access to open an
+    account. You can even open an account
+    with less than 1,000 USD!
+
+
+    However, forex trading is a zero-sum game
+    where you speculate between the relative
+    values of two currencies. This makes it hard
+    to make money. Stocks and gold have a
+    long-term tailwind from inflation and
+    productivity gains, which you don’t have in
+    forex. Adding further complexity is that
+    forex and currencies are exposed to
+:
+    random geopolitical events – liable to black
+    swans. This makes forex a very difficult
+    asset to trade profitably. Unfortunately,
+    most forex traders get washed out. Forex is
+    very difficult to trade.
+
+
+        12 Reasons Why You Should Avoid
+        FOREX
+        Is EUR/JPY A Leading Indicator For
+        Stocks?
+        London Breakout Strategy
+        GBPJPY Trading Strategy
+        EURJPY Trading Strategy
+        EURUSD Trading Strategy
+
+
+    Here you can find all our Forex trading
+    strategies.
+
+
+
+
+    CFD Trading
+    Strategies
+    CFD trading is very popular among retail
+    traders. One of the reasons is probably
+    easy access and margin requirements. Do
+    you have 100 USD, you are good to go. But
+    unfortunately, most CFD traders get
+    washed out. CFD is very difficult to trade.
+
+
+        RSI Trading Strategy Using CFDs
+        (Example, Rules, Backtest, Returns)
+:
+        CFD trading statistics
+
+
+
+
+    Quantitative trading
+    strategies
+    A quantitative trading strategy is a trading
+    strategy that uses mathematical and
+    statistical analysis to identify and exploit
+    patterns in the market. It’s rule-based, and
+    the trading rules are backtested using
+    dedicated trading software.
+
+
+    Having backtested and had one or many
+    trading strategies in “incubation”, you can
+    trade the strategies automatically, meaning
+    the trading platform does all the work for
+    you.
+
+
+    Automation is power. It gives you leverage
+    to trade many strategies and you can
+    diversify over different assets, time frames,
+    and market directions.
+
+
+    Here you can find all our Quantitative
+    Trading Strategies.
+
+
+
+
+    Pivot points trading
+:
+    strategies
+    Pivot points are calculated using the high,
+    low, and closing prices of the previous
+    trading session, and are mostly used to
+    identify potential support and resistance
+    levels. Does pivot points trading strategies
+    work?
+
+
+        6 Pivot Point Trading Strategies — A
+        Backtest | How To Trade With Pivot
+        Points?
+        Camarilla Pivot Trading Strategy —
+        What Is It? (Backtest)
+
+
+
+
+    Exit trading
+    strategies (when to
+    sell)
+    When you sell might be just as important as
+    when you buy, but frequently overlooked.
+    For mean reversion strategies, we like to
+    use the QS exit, an exit signal we have been
+    using in live trading for over 10 years. In the
+    article below, we also show you the
+    potential boost of a trading strategy when
+    the sell/exit variable is changed:
+
+
+        When To Sell A Stock Or Position (The
+:
+        Backtested QS Exit)
+        Sell the Rip Strategy — What Is It?
+        (Backtest)
+
+
+    Here you can find all our Exit Trading
+    Strategies.
+
+
+
+
+    Volume trading
+    strategies
+    Is volume an important factor in trading?
+    Most likely not, but it might be a valuable
+    input among other variables. Here we have
+    a few volume trading strategies:
+
+
+        Volume Trading Strategy — Does It
+        Work? (Setup, Rules, Backtest, Returns)
+        On-Balance Volume — What Is It?
+        (Backtest And Trading Strategy)
+        Money Flow Index Strategy (MFI) —
+        What Is It? (Backtest)
+        Value Area Trading Strategy — Does It
+        Work? (Backtest)
+
+
+    Here you can find all our Volume trading
+    strategies.
+
+
+
+
+    Oil trading strategies
+:
+    (Crude Oil)
+    We would like to have plenty of oil trading
+    strategies, but the truth is that oil (and
+    commodities) are very hard to trade. But if
+    you manage to have a few of them, they
+    might offer great diversification to your
+    trading arsenal.
+
+
+        Crude Oil Trading Strategy — What Is
+        It? (Backtest)
+        The Friday Seasonality in USO (oil)
+
+
+
+
+    E-mini futures
+    trading strategies
+    An E-mini trading strategy is a trading
+    strategy that is used to trade E-mini futures
+    contracts.
+
+
+    E-mini futures contracts are electronically
+    traded futures contracts that are a fraction
+    of the value of corresponding standard
+    futures contracts. They started trading at
+    the end of the 1990s.
+
+
+    They are available on a wide range of
+    indexes, commodities, and currencies.
+    There are even some Micro E-Mini
+    contracts, for example for Nasdaq 100 (NQ)
+:
+    and S&P 500 (ES).
+
+
+        E-mini Trading Strategy (Backtest And
+        Example)
+        E-mini S&P 500 Futures Trading
+        Strategy (Backtest, Rules, Example)
+        Nasdaq 100 E-mini Trading Strategy
+        (Rules, Backtest, Futures Example)
+        E-mini S&P MidCap 400 Trading
+        Strategy (Backtest And Futures
+        Example)
+        E-Mini Russell 2000 Trading Strategy
+        (Backtest And Futures Example)
+
+
+
+
+    Bitcoin and crypto
+    trading strategies
+    Buying and selling digital assets like Bitcoin
+    and Ethereum, has become “mainstream”.
+    We suspect there are many more
+    inefficiencies in the crypto market than in
+    the regular markets, like stocks for example.
+    That said, the crypto market is maturing.
+
+
+    Below we present a few crypto trading
+    strategies that are still working decently:
+
+
+        20 Cryptocurrency Trading Strategies
+        End of month effect in Bitcoin — does it
+        exist? (Turn of the month)
+:
+        Trend following and momentum
+        strategies on bitcoin (crypto) —
+        capturing the trend (free bitcoin trading
+        strategies)
+        Does RSI work on crypto or Bitcoin
+        trading? Is RSI good for crypto?
+        Does market timing work on Bitcoin? (Is
+        it a good idea?)
+
+
+    Here you can find all our Crypto Strategies.
+
+
+
+
+    Sentiment trading
+    strategies
+    Sentiment trading strategies are trading
+    strategies that use market sentiment data to
+    make trading decisions. Market sentiment is
+    the overall attitude of investors towards a
+    particular asset or market. It can be bullish,
+    bearish, or neutral.
+
+
+    Traders can use sentiment data to identify
+    trends and reversals. For example, if the
+    market sentiment towards a particular stock
+    is bullish, it is likely that the price of the
+    stock will go down. On the other hand, if the
+    market sentiment is bearish, it is likely that
+    the price of the stock will go up.
+
+
+    Does it sound counterintuitive? The logic is
+:
+    that excessive optimism leads to
+    exuberance and too high prices. Opposite,
+    excessive pessimism leads to depressed
+    prices and it might turn around when a few
+    turn optimistic. However, it depends on the
+    time frame. As always, backtest to find out
+    what works or not!
+
+
+        AAII And Market Sentiment Indicators
+        — How To Trade It (Examples And
+        Backtests)
+        NAAIM Exposure Index (Backtest
+        Trading Strategy)
+        Consumer Confidence And Stock
+        Market Returns (Strategy And Backtest)
+        Advance-Decline Indicator (Strategy
+        Backtest)
+
+
+    Here you can find all our Sentiment trading
+    strategies.
+
+
+
+
+    Options trading
+    strategies
+    Options trading is a lot more complicated
+    than “regular” trading. The reason is that
+    options have limited life, and time decay
+    and volatility are important factors in
+    determining the price.
+:
+    Here you can find all our Options Strategies.
+
+
+
+
+    Stock trading
+    strategies
+    There are different strategies for trading
+    single stocks. Here are some of the
+    common stock strategies.
+
+
+     1. Stock Trading Strategies with a
+        backtest
+     2. OHL Trading Strategy
+     3. Opening Range Breakout Strategy
+     4. Expiry Trading Strategies
+     5. President Election Cycles Stocks
+     6. 52-Week High Trading Strategy
+     7. Rubber Band Strategy
+     8. MACD-histogram trading strategy
+     9. Lower highs and lower lows pattern
+        (trading strategy)
+    10. Higher highs and higher lows pattern
+        (trading strategy)
+    11. NR7 trading strategy — The Narrow
+        Range 7
+
+
+
+
+    Dow Jones trading
+    strategies
+:
+    The Dow Jones Industrial Average (DJIA),
+    also commonly referred to as “the Dow
+    Jones” or simply “the Dow,” is a stock
+    market index of 30 prominent companies
+    listed on stock exchanges in the United
+    States. The index is one of the most widely
+    followed stock market indices in the world,
+    and is often seen as a barometer of the
+    overall US stock market.
+
+
+    Today, the index is not as important as it
+    once was. S&P 500 is a much more
+    important index.
+
+
+        Dogs Of The Dow — Strategy And
+        Backtest
+        Hounds of the Bay Strategy (Rules,
+        Backtest, Returns)
+        Dow Theory Trading Strategy — What
+        Is It? (Backtest)
+        Dow Jones New All-Time High Trading
+        Strategy (Rules And Backtest)
+
+
+    Here you can find all our Dow Jones trading
+    strategies.
+
+
+
+
+    ETF trading
+    strategies
+    ETFs are baskets of securities that track a
+:
+    particular index or sector. They can be
+    traded on exchanges like stocks, and offer
+    a number of advantages over other types of
+    investments, such as low fees and
+    diversification.
+
+
+    Here are some more strategies using ETFs.
+
+
+
+
+    Market Regime
+    Indicators
+    Market regime indicators are designed to
+    provide insights into when you should buy
+    or sell. Is it really possible to time the
+    market? Below we have a few such
+    indicators. We remind you that all are
+    backtested with specific trading rules:
+
+
+        Market Timing: What Is It And How To
+        Be Successful
+        Coppock Curve Strategy — What Is It
+        And How Does It Perform? (Backtest)
+        Fabian Timing Model — What Is It?
+        (Performance, Strategy Rules, and
+        Backtest)
+        Yale Hirsch’s The Best 6 Months Timing
+        Model (Rules, Backtest, Performance)
+        The PENTAD Timing Model Strategy By
+        Nelson Freeburg (Rules, Backtest,
+        Performance)
+:
+    Here you can find all our Market Regime
+    Indicators.
+
+
+
+
+    TradingView trading
+    strategies (Pine
+    Script)
+    TradingView is a relatively new trading
+    platform and was founded in 2011.
+    According to Wikipedia it is among the 150
+    biggest websites in the world and has over
+    10 million active monthly users. The coding
+    language is called Pine Script.
+
+
+    We have written a few articles where we
+    have shown you both the basics and how
+    you can backtest using Pine Script:
+
+
+        TradingView Trading Strategies —
+        (Backtests, Systems, Pine Script, and
+        Setups)
+        How I Used TradingView To Create And
+        Backtest An RSI Trading Strategy (Step
+        By Step)
+        How I Used Tradingview To Create And
+        Backtest A Bollinger Band Trading
+        Strategy
+        How To Make A Successful Trading
+        Strategy Using Pine Script on
+:
+        TradingView
+
+
+
+
+    Exotic, Diverse &
+    Alternative Trading
+    Strategies
+    Many trading strategies and indicators are
+    difficult to label. Let’s call them “exotic or
+    alternative”. Below, you see a few examples
+    of them. However, we have many more —
+    please click on the link below thearticles.
+
+
+        Nassim Nicholas Taleb — Trading
+        Strategies, Philosophy And The Barbell
+        Strategy
+        The Kiss of Death Trading Strategy —
+        (Backtest, Setup, Rules and
+        Performance)
+        Random Walk Trading Strategy — What
+        Is It? (Backtest And Example)
+        Tail risk hedging strategies — what is
+        it? (Tail hedge examples)
+        Martingale Trading System (Backtest
+        And Example)
+
+
+
+
+    Commodity trading
+    strategies
+:
+    Commodity trading might offer substantial
+    diversification benefits. However,
+    commodities are very difficult to trade.
+    Below, we have summarized just a few of
+    the commodities we have backtested.
+    Please clink on the link to the landing page
+    (below) to see our full list.
+
+
+        Seasonal Trading Strategy For Silver
+        (Seasonality Backtest)
+        Platinum Futures Strategy (Backtest
+        And Example)
+        Corn Trading Strategy (Backtest And
+        Example)
+        Cocoa Trading Strategy (Backtest And
+        Futures Example)
+        Sugar Futures Strategy (Backtest And
+        Example)
+        Heating Oil Futures Trading Strategy
+        (Rules, Setup, Backtest, Returns)
+
+
+    Here you find all our Commodity Trading
+    Strategies.
+
+
+
+
+    Micro E-mini Futures
+    Trading Strategies
+    A Micro E-mini trading strategy is a trading
+    strategy that is used to trade Micro E-mini
+    futures contracts.
+:
+    A micro E-mini futures contract is a smaller
+    version of a standard E-mini futures
+    contract. It is one-tenth the size of an E-
+    mini contract, which means that it has a
+    smaller contract value and requires less
+    margin to trade.
+
+
+    Micro E-mini futures contracts are available
+    on a variety of underlying assets, including
+    stock market indexes, commodities, and
+    currencies. They are traded on the Chicago
+    Mercantile Exchange (CME) and the
+    Chicago Board of Trade (CBOT).
+
+
+    Micro E-mini futures contracts are designed
+    to make futures trading more accessible to
+    a wider range of participants, including
+    retail investors and smaller institutions. The
+    reason is simple: less margin and more
+    retail traders can trade them, thus good for
+    those with small accounts.
+
+
+        Micro E-mini Nasdaq 100 Trading
+        Strategy (Rules, Backtest, Futures
+        Example)
+        Micro E-mini S&P 500 Trading Strategy
+        (Backtest And Futures Example)
+
+
+    Here you can find all our Micro E-Mini
+    Trading Strategies
+:
+    Derivatives trading
+    strategies
+        Derivatives Trading Strategy — What Is
+        It? (Backtest And Example)
+
+
+
+
+    CTA, hedge fund,
+    and Macro trading
+    strategies
+        Macro Trading Strategies — What Are
+        They? (Backtest)
+        CTA Trading Strategy — What Is It?
+        (Backtest)
+        Hedge Fund Trading Strategies
+        (Backtests And Examples)
+
+
+
+
+    Python trading
+    strategies
+    Python is a general-purpose programming
+    language that is used for a wide variety of
+    tasks, including web development, data
+    science, machine learning, backtesting,
+    trading, and artificial intelligence. It is a
+    popular language for beginners because it
+:
+    is relatively easy to learn and has a large
+    community of users and developers. It has
+    gained a lot of traction over the last years
+    and is widely popular among traders.
+
+
+    Python is a high-level language, which
+    means that it is closer to human language
+    than to machine language. This makes it
+    easier to read and write Python code.
+    Python is also an interpreted language,
+    which means that the code is executed line
+    by line as it is read. This makes it easy to
+    debug and test Python code.
+
+
+        How I Created A Trend Following
+        Trading Strategy Using Python
+        (Backtest And Code)
+        How To Make a Momentum Trading
+        Strategy in Python (Rules, Setup,
+        Backtest, Performance)
+        Relative Strength Index (RSI) And
+        Moving Average Trading Strategy In
+        Python (Rules, Backtest)
+        How To Make An Average True Range
+        (ATR) Trading Strategy In Python-
+        (Backtest, Performance, Setup, and
+        Code)
+        Python and MACD Trading Strategy:
+        Backtest, Rules, Code, Setup,
+        Performance
+        Python Bollinger Band Trading Strategy:
+        Backtest, Rules, Code, Setup,
+        Performance
+:
+    Here you can find all our Python trading
+    strategies.
+
+
+
+
+    Value Vs. Growth
+    trading strategies
+    Value and growth stocks are not correlated,
+    depending on the macro element. During
+    economic expansion growth stocks tend to
+    do better and vice versa. However,
+    according to Kenneth French, the famous
+    academic, value stocks have performed
+    better than growth since 1928. We present a
+    rotation strategy that rotates between value
+    and growth:
+
+
+        Value Vs. Growth Trading Strategy —
+        What Is Best? (Backtest, Returns,
+        Performance)
+        Growth Stock Trading Strategy
+        (Backtest And Example)
+
+
+
+
+    Different trading
+    strategies
+    Many trading strategies are hard to put in a
+    certain box. These strategies aere listed
+    below. For a full list, please click on the link
+:
+    to the landing page.
+
+
+        Scale-In Trading Strategy — What Is It?
+        (Backtest)
+        Leveraged ETF Trading Strategy
+        (Backtest, Example, And How To Trade
+        It)
+        Ichimoku Trading Strategy (Example
+        And Backtest)
+        HHLL Trading Strategy — What Is It?
+        (Backtest)
+        52-week high strategy (backtest)
+        Follow Through Day — What Is It?
+        (Trading Strategy, Backtest, Meaning,
+        and Example)
+        Gap trading strategies (How to trade
+        gaps with backtested examples)
+        Double Down Trading Strategy — What
+        Is It? (Backtest)
+        Inside Day Trading Strategy — What Is
+        An Inside Day In Trading? Does It
+        Work? (Backtest)
+        CANSLIM — Does It Work? (Backtest
+        And Innovator IBD 50 ETF)
+
+
+
+
+    Gann, Fibonacci, and
+    Elliot Wave strategy
+        Fibonacci Trading Strategy — What Is
+        It? (Backtest)
+        Gann Fan Trading Strategy — What Is
+:
+        It? (Backtest)
+        Elliott Wave Trading Strategy — What Is
+        It? (Backtest)
+        Market Structure Trading Strategy
+
+
+
+
+    Long-term trading
+    strategies
+    A long-term trading strategy is a trading
+    strategy that involves holding positions for
+    an extended period of time, typically
+    months or years. It’s the strategy that is
+    closest to a buy and hold strategy.
+
+
+        The Best Performing Stock Markets In
+        The World Since 1900
+        Bull Market Signal Strategy — How To
+        Predict A Bull Market (Backtest)
+        How does war affect the stock market
+        historically?
+        Do stocks outperform Treasury Bills?
+        (Not what you expected)
+        Lump Sum Investment Strategy (Buy &
+        Hold, Example, Performance, Returns)
+        How likely are you to go broke as
+        retired or FIRE? (Sequence risk,
+        diversification, and withdrawal rate)
+
+
+    Here you can find all our long term trading
+    strategies.
+:
+    Single stock strategy
+      Option Trading in AMZN: 20 Things You
+      Should Know
+      Stock Trading in AAPL: 27 Things Every
+      Trader Need To Know
+      Option Trading In AAPL: 25 Things You
+      Should Know
+      Option Trading in NVDA: 20 Things You
+      Should Know
+      Options Trading in META: 20 Things
+      You Should Know
+      Option Trading in IWM: 21 Things You
+      Should Know
+      Options Trading in TQQQ: 19 Things
+      You Should Know
+      Option Trading in EEM: 20 Things You
+      Should Know
+      Option Trading in TSLA: 20 Things You
+      Should Know
+
+
+
+
+    Conclusion: Some
+    last advice before
+    you embark on your
+    trading career
+    Youtube Trading
+:
+    Strategies
+    Check out our YouTube Channel with
+    hundreds of videos about trading and
+    investment strategies.
+
+
+
+
+    Our Best Trading
+    Strategies
+    Buy 20 Trading Strategies + Many Extra
+    Buy Single strategies (From Strategy
+    Database)
+    Buy Multiple Strategies in Bundles
+    Futures trading strategies
+
+
+
+
+    What are the Best
+    Trading Strategies
+    and Investment
+    Strategies
+    The Best Trading Strategies and Investment
+    Strategies are answered below. If you have
+    clicked on one or several in the list or library
+    of the profitable free trading strategies
+    above, you might wonder what is the best
+    way to approach trading. We have tried to
+:
+    answer that in many other articles, but
+    below we give a very brief explanation of
+    what should be your main considerations
+    before you start trading:
+
+
+
+
+    What is a Library of
+    Trading Strategies?
+    If you like our library of trading
+    strategies on this page, you might be
+    interested in our monthly subscription
+    service where we provide our best
+    strategies. We save our best trading and
+    investment strategies for our paying
+    subscribers. We publish a new
+    “edge”/strategy each month — a 100%
+    quantifiable trading idea that includes buy
+    and sell signals in “plain” English (plus
+    code for Amibroker and Tradestation/Easy
+    language). Please also have a peek inside
+    our Trading Academy.
+
+
+
+
+    Are you a trader or
+    an investor?
+    First, you need to understand what kind of
+    trader or investor you are thoroughly. It
+    might seem obvious, but many derail
+    already before they start.
+:
+    Sit down and think about what your aims
+    and goals are. Are you a trader or an
+    investor? Looking for trading and
+    investment strategies or investment
+    strategies? Do you think you have the
+    mindset and capabilities to deal with
+    frequent profits and losses?
+
+
+    The alternative to trading is to invest in
+    stocks and mutual funds for the long-term:
+
+
+
+
+    What is position
+    trading/buy and
+    hold?
+    By position trading we mean holding
+    positions for a long time, close to or equal
+    to “buy and hold”.
+
+
+    Should you trade at all? Trading is scalable,
+    ie. you can make a lot of money in a
+    relatively short period of time, but the fail
+    ratio is much higher compared to buy and
+    hold.
+
+
+    If you invest passively in a mutual fund, you
+    participate in the earnings and productivity
+    growth in society, and you are most likely
+    well protected against inflation.
+:
+    We recommend spending some time
+    pondering where you should put your
+    money.
+
+
+
+
+    What is a trading
+    strategy?
+    A trading strategy needs at least four
+    elements:
+
+
+     1. It needs to have
+        defined/quantified buy/short criteria.
+        That is, you need to know exactly when
+        to buy. “Buy when touching resistance”
+        is not a criterion — it’s vague and
+        unclear. You should not use anecdotal
+        evidence in your decision-making!
+     2. How do you execute the buy/short
+        order if you get a buy signal? Do you
+        put in a limit order or do you buy at the
+        market? In the trading and investment
+        strategies above, we mainly use at the
+        close orders. We only know the close
+        price in hindsight. However, we start
+        sending orders ten seconds before the
+        close, and that works really well and
+        gets very close to the results in our
+        backtests.
+     3. If you are in a position, you need to
+        know when to sell/cover. Just like the
+        buy criterion, this needs to be
+:
+        quantified to avoid second-guessing.
+     4. The sell/short order should be executed
+        at prices that are realistic compared to
+        your backtests. Slippage and
+        commissions are a big cost for a trader,
+        and you need to minimize costs and
+        make it as similar as possible to the
+        backtest. We have been using at the
+        close orders for years, just like when
+        we buy and enter positions, and it
+        works well for us.
+
+
+
+
+    What types of
+    trading strategies
+    are there?
+    Successful Traders
+    Strategies
+    Is there a most successful trading
+    strategy? Unfortunately not. You need to
+    make many uncorrelated strategies and
+    work hard:
+
+
+    If you start trading and are a beginner, you
+    need to make plans and systems, and you
+    need a trading or investment strategy. This
+    takes time, but hopefully, this is time well
+    spent and at the same time enjoyable.
+:
+    If you don’t have a particular interest in
+    trading, you should invest for the long term
+    and forget about trading. A great interest in
+    trading is a prerequisite for success!
+    Beginners often start with the goal of
+    striking it rich, but this is a bad starting
+    point.
+
+
+    Furthermore, your approach should be
+    agnostic. First off, what kind of instruments
+    and asset classes should you trade? Don’t
+    limit yourself by focusing on a certain time
+    frame or asset class.
+
+
+    There are many types of trading systems to
+    choose from, but we can argue that they fall
+    into two main groups: day trading and
+    swing trading.
+
+
+
+
+    What are Day trading
+    strategies?
+    Day trading strategies have the shortest
+    time frame. Many day traders do scalping,
+    but we are a bit cautious with scalping. If
+    you want to day trade it’s crucial that you
+    know what you’re doing.
+
+
+    Unfortunately, many want to be day traders
+    in the hope they can make money faster.
+:
+    The reality is that most of them get poor
+    pretty fast. It’s a fast way of departing your
+    money if you don’t know what you’re doing.
+
+
+    Another downside with day trading is that
+    you don’t benefit from the long-term
+    tailwind in the stock market, as you do in
+    swing trading:
+
+
+
+
+    What are Swing
+    strategies (end-of-
+    day trading)?
+    Swing strategies and end-of-day
+    trading are where we enter at the close (but
+    sometimes exit at the open). This is the
+    same as swing trading.
+
+
+    Many argue they will day trade to avoid the
+    overnight “risk” in the stock market. But the
+    long-term trend suggests that you get well
+    awarded for taking this “risk”: all the gains
+    since 1993 have come from the close until
+    the next day’s open (the overnight trading
+    edge). There has been no money to be
+    made intraday from the open to the close.
+
+
+    The overnight “risk” is a nice tailwind you
+    can exploit!
+:
+    The tailwind is particularly strong in stocks,
+    and to some extent in gold. In most other
+    asset classes, you don’t have this edge.
+
+
+
+
+    What are Investment
+    strategies — Buy &
+    Hold?
+    Investment strategies, such as Buy & Hold,
+    involve investing long term and “forgetting
+    about it”. A typical investment strategy can
+    be the boring (but very good) Buy & Hold.
+    This is probably the best option for the
+    great majority of investors.
+
+
+
+
+    What are some other
+    strategies and
+    edges?
+    Some other strategies and edges are, for
+    example, the ones among prop traders
+    long/short and pairs trading are popular.
+    These are market-neutral trading strategies
+    because you hold an equal amount of
+    capital both long and short that should
+    cancel each other out in case of adverse
+    movements.
+:
+    The idea behind pairs trading strategies is
+    to trade on the value of the spread. For
+    example, this could be shorting the
+    strongest and buying the weakest on the
+    assumption they will converge.
+
+
+
+
+    What is the
+    downside of trading?
+    The downside of trading is that it is quite a
+    lot of risk and it is very time-consuming. If
+    you buy a basket of mutual funds there is
+    no much you need to do. Just buy the funds
+    and forget about it. Get on with your life and
+    save regularly and don’t interfere in
+    your dollar-cost averaging. If history is any
+    guide, you will be well rewarded as long as
+    you are patient and let the capital
+    compound.
+
+
+    With trading, you need to do a lot of work
+    and research. It requires time to develop
+    strategies, and when you are done
+    developing you need to do the actual
+    trading. It’s essential you like this process
+    and find it enjoyable. If not, you will not
+    make it as a trader.
+
+
+    However, if you use automated trading
+    software you can “outsource” the trading to
+:
+    your computer. This gives you leverage to
+    trade an “unlimited” number of strategies.
+
+
+
+
+    The best time frame
+    for trading?
+    One of the most important things in trading
+    is to have a portfolio of diversified
+    strategies that correlate as little as possible.
+    One way to do this is to trade several
+    different time frames.
+
+
+    We believe we have given you a pretty wide
+    variety in time frames in the systems and
+    strategies we have presented above: from
+    day trading to long-term position trading in
+    the S&P 500.
+
+
+    However, most of the strategies are swing
+    trades. Scalping and day trading is very
+    difficult and only a few traders manage
+    being profitable year in and year out. The
+    longer the time frame, the more you utilize
+    the long-term tailwind mentioned above (at
+    least in the stock markets).
+
+
+    What are systematic trading strategies?
+
+
+    Systematic investing is a quantitative
+    strategy for investing in financial markets
+:
+    that involves investing in portfolios with
+    stocks or bonds, with the goal of long-term
+    objectives through strategic asset
+    allocation.
+
+
+
+
+    Which market is best
+    for trading?
+    Because of inflation and earnings growth, a
+    diversified basket of stocks, like, for
+    example, owning the S&P 500, has proven
+    to beat inflation in the long run. Just by
+    owning stocks overnight, you manage a
+    0.04% return from the close until the next
+    day’s open. We would say that the best
+    place to start is by trading stocks. Stock
+    trading has a long history and you can use
+    the mentioned tailwind. Our experience
+    indicates that the top and most successful
+    traders operate in the stock market.
+
+
+    This is an edge, let’s call it tailwind, that you
+    basically only get in the stock market. Very
+    few other asset classes offer the same
+    tailwind, perhaps gold being an exception.
+
+
+    Thus, we believe you stand better chances
+    in stocks and stock indexes. We are no fans
+    FOREX, for example, because of this. We
+    are also careful with dipping our toes into
+:
+    crypto, mainly because of the short history.
+    Likewise, options and many derivatives are
+    hard to make money in as well.
+
+
+    Moreover, our research stock strategies are
+    less prone to “blow off”, like for example
+    happens frequently in the commodities
+    markets. Likewise, the forex markets are
+    very difficult to trade. If you manage to find
+    commodity and forex trading strategies that
+    last year in and year out — congratulations!
+
+
+    We recommend starting with stocks. Not
+    only do you have a tailwind, but you can
+    also choose among thousand of stocks in
+    different sectors. Many of those have little
+    competition from other traders. Compare
+    this to forex trading strategies where you
+    are competing against millions of traders
+    just in the USD/EUR spread!
+
+
+
+
+    What are you looking
+    for in a Swing trading
+    strategy?
+    In Swing trading strategies you should look
+    for consistent profits, more like an income,
+    but that is very tough to achieve. Some kind
+    of lump-sum and erratic profits are
+:
+    inevitable. Most likely just a few days per
+    month will generate most of the profits. The
+    rest of the time you are scraping by and
+    looking to avoid losses and disasters.
+
+
+    Trading is much like a slow grind where you
+    have to show up day in and day out for
+    years with some occasional big wins.
+
+
+    That said, you want a steady rising equity
+    curve from the left to the right. You want
+    a profit factor that is somewhere between
+    1.75 and 3. Likewise, you can have a look at
+    the Sharpe Ratio of your trading strategy as
+    well. Below is a an example of a trading
+    strategy with a low profit factor:
+:
+    Opposite, below is an example of a
+    potentially good trading strategy with a high
+    profit factor:
+:
+    Because of the behavioral mistakes you are
+    most likely to commit, most traders should
+    make strategies that give the smoothest
+    returns you can get. However, be aware
+    of curve fitting!
+
+
+    We provide you with a last chart that shows
+    you examples of drawdowns:
+:
+    However, because of little or negative
+    correlation between strategies, you might
+    not be looking for the specific best trading
+    strategies. Investment strategies can still be
+    useful if they independently are not the
+    best, but they complement each other.
+
+
+
+
+    Why do trading
+    strategies stop
+    working?
+    The main reasons why trading strategies
+:
+    stop working are:
+
+
+        Curve fitting: This occurs when you
+        adjust the parameters of your strategy
+        to fit the historical data, but the strategy
+        does not work as well in live trading.
+        Behavioral mistakes: Traders often
+        make emotional decisions that can lead
+        to poor trading performance. For
+        example, they may hold onto losing
+        positions too long or cut winning
+        positions too short.
+        Survivorship bias: This occurs when
+        you only study the strategies that have
+        been successful in the past, and ignore
+        the strategies that have failed. This can
+        lead to an inflated view of the
+        effectiveness of trading strategies.
+        Trading costs: Trading costs, such as
+        commissions and slippage, can erode
+        the profits of even the best trading
+        strategies.
+        News and information: Traders who
+        make trading decisions based on news
+        and information are often at a
+        disadvantage, as this information is
+        often already reflected in the prices of
+        the securities they are trading.
+        Improper money management: Using
+        too much leverage or not having a
+        proper risk management plan can lead
+        to large losses, even if your trading
+        strategy is sound.
+:
+    What are trading
+    strategies in forex?
+    Forex trading involves buying and selling
+    different currencies to profit from market
+    fluctuations. It is a technique used to decide
+    whether to buy or sell a currency pair at a
+    certain time. Forex trading strategies can be
+    both based on technical analysis, and
+    fundamental or news-based events.
+
+
+
+
+    How can you reduce
+    the risk of trading
+    strategies stop
+    working?
+        Backtesting your strategies on a variety
+        of data sets.
+        Use a trading journal to track your
+        trades and identify any patterns.
+        Developing a trading plan and sticking
+        to it.
+        Using a variety of trading strategies.
+        Managing your risk carefully.
+
+
+
+
+    What are the best
+:
+    trading strategies?
+    There is no one-size-fits-all answer to what
+    are the best trading strategies question, as
+    the best trading strategy for you will
+    depend on your individual risk tolerance,
+    trading style, and market knowledge.
+    However, some of the most popular and
+    successful trading strategies include:
+
+
+        Trend following: This strategy involves
+        identifying and trading in the direction
+        of a prevailing trend. Trend followers
+        typically use technical analysis to
+        identify key support and resistance
+        levels, as well as moving averages and
+        other indicators to confirm the trend.
+        Range trading: This strategy involves
+        trading within a defined price range.
+        Range traders typically use technical
+        analysis to identify support and
+        resistance levels, as well as other
+        indicators to identify potential entry and
+        exit points.
+        Momentum trading: This strategy
+        involves trading based on the
+        momentum of a security. Momentum
+        traders typically use technical
+        indicators such as relative strength
+        index (RSI) and moving averages to
+        identify stocks that are trending.
+        Breakout trading: This strategy
+        involves trading after a security breaks
+:
+        out of a key support or resistance level.
+        Breakout traders typically use technical
+        indicators such as Bollinger bands to
+        identify potential breakout
+        opportunities.
+
+
+    If you are interested in learning more about
+    these strategies, I recommend checking out
+    the website QuantifiedStrategies.com. They
+    have a wealth of information on a variety of
+    trading strategies, as well as backtesting
+    tools that you can use to test different
+    strategies on historical data.
+
+
+
+
+    What are algorithmic
+    trading strategies?
+    Algorithmic trading involves the use of
+    algorithms to execute trades with precision
+    and speed. Algo trading strategies are
+    automated methods that use computer
+    programs to make decisions about buying
+    or selling assets in financial markets, aiming
+    to generate profits by leveraging data and
+    mathematical models.
+
+
+
+
+    Where to buy trading
+    strategies?
+:
+    You can buy trading strategies from online
+    marketplaces such as brokers, trading
+    education providers, freelance developers,
+    or trading forums and communities. Be very
+    careful with this and do your research
+    before purchasing to ensure legitimacy and
+    effectiveness.
+
+
+
+
+    Where to backtest
+    trading strategies?
+    You can backtest trading strategies using
+    trading software or trading platforms like
+    Tradestation, Amibroker, MetaTrader,
+    TradingView, NinjaTrader, or Python.
+
+
+
+
+    Where to learn
+    trading strategies?
+    QuantifiedStrategies.com is a great
+    resource for learning about trading
+    strategies. They offer a variety of
+    resources, including articles, videos, and a
+    free trading strategy guide. You can also
+    purchase their premium content, which
+    includes more in-depth analysis and
+    strategies.
+:
+    Here are some specific resources from
+    Quantified Strategies that you may find
+    helpful:
+
+
+        100 Trading Strategies 2024 (Free) —
+        Guide with Backtest And Rules: This
+        guide provides you with 100 different
+        trading strategies, each with
+        backtested results and trading rules.
+        Bitcoin Intraday Seasonality Trading
+        Strategy (Backtest, Performance,
+        Results, Video): This article and video
+        discuss a specific trading strategy that
+        focuses on Bitcoin’s intraday
+        seasonality.
+        The Best Days to Trade Stocks: This
+        article examines the historical
+        performance of stocks on different
+        days of the week and holidays.
+        Start Of The Year Rally? ( Stocks,
+        Bonds, And Gold): This article explores
+        the phenomenon of the January
+        Barometer and whether it can be used
+        to predict market trends for the year.
+
+
+
+
+    Trade small size —
+    be careful
+    Trading requires experience — lots of it. In
+    order to survive, always make sure you are
+    trading smaller position sizes than you
+:
+    would like.
+
+
+    Likewise, don’t put all your eggs in one
+    basket. Spread your time frames, asset
+    classes, and strategies are a good guide.
+
+
+
+
+    Why trade small
+    position sizes in
+    trading strategies?
+    You want to trade small because you want
+    to make sure you can survive adverse
+    movements against your position. Sooner or
+    later you’ll experience days where all or
+    most of your positions go against you.
+
+
+
+
+    Put aside money for
+    a rainy day
+    Likewise, don’t put all your money in your
+    trading account. We recommend setting
+    aside money for long-term appreciation,
+    preferably in mutual funds. Don’t try to be
+    smart, make your investments simple.
+
+
+
+
+    Be careful with
+:
+    leverage:
+    It’s easy to get fooled by a backtest — it all
+    looks so simple and easy in hindsight.
+    Because of this, many use too much
+    leverage by being greedy.
+
+
+    Leverage can put you out of business.
+    Make sure you always think about how
+    much you can lose, not what you can make.
+    A 50% drop requires a 100% rise to get
+    back to break-even.
+
+
+
+
+    Make sure you have
+    a trading plan
+    This website is all about quantified trading
+    strategies and trading systems. We believe
+    as a guide that 100% quantified rules are
+    what fits most traders.
+
+
+    The reason for this is simple: Although
+    nothing is certain about the future, you at
+    least have an opinion if your trading
+    strategy performed well in the past.
+    Additionally, it makes you disciplined and
+    less prone to knee-jerk trades out of the
+    blue.
+
+
+    Besides, by automating all your trading you
+:
+    theoretically can trade an almost unlimited
+    amount of trading systems. You focus on
+    developing strategies, and you let the
+    computer do the rest.
+
+
+
+
+    Where to find trading
+    strategies
+    Quantified Strategies is a website that
+    offers free trading strategies. They have a
+    wide variety of strategies to choose from,
+    and they also provide backtesting data so
+    you can see how well each strategy has
+    performed in the past.
+
+
+
+
+    Avoid obvious
+    mistakes
+    Profits tend to take care of themselves as
+    long as you avoid the biggest blunders. In
+    tennis, this is called unforced errors. In
+    professional tennis, most of the matches
+    are won by the player who makes the least
+    amount of unforced errors!
+
+
+
+
+    How many trading
+:
+    strategies are there?
+    There is no definitive answer to the exact
+    number of trading strategies that exist. The
+    world of trading is vast and diverse, and
+    new strategies are continually being
+    developed and refined by traders and
+    investors. As a start you can find over 200
+    trading strategies on this page and
+    thousands on the site altogether.
+
+
+
+
+    Make sure you
+    understand yourself
+    It might sound like a cliche, but you need to
+    understand yourself and the potential
+    behavior mistakes you are prone to make.
+    Even very profitable strategies won’t make
+    you money if you buy and sell at the wrong
+    time.
+
+
+
+
+    What are option
+    trading strategies?
+    Option trading strategies are a set of rules
+    or guidelines that an investor follows to
+    manage the risks and rewards associated
+    with buying or selling options. Options are
+:
+    financial contracts that give the buyer the
+    right, but not the obligation, to buy or sell an
+    underlying asset at a certain price by a
+    certain time.
+
+
+
+
+    Conclusion
+    This page which contains some of our best
+    trading strategies and trading systems
+    might give you input on how to start trading.
+    Trading is not easy, and certainly much
+    more demanding than long-term investing.
+
+
+    While trading offers scalability and huge
+    profit potential, consider the time spent and
+    the risk of ruin in trading. If you don’t know
+    what you’re doing, you might lose your
+    capital quickly.
+
+
+    Disclaimer: We are not financial advisors.
+    Please do your own due diligence and
+    investment research or consult a financial
+    professional. All articles are our opinions
+    — they are not suggestions to buy or sell
+    any securities.
+
+
+
+
+    Trading Strategy
+    Glossary And Terms
+:
+    There are many other terms and
+    expressions related to Trading Strategies.
+    We have summarized them and explained
+    them in this trading strategy glossary:
+
+
+     1. Arbitrage: A strategy that involves
+        taking advantage of price differences
+        for the same asset on different markets.
+     2. Trend Following: A strategy where
+        traders aim to profit from the
+        continuation of existing price trends.
+     3. Swing Trading: A strategy that seeks to
+        capture short to medium-term price
+        swings or fluctuations in the market.
+     4. Scalping: A short-term strategy where
+        traders make quick, small profits by
+        executing many trades throughout the
+        day.
+     5. Day Trading: Buying and selling
+        financial instruments within the same
+        trading day, typically closing all
+        positions before the market closes.
+     6. Position Trading: A long-term trading
+        strategy where traders hold positions
+        for extended periods, often based on
+        fundamental analysis.
+     7. Technical Analysis: The study of
+        historical price charts and patterns to
+        make trading decisions.
+     8. Fundamental Analysis: Evaluating a
+        security’s intrinsic value based on
+        financial and economic data.
+     9. Volatility Trading: A strategy that
+:
+        focuses on profiting from price
+        fluctuations, often through options or
+        derivatives.
+    10. Pairs Trading: Simultaneously buying
+        and selling two related assets to profit
+        from their relative price movements.
+    11. Mean Reversion: A strategy based on
+        the belief that prices tend to revert to
+        their historical average over time.
+    12. Market Making: A strategy where
+        traders provide liquidity by
+        simultaneously quoting both buy and
+        sell prices for an asset.
+    13. Statistical Arbitrage: Using statistical
+        models to identify and exploit short-
+        term price discrepancies between
+        related assets.
+    14. High-Frequency Trading (HFT):
+        Trading strategy that involves executing
+        a large number of orders at extremely
+        high speeds.
+    15. Algorithmic Trading: The use of
+        computer programs to automate trading
+        strategies and execution.
+    16. Pattern Recognition: Identifying
+        recurring chart patterns like triangles,
+        head and shoulders, or flags to make
+        trading decisions.
+    17. Risk Management: Techniques and
+        strategies employed to limit potential
+        losses while trading.
+    18. Leverage: Using borrowed capital to
+        increase the potential return on
+:
+        investment (ROI).
+    19. Stop-Loss Order: An order placed to
+        automatically sell a position if it reaches
+        a certain price level, limiting potential
+        losses.
+    20. Take-Profit Order: An order placed to
+        automatically sell a position once it
+        reaches a predetermined profit level.
+    21. Moving Average (MA): A widely used
+        technical indicator that smooths out
+        price data over a specified period to
+        identify trends.
+    22. Relative Strength Index (RSI): A
+        momentum oscillator that measures the
+        speed and change of price movements.
+    23. Bollinger Bands: A volatility indicator
+        consisting of a middle band and two
+        outer bands to identify price volatility.
+    24. MACD (Moving Average Convergence
+        Divergence): A trend-following
+        momentum indicator used to identify
+        potential buy and sell signals.
+    25. Fibonacci Retracement: A technical
+        analysis tool used to identify potential
+        support and resistance levels based on
+        Fibonacci ratios.
+    26. Stochastic Oscillator: A momentum
+        indicator that compares a security’s
+        closing price to its price range over a
+        specific time period.
+    27. Candlestick Patterns: Price chart
+        patterns that provide insights into
+        potential price reversals or
+:
+        continuations.
+    28. Head and Shoulders Pattern: A
+        reversal pattern that signals a potential
+        change in the direction of an asset’s
+        price movement.
+    29. Investment Strategies: A set of
+        techniques and approaches used to
+        make informed investment decisions.
+    30. Trading Tactics: Specific actions and
+        methods employed in the execution of
+        trading strategies.
+    31. Portfolio Management Techniques:
+        Strategies for optimizing the
+        composition and performance of an
+        investment portfolio.
+    32. Market Analysis Approaches: Various
+        methods of analyzing financial markets
+        to identify trading opportunities.
+    33. Stock Trading Methodologies:
+        Systematic approaches to buying and
+        selling individual stocks.
+    34. Financial Trading Strategies:
+        Strategies designed for trading various
+        financial instruments like stocks, bonds,
+        or commodities.
+    35. Asset Allocation Methods: Methods
+        for distributing investments across
+        different asset classes to achieve
+        desired risk and return profiles.
+    36. Risk Management Strategies:
+        Techniques to minimize potential losses
+        and protect capital while trading.
+    37. Investment Tactics: Specific actions
+:
+        and decisions made within an overall
+        investment strategy.
+    38. Trading Plans: Detailed outlines of a
+        trader’s intended actions and goals in
+        the financial markets.
+    39. Trading Techniques: Specialized
+        methods used to execute trades
+        efficiently and profitably.
+    40. Market Timing Strategies: Approaches
+        for determining the most opportune
+        moments to enter or exit the market.
+    41. Trading Systems: Automated or
+        mechanical setups that execute trades
+        based on predefined rules.
+    42. Position Sizing Methods: Strategies for
+        determining the appropriate size of
+        each trade relative to one’s overall
+        portfolio.
+    43. Algorithmic Trading Approaches:
+        Strategies that rely on computer
+        algorithms to execute high-frequency
+        trades based on predefined criteria.
+    44. Support and Resistance: Price levels
+        where an asset often encounters
+        buying or selling pressure.
+    45. Risk-Reward Ratio: The ratio of
+        potential profit to potential loss in a
+        trade.
+    46. Market Sentiment: The collective
+        attitude and opinions of market
+        participants toward a particular asset or
+        market.
+    47. Order Flow: The real-time buying and
+:
+        selling activity in a market, often
+        analyzed for trading signals.
+    48. Pivot Point: A technical indicator used
+        to identify potential support and
+        resistance levels.
+    49. VWAP (Volume Weighted Average
+        Price): A trading indicator that
+        calculates the average price of an asset
+        based on its trading volume.
+    50. Dark Pools: Private trading venues
+        where large institutional investors
+        execute trades away from public
+        exchanges.
+    51. Short Selling: A strategy where traders
+        borrow and sell an asset with the
+        expectation of buying it back at a lower
+        price.
+    52. Circuit Breaker: A mechanism that
+        temporarily halts trading to prevent
+        extreme price volatility.
+    53. Hedging: A risk management strategy
+        that involves taking a position to offset
+        potential losses in another position.
+    54. Gap Trading: Trading strategy that
+        exploits price gaps between the closing
+        and opening prices.
+    55. Market Order: An order to buy or sell a
+        security at the current market price.
+    56. Limit Order: An order to buy or sell a
+        security at a specific price or better.
+    57. Execution Risk: The risk that a trade
+        may not be executed at the desired
+        price or at all.
+:
+    58. Slippage: The difference between the
+        expected price of a trade and the actual
+        executed price.
+    59. Volatility Index (VIX): A measure of
+        market volatility often referred to as the
+        “fear gauge.”
+    60. Black-Scholes Model: A mathematical
+        model used to calculate the theoretical
+        price of options.
+    61. Liquidity: The ease with which an asset
+        can be bought or sold without causing
+        significant price movement.
+    62. Margin Call: A demand by a broker for
+        additional funds to cover potential
+        losses in a trading account.
+    63. Risk-on/Risk-off: Market sentiment that
+        alternates between a preference for
+        riskier or safer assets.
+    64. Backtesting: Testing a trading strategy
+        using historical data to evaluate its
+        potential performance.
+    65. Monte Carlo Simulation: A statistical
+        technique used to model the range of
+        possible outcomes for a trading
+        strategy.
+    66. Medium
+
+
+
+
+          Written By: Oddmund Groette
+          Fact Checked By: Håkan
+       Samuelsson
+       Video Testimonials From Recent
+:
+    Customers
+
+
+
+    Disclaimer: No part of the analysis in
+    this blog constitutes a trade
+    recommendation. It’s all published for
+    informational and educational
+    purposes only. The past performance
+    of any trading system or methodology
+    is not necessarily indicative of future
+    results.
+
+
+    Read the full disclaimer here.
+
+
+       Disclaimer: No part of the analysis
+    in this blog constitutes a trade
+    recommendation. It’s all published for
+    informational and educational
+    purposes only. The past performance
+    of any trading system or methodology
+    is not necessarily indicative of future
+    results.
+
+
+    Read the full disclaimer here.
+    ---------------------------------------
+    --------------------------
+:
+          Get FREE e-book
+          with two trading
+             strategies!
+         2 Free Trading Strategies (Backtested)
+
+
+
+                         Send Free Copy
+           Enter your email
+
+
+
+
+    #Trading Strategies Featured
+
+
+
+
+              Oddmund Groette
+
+              I’ve got an Msc from Heriot-Watt
+              University, Edinburgh (1996), in
+              addition a to a business
+              administration degree the Norwegian
+              School of Management (BI – 1994).
+              Did my mandatory military service in
+              between.
+
+              After university, I worked two years
+              as an auditor (1996-1998).
+
+              I co-founded Aksjeforum.com in
+              1998/99 - one of the first websites
+              about trading and investing in
+              Norway. It was later acquired by
+:
+                   Digi.no in 2001.
+
+                   I have written 4 books about trading
+                   (in Norwegian). One of them has sold
+                   30,000 copies, a record for a
+                   financial book in Norway.
+
+                   From 2001 until 2018 full-time
+                   independent prop trader (Series 7 in
+                   2001) and investor.
+
+                   2018-today: Investor, writer, analyst.
+
+
+
+
+      PREVIOUS                                      NEXT
+
+    Framing Effect in                  Adaptive Laguerre
+    Trading Bias: How It              Filter – Strategy And
+    Impacts Your                                     Rules
+    Decisions
+
+
+
+
+    Similar Posts
+:
+       123 Pattern               Supply and         Gold
+       Reversal                  Demand             Moving
+       Trading                   Trading            Average
+       Strategy:                 Strategy           Strategy –
+       Setup and                 (Backtest          Best Trend
+       Backtest                  And                Following
+                                 Example)           System in
+                                                    Gold
+                                                    Trading
+                                                    (Backtest)
+
+
+
+
+                     Latest           Popular
+                     Posts            Categories
+
+    Hakan                             Trading
+                     Adaptive
+    Samuelsson                        strategies
+                     Laguerre
+    and
+    Oddmund          Filter –         Backtesting
+
+    Groette are      Strategy
+                                      Seasonal
+    independent      And Rules
+                                      strategies
+    full-time
+    traders and      200              Trading
+    investors        Trading          Psychology
+:
+    who               Strategies        Trading
+    together          (Free) 2024       indicators
+    with their        —                 Traders
+    team
+                      Backtests,
+    manage                              Trading
+                      Rules,
+    this                                Books
+                      Settings
+    website.
+    They have         And Types         Day
+    20+ years                           Trading
+    of trading        Framing
+                                        Candlestick
+    experience        Effect in
+                                        patterns
+    and share         Trading
+    their             Bias: How It      Risk and
+    insights                            money
+                      Impacts
+    here.                               management
+                      Your
+                      Decisions         Bitcoin And
+    Contact
+    us: support@quantifiedstrategies.com Crypto
+                      CAD CHF
+                      Trading:           Python
+                                        Trading
+                      Strategy
+                                        Strategies
+                      And Rules
+                                        Algorithmic
+                      37 Best           Trading
+                      Forex
+                      Trading
+                      Strategies
+                      2024:
+                      Currency
+                      Trading For
+                      Beginners
+:
+                                  Privacy Policy
+
+                       Disclaimer – Terms of Use
+
+                               Rational Thinking
+    © 2012-2024
+                                 About This Site
+    Quantified
+    Strategies - All          Become A Member
+    Rights Reserved.   Testimonials   Contact Us
+    Designed by Shiv
+                       Jobs   Copyrighted, But…
+    Web.
+                                          Sitemap
+
+                         Trading Strategies Daily
+
+                               Linktree    LOGIN
+:
+

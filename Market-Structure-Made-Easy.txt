@@ -1,0 +1,274 @@
+   1. Market Structure Basics
+Market structure underpins the fundamental concepts used in this trading strategy. If you
+can master market structure, you will likely be on the right side of the market more often
+than not. And the good news is, it’s easy to learn!
+
+Expectation:
+
+
+
+
+Reality:
+
+
+
+
+For simplicity, I will use bullish examples throughout this workbook, but you can apply the
+exact same concepts to bearish examples just in the opposite way.
+
+The fundamental idea behind market structure is that when a high is broken, we have a
+confirmed higher low. The actual act of breaking the high ‘cements’ the higher low, so price
+can print many different candles in between, but a break of structure is only confirmed after
+the high is breached. After a BOS (break of structure) occurs, we expect price to pull back.
+
+A series of HIGHER HIGHS and HIGHER LOWS gives a bullish trend.
+A series of LOWER LOWS and LOWER HIGHS gives a bearish trend.
+                          Once we have a BOS, we expect a pullback
+
+So, what does this mean?
+
+Well, it means exactly that; once we have a BOS, we expect a pullback at some point. This
+pullback can form straight away after the BOS, or price can go on for a long time before
+pulling back, BUT, after the BOS, we expect a pullback at some point. This phrase is
+extremely useful to bear in mind and I use it instinctively when looking at the charts. It
+allows us to get a bias of where price is likely to be heading next, giving us a bias for going
+long or short.
+
+If we have had a bullish BOS and we are at the point in the white box:
+
+
+
+                                                We need to expect a pullback. This pullback can
+                                                happen straight away, or it may take a while, but we
+                                                expect a pullback. Therefore, our directional bias is to
+                                                take SHORTS to play the pullback.
+
+
+
+If we have had a bullish BOS, we have pulled back to the strong low (Chapter 2) and we are
+in the white box:
+
+
+                                                We expect the next bullish impulse leg to start.
+                                                Therefore, our bias will be to take LONGS to trade
+                                                with the trend.
+
+
+
+
+Swing Range
+
+Once the high is broken, and we begin the pullback phase, the swing range we are trading
+within becomes the most recent higher high and the most recent higher low:
+This is usually the trading range we are most interested in as day traders.
+
+SWING HIGH = highest point in the swing range – caused by a swing low
+SWING LOW = lowest point in the swing range – caused by a swing high
+
+You must remember, this whole strategy is based on the fundamentals of market structure,
+price can do whatever it wants while in a swing range, until it either breaks the high,
+continuing the bullish trend, or breaks the low, reversing the bullish trend.
+
+Real Life Example:
+
+Here on the M15 timeframe on 29th December 2023, we see a clean bearish downtrend
+making lower lows and lower highs.
+As you can see, price can do whatever it wants when it is within the swing range, but once it
+breaks out of that range, a new LH is ‘cemented’.
+
+We try to capitalise on the moves at the LH points, to target the lower lows.
+   2. Strong and Weak Highs and Lows
+             We want to trade from strong structure and target weak structure
+
+                        This is what we call, expectational order flow
+
+First, let’s define what a strong low and a weak low is:
+
+   •   Strong Low – a low that has done its job – broken structure to the upside. A strong
+       low’s expectation is not to be broken.
+   •   Weak Low – a low that has failed to do its job – failed to break structure to the
+       upside. A weak low is expected to be targeted.
+   •   Strong High – a high that has done its job – broken structure to the downside. A
+       strong high’s expectation is not to be broken.
+   •   Weak High – a high that has failed to do its job – failed to break structure to the
+       downside. A weak high is expected to be targeted.
+
+Now we have defined them, let’s see what it looks like on our line chart from earlier:
+
+
+
+
+Here, you can see there are weak highs because they have failed to break the strong low,
+therefore they have failed to do their job, and are targeted.
+
+There are also strong lows because they have completed their job, and broken structure to
+the upside.
+In this example, there are strong highs and weak lows because the strong highs have
+achieved their objective of breaking structure to the downside. The weak lows have failed
+their objective of breaking structure to the upside.
+
+Real life example from earlier:
+
+
+
+
+In this example, we have seen strong highs form and hold, while weak lows are targeted.
+This is an example of a bearish trend where the expectational order flow goes from strong
+highs to weak lows, then repeats.
+   3. Trend Change
+Obviously, a bullish trend or a bearish trend cannot last forever. The trend must change at
+some point, and a strong high or strong low must be broken. Here is a representation of that
+on a line graph:
+
+
+
+
+   1. The trend is bullish, creating higher highs and higher lows. At point (1), this low broke
+      structure to the upside, so is expected to hold to create another leg to the upside.
+   2. Structure is bullish and we expect the weak high to be targeted, and the strong low
+      at (1) to hold. This happens and we break to the upside again, continuing the bullish
+      trend. Point (2) now becomes a strong low that is expected to hold to continue the
+      bullish trend.
+   3. Point (2) doesn’t hold, the strong low is broken. Although we assume the trend will
+      continue and we base our trades off the expectation of price, strong highs and lows
+      must break at some point to change the direction of the trend. Point (3) fulfils its
+      objective of taking out a low, and therefore becomes a strong high.
+   4. After the pullback starts, point (4) is now considered a weak low and the expectation
+      is for the weak low to be targeted. This happens and we break to the downside.
+   5. Here, this low fulfils its objective and breaks a strong high, causing itself to become a
+      strong low, the trend changes from bearish to bullish again.
+   6. At point (6), the pullback starts, and we expect the strong low at point (5) to hold.
+      The expectation is for the weak high at point (6) to be targeted.
+   7. Here, the bullish trend continues, and point (7) breaks the weak high to the upside,
+      continuing the bullish trend and cementing the strong low.
+Real Life Example:
+Here is an example of when a trend changes, I have used the 4h structure here.
+
+
+
+
+I have drawn arrows on to make it easier to see the swings in price:
+   4. Three Kinds of Structure
+   Now that you have mastered the basics, this more advanced concept of structure is so
+                 powerful, and will propel your trading journey forward.
+
+With this strategy, there are three different kinds of structure: swing, internal, and fractal.
+When combining these 3 structures together, getting the intended direction of the market is
+so much clearer.
+
+This may be difficult to understand at first if you are either new to trading, or you haven’t
+traded in this way before. But I promise, if you can understand the three types of structure,
+you will always have an edge in the market. I cannot stress how powerful this concept is
+once you truly understand it and can map it perfectly.
+
+Swing structure - Maps the major swing movements in price. The purpose of swing structure
+is to show us the general direction of price
+
+Internal structure - A pullback that is visible but not significant enough to call it swing
+structure. The purpose of internal structure is to facilitate the impulse and correction legs of
+swing structure. It tells us when the swing pivot point is likely formed, either the swing high
+or the swing low.
+
+Fractal structure - Very small movements in price of few candles. This tells us when the
+internal pivot point is likely forming.
+
+CHoCH - Change of character - how we map fractal structure. This is 100% mechanical.
+
+I have demonstrated this concept on the line graph below before we go into a real example:
+   1. After a swing high forms, price pulls back, then breaks structure (BOS) to the upside,
+       creating the swing HL.
+   2. Here, the pullback isn’t large or significant enough to be classified as a swing
+       pullback, so internal structure is formed. The dotted lines represent an internal BOS.
+   3. At the top of the internal leg, a CHoCH occurs – fractal structure, which signals the
+       internal pullback may be starting.
+   4. The strong internal low gets broken, and the internal structure shifts bearish, to
+       facilitate the swing pullback.
+   5. A series of lower lows and lower highs form. This is the internal structure forming a
+       bearish trend, to facilitate the pullback of the swing structure. Remember, the swing
+       structure is still bullish at this point, the internal structure is bearish to allow the
+       swing to pull back.
+   6. Fractal structure breaks here with a bullish CHoCH, signalling the end of the internal
+       impulse leg down.
+   7. An internal BOS occurs, signalling the swing has finished pulling back, and may now
+       be ready to target the weak swing high.
+   8. Bullish CHoCH forms at the low of the internal, signalling the internal has finished
+       pulling back and price is now ready to target the weak internal high.
+   9. An internal BOS occurs and a series of internal HH’s and HL’s form until the weak
+       swing high is taken out.
+   10. We expect these internal structure ranges to hold until the weak swing high is taken
+       out here.
+
+This is probably quite a hard concept to get your head around if you are new to trading, and
+so I will try to demonstrate this with a real-life example:
+This concept can be used on every timeframe and helps to get a direction of where the
+market wants to go.
+
+Even if you are finding this concept difficult to grasp, the main things to take away from it
+are:
+
+   -   Swing structure maps the major movements in price.
+   -   Swing structure is the structure we want to follow, capitalising on big moves in the
+       market.
+
+   -   Internal structure facilitates the impulse and correction legs of the swing structure.
+   -   Price will form a bullish internal trend for the swing impulse leg in a bullish market.
+   -   Price will form a bearish internal trend for the swing correction leg in a bullish
+       market.
+
+   -   Fractal structure (CHoCH’s) can be used to determine the turning points of internal
+       structure.
+   -   Fractal structure is the most aggressive form of structure and can lead to false
+       signals.
+   5. Structure Mapping
+Candle Body Close Vs Wick Break
+
+We use slightly different structure mapping for swing and internal structure compared to
+fractal structure. For swing and internal, we must wait for a candle body close below or
+above the most recent structure, for fractal structure, we map it using wick breaks.
+
+
+ Swing and Internal                                     Fractal
+
+
+
+
+This is exactly the same piece of price action, but if we were mapping swing or internal
+structure, we would map it the first way using CANDLE BODY CLOSES. If we we’re mapping
+fractal structure, we would map it just using WICKS.
+
+Fractal High – a fractal high occurs when the following candle fails to break its high.
+Fractal Low – a fractal low is confirmed when the following candle fails to break its low.
+                                        CHoCH
+Change of character – when fractal bullish structure changes to bearish structure or vice
+versa.
+Bullish CHoCH – the first fractal HH after a series of fractal LH’s
+Bearish CHoCH – the first fractal LL after a series of fractal HL’s
+
+Bullish & Bearish CHoCH - EXAMPLE
+   6. Swing and Internal
+When we get a BOS, we need a candle body close for swing and internal structure. In the
+example below, price first wicked the low so we do not draw on our BOS line and we still
+operate within the previous swing structure. We only map a swing BOS when there is a
+candle close below the low like in the break after.
+                                        Conclusion
+This pdf gives a comprehensive view of market structure and how to map it. Implementing
+these ideas will improve your trading no end and having a mechanical way to define market
+structure puts you one step closer to achieving funding and consistency.
+
+I hope you enjoyed this free taste of the way I trade. Market structure is the building blocks
+of my entire strategy and how I am consistently profitable.
+
+If you want to learn anything more and gain CONSISTENT PROFITABILITY within 10 months,
+visit my website at:
+
+https://www.transparenttradingfx.com
+
+My Instagram where I share DAILY trading tips from my course, and where I post EVERY
+trade I take, the wins, the losses, the break evens:
+
+https://www.instagram.com/transparenttradingpro/
+
+For a FREE mini-course series, checkout my YouTube:
+
+https://www.youtube.com/@TransparentTradingFX
+

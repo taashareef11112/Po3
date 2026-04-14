@@ -1,0 +1,444 @@
+   ENTRY
+        AND
+EXIT STRATEGY
+          @kokolato
+    Tradingbarengkoko.com
+                      Disclaimer
+ Apa yang akan saya sharing mungkin sebagian tidak sesuai dengan teori
+                       yang ada di buku buku saham.
+                                    …
+Tapi itu adalah apa yang sudah saya pelajari dari bursa selama ini dan sudah
+     saya praktekkan serta memberikan cuan konsisten hingga hari ini.
+                                    …
+ Saham saham yang ditampilkan pada presentasi ini hanya sebagai contoh
+                        dan bukan rekomendasi beli
+        TABLE OF CONTENTS
+
+
+01
+      The Foundation
+      Basic belief yang harus dibangun
+
+                                     How to Identify
+
+                                                                   02
+                                    Entries and Exits
+                                       Apa yang diperlukan, dan
+                                     bagaimana cara identifikasi
+     Strategy and
+
+03
+     Execution
+     Trading Plan,
+     Beli bertahap, Sekali entry?
+     Hold berapa lama?
+     Exit di berapa?
+01
+           The
+     Foundation
+                Basic Belief
+        Yang Harus Dibangun
+                  The Foundation
+
+Market Is Always right,    Jangan Ngeyel, be flexible
+ respect the market           but be consistent
+
+
+
+
+There’s no such thing as    You Can’t always buy
+ perfect entry and exit     at the lowest and sell
+                                at the highest
+                Jadi Sekali Lagi…
+
+There are no perfect entries and exits
+Breakouts may fail, Supports may not hold
+Pullbacks may never come, Confirmation may be too late
+But the good news is, you don't need perfect entries and
+exits to be a succesfull trader
+All we have to do is try to find the best way possible to
+entry and exit
+02
+      How to Identify
+     Entries and Exits
+           Apa yang diperlukan, dan
+         bagaimana cara identifikasi
+I believe in Analysis
+and not forecasting
+
+
+  —Nicolas Darvas
+            APA YANG DIPERLUKAN
+
+
+   Identifikasi trend untuk    Identifikasi Support dan
+menentukan strategy entry      resistance untuk menentukan
+                    dan exit   area entry dan exit
+
+                TREND          SUPPORT RESISTANCE
+TREND
+                    IDENTIFIKASI TREND
+
+
+UPTREND                      DOWNTREND               SIDEWAYS
+Ciri :                    Ciri :                  Ciri:
+Higher High, Higher Low   Lower High, Lower Low   Harga bergerak dalam range
+Di atas MA60, MA200       Di bawah MA60, MA200    Moving Average berhimpitan
+Strategy :                Strategy :              Strategy :
+Buy High Sell Higher      Buy Low Sell High       Buy on support sell on resist
+Buy on Breakout           Buy on Support          Buy on Breakout
+Buy on pullback/retrace   Buy on reversal
+                                             Higher high
+
+UPTREND                   Higher high
+                                               Higher Low??
+
+
+
+
+                                        Higher Low
+
+
+      Higher high
+
+
+
+
+             Higher Low
+
+
+
+      Low
+                       UPTREND
+
+                                 Current Resistance
+Buy High Sell Higher
+                                  Next Resistance
+
+                                 Current Resistance
+ Buy On Breakout                  Next Resistance
+
+
+                                  Current Support
+ Buy On Pullback
+                                  Last Resistance
+            DOWNTREND
+
+
+               Lower high
+                     Lower high
+Lower Low
+
+
+                                  Lower high
+       Lower Low
+
+
+
+
+                   Lower Low
+                    DOWNTREND
+
+                                Current Support
+Buy Low Sell High
+                                Last Resistance
+
+                                Current Support
+Buy On Support                  Last Resistance
+
+
+                                Current Support
+Buy On Reversal
+                                Current Candle
+    Resistance
+                    SIDEWAYS   Resistance
+
+
+
+
+          Support              Support
+
+
+
+
+Support
+                       SIDEWAYS
+
+          Resistance                 Resistance
+
+
+
+
+                 Support          Support
+
+
+
+
+Support
+                  SIDEWAYS
+
+
+                             Current Resistance
+Buy On Breakout               Next Resistance
+
+
+Buy On Support                Current Support
+ Sell On Resist              Current Resistance
+Buy On Breakout                      Buy On Support / Pullback
+
+q   Titik Resistance                      q   Titik Support
+q   Kuat tidaknya titik resistance        q   Kuat tidaknya titik Support
+q   Volume Penembusan                     q   Volume test support
+q   Kondisi Offer di resistance           q   Bentuk Candle
+ Support
+   And
+Resistance
+  Minor Support And
+     Resistance
+Minor support and resistance adalah support dan resistance
+
+
+                                                                  Major Support And
+yang tidak menyebabkan perubahan trend dan umumnya
+berada dalam trend utama
+
+
+                                                                     Resistance
+                                                             Major support and resistance area adalah area
+                                                             support dan resistance di mana terjadi perubahan
+                                                             trend ( trend reversal )
+ Minor And Major
+Support Resistance                              Major Resistance
+
+
+
+
+                             Minor Resistance
+
+
+
+
+  Minor Support
+                             Minor Support resistance
+
+
+             Major Support
+                               Catatan :
+
+Semakin banyak ditest, semakin kuat support atau resistance
+Perhatikan volume saat test support dan resistance
+Perhatikan pola pola candle reversal di area support / resistance, Hammer, doji etc
+Pola Double Bottom adalah pola reversal dari downtrend ke uptrend yang kuat
+Pola Double Top adalah pola reversal dari uptrend ke downtrend yang kuat
+Support dan resistance sebaiknya berupa area dan bukan satu titik
+IDENTIFIKASI SUPPORT DAN RESISTANCE
+
+
+
+                  Trendline               Candlestick
+
+
+      01            02          03           04
+
+
+ Moving Average               Fibonacci
+Support Resistance by Moving Average
+                                       Support
+                                       Support
+
+                                       Support
+
+
+
+
+         Resistance
+                        Resistance     Support
+Support Resistance by Trendline
+
+                          ort
+                      Supp
+Support Resistance by
+      Fibonacci
+Support Resistance       Resistance
+
+  by Candlestick           Resistance
+
+                        Support
+                     Support
+03
+     Strategy and
+        Execution
+                       Trading Plan,
+        Beli bertahap, Sekali entry?
+                  Hold berapa lama?
+                    Exit di berapa?
+Trading Flow                                                                   Cari area entry dan exit,
+                           Tentukan Trading Strategy                        bikin trading plan dan eksekusi
+
+
+
+
+            1                       2                         3                       4
+      Identifikasi trend                               Tentukan triger/rule entry
+                                                       dan exit
+ENTRY
+No matter how many entry techniques you learn, there
+         are only 2 ways to enter a trade.
+    On a pullback. On a breakout. And that’s it.
+               Kenapa kita beli?
+
+
+
+Harga mantul      Harga Break      Bentuk candle bagus,
+dari support      Resistance       Volume naik signifikan
+
+
+     01               02                 03
+EXIT
+                             Kenapa kita Jual?
+
+
+  Harga mencapai                    Harga mencapai
+   target profit /                  titik stoploss /                          Harga kena
+menyentuh resistance                   Breakdown                              trailing stop
+                                         Support
+
+           01                                  02                                    03
+
+             Di luar alasan switching ke saham yang lebih baik, holding time sudah melewati batas
+Trading Flow                                                      Buy Area 154 – 149
+                                                              Cutloss if close below 149
+                  Buy on pullback
+                                                            Trailing stop if move above 160
+
+
+
+
+         1           2                        3                       4
+                                    Jika harga menyentuh previous
+        Uptrend
+                                    support maka buy,
+                                    Jika harga breakout maka buy,
+                                    Sell di previous high atau next
+                                    resistance
+                               Catatan :
+
+
+Saya pribadi menggunakan entry dan exit dalam sebuah area dan bukan satu titik
+Karena bagi saya support dan resistance itu pada dasarnya adalah sebuah area bukan
+sebuah titik. Plus kita tidak tahu history kejadian di support atau resistance tersebut
+Untuk memperbesar peluang mendapatkan barang
+Untuk menyebar resiko
+TRADING
+ PLAN
+Exiting your trades based on emotions will usually be at
+ the worst possible price (when you can't take the pain
+                       any longer).
+  Instead, pre-determined your exit when your head is
+                 clear — and stick to it.
+          You'll do much better in the long run
+
+
+                —Rayner Teo
+                                      Trading Plan
+
+
+
+
+                        Strategy             Entry            Exit
+          Strategy yang diterapkan     Distribusi area beli   Target price jika bergerak naik
+   Buy on breakout, buy on support       Beli bertahap        Stoploss jika bergerak turun
+Intraday, daytrading, swing trading        Sekali beli        Trailing stop
+                              Trailing stop
+                                              Moving average
+                                              Menggunakan moving area
+                                              periode pendek, misal MA5,
+                                              MA10
+
+
+Persentase turun                                         Previous Swing low
+Dihitung dari last high                                  Menggunakan Higher low
+                                                         sebelumnya
+
+
+   Previous candle High
+     Higher High Sebelumnya            We can’t predict how long a trend will last.
+                                       But what we can do is, use a trailing stop loss and take
+                                       what the market offers us
+Hasil Screening 14-08-2020
+Dari chart MDKA kita tahu beberapa hal :
+Trend MDKA saat ini termasuk uptrend
+Harga saat ini sedang pullback dan tertahan di support MA20
+Meskipun Body candle hijau tetapi terbentuk tail, harga close di
+bawah high yang berarti masih cukup banyak seller di MDKA
+
+
+
+
+                                                                   MDKA
+Strategy Buy On Support
+Jika Konservative, area beli adalah 1770 – 1690
+Cutloss jika close di bawah 1690
+Target terdekat 1855 dan selanjutnya 1955
+
+Jika Aggressive, area beli adalah 1810 – 1770
+Cutloss jika close di bawah 1770
+Target terdekat 1855 dan 1955
+
+Jika swing, maka target jual di area 2060 - 2120
+     Harga Berjalan                                                             Harga Closing
+
+Pro :                                                             Pro :
+Saat buy on breakout bisa dapat harga lebih                       Saat buy on breakout relative lebih pasti
+rendah                                                            bahwa breakout sudah terjadi
+Reward menjadi lebih besar                                        Saat kena stoploss bisa terhindar dari
+Saat kena stoploss kerugian bisa lebih kecil                      kerugian akibat false breakdown
+
+Cons:                                                             Cons:
+Ada kemungkinan false breakout sehingga                           Harga pembelian bisa lebih tinggi
+bisa jadi cutloss                                                 Reward menjadi berkurang
+Ada kemungkinan harga mantul dari titik                           Kerugian yang diderita bisa lebih besar
+stoploss sehingga harusnya belum exit
+                           There’s no right or wrong, but rather what suits you best.
+         Whichever choice you make, you must know the possibility and consequence that comes with it.
+I don’t think traders can follow rules for very long
+    unless they reflect their own trading style
+
+
+               —Ed Seykota
+ Entry dan Exit
+Saham Gorengan
+•   Cari saham yang berada pada akhir masa downtrend nya, harga umumnya tidak bikin lower low
+•   Cari saham yang sedang konsolidasi (lebih baik setelah downtrend), bikin base, bergerak sideways dengan range sempit
+•   Perhatikan dan tunggu sampai muncul kenaikan volume di atas rata rata
+•   Entry buy pada saat pertama breakout MA5 atau high candle sebelumnya
+•   Exit jika sudah melihat sinyal jual, misal jika sudah terjadi rolling, harga sudah turun dari intraday high
+•   Cutloss jika harga turun dari harga beli, buang kiri tanpa antri
+•   Perhatikan pola candle sebelumnya untuk untuk melihat pola pergerakannya
+??
+??
+??
+                           Key Takeaways
+Exit dan Entry strategy umumnya terkait erat dengan support dan resistance,
+pahami dan kuasai support resistance maka akan memahami exit dan entry yang
+optimal
+Setiap keputusan trading harus disertai dengan trading plan yang jelas.
+Market itu selalu benar, tidak tunduk terhadap keinginan kita, jadi jangan ngeyel,
+be flexible terhadap trading plan yang kita buat but be consistent, selalu bikin
+trading plan
+Last but not least, there’s no such thing as perfect entries and exits. Kita gak
+pernah bisa selalu beli di lowest dan jual di highest. Dan kita memang tidak butuh
+perfect entries dan exits untuk menjadi trader yang sukses.
+         THANKS!
+                     @tradingbarengkoko
+
+
+                     Tradingbarengkoko.com
+
+
+                     @kokolato
+
+
+CREDITS: This presentation template was created by Slidesgo, including icons
+             by Flaticon, and infographics & images by Freepik
+

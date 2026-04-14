@@ -1,0 +1,499 @@
+PRACTICAL ICT DAY
+TRADING
+GUIDE
+The ICT Intraday Market Makers template operates continuously across all asset classes. It
+may assist
+you in gaining a deeper comprehension of intraday price and the market Makers' strategy. Market
+Makers use the market as a playing field, and following their footsteps can help you make good
+trading decisions.
+
+The templates are functional for both buys and sales.
+
+If you haven't planned your setups around longer time frames, the templates won't work. Let’s get
+right
+to the templates without wasting any time.
+
+1.THE ICT BUY TYPE
+
+
+
+
+
+•
+• It usually happens on Monday, Tuesday, and finally Wednesday.
+
+• • It's the best way to make money quickly.
+
+• • Takes place during the session in London. The New York session will eventually produce a
+retracement that
+will continue the trend established in the London session.
+
+• • After the profile has been established, the daily range will last for seven to eight hours.
+
+• • During the London session, it will typically offer a decrease of approximately 15 to 30 pips from
+the daily opening price. The best time to buy stocks is right now.
+
+•
+• The Low of the Day will take place during the London session when this profile is established.
+
+• • Although the plan is for it to fall, it is ideally possible for it to move slightly higher in comparison
+to the opening price.
+                    
+
+                
+
+EURUSD, 30 MIN TF
+                                                                                 1.
+ICT
+LONDON SWING TO X DAY
+
+
+
+
+
+•
+• Takes place in the middle of a larger price swing when the trend has run its course following a
+significant and explosive move.
+
+• • It ought to take place on Thursday.
+
+• • Price will begin below the opening price, rise above it, and then return to the range-back
+consolidation.
+
+• • Will begin as the ICT Classic Buy template in the beginning.
+
+• • Don't expect it to continue in New York if it continues to consolidate.
+
+• • If this profile develops, always profit initially in New York.
+                                                                                                         
+
+                                                                                         GBPCAD, 15 MIN TF
+
+2.
+ICT LONDON SWING STRAIGHT TO NYO/LC REVERSAL
+POINT
+
+
+
+
+
+•
+• It always begins with a decline of approximately 15 to 30 pips below the opening price before
+rallying, following the standard ICT Buy pattern.
+
+• • When it falls, it becomes a buy entry and rallies toward a higher time frame Point of
+Interest, such
+as a bearish OB, to close in on a FVG, OTE, or other similar target.
+
+• • A classic market reversal profile is indicated if it occurs during the New York session.
+
+• • Market Makers use the template to either reach for a bearish order block (OB) on a higher
+time
+frame, turtle soup, or even to close a range.
+
+• • During the London session, it will first create the day's initial low, then run up and create the day's
+initial high during the New York or London Close, and finally run down and clear the day's initial low.
+
+• • Should be able to work out after the market exhausts itself, based on the HTF dominant
+trend.
+                
+
+GBPUSD, 15 MIN TF
+                                                                                                           
+
+                                                                                           NASDAQ, 15 MIN TF
+
+3.
+THE ICT RANGE TO NYO/LC RALLY
+
+
+
+
+
+•
+• Typically, it occurs during FOMC or NFP news events.
+
+• • At first, the market will be in a consolidation phase.
+
+• • May occur during FOMC-related announcements regarding interest rates.
+
+• • In the event that it occurs, the lows will initially be exhausted before exploding to the upside either
+during the NFP or FOMC.
+
+• • This also applies to any news with a significant impact during the New York session
+or London
+Close.
+4.RAID CONSOLIDATION ICT ON NEWS RELEASE
+
+
+
+
+•
+• Takes place in New York during major news events.
+
+• • Best takes place during FOMC.
+
+• • The consolidation low will be removed during news.When the consolidation's low has been
+removed, it's a good time to buy.
+     NZDUSD, 15 MIN
+
+ 
+
+TF
+                                                                            AUDUSD, 15 MIN
+
+TF
+
+
+
+
+4.TO SEEK AND DESTROY, THE ICT LONDON SWING
+
+
+
+
+•
+The sort of profiles won't make you cash.
+
+• At first, it will give you a London Open buy, but nothing will happen.
+
+• May take place at the conclusion of a larger price movement.
+
+• Can occur during a significant price swing.
+
+• Its primary goal is to eliminate both buyers and sellers.
+                                                         Types of
+Liquidity
+
+Think of the market as a game of snakes that seeks "
+apples. “The market
+will either reverse
+or continue once it has tapped into a liquidity pool,
+depending on where the next apple
+(liquidity pool) is.
+
+This can take the form of highs and lows from a previous session, day,
+week, or
+intraday.
+
+Structural
+
+     Phantom Trendline
+
+7
+
+              Equal
+Highs\Lows
+
+Old High\Low
+
+
+
+
+
+Structure
+You will be able to determine the market's trend and direction once you have
+mastered its
+structure. Knowing where the design got broken or is going,
+assists you with outlining your
+arrangements. The market is either
+expanding, trending, or consolidating, and the expansion
+can be upward or
+downward (uptrend or downtrend).D
+
+Downtrend
+
+
+
+
+
+Uptrend
+
+The market structure is not as straightforward as these diagrams suggest.
+Multiple things will need your
+attention. For instance,
+
+Consolidations within an uptrend
+
+Structures breaks(wicks count)
+
+
+
+
+
+View of Higher timeframe
+
+The market does not want to fall just because the structure was broken in a
+one -minute
+window. Keep to the HTF narrative and be flexible with the
+timeframes you use.
+
+
+
+
+6. Reversals
+
+
+
+
+
+After grabbing liquidity and breaking structure,
+anticipate a reversal in the
+direction of your bias,
+and enter using one of the LTF entry models:
+a) Turtle Soup Setup, which is ideal for FX and
+does not require breaking
+structure;
+
+b) The Regurgitated; and
+
+c) The Breaker.
+
+The FVG
+
+
+
+
+
+7. Entry models
+
+PD Arrays
+
+Orderblocks
+
+Orderblocks the lowest engulfed candle (the candle after it closes higher
+than the OB) in a
+series of up-down candles with the most range from open
+to close. Orderblocks form around
+"Support" levels, liquidity pools, and PD
+Arrays. A new orderblock may form near the
+orderblock the price is
+returning to. I can go over a lot of PD Arrays, but the ones you should
+focus
+on are Orderblocks.The best orderblocks are those that have a displacement
+that is two
+to three times larger than the size of the OB and result in an
+imbalance FVG. Orderblocks are
+considered mitigated when the price
+reaches the 50% level of it (Mean threshold).
+
+
+
+
+Breakers
+
+Breakers can be thought of as structural patterns in the same way that
+Orderblocks form near "Support
+levels" Liquidity pools.
+
+If you don't get in on a Tourtle Soup Setup, a breaker entry is a great way to
+get in.Your Stop Loss should
+be below a swing low-high below an OB or at
+the 50% level (Mean threshold) of an orderblock when
+entering on breakers.
+                                            The Fair Value Gap
+
+During price delivery, the market offered us only one side, and it wants to
+rebalance that
+side so it can continue delivering in the same direction.
+
+A three-candle pattern is a Fair Value Gap.
+
+Bias
+
+The key to great setups is having a distinct bias in mind. The likelihood of a
+trade going in
+your favor increases when you anticipate where price will
+move next.
+
+The solution to bias: Ask yourself some questions.
+
+Where does the price intend to move? To put it another way, where is the
+next Liquidity goal?
+Is there anything that can stop it from going there?
+
+Does the structure support the concept?
+
+Step 1: Launch TradingView.
+
+Whatever currency you trade, select the pair that you prefer.
+
+Open the 1W chart and determine the likely path of the subsequent weekly
+candle.
+
+                                                         In the last 20 days,
+mark the highest high and lowest low on the 1D chart.
+
+                                                                Make a list of
+crucial PD arrays that will assist you in reducing the bias.
+
+                                                               In this
+instance, we can see a FVG that we can use to highlight significant structure
+
+After completing these steps, we know exactly where the price will go next.
+In the last 20 days, a bearish
+fair value gap that we filled and a close draw on
+liquidity in the form of an old low have been filled.The
+structure's
+bearishness supports the concept of bearishness.
+
+Yesterday, we fell, but we didn't take that low; rather, we made equal lows,
+which is a liquidity target.
+Presently lets say im exchanging on todays date
+how might I approach my predisposition.
+On the four-hour window, we clearly broke
+internal structure.
+
+
+
+
+
+New day has begun. We have very little movement through Asia and
+London, but New York
+sweeps London high and breaks down, giving us a
+break and fvg entry.
+
+
+
+
+
+However, what if I spot a good setup that goes against my bias?
+
+You can still take the setup, but you need to be flexible and only take half the risk that you would
+normally for trades.You should be able to quickly scalp targets.
+
+Killzones
+
+Everyone is familiar with the phrase "Time and Price."Time is one of the
+most important
+aspects of trading, and it has a daily impact on your
+setups.Because of the volume that is
+being traded during certain killzones,
+the setup is more likely.
+
+Most of the everyday volume is around 3am to 10am.
+
+Asian range
+
+During the London or New York killzones, anticipate reversals around the
+lowest Asia low
+and highest Asia high.
+
+Assuming you choose to exchange Asian Reach search for matches that
+don't contain USD . During those
+times, USD pairs frequently consolidate
+and focus on OTE entries.
+
+London Killzone
+
+
+
+
+
+For this killzone, the ideal pairings are:Pairs of GBP and EUR.
+
+Most of the time, LOKZ makes the day's low or high or at least a big move that you can take
+advantage of.Skip the London killzone if FOMC caused a significant wicksaw the day before or the
+Asian range isn't clearly consolidating.Try your luck in the New York Killzone if there aren't any
+news. News play a big role in this Killzone..
+
+The New York Killzone
+
+
+
+
+
+USD/CAD pairs are the best for trading.
+
+Every time, the New York Open provides good setups.It frequently consists
+of a lot of news.Depending on
+whether or not the daily target is hit, you can
+take advantage of a reversal of the London Killzone move or
+its
+continuation.
+New York Lunch
+
+
+
+
+
+The New York Lunch area strictly prohibits trade. Do not participate in
+trades that you believe will need to
+be held through lunch, nor should you
+participate in trade opportunities that arise during the NY Lunch
+period. You
+can enter into an Orderblock or a FVG on the first retracement after lunch
+ends and the NY PM
+session begins.
+Premium\Discount
+
+You can clearly see targets and potential entries with Discount Premium.
+Fair value should be restored to the market. If a market is in the discount
+category, it will look for premium
+arrays, and if the market is in the premium
+category, it will look for discount arrays.
+
+The market is in premium and will seek discount every time a high is taken.
+The market is in discount and
+will seek premium whenever a low is taken.
+The Premium-Discount targets that the market will seek out are
+defined by
+the PD Array matrix.
+Tip: Let’s
+say you see a buy opportunity and want to get in on a FVG. Pull
+the PD from the low
+to the high of the displacement using top-down
+analysis, going from 15 to 5 to 4 to 3 to 2 to 1
+(or 5,3,1 if you don't have TV
+premium). When you go down in timeframes, your entry is when
+you find a
+discounted FVG.
+
+A PD Array will be used extensively as a target.
+
+EXAMPLE:
+
+
+
+
+
+8.
+Risk Management
+
+You will never succeed in this industry without effective risk management.
+Utterly never.
+Therefore, let's discuss risk management:
+
+You will utilize the ICT-provided system.
+
+Risking more than 2% of your account per trade is not recommended. Some
+of you will trade
+with a risk percentage that you are comfortable with; others
+will use 2%, 1.5%, or 1%. What
+you need to do:
+
+If you take a loss, reduce your risk by half (half of 2% is 1%), and if you
+take a loss again after
+lowering it to 1%, reduce your risk by half again and
+maintain a risk of 0.5 percent until you
+make up 50 percent of the money
+you lost by risking 1%. This prevents you from blowing your
+account in the
+event of a loss streak, which is absolutely normal and h appens to everyone.
+
+Calculating your position size:
+
+Money in your account divided by the risk you are willing to take Money in
+your account divided
+by the risk you are willing to take Account size 10k
+Risk 2% Position size 200$
+
+If you already use a successful risk management system, don't change just
+because I said
+so. However, if you do not possess anything that will
+safeguard your capital in the long run,
+up your game.
+
+CHART EXAMPLES
+
+
