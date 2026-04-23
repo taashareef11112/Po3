@@ -1,0 +1,2927 @@
+﻿The Harmonic Trader 
+
+By Scott M. Carney 
+
+Library of Congress Cataloging-in-Publication Data 
+
+This publication is designed to provide accurate and authoritative information in regard to the subject matter covered. It is sold with the understanding that the publisher is not engaged in rendering legal, accounting, or other professional service. If legal advice or other expert assistance is required, the services of a competent professional person should be sought. 
+
+From a Declaration of Principles Jointly Adopted by a Committee of the American Bar Association and a Committee of Publishers and . 
+
+Associations. 
+
+Copyright Scott M. Carney, 1999 
+
+This material is protected under all copyright laws. 
+
+This material may not be reprinted or reused in any manner without the express written consent of Scott M. Carney. All rights reserved! 
+
+Printed in the United States of America 
+
+HannonicTrader.com P.O. Box 30088 Tucson, Arizona 85751 
+
+TABLE OF CONTENTS 
+
+Author's Note v 
+
+Foreword vii 
+
+Acknowledgements xi 
+
+Introduction 1 
+
+Part I. Harmonic Trading 
+
+Chapter 1: Harmonic Trading 7 
+
+Chapter 2: The Potential Reversal Zone 11 
+
+Chapter 3: Gauging Price Action 15 
+
+Chapter 4: Invalid Harmonic Set-ups 27 
+
+Part II. The Fibonacci Numbers 
+
+Chapter 5: The Fibonacci Sequence 37 
+
+Chapter 6: The Primary Numbers 41 
+
+Chapter 7: 0.618 Retracement 43 
+
+Chapter 8: 0.786 Retracement 59 
+
+Chapter 9: 1.27 Projection 67 
+
+Chapter 10: 1.618 Projection 85 
+
+Chapter 11: The Secondary Numbers 97 
+
+Part III: Patterns 
+
+Chapter 12: Patterns 113 
+
+Chapter 13: AB=CD 115 
+
+Chapter 14: Gartley 222 157 
+
+Chapter 15: Butterfly 189 
+
+Chapter 16: Three Drives 217 
+
+Part IV: Learning the System: Putting it All Together 
+
+Chapter 17: Potential Reversal Zone Confirmation 247 
+
+Chapter 18: Scanning for Stocks 257 
+
+Chapter 19: Tools for Trading 261 
+
+Chapter 20: Developing the Trading Plan 265 
+
+Chapter 21: Gauging the Profit Potential 269 
+
+Chapter 22: Sticking to the Plan 277 
+
+Conclusion , 283 
+
+Appendix 285 
+
+Bibliography 303 
+
+iii 
+
+Part I 
+
+Harmonic Trading 
+
+7 
+
+- 
+
+1 
+
+Harmonic Trading 
+
+Harmonic trading is a methodology that utilizes the recognition of specific price patterns and Fibonacci numbers to determine highly probable reversal points in stocks. This methodology assumes that trading patterns or cycles, like many patterns and cycles in life, repeat themselves. The key is to identify these patterns, and to enter or to exit a position based upon a high degree of probability that the same historic price action will occur. 
+
+Although these patterns are not 100% accurate, these situations have been historically proven. If these set-ups are identified correctly, you can discover significant opportunities with a very limited risk. 
+
+One of the earliest references to harmonic trading was made by lM. 
+
+Hurst in his cycles course from the early 1970s. His Principle of Harmonicity states: "The periods of neighboring waves in price action tend to be related by a small whole number." (Hurst, 1.M., lM. Hurst Cycles Course, Greenville, S.C.: Traders Press, 1973.) The important concept to grasp is that price waves or distinct price moves are related to each other. Futhermore, Fibonacci numbers and price patterns manifest these relationships, and provide a means to determine where the turning points will occur. 
+
+When these turning points are identified correctly, trades are executed at a price level where the cycle is changing. Essentially, this type of trading is respecting the natural ebb and flow of buying and selling. In doing so, these trades are executed "in harmony" with the market. For example, when a stock is bought at this turning point, the majority of the selling that has 
+
+9 
+
+driven the price down is very close to ending. Quite often, the harmonic techniques identify trades at or very close to the exact reversal point. When these trades yield valid reversals, you will realize the true cyclical nature of price action. 
+
+It is important to note that harmonic analysis works on any time frame - hourly, daily, weekly or monthly stock charts. I believe the clearest trade opportunities, or "set-ups," appear on daily charts for position or swing trades. However, hourly charts provide excellent set-ups for shorter-term or day trades. It is also amazing that these methods work on longer-term charts, as well. Weekly or monthly charts are excellent measures of historically critical areas for stocks. As you will see, these methods will gauge price action effectively in any situation. 
+
+The most important concept about harmonic trading to remember is that you are respecting the natural cycles of the market. Once you are able to identify these turning points and execute these trades effectively, you will realize that stock price fluctuations are merely cycles of growth (rally) and decline (sell-off). Since these cycles can be quantified by Fibonacci numbers and Price Pattern recognition techniques, it is possible to execute trades with respect to the natural rhythm of the market. In addition, you will realize that such analysis is truly the only means to understand a stock's price action and to define potential trading opportunities. 
+
+10 
+
+• • • • • .. 
+
+.. .. .. .. .. .. 
+
+• • • .. 
+
+• II 
+
+II 
+
+• • • I 
+
+I I 
+
+• • • • • • I 
+
+I 
+
+• 
+
+• 
+
+t 
+
+t 
+
+t 
+
+t 
+
+t 
+
+2 
+
+Potential Reversal Zone 
+
+An Area of Convergence 
+
+History has proven that a convergence of Fibonacci numbers and price patterns provides a highly probable area for a reversal. When such a congregation of numbers occurs, it is possible to assess an optimal point for taking a trade, while defining a loss limit that it is very small relative to the potential profit. This area of convergence is called the Potential Reversal Zone. 
+
+The key to utilizing these harmonic measures when analyzing a price chart is to determine the area where the greatest amount of numbers congregate. When three, four or even five numbers come together within a specific area, you must respect the high probability for some type of reversal. 
+
+It is important to closely examine price action in the potential reversal zone. When a congregation of numbers occurs, a stock tends to act quite uniquely from past price action. If a reversal does occur, often the stock will literally bounce off the area, holding in the reversal zone for only a short period of time. However, if the reversal zone is invalid, the price action usually will be extreme and will provide clear signals that this trade opportunity is to be avoided. 
+
+11 
+
+The stock charts in this book illustrate how a convergence of harmonic numbers has an unusual effect on price action. It is almost uncanny that these stocks act in such a manner. Although I can not explain why these stocks act in this way, I know from studying thousands of charts that a convergence of harmonic numbers has a profound effect on price action. 
+
+"A Feel for the Numbers" 
+
+Once you learn these techniques, the potential reversal zone can be easily calculated. If you can add, subtract, multiply and divide, you can determine the potential reversal zone. However, determining which number within the reversal zone is the best entry point for a trade can be a tricky task. Developing "a feel for the numbers" within the harmonic area takes practice and experience. But.there are general rules of thumb that will help optimize the execution within the potential reversal zone. 
+
+Fibonacci numbers are very peculiar because in a reversal zone that contains several harmonic calculations, it is difficult to know which point will end the trend. Although these rules are generalizations, I believe that there is a certain degree of weighting to the numbers. 
+
+In general, the bigger the number, the better. This means that the Fibonacci number that is calculated from the largest price leg is usually the most significant, as an entry point for a trade in a reversal zone. Another rule of thumb is the bigger the pattern, the more significant the potential reversal. For example, a pattern that develops on a weekly chart will be more significant than a set-up on a daily basis. Also, if there is a smaller pattern within a larger pattern, the larger pattern usually will be more significant. 
+
+Another important consideration involves the harmonic numbers within the potential reversal zone. The more numbers that exist within a specific area, the more harmonic the potential reversal zone. This is an important rule of thumb because a very harmonic area will indicate a great deal about a stock's direction. For example, if a potential reversal zone contains four or five numbers, the area should be considered very harmonic. If a stock reverses from this area, the potential reversal zone could be considered as an important turning point. But, if a stock does not reverse, it would indicate that the predominant trend is quite strong. 
+
+The potential reversal zone should be considered even more harmonic, if the numbers are very close to each other. When a congregation of harmonic numbers is within a point, the area should be considered very 
+
+12 
+
+significant. Also, when there is an area of three or more numbers, it is important to examine where the closest convergence of numbers occurs within that potential reversal zone. 
+
+It is important to note that these methods are not an exact science - it's more like an art. Although these methods do require precise calculations, a "feel for the numbers" is essential to gauge accurately the price action, to determine valid reversals and to optimize trade executions. 
+
+These skills require consistent dedication to research past harmonic examples and to analyze current set-ups. The initial "training" period will be mentally challenging. However, once you have gained experience with these techniques, it will become much easier to identify harmonic opportunities and successfully execute trades. 
+
+I have a friend who recently earned his pilot's license. Although he was able to grab the controls and fly the plane on his first lesson (with the instructor present), it took him almost a year of consistent flying before he was able to really develop a feel for the airplane. On one flight, he allowed me to take the controls. He instructed me to maintain the altimeter at a specific level. I took command of the controls and started to fly the plane. 
+
+As I was flying the plane, I wanted to look out the cockpit and admire the scenery around me. However, every time I looked out the window, the plane's altitude dropped. I would look back at the altimeter and ascend to adjust our altitude back to the required height. After flying the plane and maintaining the altitude by focusing directly on the instrument gauges for a few minutes, my curiosity would get the better of me. Sure enough, I would begin to sightsee. As soon as I did, the plane's altitude would drop. When my friend took over the controls after my attempt to fly the plane, he was able to maintain the altitude precisely without looking at the altimeter at all. He told me that it took him an initial period of training before he was able to maintain the plane's altitude without looking at the altimeter. It required many hours of flying to develop his feel for the plane. 
+
+In the same manner, these methods for identifying harmonic set-ups require training and practical experience. Although you might be able to calculate Fibonacci numbers and identify patterns that define potential reversals, these methods require that special touch of intuition, earned through dedicated and consistent work, before these techniques can truly be mastered. 
+
+13 
+
+3 
+
+Gauging Price Action 
+
+Price Bars 
+
+Since a stock's trading action is exhibited through individual price bars, it is important to have a basic understanding of these formations. There are four basic elements of a price bar: open, close, high, and low. Although this may seem very simplistic, it is important to review the nature of price bars because a stock's price action within the potential reversal zone will determine the validity of the harmonic set-up. 
+
+15 
+
+Bullish Price Bar 
+
+.. .. .. .. .. 
+
+I 
+
+The open and the close define a bullish price bar. Simply, if the close is above the open, the price bar is considered bullish. The degree of bullishness can vary based upon the distance between the open and the close. 
+
+High 
+
+Open 
+
+Close 
+
+Low 
+
+Bullish Price Bar 
+
+This simple illustration is very crucial because it defines the result of trading within a specific time frame. Since a bullish price bar represents a stock that closes above the open, it is possible to draw certain conclusions regarding the price action. In essence, a bullish price bar manifests the result of more buyers than sellers during that particular time period. When this price bar appears in a bullish potential reversal zone, it signifies that the. trend is potentially changing. 
+
+16 
+
+Bearish Price Bar 
+
+A bearish price bar is identified by the open and close, as well. In a bearish price bar, the close is below the open. 
+
+High 
+
+17 
+
+Open 
+
+Low 
+
+Bearish Price Bar 
+
+Again, this is a very simple illustration. However, it is important to understand this basic framework, to define price action. Similar to the bullish price bar, the bearish price bar is the result of trading within a specific period of time. However, the bearish price bar means that there are more sellers than buyers. When this price bar forms in a bearish potential reversal zone, it can signal a reversal, as well. 
+
+---- -- 
+
+" 
+
+Price Bars in the Potential Reversal Zone 
+
+• • • 
+
+• • • • • • • • • 
+
+As a stock enters into a potential reversal zone, it is important to examine the nature of the price bars. This will help determine the validity of a potential reversal within the harmonic area. The nature of the price bars also will indicate the strength or weakness of the price action. 
+
+In a potential reversal zone, there is a specific price range, where a stock "should" tum around. I say "should" because the potential reversal zone is an area that is highly probable for a change in trend. It is not 100% guaranteed. However, as you will see, the harmonic area does identify excellent areas for potential reversals. Therefore, a stock's price bars within this harmonic area will determine the validity of that potential reversal. 
+
+Ideal Reversals 
+
+Ideal reversals frequently occur in potential reversal zones. 
+
+Sometimes, a stock will reverse exactly off an important harmonic calculation. These instances are easy to decipher. However, the ideal reversal does not always occur in a potential reversal zone. But, if you understand how a reversal "should" occur, you will be able to decipher valid reversals within a harmonic area. 
+
+There are two important aspects of a reversal to observe within this harmonic area. The most important characteristic of the price action in the potential reversal zone is some type of turn around or change in the previous trend. This would be evidenced by price action that exhibits a price bar that is opposite to the predominant trend. For example, if you were looking to buy a stock that was forming a bullish pattern, you would want to see a bullish price bar in the potential reversal zone. As the stock is declining, the price action most likely would form bearish price bars. However, if the stock began to reverse, as evidenced by bullish price bars in the harmonic area, a potential reversal could be developing. Reversals in an area with several harmonic numbers often form in this fashion. But, one price bar that is opposite to the current trend does not entirely signify a valid reversal. 
+
+18 
+
+Reversal Continuation 
+
+The other element of a valid reversal is some type of continuation of that change in trend. Using the bullish example again, if a stock started to rally after hitting the potential reversal zone, it should be followed by another bullish price bar. In this example, it would be ideal if the price bar rallied and closed above the previous high, while maintaining a higher low. The concept of continuation is essential in providing evidence of a valid reversal. Although the following illustrations are very simplistic, it is important to have an understanding of standard reversal action. 
+
+Ideal Bullish Reversal 
+
+In an ideal bullish reversal, it is important to see a bullish price bar in the potential reversal zone. Ideally, a bullish continuation will validate the reversal. 
+
+Ideal Bullish Reversal in Potential Reversal Zone 
+
+Obviously, this is a very ideal situation. But, stocks frequently reverse like this after hitting a harmonic area. The important concept is to 
+
+19 
+
+• • • • 
+
+• • • .. 
+
+.. 
+
+• .. 
+
+.. .. .. .. 
+
+= 
+
+~ 
+
+witness some type of tum around, followed by price action that has higher highs and higher lows. In addition, the stock should continue to form bullish closes - that is, higher than the open. 
+
+Ideal Bearish Reversal 
+
+In an ideal bearish reversal, it is also important to observe price action in the potential reversal zone. When a stock hits the harmonic area, it is important to see a bearish price bar, followed by a continuation of that new downtrend. 
+
+Ideal Bearish Reversal in Potential Reversal Zone 
+
+The primary signs of the bearish continuation will be a stock that makes lower highs and lower lows, after the reversal is complete. Also, the stock should continue to close below the open. These are the primary signs that will validate a bearish reversal. 
+
+Although these concepts may seem over-simplified, they serve as standards by which valid reversals can be determined. Establishing some type of standards of price action will create a better understanding of a valid reversal. This understanding will help you develop a "feel" for how a stock "should" act in the potential reversal zone. Although stocks do reverse in 
+
+20 
+
+----Close 
+
+harmonic areas that vary from the ideal illustrations, these basic concepts will help identify valid reversals that can yield substantial moves. 
+
+Japanese Candlesticks 
+
+Another method to exhibit a price bar is a Japanese candlestick. 
+
+These formations illustrate the nature of a price bar in a very clear manner. Japanese candlesticks have been used for centuries. Originally, they were developed to chart the price of rice markets. There are several excellent books on candlesticks that I recommend you read. One of the most comprehensive books that I have ever read on Japanese Candlesticks is Japanese Candlestick Charting Techniques, by Steve Nison. (New York: 
+
+New York Institute of Finance, 1991.) It is a fascinating area of technical analysis. However, for these purposes, I will illustrate only the most basic of candlestick price bars. 
+
+Bullish Candlestick 
+
+High 
+
+Open '--.,..-...J 
+
+Low 
+
+Bullish Japanese Candlestick 
+
+21 
+
+Open 
+
+Close 
+
+• • • • • • • • • • • • • • • 
+
+• • • • • • • .. 
+
+.. .. .. .. .. 
+
+A price bar that has an area that is clear or white represents a bullish candlestick. As you can see, the enlarged area shows the difference between the open and close. 
+
+The candlestick illustrates the price action more clearly than a single, line price bar. Also, in combination with a harmonic set-up, the candlestick can provide greater indication of a potential reversal. 
+
+Bearish Candlestick 
+
+A filled or black bar depicts the bearish candlestick. This price bar also shows the range between the open and close more clearly than a single, line price bar. 
+
+High 
+
+. Low 
+
+Bearish Japanese Candlestick 
+
+Candlesticks are excellent measures of price action because they clearly illustrate the range between the open and close. Although the total range of a stock is important, the difference between the open and the close can provide even greater indication of future price action. 
+
+22 
+
+Other Significant Japanese Candlesticks 
+
+Other candlestick formations are very significant when they materialize in a potential reversal zone. These candlesticks provide an even stronger indication of a potential reversal when they form in a harmonic area. 
+
+Doji 
+
+The doji is an excellent potential reversal signal. It occurs when the open and the close are the same. Usually, the open and close are found in the middle of the price range. 
+
+High 
+
+Open 
+
+Close 
+
+Low 
+
+23 
+
+Doji 
+
+This price bar indicates a market that is uncertain of its future action. 
+
+It is important to closely watch the price action following the formation of this price bar. This will often provide clear signals regarding the future trend of a stock. 
+
+Hammer 
+
+The hammer is a price bar that has a large total range with a small difference between the open and the close. This difference should be approximately 113 the total range for a valid hammer. Depending on where it develops on a stock chart, there are other terms for this price bar, such as a hangman or shooting star. However, for these purposes, it is important just to recognize this as a reversal signal, especially when it forms in a potential reversal zone. 
+
+High 
+
+I 
+
+High 
+
+Close 
+
+Open 
+
+Close 
+
+Open 
+
+Low 
+
+Low 
+
+Bullish Hammer 
+
+Bearish Hammer 
+
+The next illustration shows a hammer that is inverted. Again, it is important to recognize this sign as an indication of a potential reversal when it develops in a harmonic area. 
+
+24 
+
+High 
+
+High 
+
+Open 
+
+Close 
+
+Close 
+
+Open 
+
+Low 
+
+Low 
+
+Bullish Inverse Hammer 
+
+Bearish Inverse Hammer 
+
+Japanese Candlesticks clearly illustrate a stock's price action. I believe that candlesticks can indicate a great deal more about a future price action than a single, line price bar. Also, there are several combinations of candlesticks that identify critical turning points in stock. I strongly encourage you to study this area of technical analysis. Although these are very basic illustrations and explanations of candlesticks, it is important to recognize these price bars as reversal formations in a potential reversal zone. 
+
+25 
+
+4 
+
+Invalid Harmonic Set-ups 
+
+The stock market often provides clues to determine future price action. Although anything can happen in the stock market, harmonic set-ups that experience price action that acts completely opposite to what is anticipated usually will provide signals to indicate the flawed nature. This is not to say that a harmonic set-up will not go completely against you - because it can. But, in my experience, the market will provide evidence of "probable future action." 
+
+It is important to read these signs that the market offers to gauge the next potential move. After you develop the feel for harmonic price action, you will be able to determine how a stock "should" act within a potential reversal zone. 
+
+27 
+
+The Warning Signs 
+
+• • • • • • • • • • • III 
+
+III iii iii iii II iii iii II till II II II II II till till .. .. .. 
+
+Blowouts 
+
+Blowouts, as I refer to such price action, occur when the potential reversal zone is completely violated. Potential reversal zone blowouts are associated with three primary warning signs: price gaps, tail closes and abnormally large price ranges. It is almost uncanny how frequently these warning signs occur to warn against a potentially flawed harmonic reversal zone. But, they are reliable indicators of an invalid set-up. 
+
+As I mentioned previously, harmonic areas are excellent opportunities for defining profitable stocks, but they do not work all of the time. It is essential to study the price action in the potential reversal zone, especially if the area contains several harmonic calculations within a close range. As you examine these situations, let the market provide the clues of its next move. When warning signs develop, they act as clear signals that the area is not a good opportunity. 
+
+Although warning signs will signal a potentially flawed set-up, it is also important to examine the following price action. Since blowouts represent strong price action, the stock should continue to trade in that direction. 
+
+This principle of continuation is extremely important because it will define the significance of the warning sign. For example, if a stock gaps up on the open and finishes with a bullish close, this would indicate a strong stock. Due to the strength of this price action, you might expect the stock to move higher. However, if a stock does not move higher after such a move, the stock could be considered potentially weak. Therefore, warning signs should exhibit some type of follow through to confirm the price action. 
+
+28 
+
+Price Gaps 
+
+It is very common for price gaps to occur in a potential reversal zone. 
+
+A price gap occurs when the price action opens beyond the previous close, leaving an open area where no trading has occurred. A price gap in a potential reversal zone indicates that the set-up is to be treated with extreme caution. It is important to respect an extreme sign like this because a price gap indicates a significant change in sentiment. 
+
+--------~-------- 
+
+PQkoiialR~Y~r~llLZj)ne 
+
+Bullish Gap: 
+
+Price Gap through the Reversal Zone 
+
+Bearish Gap: 
+
+Price Gap through the Reversal Zone 
+
+I believe that a price gap in the potential reversal zone occurs most frequently and is the strongest of all of the warning signals. A price gap is an extremely significant indicator of an invalid set-up and has kept me out of many bad trades. 
+
+29 
+
+Tail Closes 
+
+• • • • • • • • • • • • .. 
+
+.. .. .. .. .. .. .. .. .. .. 
+
+Tail closes are price bars that close at either the high or low. Tail closes suggest extreme price action that is to be respected. Therefore, when a tail close occurs after hitting a potential reversal zone, it is prudent to exercise extreme caution. 
+
+Bullish Tail Close: 
+
+Tail Close through the Reversal Zone 
+
+Bearish Tail Close: 
+
+Tail Close through the Reversal Zone 
+
+When a stock closes at the high or low of the day, it indicates sentiment that is overwhelmingly strong. If you take a moment to really contemplate the meaning of this price action, it indicates that the majority of the participants trading the stock are extremely biased in one direction. It is almost common sense to wait for an obvious reversal signal in this situation because of the strength of the price action. Therefore, a tail close is a clear signal to step aside and let the market give you the signals of when to enter or exit a trade. 
+
+30 
+
+Extreme Price Ranges 
+
+Extreme price ranges also reflect a very strong trend. Such overwhelming action signals unusual activity that is to be respected. One way to determine if a price range is extreme is to compare it to the average range. As a rule of thumb, if a stock trades greater than one and a half times its average range, it can be considered extreme. However, it is not necessary to calculate this comparison, because an extreme price range should be practically obvious. 
+
+Poten ial Reversal Zone 
+
+Potential eversal Zone 
+
+Bullish Extreme Price Range: 
+
+Price Bar through the Reversal Zone 
+
+Bearish Extreme Price Range: 
+
+Price Bar through the Reversal Zone 
+
+Although extreme price ranges signal a potentially flawed set-up, I have observed many valid reversals that occur despite such price action. In fact, I believe that the extreme price range frequently can indicate a state of exhaustion. I say this with one condition: the exhaustion must be confirmed by the following price action. If the extreme price range reflects an exhaustive price move, the next price bar should not continue in the same direction. But, if the warning sign is a valid indicator of a flawed set-up, the stock should continue to trade in the same direction. Therefore, it is 
+
+31 
+
+important to respect this warning sign. But, it is even more important to observe some type of continuation of the price action. 
+
+When harmonic set-ups are blown-out, the price action is providing very significant information about the primary trend. Since a potential reversal zone is a critical area to examine, the price action will indicate a great deal about the current trend. In the case of a blowout, the price action will indicate that the predominant trend is very strong, especially if the stock continues beyond the potential reversal zone. 
+
+Blowouts actually can be opportunities to reverse the initial trade idea, suggesting that you should "go with the flow," and enter a trade in the predominant trend. Reversing an original trade set-up can be difficult. Specifically, there is an emotional element involved with reversing that may be difficult to overcome. A perceived harmonic set-up that has previous experiences attached to the opportunity suggests that if a reversal has occurred under similar conditions in the past, the same result should occur. When these "expectations" are involved in a failed trade set-up, a degree of attachment and/or bias sets into the psyche that distorts what the market action is actually revealing. 
+
+At times, it can be very frustrating to wait for a set-up to materialize, only to have a warning sign develop in the potential reversal zone. In fact, it happens to me very often. Sometimes, I will wait a week or even a month for a significant set-up to complete, only to have the trade negated by a warning sign. However, I have learned that these signs accurately warn against a losing trade. At a minimum, if I believe that the trade is a fantastic opportunity, I will wait at least one price bar before executing my order. 
+
+• • • • • • • • • • • • • .. 
+
+III .. III .. .. .. .. III .. .. .. .. iii 
+
+One Price Bar Rule 
+
+The most important consideration when assessing a warning sign is the price action after the stock enters the potential reversal zone. Frequently, stocks will reverse, despite such warning signs. So, it is important to wait for the market to provide some type of confirmation of the reversal. 
+
+When a set-up is extremely harmonic - possessing three or more numbers in the potential reversal zone - the opportunity can be still be valid. However, waiting at least one price bar will prevent you from "jumping in front of a runaway train." As I mentioned before, the principle of continuation will be very indicative of the validity of the reversal. A stock that continues in the predominant trend beyond the potential reversal zone will definitely invalidate the trade. However, if a stock reverses after a 
+
+32 
+
+warning sign, such price action might signal that the harmonic area still is a valid trade opportunity. Sometimes, it is prudent to wait even a few price bars for a clear reversal signal. 
+
+Accepting a trade despite a warning signal can be a tricky execution. 
+
+I usually will enter a trade only when a potential reversal zone is extremely harmonic. Although waiting for clear a reversal signal delays my execution, I have learned the significance of the warning signs. Respecting these signs has prevented me from many flawed executions. 
+
+Harmonic Trading Summary 
+
+The following chapters will truly change the way you view stocks. 
+
+They will clearly illustrate that these methods are reliable indicators of price trends. When a convergence of harmonic calculations exists within a specific area, the potential for a reversal is highly probable. It is essential to gauge the price action within the harmonic area to determine the validity of the reversal. Also, warning signs frequently will indicate a flawed set-up. So, it is important to wait at least one price bar, or even several, to see if the trade is still valid. 
+
+The harmonic techniques are most effective when you are patient. 
+
+These opportunities will materialize frequently, providing ample opportunities to be consistently successful. It is important to study actual examples to achieve a greater understanding of price action. It will take some time before your "harmonic comprehension" improves. But, if you invest the time, the skill that you learn will truly be worth the effort. 
+
+33 
+
+Part II 
+
+Fibonacci Numbers 
+
+35 
+
+5 
+
+The Fibonacci Sequence 
+
+Fibonacci numbers are based upon the Fibonacci sequence discovered by Leonardo de Fibonacci de Pisa (b.1170-d.1240). Fibonacci was one of the greatest mathematicians of the Middle Ages. His most famous work, the Liber Abaci (Book of the Abacus), was one of the earliest Latin accounts of the Hindu-Arabic number system. 
+
+In this work, he presented and was mostly responsible for the use of arithmetic numbers rather than Roman numerals, which were the common means of numeric recording of that time. His book introduced the Arabic art of Algebra to the Roman civilization. Fibonacci also was renown for his study of the Great Pyramids of Egypt. 
+
+It was during this time that he developed the Fibonacci number sequence, which is historically the earliest recursive series known to date. The series was devised as the solution to a problem about rabbits. The problem is: If a newborn pair of rabbits requires one month to mature and at the end of the second month and every month thereafter reproduce itself, how many pairs will one have at the end of n months? The answer is: u.: 
+
+This answer is based upon the equation: Un+] = UII+UIi_]' 
+
+37 
+
+Although this equation might seem complex, it is actually quite simple. The sequence of the Fibonacci numbers is as follows: 
+
+0,1,1,2,3,5,8,13,21,34,55,89,144,233,377 
+
+up to infinity 
+
+Starting with zero and adding one begins the series. The calculation takes the sum of the two numbers and adds it to the second number in the addition. 
+
+(0+ 1 =1) ... (1 + 1 =2) ... (1 +2=3) (2+3=5) (3+5=8) ... 
+
+.. . (5+8=13) (8+ 13=21) (13+21 =34) 
+
+After the eighth sequence of calculations, there are constant relationships that can be derived from the series. For example, if you divide the former number by the latter, it yields .618. 
+
+34/55 = .618181 ~ .618 55/89 = .617977 ~ .618 891144 = .618055 ~ .618 144/233 = .618025 - .618 
+
+Dividing the latter number by the former number derives another relationship from the sequence. This relationship yields approximately 1.618. 
+
+55/34 = 1.617647 - 1.618 89/55 = 1.618181 - 1.618 144/89 = 1.617977 - 1.618 
+
+233/144 = 1.618055 - 1.618 
+
+The 0.618 and the 1.618 are two of the four Fibonacci-related numbers that I use to consider price action harmonic. The other two numbers that are derived from the series, the 0.786 and 1.27, are the square root of the 0.618 and the 1.618, respectively. 
+
+38 
+
+These four numbers have been found to exist in many natural and man-made phenomena. The .618 and the 1.618 constants from the series are found in the Great Pyramids. Comparing the height to 112 its base derives these relationships. 
+
+HEIGHT = .618 
+
+112 BASE = 1 
+
+Fibonacci's additive series is based upon the equation: 
+
+Phi + 1 = Phi squared Base = 2.00 Half Base = 1.00 Height = .618 Slope = 1.618 
+
+Not only do these constant numeric relationships occur in the Fibonacci series, there are also universal examples that exhibit this phenomenon. For example, Venus takes 225 days to complete a revolution around the sun. As we all know, the Earth requires 365 days to complete one revolution. If you divide 255 by 365, the result is approximately .618 of a year. (255/365 = .6164 ~ .618) That's amazing! 
+
+Although these concepts might seem difficult to grasp, these examples demonstrate that there is something very peculiar about this mathematical phenomenon. I want to emphasize that I am not any sort of mathematician, 
+
+39 
+
+astronomer or astrologer. In fact, the first time that I studied this information, I was completely confused. But, as I researched these subjects more thoroughly, I realized that these numbers did possess unusual relationships to the universe. 
+
+As I began to utilize these numbers in my trading, I realized that these numbers frequently occur in stock charts. So, the primary concept to grasp is that these numbers exist for a reason. As you begin to study these numbers in relationship to stock charts, you will realize that they are effective tools in gauging price action. 
+
+• • • • • • • • • • .. 
+
+.. .. .. .. .. .. .. .. .. .. 
+
+6 
+
+41 
+
+The Primary Numbers 
+
+The primary Fibonacci numbers are the essential means to gauge price action accurately and to identify potential trade opportunities. These numbers are used to determine patterns as harmonic. The primary numbers consist of: 0.618, 0.786, 1.27, 1.618. These four numbers should become the basis for identifying any potential trade opportunity. A stock chart must be considered harmonic, when price action is observed to reverse off these numbers in a specific fashion. If a stock "bounces" off these numbers, you should assume that more harmonic action would continue in the future. 
+
+The most important function of these numbers is that they are a means of quantifying price action. By establishing certain areas to study, it is possible to determine or "gauge" a stock's price action. Although stocks often exceed the exact number slightly, it is very common for stocks to make significant reversals after they hit a certain Fibonacci projection. Therefore, Fibonacci numbers create critical areas that must be examined to determine the future trend of a stock. 
+
+When you initially study stock charts using Fibonacci numbers, I believe you will be surprised by the price action around these critical areas. Frequently, a stock will act "unusually" when it hits a Fibonacci number. In 
+
+my opinion, when a stock enters a potential reversal zone, it often will possess price action that is abnormal, as compared with the previous history. If the stock reverses, the price action will possess price bars that are opposite from the predominant trend. If a stock does not reverse, it usually will exhibit a warning sign at these areas. 
+
+It will take some time to develop the analytical skills required to gauge price action. After you study many examples, you will begin to realize how Fibonacci numbers affect price action. Furthermore, when these numbers are analyzed in combination with the recognition of certain price patterns, you will realize that the harmonic techniques define the price zones that have the greatest probability for reversal. 
+
+42 
+
+7 
+
+0.618 Retracement 
+
+The .618 is probably the most popular Fibonacci retracement percentage that is used by technicians. Often, technicians will round the number and just state that this percentage is a two-thirds retracement. I strongly urge that the exact .618 retracement percentage, carried to three decimal places, be used. I have witnessed many patterns that have completed exactly at the .618. Therefore, utilizing a rounded number of two-thirds or 66% will not yield the same results as the precise .618 for Fibonacci calculations. Let's look at some examples of .618 retracements. 
+
+43 
+
+Bullish .618 Retracement 
+
+The bullish .618 is an important retracement area for a stock that is selling off. When I see a sharp sell-off in a stock that has completed a nice rally, the .618 retracement is the first area that I examine for a potential reversal. 
+
+A 
+
+B 
+
+--- 
+
+.61S ------- 
+
+__ - 
+
+_-- 
+
+__ - 
+
+--- 
+
+_-- 
+
+--- 
+
+x 
+
+BULLISH .618 RETRACEMENT BUY AT B! 
+
+During a decline, I will wait for the stock to approach the .618 area and observe the price action. If the sell-off is extreme, as indicated by a warning sign, I will wait one price bar before executing a trade atthe .618 retracementarea, However, if a stock finds support in this area, exhibited by a reversal price bar, I will buy at the .618 
+
+It does take some time to be able to decipher the price action accurately at the Fibonacci numbers. However, if you study the major declines like the following examples, you will learn how the market provides clues regarding the nature of the price action. 
+
+44 
+
+• • .. 
+
+.. .. 
+
+• .. 
+
+The first chart illustrates a bullish .618 retracement nicely. 
+
+Amazon.com is an excellent example of an incredibly volatile stock that possessed very harmonic price action. 
+
+AMAZON. COM (AMZN): 
+
+DAILY 
+
+BULLISH .618 RETRACEMENT 
+
+Volume - X 
+
+  40     
+  30     
+  20     
+  10     
+,,~algChnrt$. com     
+  120     
+  100     
+  eo   III   
+  e   
+    0   
+  60   -   
+    -   
+  40   i::   
+  20     
+  0     It is amazing that this stock rallied over 800% in less than five months and retraced almost exactly to the .618 of this move. In fact, after selling off more than 60 points, AMZN reversed on the same day it hit the .618. 
+
+I want to take a moment and explain the means of calculating the Fibonacci retracement. The September low at 10 13/16 (Pt. X) was subtracted from the January 1999 high at 999/16 (Pt. A). The difference between the high and the low was 88 3/4 (99.5625-10.8125=88.75). I multiplied 88.75 by 0.618, which was equivalent to 54.8475. I subtracted this amount, approximated at 54 27/32, from the stock's high at 999/16 (99.5625-54.8475=44.6785). This calculation approximates to 44 11116. 
+
+45 
+
+The stock bottomed at 42 118 CPt. B) and rallied sharply. Although the stock possessed a bearish price bar on the day it hit the .618 retracement, the next day clearly exhibited a reversal price bar, as the stock gapped up on the open and closed above the previous day's high. In fact, Amazon.com rallied up seven days in a row without breaking the previous day's low. 
+
+Such price action is very significant after reversing off a Fibonacci retracement. Furthermore, this chart reveals an ideal reversal, as the stock bounced on the day it hit the .618 and exhibited a bullish continuation of higher highs, lows and closes. 
+
+The following enlarged chart shows the price action of Amazon. com at the .618 retracement. It is important to notice how the stock began a new uptrend after hitting the retracement. 
+
+AMAZON. COM (AMZN): 68 
+
+DAILY 66 
+
+64 62 
+
+~ RETRACEMENT tt 
+
+l g 
+
+46 
+
+__ __ .618 @ 4411/16 
+
+---- ~ --:: 
+
+Volum~ - 
+
+';)BigChart~.cQm 
+
+In such an extreme sell-off like this one, it is prudent to wait one price bar to confirm the reversal. In this case, Amazon sold off over 50 points in a very short time. So, I believe these circumstances require some additional caution. But, the reversal at the .618 retracement indicated an excellent area to buy the stock. 
+
+70 
+
+~ 
+
+~ 
+
+~ 
+
+~ 
+
+t 
+
+t 
+
+• 
+
+• 
+
+t 
+
+t 
+
+• I 
+
+I t Ii 
+
+• I 
+
+• • .. 
+
+II .. II .. .. 
+
+• • .. 
+
+.. II II II 
+
+• • • .. 
+
+60 
+
+sa 
+
+52 60 
+
+50 
+
+40 
+
+(~ 
+
+30 5 
+
+20 
+
+s: 
+
+10 
+
+46 
+
+The next weekly chart ofEbay clearly shows the power of a .618 retracement. In this case, the stock sold off sharply from its high, losing 2/3 of its total value in approximately four months and reversed almost exactly off the .618 retracement. 
+
+EBAY (EBAY): WEEKLY BULLISH .618 RETRACEMENT 
+
+165 
+
+i J1J~:: 
+
+11.Jtf 1ZO 
+
+t 105 
+
+!90 
+
+75 
+
+~~".,.."... B 
+
+.618_---- 
+
+__- 
+
+-- 
+
+__ 
+
+60 <IS 30 15 
+
+~----------------------------------------------~o 
+
+~}BigChat't$, ecm 
+
+100 
+
+Despite this sharp decline, the stock literally bounced on the week that it hit the .618. In fact, not only did the stock bounce on the day it hit the projection, it bounced within two hours after slightly exceeding the number. 
+
+After declining past the .618 retracement, which was calculated at 74 112, the stock established a clear reversal off this area. The stock bottomed at 70 5/16 and rallied sharply from this low. In particular, Ebay exhibited a nice bullish continuation. Within the next six weeks, the stock doubled from 
+
+47 
+
+240 
+
+22$ 2tO 195 100 
+
+eo 
+
+I I I I I I I I I I 
+
+• I 
+
+I .. .. .. .. .. II .. .. .. .. .. .. .. .. .. .. .. .. .. .. 
+
+• • 
+
+• III 
+
+III III III III iii iii iii 
+
+• III 
+
+its low! I have included the following chart that clearly shows the reversal off the .618 retracement. 
+
+r   115   
+110   
+~   105   
+  100   
+  95   
+  90   
+  95   EBAY (EBAY): is-MINUTE PRICE ACTION @ .618 RETRACEMENT 
+
+. ~ 
+
+\t\ .618 @ 741n 
+
+so 
+
+i5 
+
+VoIUin& .. 
+
+~~~----------------------------------~--~70 
+
+@BIgCh:uh,conl 
+
+I 
+
+These examples of Amazon and Ebay are truly awesome! They illustrate the significance of the .618. The price action in these examples provided clear signals of reversal confirmation, as it possessed convincing continuation of a new uptrend. Although these stocks seemed to be "crashing" preceding the reversal, they found excellent support at the .618 retracement and yielded fantastic rallies. 
+
+11 131111 s r u 1 s n n 1 s r u 1 3WIl 1 a r n 1 3Fll 1 3nll 13TH 13 
+
+48 
+
+0.8     
+  IA   
+D.S   C   
+0   
+  .•   
+  -   
+0.4   -   
+  l:   
+0.2     
+0     Bearish .618 Retracement 
+
+A bearish .618 retracement after a strong sell-off occurs very frequently. A reversal off the bearish .618 usually indicates a continuation of the downtrend. In my opinion, if a reversal occurs at the .618, it will not exceed the area very much. In fact, if a reversal is valid at the .618, the stock "should" possess a bearish price bar after hitting this number. 
+
+x 
+
+--- 
+
+- __ 
+
+- - - _ - - - .!fj18 
+
+-_ 
+
+--~ 
+
+--_ B 
+
+A 
+
+BEARISH .618 RETRACEMENT SELL AT B! 
+
+Reversals off the exact .618 do occur. However, it is important to study the price action in the area close to the retracement. If a stock begins to stall or break down, it would indicate that the .618 is acting as resistance. It is important to recognize these signals when the stock hits this area. 
+
+The important aspect of this Fibonacci retracement is that in a bearish retracement, it is the first potential area of major resistance. So, if I am long or I am looking to short a stock that is rallying after a significant decline, I want to look specifically in the .618 area for a trade opportunity. The following examples will illustrate the bearish .618 concept. 
+
+49 
+
+3Com Corporation suffered a serious beating, as the stock sold off nearly 60 points in the beginning of 1997. The stock then rallied, experiencing a "dead cat bounce" that reversed right off the .618. After reversing, the stock declined again, losing all that it recovered. Let's look at the chart. 
+
+x:\ 
+
+/ W\~~ 
+
+11.1 , 
+
+W \B 
+
+~/\r I ~ I~ , 30 
+
+1 
+
+3COM (COMS): WEEKLY 
+
+BEARISH .618 RETRACEMENT 
+
+- 
+
+o BigChart:;. cern 
+
+OND 97FM AMJ JA SON D98FM AM JJA SON D99 FHA M JJ 
+
+so 
+
+40 
+
+80 
+
+t t I I I 
+
+50 
+
+70 
+
+60 
+
+100 
+
+lit C o 
+
+._ 
+
+I: 
+
+3Com experienced enormous resistance at the .618 retracement of the previous decline. In fact, the stock reversed after exceeding the .618 by less than 3/8 of a point. The .618 retracement of the decline of the XAleg was 50 
+
+projected at 59 7116. The stock hit 59 3/4 and reversed! Within a few days after hitting the .618, the stock sold off steadily. 
+
+I have included an enlarged chart that clearly shows the price action at the .618 retracement. The price action indicated severe resistance, as the stock formed a very bearish price bar on the week that it hit the .618. 
+
+Volutn~ ... 
+
+.618 @ 597/16 
+
+60 59 58 51 56 
+
+It 
+
+55 54 ~3 52 ~1 
+
+100 
+
+SO 
+
+60 § 
+
+40 
+
+t: 
+
+20 
+
+o 
+
+49 48 47 46 45 
+
+3COM (COMS): WEEKLY 44 
+
+~~--~~--~~~~~~~--~~----~~----~--~4~ 
+
+PRICE ACTION @ .618 RETRACEMENT 
+
+This chart shows that 3Coms could not rally above the .618. In fact, the stock stalled after hitting the retracement, only to sell off steadily within a few weeks after the reversal was complete. 
+
+In this situation, if you were long this stock, you must respect the resistance of the .618 and take profits. If you were looking to short 3Com, the sharp reversal at the .618 should have indicated that the rally off the bottom was in trouble. Understanding such price action in the future will help you gauge the true nature of a stock's trend. 
+
+51 
+
+The next example illustrates the .618 as clear resistance. This daily chart of Dell Computer shows how the stock reversed almost exactly off the .618 proj ection of the prior decline. 
+
+x 
+
+....... _ 
+
+-... 
+
+....... -... 
+
+-....... 6 
+
+...... _ · 18 
+
+............ 
+
+-... 
+
+- ....... 
+
+...... _ 
+
+-... 
+
+B 
+
+ume- - 
+
+A 
+
+200 
+
+DELL COMPUTER (DELL): DAILY 
+
+150 
+
+BEARISH .618 RETRACElVIENT 
+
+Feb 
+
+Har 
+
+Apr 
+
+50 
+
+45 
+
+40 
+
+100 50 
+
+._ 
+
+I: 
+
+An interesting aspect of this chart is the individual price bar on the day the stock hit the projection. The stock possessed a very bearish candlestick after it hit the .618 retracement. Dell sold off from a high of 55 (pt. X) and bottomed at 35 7/16 (pt. A). The .618 projection of this move was calculated at 479/16. The stock exceeded this projection slightly, as it reversed at 4821132 (pt. B). So, even if you waited a day, the bearish continuation confirmed the valid reversal. 
+
+52 
+
+When a stock forms a bearish price bar at the .618, as Dell did in the previous example, the price action must be watched closely. In this instance, the following day provided significant confirmation of the trend reversal because Dell broke the prior day's low and closed below the prior day's close. This continuation following a clear reversal off a Fibonacci number would have signaled that this stock started a new bearish down trend. This reversal yielded over 10 points in the next two weeks . 
+
+. 618 Channel 
+
+In my experience, a stock that reverses off a .618 is very strong. In an uptrend, .618 reversals usually signify a positive continuation, especially if the initial upswing is a strong move. Conversely, in a downtrend, .618 reversals suggest the continuation of that negative move. Let's look at some illustrations and examples . 
+
+. 618 Bullish Channel 
+
+BULLISH CHANNEL: 
+
+SUPPORT AT .618 RETRACEMENTS 
+
+It is very common to observe .618 retracements in clearly defined channels. Channels are trending ranges that maintain a consistent slope of 53 
+
+an angle. When Fibonacci numbers and patterns complete near an extreme range of a channel, you should be aware of such potentially powerful implications. 
+
+For example, let's say you are following a strong uptrend. A clear channel has developed in which a stock has traded within an increasing trend range. A potential opportunity develops when the stock sells off to the low range of that trend channel. Knowing that the stock has found support at the .618 retracement of the prior rally, a potential trade set-up exists. The lower trend channel that serves as potential support can validate the trade set-up. 
+
+In this example, it would be even more advantageous if the .618 retracement was located just below that lower trend channel. Often, strongly trending stocks with obvious price channels will briefly break through the lower end of the range "to shake investors out" of a good position before heading higher. When this set-up occurs and the .618 retracement is just below the trend line, the opportunity will not require much of a stop loss limit - maybe a point or two below the .618 retracement - to see if the trade will work. 
+
+When a stock breaks through its lower range of the uptrend channel, it should "reveal itself' rather quickly. Usually, if it is a shakeout, the price action should reverse quickly. However, if the ride is over and the uptrend channel will not continue to go higher, the price action should have downside follow through, where the stock continues to head lower. 
+
+If the "breakdown" is valid, warning signs, such as gaps, wide price ranges and tail closes, will indicate the strength of the move. Therefore, if the stock breaks past the trend line and the .618 considerably, you will know that these points are no longer providing support. So, you close out your position and take the loss. Let's look at an example of a bullish uptrend with .618 retracements. 
+
+The following chart of Eli Lilly clearly illustrates this situation. The stock established a very bullish uptrend that found support at the .618 of the prior rally every time it attempted to sell off. This daily chart clearly shows price action that is literally bouncing off the .618 in this channel. You could have followed this uptrend, waited for a sell-off and bought every time the stock retraces to the .618. There were several times when Eli Lilly sold off past the lower trend line and reversed at the .618. 
+
+When these situations occur, you know that your risk is very limited. 
+
+Since the stock violated the lower trend line, the .618 is the only potential support. lfthe stock breaks past the .618 retracement, you can assume that 
+
+I I I 
+
+• • • • • • • • • • • • • • • • • • • • • • 
+
+• • • • • • • • • • • • • • • • 
+
+the uptrend is no longer intact. Therefore, you only have to risk a point or two below the .618 to see if the reversal will occur. 
+
+ELI LILLY (LLY): DAILY .618 BULliSH CHANNEL 
+
+Volume - 
+
+cD BigCharts .com 
+
+Apr May Jun Jul Aug Sep oct Nov Dec 99 Feb Mar 
+
+In this situation, since a .618 bullish channel has been observed, there is a high probability that the trend will continue. In fact, Eli Lilly provided five opportunities to capitalize on this set-up. The most recent retracement bounced off the .618 retracement of the prior rally, although it did not retest the lower range of the channel. 
+
+55 
+
+95 
+
+75 
+
+70 
+
+65 
+
+10.0 
+
+5.0 
+
+.- 
+
+J: 
+
+BEARISH CHANNEL: 
+
+RESISTANCE AT .618 RETRACEMENTS 
+
+• • • • 
+
+• • • • • • • • • • • 
+
+• • • • • • • • • • • • • • • • • • • • • • 
+
+It is important to recognize repetitive price action such as this. As long as the stock holds the .618 retracement when it sells off, you know that the uptrend is intact. However, some type of breakdown past the .618 with a bearish continuation will signal that the trend is potentially reversing. Knowing the character of this type of price action can help you identify key turning points in the stock. 
+
+.618 Bearish Channel 
+
+In a bearish channel, the .618 commonly acts as resistance of the prior sell-off. Similar to the bullish channel example, a stock that is in a clear downtrend that retraces off the .618 repetitively can provide high probability trade set-ups with very limited risk. Let's look at an example of this type of price action. 
+
+56 
+
+The following chart of Barrick Gold clearly illustrates a bearish downtrend that experiences significant resistance at the .618 retracement of the prior decline. 
+
+Vol LIme - 
+
+BARRICK GOLD (ABX): DAILY 
+
+23 
+
+~ 
+
+"" .618 BEARISH CHANNEL 
+
+.6J8' ...... 
+
+• 
+
+HoI,) 
+
+Dec 
+
+Feb 
+
+22 
+
+21 
+
+20 
+
+19 
+
+18 
+
+4 
+
+IJl c o 
+
+Mal' 
+
+Apr 
+
+2 
+
+,. 
+
+J: 
+
+99 
+
+Does anyone see a pattern here? I think this is substantial evidence of the significance of the .618, especially in a repetitive trend. When the .618 acts as resistance in a trend, the price action can be very strong. The existence of this coil of .618 retracements indicates that this stock is very 
+
+57 
+
+58 
+
+• • • • I 
+
+• I 
+
+• • • • • • • • • • • • • • • • • • • • • 
+
+• • • • • .. 
+
+.. .. .. .. .. .. .. .. .. 
+
+• • III 
+
+influenced by Fibonacci numbers. Knowing this, I can assume that the numbers should accurately gauge the price action and identify potential opportunities in the future. 
+
+In this example, the .618 provided several opportunities of picking up at least a few points every time the stock bounced to retrace the .618 of the prior down leg. Quantifying and understanding the nature of such price action will greatly improve your executions. 
+
+.618 Retracement Summary 
+
+The .618 is a very effective Fibonacci number that reveals a great deal about the overall trend of a stock. The .618 retracement is the first area to examine for potential support when the stock is declining, and it is the first area to examine for potential resistance when the stock is rallying. Channels that develop with .618 retracements offer high probability trade set-ups that have a low risk. Also, most technicians are aware of the .618 - or as they like to tell the public, a two-thirds retracement. So, when a .618 reversal has occurred, it is my opinion that a greater amount of technical traders participating in that stock are aware of this price action. Hence, the .618 reversal point becomes an even more significant price point. 
+
+8 
+
+o. 786 Retracement 
+
+The .786 retracement is the square root of the .618. The .786 retracement is the next critical area to examine, after the .618 has been clearly violated. The. 786 is a vital Fibonacci number because it is often the "last chance reversal area" before retesting the original price point. Price action that does not reverse off the .786 usually will retest, and often break past the original starting point. Therefore,. 786 failures are significant because the stop loss limit will be clearly defined by the original starting point and relatively small in comparison to the potential reversal. 
+
+The.786 retracement is fairly unknown in the industry, although I believe that more technicians are becoming aware of its significance. In my opinion, it is a crucial Fibonacci number, as it accurately determines a stock's trend, based upon the price action at the number. 
+
+Another reason the. 786 is a valuable Fibonacci number is because it can often gauge potential opportunities, especially when the surrounding "market noise (information)" suggests that the set-up is to be avoided. I have observed many situations, where the information in the media is quite contrary to what the price action at the .786 is indicating. If a stock is trending strongly, the .786 projection frequently can serve as a key reversal point, despite such contrary information. The following illustrations and examples will elucidate this concept. 
+
+59 
+
+Bullish.786 Retracement 
+
+When a stock is selling off after a rally, the. 786 retracement often acts as important support. If a stock declines past the. 786 retracement, it will usually retest the original starting point (pt. X) of that prior rally. Let's look at the illustration. 
+
+A 
+
+786 __ - 
+
+. _,,_---- 
+
+--- 
+
+--- 
+
+B 
+
+x 
+
+BULLISH.786 RETRACElVIENT BUY ATB! 
+
+60 
+
+~ I t ~ 
+
+• • I 
+
+I I I I I 
+
+• • • • • 
+
+• 
+
+The following examples will demonstrate the significance of the. 786 retracement as important support in stocks that are selling off. 
+
+The first example is a daily chart of the Dow Industrials that is a great example of the .786 gauging extreme market action. Clearly, the Dow Industrials found support at the .786 from the prior year's panic low. The .786 was projected at approximately 7460 and the low for the Dow during this decline was approximately 7400. The Dow made several attempts to sell past this low point but the. 786 support held together. 
+
+The Dow proceeded to rally 2500 points within the next six months! 
+
+Although the newspaper headlines were extremely bearish at this time, the stock market made a significant bottom in the beginning of October, and it proved to be a very good time to be committing money to the market. 
+
+DOW JONES INDUSTRIALS: 
+
+DAILY 
+
+10,,000 
+
+.786 BULLISH RETRACE 
+
+9 .. 500 
+
+9 .. 000 
+
+8 .. 500 
+
+8.000 
+
+786 _-- 
+
+'__- 
+
+_- 
+
+_- 
+
+7 .. 500 
+
+7 .. 000 
+
+x 
+
+6.500 
+
+o Big.Charts.oom 
+
+150 
+
+100 
+
+50 
+
+A SON D 98 F M A M J J R SON D 99 F M 
+
+I have included an enlarged chart of the Dow Industrials to show the price action at the .618 and the. 786 retracements. As you study this, it is important to notice how the Industrials acted after they hit these retracements. In the case of the .618, projected at approximately 7890, the Dow Industrials continued to decline in the days after it hit this price level. As for the. 786, the Dow Industrials clearly found support. 
+
+61 
+
+._ 
+
+I: 
+
+DOW INDUSTRIALS: DAILY 1998 
+
+PRICE ACTION @ 
+
+.618 & .786 RETRACEMENTS 
+
+.618@ 7890 ~+--++-i ~I--+-tf ---++-+ ........ 
+
+I ,. 
+
+7,600 7,SOO '1,400 
+
+--------------------._..___j,l,3QO 
+
+.786 @ 7460 -t- ...... ------ ....... - 
+
+~:·BigCh,lIts,ei)1ll 
+
+2()1) 
+
+'8,SOO 
+
+i 
+
+~ ~ I I I I t t I I 
+
+• • I 
+
+I I I I I I I I 
+
+• • • • • • • • • • • • • • • 
+
+8,700 8,600 
+
+$,00 8,-300 5,200 $,too $,000 7,900 
+
+7,SOO 
+
+7,700 
+
+150     
+  ~   
+lC-)   ~'"   
+-   
+  -   
+  -   
+  l:   
+50     
+ij     The major Fibonacci retracements of the .618 and the .786 from the prior year's low proved very accurate in gauging the price action. The .618, which was just below 7900, was obviously "blown out" by a strong sell-off. However, the Dow Industrials found good support at the. 786 and reversed nicely from this area. Even if you waited for a clear reversal, the support at the.786 indicated that the Dow Industrials established a bottom and that a new uptrend was in place. 
+
+These declines will happen again! The stock market will provide you with opportunities like this one in the future. When these situations occur in the future, you must realize their significance and take advantage of these opportunities. 
+
+62 
+
+During the market's decline in the fall of 1998, Disney also suffered a serious beating. The stock was cut in half in less than six months. This weekly chart illustrates the significance of the .786 retracement. The stock reversed off the .786 retracement from a critical low in July 1997 at 173/4 (pt. X) to a high in July 1998 at around 42 112 (pt. A). Disney declined and then reversed almost exactly at the. 786. The. 786 was calculated at 23 1/16. Disney declined to 22 1/2 (pt. B) and rallied over 15 points during the next few months. 
+
+DISNEY (DIS): WEEKLY 
+
+40 
+
+25 
+
+.786 _----- 
+
+-- 
+
+--- 
+
+--- 
+
+B 
+
+20 
+
+Volume" - 
+
+o Bia.Ch:ar~s.oom 
+
+60.0 
+
+40.0 
+
+20.0 
+
+A M J J R SON D 97 F M A M J J A S 0 ti D 98 F M A M J J A SON D 99 F M 
+
+On the week Disney hit the. 786, the price action clearly indicated a reversal at hand. The reversal was confirmed, since the following week started an uptrend that led to a nice rally over the following several months. You might be wondering (again) how you would know to utilize the .786 as an entry point rather than the .618. I have included an enlarged chart to illustrate the price action at the .618 and the. 786. 
+
+63 
+
+1         DISNEY (D IS):     
+J       WEEKLY       
+      PRlCE ACTION @     
+    -       
+        .618 & .786       
+      -         
+        RETRACEMENTS     
+      -     ,_.-     
+.618@27112         
+  -tJ1-t-t-     t-   
+.786 @231116         
+Volum<t -               1- 33 
+
+I 32 
+
+31 
+
+~lt :: 
+
+26 
+
+24 23 
+
+----------------------------------------------~22 
+
+·:JBigCharts. Mill 
+
+As you can clearly see, the stock sold off sharply past the .618, which was projected at 27 1/4. On the week that Disney hit this number, the selling was quite strong, as evidenced by the extreme price range. Such an extreme decline is a warning sign that the Fibonacci projection is probably not a good point to buy. At a minimum, when a warning sign is observed at a Fibonacci number, you should wait one price bar. In this case, the stock continued to decline the following week. 
+
+The stock did begin to reverse after hitting the .786 retracement. The reversal was confirmed the following week, as the stock gapped up on the open and finished with a bullish close. The reversal was confirmed further by the next week, when the stock broke above the previous two weeks' highs and closed very strongly. 
+
+This is a great chart to study because the stock bounced almost exactly off the .786 retracement. Such harmonic action is no coincidence, as this example of Disney truly validates the use of Fibonacci numbers in gauging price action. 
+
+64 
+
+36 
+
+I I I I 
+
+• • • 
+
+• • • • • • • • • • • • • • • • • • • • • 
+
+• • • • • • • • • • • • • • • • • .. 
+
+35 
+
+34 
+
+27 
+
+26 
+
+25 
+
+so 
+
+til C o 
+
+40 
+
+E 
+
+20 
+
+o 
+
+--~----- 
+
+The.786 retracement can act as a "last chance" resistance point before retesting the previous high. It is a very key area because stocks that reverse off a .786 retracement of a prior high usually indicate weakness in the price action. Let's look at the illustration. 
+
+x 
+
+--_ .78(i 
+
+--- 
+
+--_ 
+
+--- 
+
+--_ 
+
+B 
+
+A 
+
+BEARISH .786 RETRACEMENT SELLATB! 
+
+When a stock is rallying especially after a substantial decline, the. 786 is an important projection point. In my opinion, a stock that can break through the. 786 retracement usually will retest the previous high. However, if a stock can not rally above this point, the ensuing reversal can be quite significant. Let's look at some examples, as they will clearly illustrate the concept. 
+
+65 
+
+The following chart of America Online is a fantastic example of resistance at a .786 retracement. Although the stock exceeded the projection slightly, AOL had tremendous difficulty rallying through this retracement. 
+
+x 
+
+A 
+
+AMERICA ONLINE (AOL): DAILY BEARISH .786 RETRACElVIENT 
+
+105 
+
+90 
+
+® BigCharts.com 
+
+60 
+
+40 
+
+20 
+
+19 28 25 29 8 flpr 6 €I 12 14 16 20 22 26 28 81)1ay 5 7 
+
+Despite the extreme volatility, AOL clearly reversed after hitting the .786 retracement. From the early April high at 175 112 (pt. X) to the following low at 112 (pt. A), the stock bounced and reversed just past the .786. The .786 retracement was projected at 161 15/16 and AOL reversed after hitting 167 1/8 (pt. B). 
+
+This might have been a difficult execution to gauge. The day before the stock reversed, it hit the .786 and even closed near the high of the day. Also, on this day, the stock gapped up on the open several points. Since these warning signs occurred at an important Fibonacci number, the trade 
+
+66 
+
+I I I I I I I I I 
+
+• • • • • • I 
+
+I I I I I I I I I I 
+
+• • • • • • • • • • • • • • • • • • • • 
+
+should have been avoided on this day. Despite this price action, the stock could not follow through on the upside, and America Online clearly reversed the following day. 
+
+When a stock can not continue its rally through the .786, as this example of AOL demonstrates, you must regard this action as bearish. This is especially significant, since the stock formed an extremely bearish candlestick the day after hitting the. 786. If the stock was going to rally higher, the price action should continue to move up, forming higher highs and higher lows. Also, another bullish indication would have been a close above the .786 on the following day. 
+
+America Online could not continue its rally. So, if you waited a day, the clear reversal bar would have indicated that the. 786 was indeed acting as strong resistance. Your patience would have been rewarded, as AOL declined over 30 points in the next few days after the reversal occurred. 
+
+The next chart of 3 Corn is another example of a stock that sold off sharply after almost exactly hitting a Fibonacci retracement. 3Corn experienced significant resistance at the. 786. 
+
+------ .786 
+
+-_ 
+
+--_ 
+
+--_ 
+
+A 
+
+Volume - 
+
+JCOM (COMS): DAILY BEARISH .786 RETRACEMENT 
+
+MJJASO HD9SFMflMJ JASO HD99FM A 
+
+67 
+
+55 
+
+50 
+
+45 
+
+40 
+
+35 
+
+30 
+
+25 
+
+60 
+
+4Q 
+
+20 
+
+.786 Retracement Summary 
+
+• • • • • • • • • • • • • • • • • 
+
+• • • • • • • • • • • • • • • • • • 
+
+• • 
+
+It is important to note, however, that the stock did not reach the exact .786 retracement. 3Com reversed at 51 118, while the retracement was calculated at 51 7/8. I would prefer to have seen the stock hit the. 786 before entering a trade. But, this price action is so close to the retracement that I would consider it valid. I am sure at this point your next question is: how do you know? Referring to the chart, 3Com could not continue its rally after falling 3/4 of a point shy of the projection. In fact, the stock started to seriously break down several days after the reversal. 
+
+When a stock does not rally through a major Fibonacci retracement, as this example of 3eom demonstrates, this should indicate substantial resistance in this area. The stock moved sideways for over a month without even challenging the reversal high. Even if you were still in the stock, the major decline that occurred in the beginning of February 1999 would have confirmed that the new downtrend was in place. 
+
+In summary, the. 786 is a very significant Fibonacci retracement. 
+
+When a stock is declining, it is a critical area for support before retesting the initial bottom. When a stock is rallying and attempting to retest a recent high, the retracement can act as significant resistance. The key to gauging the.786 as a potential reversal point is to study the price action at the .786 number and assess the following move. The price action around the. 786 can provide substantial information regarding the potential future of a stock. Although the .786 is relatively unknown in the investment industry, it is an extremely effective gauge of a stock's price action. 
+
+9 
+
+1.27 Pro,jection 
+
+The 1.27 is an important primary Fibonacci number for several reasons. It is first area to examine after a stock has moved beyond a significant previous point of resistance or support. In the case of a break out, the 1.27 projection is the first area to either take profits or enter a short position. In the case of a break down, it is the first area for potential support, covering a short position or entering a long position. The 1.27 is the square root of 1.618. 
+
+Similar to the. 786, the use of the 1.27 projection is relatively unknown in the technical community. In my opinion, the existence of the 1.27 in harmonic patterns serves as a minimum requirement for many trade set-ups to be valid. Although the 1.27 projection is not as well known by technical traders, reversals off the number occur as frequently as the 1.618. Using this retracement will improve your ability to gauge price action and will help you discover more trading opportunities. 
+
+69 
+
+B 
+
+- 
+
+• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • 
+
+• • • • • • • • • • • • • • • III 
+
+Bullish 1.27 Projection 
+
+The bullish 1.27 projection is an important area to look for potential trade set-ups. When a stock breaks down past its initial starting point (at X), the 1.27 projection is the first place to look for potential support. 
+
+A 
+
+x 
+
+--- 1.27 
+
+--_ 
+
+-_ 
+
+-- __ 
+
+- __ 
+
+BULLISH 1.27 PROJECTION BUY ATB! 
+
+Let's look at some examples, as they will clearly illustrate the importance of the number. 
+
+The following weekly chart of Texaco illustrates the 1.27, as a nice area for support. Texaco reversed off almost exactly off this 1.27 projection. The 1.27 projection was calculated at 44 13/16, and the stock reversed at 44 9/16. Also, Texaco reversed on the week it hit the projection. 
+
+This projection developed over a year in duration. After the stock broke down past the previous low (pt. X), Texaco accelerated on the downside. Despite this decline, the stock bounced sharply off the 1.27 projection. 
+
+70 
+
+B 
+
+TEXACO(T~:WEEKLY 
+
+A 
+
+BULLISH 1.27 PROJECTION 
+
+I i I I ! j 
+
+X ------_~2Z 
+
+--_ 
+
+- __ 
+
+------------------------------------------~44 
+
+Volume iiiiiIi 
+
+~:~BlgChrtfts, CQIU 
+
+20 
+
+Oct tlov Dec 98 F i.lb 11ar Apr Nay Jun Ju I Aug Sep Oct flov Dec 99 Fib Mar Apr' May 
+
+Not only did Texaco bounce on the week it hit the 1.27 projection, it reversed on the exact day. I have included an enlarged daily chart to illustrate the price action at the 1.27 projection. As you can see, Texaco literally bounced off this area, and the stock provided clear bullish signals to 
+
+71 
+
+70 
+
+68 
+
+166 
+
+64 
+
+60 58 56 
+
+54 52 50 
+
+46 46 
+
+15 
+
+10 
+
+,_ 
+
+%! 
+
+- 
+
+confirm the reversal. Although the stock formed a bearish price bar on the day it hit the 1.27, the following three days signaled a new uptrend. The gap up on the open on the third day was overwhelming evidence of this new bullish trend. 
+
+TEXACO (IX): DAILY PRICE ACTION IN THE POTENTIAL REVERSAL ZONE 
+
+1.27 @ 4413/16 
+
+--------------------------------------------~44 
+
+VOIUffii? .. 
+
+';'}BigChnrH. CQIIl 
+
+6 
+
+5 4 3 2 
+
+4 
+
+o 10 
+
+It is important to note that when a stock does reverse almost exactly off a Fibonacci projection, the price action can be strong. In this case, Texaco rallied almost 25 points in the following few months. 
+
+The next chart is another great example of the 1.27, acting as support. 
+
+Je Penney reversed within a point, after exceeding the projection. The 1.27 was calculated at 369/16. The stock hit 35 3/8 and reversed. 
+
+72 
+
+55 
+
+54 
+
+52 
+
+51 
+
+50 
+
+4S 
+
+47 
+
+46 
+
+45 
+
+.- 
+
+r: 
+
+Volume .. 
+
+~)BigChttm. com 
+
+JC PENNEY (JCP): WEEKLY 2Q 
+
+BULLISH 1.27 PROJECTION 
+
+FM AMJ JA SON D98FM At1 JJA SON D~~ Ft'1AM J 
+
+The next enlarged daily chart shows how JC Penney found significant support at this 1.27 projection. After moving sideways for several days, the stock provided clear signals of a new uptrend. As you can see, the stock found excellent support at the 1.27 projection. Since the stock possessed a bearish price bar on the day it hit the projection, you might have waited for some clear reversal signals. Four days after hitting this area, the stock rallied strongly. 
+
+73 
+
+15     
+  IJl   
+  C   
+  0   
+10   ' ...   
+-   
+  .-   
+  f:   
+~     
+0     JC PENNEY (JCP): DAILY PRICE ACTION @ 1.27 PROJECTION 
+
+351/2 
+
+------------------------------------------~35 
+
+VOIUMii .. 
+
+!(:'BigCharts. CQIl1 
+
+3 
+
+2.5 2 1.5 
+
+o.s o 
+
+16 17 1S 19 22 23 24 25 26 Mar 2 3 4 6 8 9 10 11 12 16 1& 
+
+It is price action like this that is truly astounding. JC Penney sold off from a high around 78 3/8 and lost more than half of its value in nine months. The stock sold off slightly past the 1.27 and reversed. The 1.27 projection served as significant support, as JC Penney rallied nearly 20 points within the next few months after reversing. 
+
+74 
+
+41 
+
+.. • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • 
+
+• • • • • • • I 
+
+Bearish 1.27 Projection 
+
+The bearish 1.27 is an important Fibonacci projection. After a stock has broken above a previous high, the 1.27 is the first area I look at for potential resistance. Let's look at the illustration. 
+
+x 
+
+B 
+
+27 -- 
+
+1. ----- 
+
+_- 
+
+__ - 
+
+_-- 
+
+_-- 
+
+A 
+
+BEARISH 1.27 PROJECTION SELL AT B! 
+
+After a stock breaks out above a previous high, it is easy to believe the rally will continue for a while. Quite frequently, a stock will experience resistance above the break out point at the 1.27 and not yield much of a rally. Therefore, the bearish 1.27 is an important price area to examine to determine the strength of a breakout. Let's look at some examples, as they will illustrate the concept. 
+
+The following chart of Broadcast.com shows how the 1.27 can act as substantial resistance. In this example, the stock reversed after exceeding the 1.27 projection of the prior decline. The reversal was confirmed by the bearish price bar, which materialized the day the stock hit the 1.27 projection. Although the 1.27 was exceeded, the stock reversed on the day it 
+
+75 
+
+• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • II 
+
+hit the projection. So, even if you waited one day, the stock was clearly heading down, as the following day ended with an extremely bearish close. 
+
+When a stock reverses at a major Fibonacci like the 1.27, the price action must be examined closely. In this example, Broadcast.com reversed sharply after hitting the projection. The 1.27 was calculated at 170 118, while the stock topped out at 177 114. In fact, the stock reversed on the day that it hit the projection. 
+
+"" -- 1.2,_---- 
+
+- 
+
+- 
+
+-- 
+
+X ---- 
+
+A 
+
+161) 
+
+140 
+
+80 
+
+60 
+
+BEARISH 1.27 PROJECTION 
+
+40 
+
+lIJ   III   
+C   
+  I)   
+  .~   
+5   .-   
+I:   An interesting aspect of this reversal is that the stock finished the day unchanged on the day. This price bar pattern is known as a doji in candlestick terms. Since the price action was very extreme on this day, you probably should have waited a day. However, such a price bar should indicate a potential reversal at hand, especially after hitting a major Fibonacci projection. 
+
+1.27 PROJECTION @170 118 
+
+i 
+
+BROADCAST.COM (BCST): DAILY 
+
+PRICE ACTION @ 1.27 PROJECTION 
+
+  13G     
+  130     
+  120     
+  120     
+  115     
+  110     
+i'}BigCt1nrts.com       
+  9     
+  6     
+    III   
+    §   
+  4   -   
+    -   
+    r:   
+  2     
+  0     Volum .. - 
+
+This enlarged chart clearly shows the price action at the 1.27 and the doji that formed on that day. It is also important to notice that the stock clearly broke down after the reversal was complete, as Broadcast.com made new lows and could not break above the previous day's high. In fact, the stock sold off sharply four days in a row after hitting the 1.27 projection. So, even if you waited a day, the price action clearly confirmed the new downtrend. Broadcast.com lost almost 70 points within two months. 
+
+77 
+
+ISO 
+
+175 
+
+170 
+
+165 160 
+
+155 150 145 140 
+
+This next chart of The Globe.com is another excellent example of the 1.27 as resistance. The stock reversed almost exactly at the 1.27 projection. The 1.27 was calculated at 425/16, and The Globe.com reversed at 42 3/4! This is truly amazing, especially since the stock rallied so sharply on this day. In fact, the stock was up nearly 15 points. 
+
+x 
+
+THE GLOBE.COM (fGLO): DAILY BEARISH 1.27 PROJECT ON 
+
+15 
+
+10 
+
+5 
+
+• • • • • • • • • • • • • • • • • • • • • • • • • 
+
+• • • • • • • • • • • .. 
+
+III I: o 
+
+,- 
+
+:c 
+
+Since the stock was up so much on this day, you should have waited to see the following price action. Clearly, the stock was over-extended, as it started to sell off the next day. Within a few days after the reversal, the stock sold off sharply and lost 40% of its value. 
+
+78 
+
+1.27 Channel 
+
+Similar to the .618, the 1.27 often occurs repetitively in channels acting as a significant reversal point. Stocks frequently trade in a defined ranged with a consistent slope. In the case of an uptrend, very often, the 1.27 will usually be the located at the upper range of the trend channel. In this instance, the 1.27 can be an ideal place to take some short-term profits. In a downtrend, the 1.27 projection can be used to for a short-term buy or cover a short position at the lower range of the channel. 
+
+1.27 Bullish Channel. 
+
+BULLISH CHANNEL: 
+
+RESISTANCE AT 1.27 PROJECTION 
+
+In a bullish channel, the 1.27 Fibonacci projection of a prior decline very frequently can act as a resistance point. When such repetitive price action is identified, the 1.27 and the upper range of the trend channel can serve as a potential trade opportunity. 
+
+Although this seems like a simplistic diagram, price action frequently resembles this illustration. The combination of the trend channel and the Fibonacci projections can clearly indicate important reversal points for a stock. The next example will illustrate this set-up. 
+
+79 
+
+The following chart shows that Seagrams definitely established a clear uptrend channel. This three-year chart shows that the stock found great resistance each time the stock rallied up to the upper range of the trend line and the 1.27 projection of the prior decline. One of the most incredible aspects of this chart is that the price action formed this bullish channel over a four-year period. 
+
+SEAGRAMS (VO): DAILY 
+
+35 
+
+30 
+
+lJolum~ -         cD BiQCharts.clJm       
+          8     
+            III   
+          6   c   
+          0   
+            .-   
+          4   .-   
+            r:   
+          2     
+95   96-   97   98   99       If you owned this stock and was aware of such cyclical price action, what would you do when the stock hit the 1.27? Hopefully, you would understand the significance of this price action, and take profits or short the stock, when it tested this area. 
+
+The trend line adds to the resistance that the stock experienced. But, what if the trend was not going to reverse off the upper range of the trend line and breakout? How would you know? The price action would usually indicate such a move through the warning signs of a price gap, tail close or extreme price range. 
+
+80 
+
+• .. 
+
+The next chart illustrates such a breakout. I have included this chart of a major breakout that Seagrams experienced. The stock clearly broke through the upper channel and the 1.27 resistance levels. When this occurred, the stock rallied sharply. 
+
+SEAGRMIS (YO): DAILY 
+
+1.27 BULLISH CHANNEL BREAKOUT 
+
+1.27 
+
+1.27 
+
+'olurue" - 
+
+{) BigCh~rts .eem 
+
+M .J .J R SON D 98 F M A M J J A SON D 99 F M R 
+
+Since the bullish channel existed for over four years, this break out is especially significant. The stock rallied impressively, as it climbed nearly fifteen points with a few weeks after the breakout. Such price action is very significant, since it represents a dramatic change in mass perception with the stock. 
+
+81 
+
+60 
+
+55 
+
+50 
+
+45 
+
+40 
+
+4 
+
+III c o 
+
+2 
+
+,_ 
+
+:c 
+
+BEARISH CHANNEL: 
+
+SUPPORT AT 1.27 PROJECTION 
+
+I • • • • • • • • • • 
+
+• • • • • • • 
+
+• • • • • • • • • • • 
+
+• • • • • • • • • • II 
+
+1.27 Bearish Channel 
+
+The 1.27 Fibonacci projection can be found as support in bearish channels as well. The bearish channel will form a defined range with a consistent negative slope. In this situation, the trade opportunity can be defined by the 1.27 projection and the lower range of the channel. 
+
+If such repetitive price action is identified, a high probability trade setup exists by buying at the low end of the channel. The channel should be very clear with continual support at each 1.27 projection. The next example will demonstrate the set-up. 
+
+The following chart of Gateway Computer illustrates the bearish channel. The stock formed a clear down trend that bounced off the 1.27 projection of the prior rally several times. Although this is a short-term daily chart, it still illustrates how the 1.27 acts as support in a bearish channel. 
+
+I j}j 
+
+t ) tIt 
+
+"J.~ j 
+
+~~ 
+
+:-"~~~1.27 
+
+GATEWAY COMPUTER (GTW): DAIL 
+
+BO 
+
+BEARISH 1.27 CHANNEL 
+
+Volume - 
+
+II I 
+
+Mar 
+
+Apr 
+
+7S 
+
+65 
+
+60 
+
+,. 
+
+J: 
+
+The combination of the lower end of the trend channel and the 1,27 clearly defined this stock's price action. Gateway Computer sold off consistently in this fashion for several weeks. Such a clear set-up yielded nice bounces each time the stock hit this area. Understanding such price action in the future will help you gauge a stock's trend and identify potential opportunities. 
+
+83 
+
+1.27 Projection Summary 
+
+- 
+
+• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • 
+
+• • • ~ 
+
+The 1.27 is another important Fibonacci number. It can frequently gauge price action, when a stock has moved into new territory. After a stock has rallied above a previous high, it is the first place to look for potential resistance. If a stock experiences resistance at the 1.27, it possibly indicates that the price move is not as strong as it might seem. So, it can be a good area to take profits. When a stock declines past a significant low, the 1.27 is the first place to look for potential support. Reversals off the bullish 1.27 projection can often yield nice bounces. Therefore, the 1.27 is a very effective number to determine the strength of a stock's overall trend. 
+
+84 
+
+10 
+
+1.618 Projection 
+
+The 1.618 projection is another significant Fibonacci number, because it usually indicates exhaustive price action. Often, when a stock exceeds the 1.618, it represents extreme price action that is difficult to sustain. In fact, I utilize a general rule about the 1.618 that defines the state of the price action. If a stock has rallied above a 1.618 projection from a previous decline, I consider it overbought. Ifa stock declines past a 1.618 projection from a prior rally, I consider it oversold. Although a stock can trade past 1.618 projections, these rules have saved me from many flawed executions. 
+
+Since the 1.618 represents price action that is too extreme, reversals that occur beyond this area will usually happen quickly. When the 1.618 projection is in a potential reversal zone and it has been exceeded, I know that I am close to executing my trade. As a general rule, I usually wait for a stock to hit 1.618 projection in a potential reversal zone before accepting a trade. Furthermore, the 1.618 is an especially effective measure if other harmonic projections converge in the same area. 
+
+85 
+
+A 
+
+Bullish 1.618 Projection 
+
+A bullish 1.618 often occurs in an extreme sell-off. When a stock is declining, the price action can often become over-extended. The 1.618 projection point can identify profitable set-ups, since a stock that reverses off this area frequently provides a nice bounce. 
+
+x 
+
+-- 
+
+---_ 1.618 
+
+-- 
+
+- 
+
+--_ 
+
+----- 
+
+_ 
+
+B 
+
+= 
+
+• 
+
+• • • • • • .. 
+
+II 
+
+• II 
+
+II III 
+
+BULLISH 1.618 PROJECTION BUY AT B! 
+
+The following daily chart of General Electric illustrates the bullish 1.618 very well. The stock sold off in October 1998 to a low of 69 (pt. B) and then reversed significantly. The 1.618 projection was calculated at 70 11116. Although it declined slightly past the projection, it clearly found 
+
+support in this area. 
+
+86 
+
+t20 
+
+GENERAL ELECTRIC (GE): DAILY BULLISH 1.618 PROJECTION 
+
+115 
+
+110 
+
+105 
+
+A 
+
+100 
+
+95 
+
+75 
+
+Volume - 
+
+i)Bj~Chafts, com 
+
+20 
+
+15 
+
+On the next page, I have included an enlarged chart of the price action, which was somewhat strong on the day the stock hit the 1.618. So, you might have waited an extra day for the stock to confirm the reversal. The stock found support in this area. As you can see, within a few days after hitting the projection the stock gapped up and started to rally, which confirmed the reversal. 
+
+87 
+
+-t J- :: 
+
+I- 82 
+
+GENERAL ELECTRIC (GE): DAILY 
+
+PRICE ACTION @ 
+
+1.618 PROJECTION. t- 
+
+-J-! 
+
+77 7G 75 74 
+
+n r- 
+
+- 72 
+
+1.618 PROJECTION ......... __ ..... - ..... _ 71 
+
+@ 70 11116 70 
+
+----------------------------------~~--------------------~69 
+
+- 
+
+22 23 24 26 26 29 30 Oct 2 5 6 7 6 9 12 13 14 15 16 19 
+
+Such bullish price action in the days following the reversal was a good indication of a valid reversal. The stock attempted to sell below the 1.618 projection several times but it was able to stabilize in this area. It is important to note that the stock never closed below the 1.618. Although it tried to sell off past the 1.618 four times, General Electric held firm. Also, after the stock broke out, the price action was very bullish, as it rallied sharply making consistent new highs with positive closes. These signals are substantial evidence of a new uptrend developing. 
+
+The next weekly chart of American International Group also illustrates the significance of the 1.618 projection. AIG sold off sharply, losing over 30% of its value over a few months. However, the stock started to reverse the week it hit the 1.618 projection. You might have waited for the reversal to be confirmed, since the stock gapped down the week it hit the 1.618. The reversal was confirmed the following week, as AIG gapped up on the open, andit rallied sharply. In fact, the stock was up over 15 points. 
+
+88 
+
+81 eo 
+
+- 
+
+I 
+
+I I I I I 
+
+• • • • • .. 
+
+.. .. .. .. 
+
+• • • • .. 
+
+.. .. .. .. .. .. .. .. .. .. .. .. .. .. .. II .. .. II .. 
+
+II II .. 
+
+• • 
+
+78 
+
+AMERICAN(~~~:~~~~AL GROUP1.111 • I 
+
+1,1) 
+
+'.J,6!8 tIt 
+
+............ 
+
+B 
+
+o iBlgCharts. OOM 
+
+~1 11 11 JJ AS o H 1)99 prlA t1 JJ 
+
+130 
+
+1:20 
+
+110 
+
+100 
+
+90 
+
+eo 
+
+10 
+
+20 
+
+15 10 5 
+
+As you can see AIG declined steadily for over three months before reversing off the 1.618. The 1.618 projection was calculated at 68 1116. The stock reversed after bottoming at 64 3/8. Although AIG exceeded the 1.618 by a few points, it was able to finish the week above the projection. 
+
+In this situation, the stock provided several signs of a valid reversal. 
+
+The close above the 1.618 and the following week's price action are excellent indications of a new uptrend underway. It is important to recognize these signs after a stock hits a significant Fibonacci number to determine valid reversals. 
+
+89 
+
+B 
+
+• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • .. 
+
+.. III 
+
+Bearish 1.618 Projection 
+
+The bearish 1.618 is a very important Fibonacci number because it is an excellent area to take profits or enter a short position. As I have stated previously, the 1.618 represents an extreme price area. Often, when a stock hits this projection, it will encounter substantial resistance. If this happens, the rally usually will reverse. 
+
+x 
+
+------ 
+
+1.6~_-- 
+
+__- 
+
+",,_...------ 
+
+A 
+
+BEARISH 1.618 PROJECTION SELL AT B! 
+
+Although stocks do exceed the 1.618 area, it is important to understand that such action can be difficult to maintain. Also, if the area is exceeded, the price action should rally strongly through the area to ensure that a reversal will not occur. Therefore, it is critical to examine a stock closely in this area and be prepared to sell. The following examples will demonstrate the bearish 1.618 well. It is important to study how these stocks had difficulty breaking above the projection area. These examples will help you understand the importance of the 1.618 and will help you properly gauge other stocks that reverse off this area. Let's look at the examples. 
+
+90 
+
+The following weekly chart ofMedtronic shows how the price action reversed significantly off the 1.618 projection from the prior sell-off. The most important aspect of this chart is the lack of a continuing rally above the 1.618. Although the stock exceeded the 1.618 slightly, Medtronic could not convincingly move above the projection. 
+
+B 
+
+1 
+
+x 
+
+MEDTRONIC (MDT): WEEKLY 28 BEARISH 1.618 PROJECTION ,6 
+
+---------=...__---~---------- ..... .24 
+
+v)BigChllfts, CQIll 
+
+eo 
+
+A 
+
+The 1.618 projection was calculated at 43 1/16. Initially, the stock seemed to be rallying strongly through this area. However, within a few days after hitting the 1.618, the stock stalled, failing to move higher. The stock reversed at 445/8, which occurred on the week it hit the projection. 
+
+91 
+
+46 
+
+44 
+
+42 
+
+30 
+
+60 
+
+III 
+
+5 
+
+40 
+
+This enlarged daily chart clearly shows the resistance Medtronic faced at the 1.618 proj ection. This is an excellent chart to study because of the price action at the 1.618. Since Medtronic was rallying sharply as it approached the projection, you might have thought that the stock was not going to encounter any resistance in this area. However, the stock "hit a wall" at the 1.618, and started to break down. 
+
+  39     
+J1-   3S     
+37     
+  36     
+.~BI~Chnm. CO 111       
+  as     
+  20     
+  15   §   
+    -   
+  \0   -   
+  E   
+  5     
+  0     When a situation like this develops, it is important to respectwhat the price action is indicating. The stock had extreme difficulty rallying above the 1.618. This is especially significant since the stock had rallied sharply in the few weeks prior to the reversal. In fact, Medtronic was up nearly 10 points during the two weeks prior to the reversal. If the stock was going to rally well above the 1.618, it should have continued this strong rally. But, after it hit the 1.618, Medtronic could not move higher and started to sell off. Within a week after hitting this area the stock gapped down sharply and started to make new lows. 
+
+-r 
+
+MEDTRONIC (MDT): DAILY PRICE ACTION @ 1.618 PROJECTION 
+
+VOlUME? ... 
+
+92 
+
+44 
+
+~ 
+
+~ 
+
+~ 
+
+~ 
+
+t 
+
+t t 
+
+• • • • • • I 
+
+I I I I I I I I 
+
+• • • 
+
+• • • • • • • • • • • • • • • .. 
+
+43 
+
+42 
+
+41 
+
+40 
+
+~ - -- _- -- 
+
+Such resistance at a major Fibonacci number is a clear indication of a potential reversal at hand. Even if you did not sell on the day the stock hit this projection, the following several days indicated that this stock was experience strong resistance. The stock started to sell-off and led to a reversal that resulted in a 300/0 decline within a few months. 
+
+The next example of Oracle also illustrates resistance at a major 1.618 projection. Oracle rallied slightly past the 1.618 projection of its prior decline but the stock had difficulty moving higher. The 1.618 was projected to complete at 379116. The stock hit 41 3/16 and it sold off dramatically. 
+
+- 
+
+ORACLE (ORCL): DAILY BEARISH 1.618 PROJECTION 
+
+I J A SON D 98 F M AM J J AS 0 N D 99F M A 
+
+40 
+
+35 
+
+93 
+
+30 
+
+25 
+
+20 
+
+15 
+
+200 
+
+100 
+
+This next chart shows the price action at the 1.618. As you can see, the stock topped in this area. An interesting aspect of this reversal was that the stock gapped up on the day it hit the projection. However, Oracle could not follow through on the upside and within a few days, the stock started to sell off. 
+
+1.618 d n 
+
+PROJECTIO i t @379/16 
+
+N   -1 ~       1                 I   
+tl   T       .                 r   
+          t             1 
+
+      41     
+      40     
+      :.!)     
+      39     
+      37     
+      36     
+      35     
+      34     
+      33     
+      32     
+      31     
+    ~llt   30     
+    29     
+      29     
+':')BI~Chart$. com       
+      120     
+      100     
+      eo   ~   
+      60   -   
+        -   
+      40   :::   
+      20     
+      0     ORACLE (ORCL): DAILY 
+
+PRICE ACTION @ 1.618 PROJECTION 
+
+Volume - 
+
+• • • • • • 
+
+• • • • • 
+
+• • II 
+
+• • • • • • .. 
+
+.. .. .. .. .. .. 
+
+• 
+
+It is important to recognize the significance of this price action at the Fibonacci projection. This stock clearly was topping out at the 1.618. The price action at the 1.618 quickly turned bearish, and a new downtrend was in place. 
+
+It is important to remember that when the 1.618 is exceeded, the price action is in an extreme state. In this case, Oracle was over-bought and it was clearly having difficulty breaking above this level. If you were long and you observed this type of action above the 1.618, you must think sell! Take your profits and be happy! If you were lucky enough to participate in this rally, you have to take profits at some point. It is important to let the numbers gauge the price action and indicate when to take profits. In this instance, the 1.618 accurately gauged the exhaustive nature of this rally and clearly was proving to be a good point to get short or cover a long position. 
+
+94 
+
+1.618 Projection Summary 
+
+The 1.618 is a very peculiar Fibonacci number because of the extreme that it represents. When I see a stock in a 1.618 price move, I must be thinking that it is in an extreme price area that could potentially reverse very soon. Personally, my general rule about the 1.618 is: if a stock has rallied above a 1.618 projection from a considerable prior decline, it is overbought; if a stock has sold off past a 1.618 projection on the downside, it is oversold. By thinking in these terms, I have trained myself to automatically respond to these situations. I prepare myself to buy below a 1.618 projection and I prepare myself to sell above a 1.618 projection. Even if I hear an incredible amount of information in the media that suggests otherwise, I execute my trades when these 1.618 conditions exist. 
+
+It takes some time to truly be able to think in these terms and execute your trades according to these rules, especially when the media feeds you information that is contrary to what the projection is indicating. It will probably require several actual experiences of seeing how the 1.618 projections accurately gauge the price action. After you personally witness such situations, you will trust what the Fibonacci projection is saying more than any news item. 
+
+95 
+
+Primary Fibonacci Numbers' Summary 
+
+~ ~ ~ ~ ~ t t 
+
+• t 
+
+t 
+
+• • I 
+
+I I I 
+
+• • • • • • • • • • • • • • • • • • • • • • 
+
+• 
+
+As the chart examples demonstrated, the primary numbers, 0.618, 0.786, 1.27 and 1.618, are crucial in gauging market action. These specific areas can indicate a great deal regarding the price action of a stock. Also, they can serve to identify potential trading opportunities within a market that leads you to believe otherwise. 
+
+I urge that you master the primary numbers. It takes practical experience to develop "a feel for the numbers." Once you have witnessed some real market examples of "the numbers in action," it will become easier to identify which numbers are the most significant, and you will improve your trade executions. 
+
+11 
+
+The Secondary Numbers 
+
+There are several other numbers that are related to the Fibonacci sequence, which I consider to possess "harmonic" qualities. Although there are many numbers that can be derived from the Fibonacci sequence, which are used for stock chart analysis, I do not incorporate all of them. I believe that the ones that I list are the most important to define valid harmonic setups. 
+
+0.382, 0.50, 1.00, 2.0, 2.24, 2.618, 3.14 
+
+It is important to emphasize that these numbers should serve to complement the potential reversal zone that possess other primary Fibonacci numbers and clear geometric patterns. They are effective numbers in gauging price action, although they are not as vital as the primary numbers. 
+
+The most important aspect of these numbers is to be aware of their existence. I will show you several illustrations and examples of simple projections that will help you to train your eye to identify these numbers in the same manner as the primary numbers. In the next section, there will be several examples of the secondary numbers that demonstrates their effective use, especially in complex patterns. 
+
+Although these numbers are important in determining harmonic setups, I suggest just a basic review of this section. You can skim through the illustrations and chart examples to familiarize yourself with these numbers. 
+
+97 
+
+The Extreme Numbers: 2.24, 2.618, 3.14 
+
+These numbers should be utilized when a stock's price action has exceeded the 1.618 projection. When the 1.618 has been "blown out," the price action is usually very volatile. Reversals off these numbers can be quite dramatic, quickly reversing after hitting an extreme projection. When you study these chart examples, it is important to look at the general area where the 1.618 was projected. In each instance, the stock possessed some type of a warning sign that continued in the predominant trend. However, when the stock reversed at an extreme projection, the price action formed significant price bars that indicated that the predominant trend was beginning to change. But, the most important aspect regarding these numbers is that they possess an extreme nature. 
+
+x 
+
+• • • I 
+
+I I I tl tl I I I I I I I 
+
+• • • • • • • • • • • • • • • 
+
+Bullish Extreme Numbers 
+
+B 
+
+BULLISH EXTREl\I1E NUMBERS 
+
+98 
+
+-~- _--- 
+
+When a stock has declined past a 1.618, the extreme numbers are excellent areas to examine for potential reversal points. The 2.24 is probably the most prevalent of extreme bullish numbers, followed by the 2.618, and in rare situations, the 3.14. In fact, I believe the 3.14 is an ultimate point, where some degree of a reversal usually occurs. 
+
+If a stock is going to test these extreme projections, it usually will blowout the 1.618. If a stock declines in this area, the price action will usually be extreme and possess warning signs. However, a reversal off these extreme numbers is usually very sharp and quick. 
+
+I have included the following chart examples to demonstrate the extreme numbers. It is important to reference these charts and learn the basic framework of each projection. 
+
+99 
+
+"f1                 
+~                 
+Ij                 
+            co     
+    e         ~     
+J:           ~     
+  ~       co   r-.._~     
+w     .,       ~   ~O     
+1     ~         
+      ~   ~~     
+    ':t       ~   '-' I     
+    U.I       .. ~     
+    ,       00   ~~     
+    ...       ==   ~~     
+    ~         
+:0     .       ~   ~~     
+  ()       •     
+'0         ~     
+  0       ~~     
+1     3       .,.     
+        00     
+            0   ~   
+            ~   ~   
+              ~   
+              ~   
+  ~ ,fI. (]'I 00     W   ,fI.   ~     ~   
+      UI   0   iJ1     ~   
+              t   
+              t   
+              t   
+              t   
+  Mill ions             t   
+              t   
+      100         t   
+              •   
+              •   
+              •   
+              I   ~- ~-- 
+
+Hi II ions 
+
+-..I o 
+
+-..I U1 
+
+00 UI 
+
+00 o 
+
+101 
+
+I 
+
+• • • • • I 
+
+I I I I I I I 
+
+• • I 
+
+• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • 
+
+  I       
+I         
+/         
+      
+~         
+II~         
+/~         
+/       ~   
+/       ~   
+/     ~   00   
+    Lj   ~   
+    ~   
+    
+2-     ~   ~   
+~~   00   [!)   
+==   I'   
+  ""'"'::I;:   =   
+    ~   
+    I   ~   
+    I-'   
+    ..   ~   
+      ~   - 
+
+o 
+
+Hi II ions: 
+
+102 
+
+-~~ 
+
+-~- - 
+
+---- 
+
+Bearish Extreme Numbers 
+
+The bearish extreme numbers are effective when a stock has rallied above the 1.618. It is important to be prepared for extreme price action, when a stock rallies in this area. Reversals can be quite sharp and the price action is usually volatile. 
+
+x 
+
+BEARISH EXTREME NUMBERS 
+
+After the 1.618 has been "blown out," it is important to be aware of the extreme projections, as potential areas for a reversal. The 2.24 is probably the most common point for a reversal. The 2.618 and 3.14 also occur, although not nearly as frequently. 
+
+The following examples illustrate these extreme projections. It is important to briefly review the extreme examples, as to familiarize yourself with these projections. 
+
+103 
+
+        -c                       
+        0                       
+        -                       
+:I         c                       
+(u         :;!                       
+-c         III     -=                   
+        I     -=--                   
+        _---                   
+c,                               
+C             .5                   
+::=             ~               ~     
+            ==-               ~     
+            ~                 
+c,                           i-3     
+c               "'='             S     
+              -           eo     
+                ~           
+                      ~   i-3     
+:n                         >-   ~     
+c                 \         ~     
+\0                       Z     
+                \       00   i-3     
+i.fJ                   \       ==   S     
+I'f,I                         
+"0                         
+                  \       t-.J   ••     
+                      •   ~     
+                  \~   t-.J     
+0                   ....   ~     
+.....                     
+.+                       
+          -_         \~       
+                  ~     
+            -=         \       
+z;             ~           ~     
+0                     \       
+c                           
+            -=--       \         
+            ...::;:.             
+J::I                         \       
+IT,!                             
+.-..               -=               
+                        \       
+r.JJ                 -=         \       
+'-.0                               
+                  -           
+."                     ~   ~       
+IT,!                           
+tr                         
+        0                   
+        z:!           -           
+:I         ~                       
+W         :r                       
+"1         Il.I                       
+        -.                       
+        rl'                       
+        U'I                     ~   
+        .;:.                     
+        0                     ~   
+:n         3                     
+'Tj                             ~   
+"1                             
+  to     Cf>     ~   c.q   {j-.   -..j   co   ~       ~   
+  +:<     -   -     
+          0   0   0   0   0   0   0   ~   ~   
+                        0   0   
+                            ~   
+  Hi II ions                       ~   
+                      ~   
+            104                 t   
+                            t   
+                            t   
+                            t   - - ----~- ------ 
+
+L       
+C     ~   
+-     
+    ~   
+:0     ~   
+C     
+IQ     
+  co   00   
+  ~   0   
+U'J   >   ~   
+ro   
+1J   ~   P-3   
+  ,,-..,   
+  00   ~   
+0   ==   
+(')   ~   00   
+r+   •   ~   
+  '"   P-3   
+  ,_   '-'   
+  QIC   ••   
+z     e   
+0     
+c     ~   
+    r-   
+t:I     ~   
+11)     
+(')       ."                     
+11)         e           CO   
+0-         tt!           
+        ~             
+::!         ':T             
+      iii             
+W         .,             
+'1         ....             
+      'II             
+        o             
+        0             
+        3             
+:0                     
+1J                     
+'1                     
+  N   .f:..   (]'.     (J1   iJ'.   -...J   00.   t.[)   
+  0   0   0     0   0   0   0   0   Mi II ions 
+
+105 
+
+                                •   
+                                •   
+        I                         t   
+                ~               t   
+                          ~   •   
+                \             
+                          ~   •   
+                \             ~   •   
+                \             >   I   
+                          ~   I   
+                \       co   
+                    ~   0   I   
+                \       >   r-.   I   
+                \       r-     
+:::::                     ~   ~   I   
+                \       ~   I   
+                    00     
+                    \'jl     ==   0   •   
+                      \,.,I   •   
+                    \~     ~   ••   
+                      •     ~   •   
+rn                       \~     I-'   
+0                         .,.   •   
+                      \         ~   •   
+z;                             ~   
+f::I                       \         ~   •   
+0.0                             •   
+00                       \         •   
+TJ                             ~   
+:z                         \         •   
+                        \         •   
+:0                               •   
+:3:                         \       •   
+L                         \       •   
+L                           \       •   
+D                               •   
+                            \     
+                              •   
+rn                               
+a                             \     •   
+        ®                         ..   
+Z         to                         
+f::I         ~                         ..   
+        '::1'                         ..   
+'-D         W                         
+'-0         .,                         
+      .-+                         II   
+        'Il                         
+."         11                       CO     
+        0                       ..   
+3:         3                         
+:0                                   
+                                
+  UI   ....   I-"     .....   1'.)   (,0)   A     UI     cr-.       
+    0   UI     0   0   0   0     0     0       Hi II ions 
+
+106 
+
+The Sharp Retracement: 0.382 
+
+The .382 is mostly associated with a sharp pullback or retracement after a strong move. The .382 retracement occurs when the price action is extreme. The quick and sudden nature of the .382 pullback often leads to another extreme price move in that same direction. 
+
+Usually, a .382 retracement of a price move is followed by a 1.618 of that pullback. This means that if the .382 retracement is equal to 1, then the following price move should be at least 1.618. Sometimes, when the price action is very extreme the following price move can be 2.24, 2.618 or 3.14 of that retracement. The most important concept of the .382 is that it is associated with extreme price action. 
+
+A 
+
+x 
+
+<, <, 
+
+..... 
+
+"",.~6' 
+
+""~ <, 
+
+..... 
+
+<, 
+
+'B 
+
+/B /' 
+
+~/' 
+
+jJ 
+
+/' /' 
+
+/' 
+
+x 
+
+A 
+
+BULLISH 
+
+BEARISH 
+
+THE SHARP RETRACEl\1ENT: .382 
+
+The following examples will illustrate the nature of the .3 82 retracement. It is important to notice the price action after the reversal off the .382 retracement, as it is usually quite strong. 
+
+107

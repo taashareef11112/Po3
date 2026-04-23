@@ -1,0 +1,222 @@
+Harmonic Patterns
+Harmonic patterns are used for technical analysis and the main function is to predict future price
+movement. It is a trading strategy that works with Fibonacci retracement and extension ratios.
+However, the Fibonacci ratios used in the analysis and measurement of Harmonic patterns are
+0.382, 0.50, 0.786, 0.886, 1.27, 1.41, 1.618, 2.0, 2.24, 2.618, 3.14, and 3.618. Fibonacci levels must
+align with accurate Fibonacci wave measurement for patterns to be valid. Moreover, the Harmonic
+pattern is used to identify how long price will move and the exact point where reversal is expected
+to occur.
+
+
+
+
+Harmonic Pattern is usually formed when four swings high/low points are connected together
+(using Zig Zag indicator). This strategy gives a high probability of success and it also helps to
+identify areas of demand and supply.
+
+Technically, patterns exist within other patterns, and this also cut across time frames as long as the
+trend is formed in a wavy manner. It is important to draw harmonic patterns on higher time frames
+(1hr upwards) as lower time frames have more noise that may render the patterns ineffective.
+The combination of Elliott waves principles and the analysis of Harmonic Patterns is what
+gives experienced traders the upper hand when it comes to trading currency pairs successfully.
+The four most popular patterns are the Gartley, Butterfly, Bat and Crab patterns. We also have the
+Shark and the Cypher patterns.
+
+
+
+How to Draw Harmonic Patterns:
+Step 1:
+Load Zig zag custom indicator on the chart (see settings below).
+
+
+
+This
+trading
+chart
+will look
+like this
+(see
+image
+below).
+
+
+
+
+Step
+2:
+Count/
+identify
+the last
+four
+zigzag
+lines.
+Step 3:
+Label the starting point of Zigzag line 1 as X, also label the end point as A. Label the end point of
+line 2 as B, and label the end points of line 3 and 4 as C and D respectively as shown in the image
+below.
+
+
+
+
+Step 4:
+Identify the type of pattern that is formed. For example, in the chart above, point A is higher than
+point C. Point X is also way higher than point D. This indicates that a Bearish Cypher pattern is
+possibly forming on the chart. However, point D must break higher than point B for a Bearish
+Cypher pattern to be complete.
+
+Step 5:
+Identify the correction and extension lines from point A to D. From the image above, line A-B is a
+correction of line X-A. Line B-C is an extension of line A-B.
+
+
+
+
+Types of Harmonic Patterns:
+Gartley Pattern (Wave A to D is correction-correction-
+extension)
+For Bullish Gartley pattern, BA price move is the correction of XA. BC price move is a retracement
+of AB price movement while CD price move is an extension of wave BC.
+
+
+
+Point B is 0.618 retracement of impulsive wave XA. Point C is 0.382 to 0.886 retracement of wave
+AX. Point D is 0.786 retracement of XA. The long position is usually entered at point D after
+bullish price action is confirmed (that is, waiting for the price to start an upward movement).
+Looking at the Bearish Gartley pattern, BA price move is the correction of XA. BC price move is
+also a retracement of AB price movement while CD price move is an extension of BC price
+movement.
+Also, Point B on Bearish Gartley pattern is 0.618 retracement of impulsive wave XA. Point C is
+0.382 to 0.886 retracement of wave AX. Point D is 0.786 retracement of XA. The short position is
+usually entered at point D after bearish price action is confirmed (that is, waiting for the price to
+start a downward movement).
+
+
+
+Bat Pattern (Wave A to D is correction-correction-extension)
+
+
+
+
+Analyzing the Bearish Bat pattern, BA price move is the correction of XA. BC price move is also a
+retracement of AB price movement while CD price move is an extension of wave BC.
+
+
+Point B is a minimum of 0.382 to a maximum 0.50 retracement of impulsive wave XA. Point C is
+0.382 to 0.886 retracement of wave AX. Point D is 0.886 retracement of XA. The short position is
+usually entered at point D after bearish price action is confirmed (that is, waiting for the price to
+start a downward movement).
+For the Bullish Bat pattern, BA price move is the correction of XA. BC price move is a retracement
+of AB price movement while CD price move is an extension of BC price movement.
+Also, Point B on Bullish Bat pattern is a minimum of 0.382 to a maximum of 0.50 retracement of
+impulsive wave XA. Point C is is a minimum of 0.382 to a maximum of 0.886 retracement of wave
+AX. Point D is 0.886 retracement of XA. The long position is usually entered at point D after
+bullish price action is confirmed (that is, waiting for the price to start an upward movement).
+
+
+
+
+Butterfly Pattern (Wave A to D is correction-correction-
+extension)
+
+
+
+
+Analyzing the Bearish Butterfly pattern, BA price move is the correction of XA. BC price move is
+also a retracement of AB price movement while CD price move is an extension of BC price
+movement.
+
+
+Point B is 0.786 retracement of impulsive wave XA. Point C is a minimum 0.382 to a maximum
+0.886 retracement of wave AX. Point D is 1.27 extension of XA. A short position is usually entered
+at point D after bearish price action is confirmed (that is, waiting for the price to start a downward
+movement).
+For the Bullish Butterfly pattern, BA price move is the correction of XA. BC price move is a
+retracement of AB price movement while CD price move is an extension of BC price movement.
+Also, Point B on Bullish Butterfly pattern is 0.786 retracement of impulsive wave XA. Point C is
+minimum 0.382 to maximum 0.886 retracement of wave AX. Point D is 1.27 extension of XA. A
+long position is usually entered at point D after bullish price action is confirmed (that is, waiting for
+the price to start an upward movement).
+
+
+
+Crab Pattern (Wave A to D is correction-correction-extension)
+Analyzing the Bearish Crab pattern, wave BA is the correction of wave XA. BC price movement is
+also a retracement of AB price movement. While CD is an extension of wave BC.
+
+
+Point B is a minimum of 0.382 to a maximum of 0.886 retracement of impulsive wave XA. Point C
+is a minimum of 0.382 to a maximum of 0.886 retracement of wave AX. Point D is 1.618 extension
+of XA. A short position is usually entered at point D after bearish price action is confirmed (that is,
+waiting for the price to start a downward movement).
+For the Bullish Crab pattern, BA price movement is the correction of XA. BC price movement is a
+retracement of AB price movement, while CD price move is an extension of wave BC.
+Also, Point B on the Bullish Crab pattern is a minimum of 0.382 to a maximum of 0.886
+retracement of impulsive wave XA. Point C is a minimum of 0.382 to a maximum of 0.886
+retracement of wave AX. Point D is 1.618 extension of XA. A long position is usually entered at
+point D after bullish price action is confirmed (that is, waiting for the price to start an upward
+movement).
+Shark Pattern (Wave A to D is correction-extension-extension)
+
+
+
+
+Looking at the Bearish Shark pattern, wave BA is the correction of wave XA. BC price movement
+is an extension of AB price movement. While CD is an extension of wave BC.
+Point B is a mimum of 0.382 to a maximum of 0.886 retracement of impulsive wave XA. Point C is
+a minimum of 1.13 to a maximum of 1.618 extension of wave AX. Point D is a minimum of 0.886
+to a maximum of 1.13 retracement/extension of XA. The short position is usually entered at point D
+after bearish price action is confirmed (that is, waiting for the price to start a downward movement).
+
+
+
+For the Bullish Shark pattern, BA price movement is the correction of XA. BC price movement is
+an extension of AB price movement, while CD price movement is an extension of wave BC.
+Also, Point B on Bullish Shark pattern is a minimum of 0.382 to a maximum of 0.886 retracement
+of impulsive wave XA. Point C is a minimum of 1.13 to a maximum of 1.618 extension of wave
+AX. Point D is a minimum of 0.886 to a maximum of 1.13 retracement/extension of XA. The long
+position is usually entered at point D after bullish price action is confirmed (that is, waiting for the
+price to start an upward movement).
+
+
+
+Cypher Pattern (Wave A to D is correction-extension-
+extension)
+
+
+
+
+Analyzing the Bearish Cypher pattern, wave BA is the correction of wave XA. Wave BC is an
+extension of wave AB. While CD is an extension of wave BC.
+
+Point B is a minmum of 0.382 to a maximum of 0.618 retracement of impulsive wave XA. Point C
+is a minimum of 1.13 to a maximum of 1.41 extension of wave AX. Point D is 0.786 retracement of
+XA. A short position is usually entered at point D after bearish price action is confirmed (that is,
+waiting for the price to start a downward movement).
+For the Bullish Cypher pattern, wave BA is the correction of wave XA. Wave BC is an extension of
+wave AB. While CD is an extension of wave BC.
+Also, Point B on Bullish Cypher is a minimum of 0.382 to a maximum of 0.618 retracement of
+impulsive wave XA. Point C is a minimum of 1.13 to a maximum of 1.41 extension of wave AX.
+Point D is 0.786 retracement of XA. A long position is usually entered at point D after bullish price
+action is confirmed (that is, waiting for the price to start an upward movement).
+
+
+
+AB=CD Pattern
+Analyzing the Bearish ABCD pattern, wave BC is the correction of wave AB. While CD is an
+extension of wave BC.
+Point C is a minimum of 0.618 to a maximum of 0.786 retracement of impulsive wave AB. Point D
+is a minimum of 1.27 to a maximum of 1.618 extension of BC. The short position is usually entered
+at point D after bearish price action is confirmed (that is, waiting for the price to start a downward
+movement).
+For the Bullish ABCD pattern, wave BC is the correction of wave AB. While CD is an extension of
+wave BC.
+Point C is a minimum of 0.618 to a maximum of 0.786 retracement of impulsive wave AB. Point D
+is a minimum of 1.27 to a maximum of 1.618 extension of BC. The long position is entered at point
+D after bullish price action is confirmed (that is, waiting for the price to start an upward movement).
+
+
+
+3 Drives Pattern
+How To Identify Harmonic Patterns At The Start
+https://www.beanfxtrader.com/harmonic-patterns/
+

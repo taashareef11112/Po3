@@ -1,0 +1,3687 @@
+أنت خبير في تطوير البوتات وأريد منك تصميم بوت احترافي يعتمد على تحليل جميع الأكواد المكتوبه ادناه ، مع استخراج نقاط القوة من كل كود، مع الحفاظ على التوكن التجريبي والمؤقت، مع مراعاة أنه لا يضم أعضاء حالياً. أرجو أن يركز التصميم على الأداء والكفاءة والأمان، مع تفعيل الميزات الأساسية التي تعزز تجربة المستخدم وتحقق الاستقرار.
+
+
+اختراق و سحب 
+‏import os
+import sys
+import time
+import signal
+import logging
+from dataclasses import dataclass
+from typing import Dict, List, Optional, Tuple
+
+import pandas as pd
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+# ==========================================
+# الإعدادات
+# ==========================================
+BINANCE_URL = "https://data-api.binance.vision"
+
+# بياناتك التجريبية
+TELEGRAM_TOKEN = os.getenv(
+    "TELEGRAM_TOKEN",
+    "8776695041:AAGhYc-SDcrm6CrrPXGsmJf0netTfBhcio8"
+)
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "127278288")
+
+TIMEFRAME = os.getenv("TIMEFRAME", "4h")
+WINDOW = int(os.getenv("WINDOW", "15"))
+SURVIVAL_CANDLES = int(os.getenv("SURVIVAL_CANDLES", "40"))
+
+KLINES_LIMIT = int(os.getenv("KLINES_LIMIT", "250"))
+SCAN_SLEEP_PER_SYMBOL = float(os.getenv("SCAN_SLEEP_PER_SYMBOL", "0.05"))
+CYCLE_SLEEP_SECONDS = int(os.getenv("CYCLE_SLEEP_SECONDS", "180"))
+REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT", "12"))
+PAIRS_CACHE_SECONDS = int(os.getenv("PAIRS_CACHE_SECONDS", "3600"))
+ALERT_TTL_SECONDS = int(os.getenv("ALERT_TTL_SECONDS", "21600"))
+SEND_STARTUP_MESSAGE = os.getenv("SEND_STARTUP_MESSAGE", "1") == "1"
+SEND_STOP_MESSAGE = os.getenv("SEND_STOP_MESSAGE", "1") == "1"
+
+VALID_INTERVALS = {
+    "1m", "3m", "5m", "15m", "30m",
+    "1h", "2h", "4h", "6h", "8h", "12h",
+    "1d", "3d", "1w", "1M",
+}
+
+STABLE_COINS = {
+    "USDCUSDT", "FDUSDUSDT", "TUSDUSDT", "BUSDUSDT",
+    "EURUSDT", "DAIUSDT", "USDPUSDT", "AEURUSDT", "USDDUSDT"
+}
+
+RUNNING = True
+
+# ==========================================
+# Logging
+# ==========================================
+logger = logging.getLogger("swing_bot_fixed")
+logger.setLevel(logging.INFO)
+logger.handlers.clear()
+
+formatter = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s", datefmt="%H:%M:%S")
+stream = logging.StreamHandler(sys.stdout)
+stream.setFormatter(formatter)
+logger.addHandler(stream)
+logger.propagate = False
+
+def log_info(msg: str, *args) -> None:
+    logger.info(msg, *args)
+    for h in logger.handlers:
+        try:
+            h.flush()
+        except Exception:
+            pass
+
+def log_error(msg: str, *args) -> None:
+    logger.error(msg, *args)
+    for h in logger.handlers:
+        try:
+            h.flush()
+        except Exception:
+            pass
+
+# ==========================================
+# Session
+# ==========================================
+def build_session() -> requests.Session:
+    session = requests.Session()
+
+    retry = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        backoff_factor=0.8,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset(["GET", "POST"]),
+        raise_on_status=False,
+    )
+
+    adapter = HTTPAdapter(
+        max_retries=retry,
+        pool_connections=30,
+        pool_maxsize=30,
+    )
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    session.headers.update({"User-Agent": "swing-bot-fixed/1.0"})
+    return session
+
+session = build_session()
+
+# ==========================================
+# Cache
+# ==========================================
+pairs_cache: List[str] = []
+pairs_cache_time = 0.0
+alert_cache: Dict[str, float] = {}
+
+# ==========================================
+# Data classes
+# ==========================================
+@dataclass(frozen=True)
+class SignalData:
+    title: str
+    sig_type: str
+    price: float
+    level: float
+    dist_pct: float
+    candle_time: int
+    icon: str
+    lname: str
+    candles_ago: int
+
+# ==========================================
+# Signal handling
+# ==========================================
+def handle_stop_signal(signum, frame) -> None:
+    global RUNNING
+    RUNNING = False
+    log_info("تم استلام إشارة إيقاف")
+
+signal.signal(signal.SIGINT, handle_stop_signal)
+signal.signal(signal.SIGTERM, handle_stop_signal)
+
+# ==========================================
+# Validation
+# ==========================================
+def validate_config() -> None:
+    if TIMEFRAME not in VALID_INTERVALS:
+        raise ValueError(f"TIMEFRAME غير صالح: {TIMEFRAME}")
+    if WINDOW < 2:
+        raise ValueError("WINDOW يجب أن يكون 2 أو أكثر")
+    if SURVIVAL_CANDLES < 1:
+        raise ValueError("SURVIVAL_CANDLES يجب أن يكون 1 أو أكثر")
+    if KLINES_LIMIT < (WINDOW * 2 + SURVIVAL_CANDLES + 20):
+        raise ValueError("KLINES_LIMIT صغير جدًا مقارنة بالإعدادات")
+    if REQUEST_TIMEOUT < 3:
+        raise ValueError("REQUEST_TIMEOUT صغير جدًا")
+
+# ==========================================
+# Helpers
+# ==========================================
+def fmt_price(x: float) -> str:
+    if x >= 1000:
+        return f"{x:,.2f}"
+    if x >= 1:
+        return f"{x:,.4f}"
+    if x >= 0.01:
+        return f"{x:.6f}"
+    return f"{x:.8f}"
+
+def interval_to_tv(interval: str) -> str:
+    mapping = {
+        "1m": "1",
+        "3m": "3",
+        "5m": "5",
+        "15m": "15",
+        "30m": "30",
+        "1h": "60",
+        "2h": "120",
+        "4h": "240",
+        "6h": "360",
+        "8h": "480",
+        "12h": "720",
+        "1d": "1D",
+        "3d": "3D",
+        "1w": "1W",
+        "1M": "1M",
+    }
+    return mapping.get(interval, "240")
+
+def build_tradingview_url(symbol: str) -> str:
+    return f"https://www.tradingview.com/chart/?symbol=BINANCE:{symbol}&interval={interval_to_tv(TIMEFRAME)}"
+
+def clean_cache() -> None:
+    now_ts = time.time()
+    expired_keys = [k for k, v in alert_cache.items() if now_ts - v > ALERT_TTL_SECONDS]
+    for key in expired_keys:
+        del alert_cache[key]
+
+# ==========================================
+# Telegram
+# ==========================================
+def build_reply_markup(symbol: str) -> Dict[str, object]:
+    return {
+        "inline_keyboard": [
+            [
+                {"text": "شارت العملة", "url": build_tradingview_url(symbol)},
+            ]
+        ]
+    }
+
+def send_telegram(msg: str, symbol: Optional[str] = None) -> bool:
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    payload: Dict[str, object] = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": msg,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": True,
+    }
+
+    if symbol:
+        payload["reply_markup"] = build_reply_markup(symbol)
+
+    try:
+        resp = session.post(url, json=payload, timeout=REQUEST_TIMEOUT)
+        if resp.status_code != 200:
+            log_error("Telegram error: %s", resp.text)
+            return False
+        data = resp.json()
+        return bool(data.get("ok", False))
+    except requests.RequestException as exc:
+        log_error("Telegram request error: %s", exc)
+        return False
+    except Exception as exc:
+        log_error("Telegram unexpected error: %s", exc)
+        return False
+
+def telegram_get_me() -> bool:
+    try:
+        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/getMe"
+        resp = session.get(url, timeout=REQUEST_TIMEOUT)
+        if resp.status_code != 200:
+            log_error("Telegram getMe failed: %s", resp.text)
+            return False
+        data = resp.json()
+        return bool(data.get("ok", False))
+    except requests.RequestException as exc:
+        log_error("Telegram getMe request error: %s", exc)
+        return False
+
+# ==========================================
+# Binance requests
+# ==========================================
+def startup_checks() -> bool:
+    try:
+        ping = session.get(f"{BINANCE_URL}/api/v3/ping", timeout=REQUEST_TIMEOUT)
+        ping.raise_for_status()
+
+        klines = session.get(
+            f"{BINANCE_URL}/api/v3/klines",
+            params={"symbol": "BTCUSDT", "interval": TIMEFRAME, "limit": 10},
+            timeout=REQUEST_TIMEOUT,
+        )
+        klines.raise_for_status()
+
+        if not telegram_get_me():
+            return False
+
+        return True
+    except Exception as exc:
+        log_error("Startup checks failed: %s", exc)
+        return False
+
+def get_usdt_pairs() -> List[str]:
+    global pairs_cache, pairs_cache_time
+
+    now_ts = time.time()
+    if pairs_cache and (now_ts - pairs_cache_time) < PAIRS_CACHE_SECONDS:
+        return pairs_cache.copy()
+
+    try:
+        resp = session.get(f"{BINANCE_URL}/api/v3/exchangeInfo", timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+
+        pairs: List[str] = []
+        for s in data.get("symbols", []):
+            symbol = s.get("symbol", "")
+            if not symbol.endswith("USDT"):
+                continue
+            if s.get("quoteAsset") != "USDT":
+                continue
+            if s.get("status") != "TRADING":
+                continue
+            if not s.get("isSpotTradingAllowed", True):
+                continue
+            if symbol in STABLE_COINS:
+                continue
+            pairs.append(symbol)
+
+        pairs_cache = sorted(set(pairs))
+        pairs_cache_time = now_ts
+        log_info("تم جلب %d زوج USDT", len(pairs_cache))
+        return pairs_cache.copy()
+
+    except Exception as exc:
+        log_error("ExchangeInfo error: %s", exc)
+        return pairs_cache.copy() if pairs_cache else []
+
+def get_klines(symbol: str) -> pd.DataFrame:
+    try:
+        resp = session.get(
+            f"{BINANCE_URL}/api/v3/klines",
+            params={"symbol": symbol, "interval": TIMEFRAME, "limit": KLINES_LIMIT},
+            timeout=REQUEST_TIMEOUT,
+        )
+        resp.raise_for_status()
+        rows = resp.json()
+
+        if not isinstance(rows, list) or not rows:
+            return pd.DataFrame()
+
+        df = pd.DataFrame(
+            rows,
+            columns=[
+                "timestamp", "open", "high", "low", "close", "volume",
+                "close_time", "qav", "num_trades", "tbv", "tqv", "ignore"
+            ]
+        )
+
+        df = df[["timestamp", "open", "high", "low", "close", "close_time"]].copy()
+
+        df["timestamp"] = pd.to_numeric(df["timestamp"], errors="coerce").astype("Int64")
+        df["close_time"] = pd.to_numeric(df["close_time"], errors="coerce").astype("Int64")
+        for col in ["open", "high", "low", "close"]:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+
+        df = df.dropna().reset_index(drop=True)
+        if df.empty:
+            return pd.DataFrame()
+
+        df["timestamp"] = df["timestamp"].astype("int64")
+        df["close_time"] = df["close_time"].astype("int64")
+
+        return df
+
+    except Exception as exc:
+        log_error("Klines error | %s | %s", symbol, exc)
+        return pd.DataFrame()
+
+# ==========================================
+# SMC logic
+# ==========================================
+def analyze_smc(symbol: str, df: pd.DataFrame) -> Optional[SignalData]:
+    min_required = max(200, WINDOW * 2 + SURVIVAL_CANDLES + 10)
+    if len(df) < min_required:
+        return None
+
+    last_closed_idx = len(df) - 2
+    prev_closed_idx = len(df) - 3
+
+    if prev_closed_idx < 0 or last_closed_idx < 0:
+        return None
+
+    prev_closed = df.iloc[prev_closed_idx]
+    last_closed = df.iloc[last_closed_idx]
+    candle_time = int(last_closed["timestamp"])
+
+    roll_window = WINDOW * 2 + 1
+
+    highs_roll = df["high"].rolling(window=roll_window, center=True).max()
+    lows_roll = df["low"].rolling(window=roll_window, center=True).min()
+
+    df = df.copy()
+    df["SwingHigh"] = (df["high"] == highs_roll)
+    df["SwingLow"] = (df["low"] == lows_roll)
+
+    major_highs = df.index[df["SwingHigh"]].tolist()
+    major_lows = df.index[df["SwingLow"]].tolist()
+
+    target_high_val: Optional[float] = None
+    target_high_idx: Optional[int] = None
+
+    for idx in reversed(major_highs):
+        if idx >= last_closed_idx:
+            continue
+        if last_closed_idx - idx < SURVIVAL_CANDLES:
+            continue
+
+        segment = df.loc[idx + 1:last_closed_idx - 1, "high"]
+        if segment.empty or float(segment.max()) <= float(df.at[idx, "high"]):
+            target_high_val = float(df.at[idx, "high"])
+            target_high_idx = idx
+            break
+
+    target_low_val: Optional[float] = None
+    target_low_idx: Optional[int] = None
+
+    for idx in reversed(major_lows):
+        if idx >= last_closed_idx:
+            continue
+        if last_closed_idx - idx < SURVIVAL_CANDLES:
+            continue
+
+        segment = df.loc[idx + 1:last_closed_idx - 1, "low"]
+        if segment.empty or float(segment.min()) >= float(df.at[idx, "low"]):
+            target_low_val = float(df.at[idx, "low"])
+            target_low_idx = idx
+            break
+
+    if target_high_val is not None and target_high_idx is not None:
+        candles_ago = last_closed_idx - target_high_idx
+
+        if float(prev_closed["close"]) <= target_high_val < float(last_closed["close"]):
+            dist = abs(float(last_closed["close"]) - target_high_val) / target_high_val * 100.0
+            return SignalData(
+                title="اختراق للصعود",
+                sig_type="BullBOS",
+                price=float(last_closed["close"]),
+                level=target_high_val,
+                dist_pct=dist,
+                candle_time=candle_time,
+                icon="⬆️",
+                lname="القمة",
+                candles_ago=candles_ago,
+            )
+
+        if float(last_closed["high"]) > target_high_val and float(last_closed["close"]) < target_high_val:
+            dist = abs(float(last_closed["close"]) - target_high_val) / target_high_val * 100.0
+            return SignalData(
+                title="سحب سيولة القمة",
+                sig_type="BSL",
+                price=float(last_closed["close"]),
+                level=target_high_val,
+                dist_pct=dist,
+                candle_time=candle_time,
+                icon="⬆️",
+                lname="القمة",
+                candles_ago=candles_ago,
+            )
+
+    if target_low_val is not None and target_low_idx is not None:
+        candles_ago = last_closed_idx - target_low_idx
+
+        if float(prev_closed["close"]) >= target_low_val > float(last_closed["close"]):
+            dist = abs(float(last_closed["close"]) - target_low_val) / target_low_val * 100.0
+            return SignalData(
+                title="كسر للهبوط",
+                sig_type="BearBOS",
+                price=float(last_closed["close"]),
+                level=target_low_val,
+                dist_pct=dist,
+                candle_time=candle_time,
+                icon="⬇️",
+                lname="القاع",
+                candles_ago=candles_ago,
+            )
+
+        if float(last_closed["low"]) < target_low_val and float(last_closed["close"]) > target_low_val:
+            dist = abs(float(last_closed["close"]) - target_low_val) / target_low_val * 100.0
+            return SignalData(
+                title="سحب سيولة القاع",
+                sig_type="SSL",
+                price=float(last_closed["close"]),
+                level=target_low_val,
+                dist_pct=dist,
+                candle_time=candle_time,
+                icon="⬇️",
+                lname="القاع",
+                candles_ago=candles_ago,
+            )
+
+    return None
+
+# ==========================================
+# Message formatting
+# ==========================================
+def format_signal(symbol: str, sig: SignalData) -> str:
+    return (
+        f"{sig.icon} <b>{sig.title}</b>\n\n"
+        f"✅ العملة: #{symbol}\n"
+        f"📍 الإشارة: #{sig.sig_type}\n"
+        f"⏰ الفريم: #{TIMEFRAME}\n"
+        f"💰 الحالي: {fmt_price(sig.price)}\n"
+        f"{sig.icon} {sig.lname}: {fmt_price(sig.level)}\n"
+        f"⏳ البعد الزمني: {sig.candles_ago} شمعة سابقة\n"
+        f"📏 البعد: {sig.dist_pct:.2f}%\n"
+        f"⚠️ تحذير: رصد فني تعليمي فقط"
+    )
+
+def format_start_message() -> str:
+    return (
+        f"🚀 <b>تم تشغيل البوت</b>\n\n"
+        f"⏰ الفريم: #{TIMEFRAME}\n"
+        f"🪟 حجم الموجة: {WINDOW}\n"
+        f"🕯 الصمود الأدنى: {SURVIVAL_CANDLES} شمعة\n"
+        f"🔁 زمن الراحة بين الدورات: {CYCLE_SLEEP_SECONDS} ثانية"
+    )
+
+def format_stop_message(reason: str) -> str:
+    return (
+        f"🛑 <b>تم إيقاف البوت</b>\n\n"
+        f"السبب: {reason}"
+    )
+
+# ==========================================
+# Alert sending
+# ==========================================
+def send_signal_if_new(symbol: str, sig: SignalData) -> bool:
+    key = f"{symbol}|{sig.sig_type}|{sig.level:.8f}|{sig.candle_time}"
+
+    if key in alert_cache:
+        return False
+
+    alert_cache[key] = time.time()
+    sent = send_telegram(format_signal(symbol, sig), symbol=symbol)
+
+    if sent:
+        log_info(
+            "🎯 ALERT | %s | %s | level=%s | age=%s",
+            symbol,
+            sig.sig_type,
+            fmt_price(sig.level),
+            sig.candles_ago,
+        )
+    else:
+        log_error("فشل إرسال التنبيه | %s | %s", symbol, sig.sig_type)
+
+    return sent
+
+# ==========================================
+# Main
+# ==========================================
+def main() -> None:
+    validate_config()
+
+    if not startup_checks():
+        log_error("فشل التشغيل")
+        if SEND_STOP_MESSAGE:
+            send_telegram(format_stop_message("فشل فحوصات البداية"))
+        return
+
+    log_info("تم تشغيل البوت")
+
+    if SEND_STARTUP_MESSAGE:
+        send_telegram(format_start_message())
+
+    try:
+        while RUNNING:
+            cycle_started = time.time()
+
+            pairs = get_usdt_pairs()
+            if not pairs:
+                log_error("لم يتم جلب أي أزواج")
+                time.sleep(10)
+                continue
+
+            log_info("بدء دورة فحص جديدة | عدد الأزواج: %d", len(pairs))
+            alerts_sent = 0
+
+            for idx, symbol in enumerate(pairs, start=1):
+                if not RUNNING:
+                    break
+
+                df = get_klines(symbol)
+                if df.empty:
+                    continue
+
+                signal_data = analyze_smc(symbol, df)
+                if signal_data:
+                    if send_signal_if_new(symbol, signal_data):
+                        alerts_sent += 1
+
+                if idx % 50 == 0 or idx == len(pairs):
+                    log_info("تقدم الفحص: %d / %d", idx, len(pairs))
+
+                time.sleep(SCAN_SLEEP_PER_SYMBOL)
+
+            clean_cache()
+
+            elapsed = time.time() - cycle_started
+            log_info(
+                "انتهت الدورة | الأزواج: %d | التنبيهات المرسلة: %d | الزمن: %.1f ثانية",
+                len(pairs),
+                alerts_sent,
+                elapsed,
+            )
+
+            if RUNNING:
+                time.sleep(CYCLE_SLEEP_SECONDS)
+
+    except KeyboardInterrupt:
+        log_info("تم إيقاف البوت يدوياً")
+    except Exception as exc:
+        log_error("تم إيقاف البوت بسبب خطأ: %s", exc)
+        if SEND_STOP_MESSAGE:
+            send_telegram(format_stop_message(f"خطأ أثناء التشغيل: {exc}"))
+    finally:
+        try:
+            session.close()
+        except Exception:
+            pass
+
+        log_info("تم إيقاف البوت")
+        if SEND_STOP_MESSAGE:
+            send_telegram(format_stop_message("إيقاف يدوي أو انتهاء العملية"))
+
+if __name__ == "__main__":
+    main()
+
+سحب سيوله اختراق 
+import os
+import sys
+import time
+import signal
+import logging
+from dataclasses import dataclass
+from typing import Dict, List, Optional, Tuple
+
+import pandas as pd
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+# ==========================================
+# الإعدادات
+# ==========================================
+BINANCE_URL = "https://data-api.binance.vision"
+
+# بياناتك التجريبية
+TELEGRAM_TOKEN = os.getenv(
+    "TELEGRAM_TOKEN",
+    "8776695041:AAGhYc-SDcrm6CrrPXGsmJf0netTfBhcio8"
+)
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "127278288")
+
+TIMEFRAME = os.getenv("TIMEFRAME", "4h")
+WINDOW = int(os.getenv("WINDOW", "15"))
+SURVIVAL_CANDLES = int(os.getenv("SURVIVAL_CANDLES", "40"))
+
+KLINES_LIMIT = int(os.getenv("KLINES_LIMIT", "250"))
+SCAN_SLEEP_PER_SYMBOL = float(os.getenv("SCAN_SLEEP_PER_SYMBOL", "0.05"))
+CYCLE_SLEEP_SECONDS = int(os.getenv("CYCLE_SLEEP_SECONDS", "180"))
+REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT", "12"))
+PAIRS_CACHE_SECONDS = int(os.getenv("PAIRS_CACHE_SECONDS", "3600"))
+ALERT_TTL_SECONDS = int(os.getenv("ALERT_TTL_SECONDS", "21600"))
+SEND_STARTUP_MESSAGE = os.getenv("SEND_STARTUP_MESSAGE", "1") == "1"
+SEND_STOP_MESSAGE = os.getenv("SEND_STOP_MESSAGE", "1") == "1"
+
+VALID_INTERVALS = {
+    "1m", "3m", "5m", "15m", "30m",
+    "1h", "2h", "4h", "6h", "8h", "12h",
+    "1d", "3d", "1w", "1M",
+}
+
+STABLE_COINS = {
+    "USDCUSDT", "FDUSDUSDT", "TUSDUSDT", "BUSDUSDT",
+    "EURUSDT", "DAIUSDT", "USDPUSDT", "AEURUSDT", "USDDUSDT"
+}
+
+RUNNING = True
+
+# ==========================================
+# Logging
+# ==========================================
+logger = logging.getLogger("swing_bot_fixed")
+logger.setLevel(logging.INFO)
+logger.handlers.clear()
+
+formatter = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s", datefmt="%H:%M:%S")
+stream = logging.StreamHandler(sys.stdout)
+stream.setFormatter(formatter)
+logger.addHandler(stream)
+logger.propagate = False
+
+def log_info(msg: str, *args) -> None:
+    logger.info(msg, *args)
+    for h in logger.handlers:
+        try:
+            h.flush()
+        except Exception:
+            pass
+
+def log_error(msg: str, *args) -> None:
+    logger.error(msg, *args)
+    for h in logger.handlers:
+        try:
+            h.flush()
+        except Exception:
+            pass
+
+# ==========================================
+# Session
+# ==========================================
+def build_session() -> requests.Session:
+    session = requests.Session()
+
+    retry = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        backoff_factor=0.8,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset(["GET", "POST"]),
+        raise_on_status=False,
+    )
+
+    adapter = HTTPAdapter(
+        max_retries=retry,
+        pool_connections=30,
+        pool_maxsize=30,
+    )
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    session.headers.update({"User-Agent": "swing-bot-fixed/1.0"})
+    return session
+
+session = build_session()
+
+# ==========================================
+# Cache
+# ==========================================
+pairs_cache: List[str] = []
+pairs_cache_time = 0.0
+alert_cache: Dict[str, float] = {}
+
+# ==========================================
+# Data classes
+# ==========================================
+@dataclass(frozen=True)
+class SignalData:
+    title: str
+    sig_type: str
+    price: float
+    level: float
+    dist_pct: float
+    candle_time: int
+    icon: str
+    lname: str
+    candles_ago: int
+
+# ==========================================
+# Signal handling
+# ==========================================
+def handle_stop_signal(signum, frame) -> None:
+    global RUNNING
+    RUNNING = False
+    log_info("تم استلام إشارة إيقاف")
+
+signal.signal(signal.SIGINT, handle_stop_signal)
+signal.signal(signal.SIGTERM, handle_stop_signal)
+
+# ==========================================
+# Validation
+# ==========================================
+def validate_config() -> None:
+    if TIMEFRAME not in VALID_INTERVALS:
+        raise ValueError(f"TIMEFRAME غير صالح: {TIMEFRAME}")
+    if WINDOW < 2:
+        raise ValueError("WINDOW يجب أن يكون 2 أو أكثر")
+    if SURVIVAL_CANDLES < 1:
+        raise ValueError("SURVIVAL_CANDLES يجب أن يكون 1 أو أكثر")
+    if KLINES_LIMIT < (WINDOW * 2 + SURVIVAL_CANDLES + 20):
+        raise ValueError("KLINES_LIMIT صغير جدًا مقارنة بالإعدادات")
+    if REQUEST_TIMEOUT < 3:
+        raise ValueError("REQUEST_TIMEOUT صغير جدًا")
+
+# ==========================================
+# Helpers
+# ==========================================
+def fmt_price(x: float) -> str:
+    if x >= 1000:
+        return f"{x:,.2f}"
+    if x >= 1:
+        return f"{x:,.4f}"
+    if x >= 0.01:
+        return f"{x:.6f}"
+    return f"{x:.8f}"
+
+def interval_to_tv(interval: str) -> str:
+    mapping = {
+        "1m": "1",
+        "3m": "3",
+        "5m": "5",
+        "15m": "15",
+        "30m": "30",
+        "1h": "60",
+        "2h": "120",
+        "4h": "240",
+        "6h": "360",
+        "8h": "480",
+        "12h": "720",
+        "1d": "1D",
+        "3d": "3D",
+        "1w": "1W",
+        "1M": "1M",
+    }
+    return mapping.get(interval, "240")
+
+def build_tradingview_url(symbol: str) -> str:
+    return f"https://www.tradingview.com/chart/?symbol=BINANCE:{symbol}&interval={interval_to_tv(TIMEFRAME)}"
+
+def clean_cache() -> None:
+    now_ts = time.time()
+    expired_keys = [k for k, v in alert_cache.items() if now_ts - v > ALERT_TTL_SECONDS]
+    for key in expired_keys:
+        del alert_cache[key]
+
+# ==========================================
+# Telegram
+# ==========================================
+def build_reply_markup(symbol: str) -> Dict[str, object]:
+    return {
+        "inline_keyboard": [
+            [
+                {"text": "شارت العملة", "url": build_tradingview_url(symbol)},
+            ]
+        ]
+    }
+
+def send_telegram(msg: str, symbol: Optional[str] = None) -> bool:
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    payload: Dict[str, object] = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": msg,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": True,
+    }
+
+    if symbol:
+        payload["reply_markup"] = build_reply_markup(symbol)
+
+    try:
+        resp = session.post(url, json=payload, timeout=REQUEST_TIMEOUT)
+        if resp.status_code != 200:
+            log_error("Telegram error: %s", resp.text)
+            return False
+        data = resp.json()
+        return bool(data.get("ok", False))
+    except requests.RequestException as exc:
+        log_error("Telegram request error: %s", exc)
+        return False
+    except Exception as exc:
+        log_error("Telegram unexpected error: %s", exc)
+        return False
+
+def telegram_get_me() -> bool:
+    try:
+        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/getMe"
+        resp = session.get(url, timeout=REQUEST_TIMEOUT)
+        if resp.status_code != 200:
+            log_error("Telegram getMe failed: %s", resp.text)
+            return False
+        data = resp.json()
+        return bool(data.get("ok", False))
+    except requests.RequestException as exc:
+        log_error("Telegram getMe request error: %s", exc)
+        return False
+
+# ==========================================
+# Binance requests
+# ==========================================
+def startup_checks() -> bool:
+    try:
+        ping = session.get(f"{BINANCE_URL}/api/v3/ping", timeout=REQUEST_TIMEOUT)
+        ping.raise_for_status()
+
+        klines = session.get(
+            f"{BINANCE_URL}/api/v3/klines",
+            params={"symbol": "BTCUSDT", "interval": TIMEFRAME, "limit": 10},
+            timeout=REQUEST_TIMEOUT,
+        )
+        klines.raise_for_status()
+
+        if not telegram_get_me():
+            return False
+
+        return True
+    except Exception as exc:
+        log_error("Startup checks failed: %s", exc)
+        return False
+
+def get_usdt_pairs() -> List[str]:
+    global pairs_cache, pairs_cache_time
+
+    now_ts = time.time()
+    if pairs_cache and (now_ts - pairs_cache_time) < PAIRS_CACHE_SECONDS:
+        return pairs_cache.copy()
+
+    try:
+        resp = session.get(f"{BINANCE_URL}/api/v3/exchangeInfo", timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+
+        pairs: List[str] = []
+        for s in data.get("symbols", []):
+            symbol = s.get("symbol", "")
+            if not symbol.endswith("USDT"):
+                continue
+            if s.get("quoteAsset") != "USDT":
+                continue
+            if s.get("status") != "TRADING":
+                continue
+            if not s.get("isSpotTradingAllowed", True):
+                continue
+            if symbol in STABLE_COINS:
+                continue
+            pairs.append(symbol)
+
+        pairs_cache = sorted(set(pairs))
+        pairs_cache_time = now_ts
+        log_info("تم جلب %d زوج USDT", len(pairs_cache))
+        return pairs_cache.copy()
+
+    except Exception as exc:
+        log_error("ExchangeInfo error: %s", exc)
+        return pairs_cache.copy() if pairs_cache else []
+
+def get_klines(symbol: str) -> pd.DataFrame:
+    try:
+        resp = session.get(
+            f"{BINANCE_URL}/api/v3/klines",
+            params={"symbol": symbol, "interval": TIMEFRAME, "limit": KLINES_LIMIT},
+            timeout=REQUEST_TIMEOUT,
+        )
+        resp.raise_for_status()
+        rows = resp.json()
+
+        if not isinstance(rows, list) or not rows:
+            return pd.DataFrame()
+
+        df = pd.DataFrame(
+            rows,
+            columns=[
+                "timestamp", "open", "high", "low", "close", "volume",
+                "close_time", "qav", "num_trades", "tbv", "tqv", "ignore"
+            ]
+        )
+
+        df = df[["timestamp", "open", "high", "low", "close", "close_time"]].copy()
+
+        df["timestamp"] = pd.to_numeric(df["timestamp"], errors="coerce").astype("Int64")
+        df["close_time"] = pd.to_numeric(df["close_time"], errors="coerce").astype("Int64")
+        for col in ["open", "high", "low", "close"]:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+
+        df = df.dropna().reset_index(drop=True)
+        if df.empty:
+            return pd.DataFrame()
+
+        df["timestamp"] = df["timestamp"].astype("int64")
+        df["close_time"] = df["close_time"].astype("int64")
+
+        return df
+
+    except Exception as exc:
+        log_error("Klines error | %s | %s", symbol, exc)
+        return pd.DataFrame()
+
+# ==========================================
+# SMC logic
+# ==========================================
+def analyze_smc(symbol: str, df: pd.DataFrame) -> Optional[SignalData]:
+    min_required = max(200, WINDOW * 2 + SURVIVAL_CANDLES + 10)
+    if len(df) < min_required:
+        return None
+
+    last_closed_idx = len(df) - 2
+    prev_closed_idx = len(df) - 3
+
+    if prev_closed_idx < 0 or last_closed_idx < 0:
+        return None
+
+    prev_closed = df.iloc[prev_closed_idx]
+    last_closed = df.iloc[last_closed_idx]
+    candle_time = int(last_closed["timestamp"])
+
+    roll_window = WINDOW * 2 + 1
+
+    highs_roll = df["high"].rolling(window=roll_window, center=True).max()
+    lows_roll = df["low"].rolling(window=roll_window, center=True).min()
+
+    df = df.copy()
+    df["SwingHigh"] = (df["high"] == highs_roll)
+    df["SwingLow"] = (df["low"] == lows_roll)
+
+    major_highs = df.index[df["SwingHigh"]].tolist()
+    major_lows = df.index[df["SwingLow"]].tolist()
+
+    target_high_val: Optional[float] = None
+    target_high_idx: Optional[int] = None
+
+    for idx in reversed(major_highs):
+        if idx >= last_closed_idx:
+            continue
+        if last_closed_idx - idx < SURVIVAL_CANDLES:
+            continue
+
+        segment = df.loc[idx + 1:last_closed_idx - 1, "high"]
+        if segment.empty or float(segment.max()) <= float(df.at[idx, "high"]):
+            target_high_val = float(df.at[idx, "high"])
+            target_high_idx = idx
+            break
+
+    target_low_val: Optional[float] = None
+    target_low_idx: Optional[int] = None
+
+    for idx in reversed(major_lows):
+        if idx >= last_closed_idx:
+            continue
+        if last_closed_idx - idx < SURVIVAL_CANDLES:
+            continue
+
+        segment = df.loc[idx + 1:last_closed_idx - 1, "low"]
+        if segment.empty or float(segment.min()) >= float(df.at[idx, "low"]):
+            target_low_val = float(df.at[idx, "low"])
+            target_low_idx = idx
+            break
+
+    if target_high_val is not None and target_high_idx is not None:
+        candles_ago = last_closed_idx - target_high_idx
+
+        if float(prev_closed["close"]) <= target_high_val < float(last_closed["close"]):
+            dist = abs(float(last_closed["close"]) - target_high_val) / target_high_val * 100.0
+            return SignalData(
+                title="اختراق للصعود",
+                sig_type="BullBOS",
+                price=float(last_closed["close"]),
+                level=target_high_val,
+                dist_pct=dist,
+                candle_time=candle_time,
+                icon="⬆️",
+                lname="القمة",
+                candles_ago=candles_ago,
+            )
+
+        if float(last_closed["high"]) > target_high_val and float(last_closed["close"]) < target_high_val:
+            dist = abs(float(last_closed["close"]) - target_high_val) / target_high_val * 100.0
+            return SignalData(
+                title="سحب سيولة القمة",
+                sig_type="BSL",
+                price=float(last_closed["close"]),
+                level=target_high_val,
+                dist_pct=dist,
+                candle_time=candle_time,
+                icon="⬆️",
+                lname="القمة",
+                candles_ago=candles_ago,
+            )
+
+    if target_low_val is not None and target_low_idx is not None:
+        candles_ago = last_closed_idx - target_low_idx
+
+        if float(prev_closed["close"]) >= target_low_val > float(last_closed["close"]):
+            dist = abs(float(last_closed["close"]) - target_low_val) / target_low_val * 100.0
+            return SignalData(
+                title="كسر للهبوط",
+                sig_type="BearBOS",
+                price=float(last_closed["close"]),
+                level=target_low_val,
+                dist_pct=dist,
+                candle_time=candle_time,
+                icon="⬇️",
+                lname="القاع",
+                candles_ago=candles_ago,
+            )
+
+        if float(last_closed["low"]) < target_low_val and float(last_closed["close"]) > target_low_val:
+            dist = abs(float(last_closed["close"]) - target_low_val) / target_low_val * 100.0
+            return SignalData(
+                title="سحب سيولة القاع",
+                sig_type="SSL",
+                price=float(last_closed["close"]),
+                level=target_low_val,
+                dist_pct=dist,
+                candle_time=candle_time,
+                icon="⬇️",
+                lname="القاع",
+                candles_ago=candles_ago,
+            )
+
+    return None
+
+# ==========================================
+# Message formatting
+# ==========================================
+def format_signal(symbol: str, sig: SignalData) -> str:
+    return (
+        f"{sig.icon} <b>{sig.title}</b>\n\n"
+        f"✅ العملة: #{symbol}\n"
+        f"📍 الإشارة: #{sig.sig_type}\n"
+        f"⏰ الفريم: #{TIMEFRAME}\n"
+        f"💰 الحالي: {fmt_price(sig.price)}\n"
+        f"{sig.icon} {sig.lname}: {fmt_price(sig.level)}\n"
+        f"⏳ البعد الزمني: {sig.candles_ago} شمعة سابقة\n"
+        f"📏 البعد: {sig.dist_pct:.2f}%\n"
+        f"⚠️ تحذير: رصد فني تعليمي فقط"
+    )
+
+def format_start_message() -> str:
+    return (
+        f"🚀 <b>تم تشغيل البوت</b>\n\n"
+        f"⏰ الفريم: #{TIMEFRAME}\n"
+        f"🪟 حجم الموجة: {WINDOW}\n"
+        f"🕯 الصمود الأدنى: {SURVIVAL_CANDLES} شمعة\n"
+        f"🔁 زمن الراحة بين الدورات: {CYCLE_SLEEP_SECONDS} ثانية"
+    )
+
+def format_stop_message(reason: str) -> str:
+    return (
+        f"🛑 <b>تم إيقاف البوت</b>\n\n"
+        f"السبب: {reason}"
+    )
+
+# ==========================================
+# Alert sending
+# ==========================================
+def send_signal_if_new(symbol: str, sig: SignalData) -> bool:
+    key = f"{symbol}|{sig.sig_type}|{sig.level:.8f}|{sig.candle_time}"
+
+    if key in alert_cache:
+        return False
+
+    alert_cache[key] = time.time()
+    sent = send_telegram(format_signal(symbol, sig), symbol=symbol)
+
+    if sent:
+        log_info(
+            "🎯 ALERT | %s | %s | level=%s | age=%s",
+            symbol,
+            sig.sig_type,
+            fmt_price(sig.level),
+            sig.candles_ago,
+        )
+    else:
+        log_error("فشل إرسال التنبيه | %s | %s", symbol, sig.sig_type)
+
+    return sent
+
+# ==========================================
+# Main
+# ==========================================
+def main() -> None:
+    validate_config()
+
+    if not startup_checks():
+        log_error("فشل التشغيل")
+        if SEND_STOP_MESSAGE:
+            send_telegram(format_stop_message("فشل فحوصات البداية"))
+        return
+
+    log_info("تم تشغيل البوت")
+
+    if SEND_STARTUP_MESSAGE:
+        send_telegram(format_start_message())
+
+    try:
+        while RUNNING:
+            cycle_started = time.time()
+
+            pairs = get_usdt_pairs()
+            if not pairs:
+                log_error("لم يتم جلب أي أزواج")
+                time.sleep(10)
+                continue
+
+            log_info("بدء دورة فحص جديدة | عدد الأزواج: %d", len(pairs))
+            alerts_sent = 0
+
+            for idx, symbol in enumerate(pairs, start=1):
+                if not RUNNING:
+                    break
+
+                df = get_klines(symbol)
+                if df.empty:
+                    continue
+
+                signal_data = analyze_smc(symbol, df)
+                if signal_data:
+                    if send_signal_if_new(symbol, signal_data):
+                        alerts_sent += 1
+
+                if idx % 50 == 0 or idx == len(pairs):
+                    log_info("تقدم الفحص: %d / %d", idx, len(pairs))
+
+                time.sleep(SCAN_SLEEP_PER_SYMBOL)
+
+            clean_cache()
+
+            elapsed = time.time() - cycle_started
+            log_info(
+                "انتهت الدورة | الأزواج: %d | التنبيهات المرسلة: %d | الزمن: %.1f ثانية",
+                len(pairs),
+                alerts_sent,
+                elapsed,
+            )
+
+            if RUNNING:
+                time.sleep(CYCLE_SLEEP_SECONDS)
+
+    except KeyboardInterrupt:
+        log_info("تم إيقاف البوت يدوياً")
+    except Exception as exc:
+        log_error("تم إيقاف البوت بسبب خطأ: %s", exc)
+        if SEND_STOP_MESSAGE:
+            send_telegram(format_stop_message(f"خطأ أثناء التشغيل: {exc}"))
+    finally:
+        try:
+            session.close()
+        except Exception:
+            pass
+
+        log_info("تم إيقاف البوت")
+        if SEND_STOP_MESSAGE:
+            send_telegram(format_stop_message("إيقاف يدوي أو انتهاء العملية"))
+
+if __name__ == "__main__":
+    main()
+
+اختراق و سيوله ساعه و اربع ساعات 
+
+import sys
+import time
+import signal
+import logging
+from dataclasses import dataclass
+from typing import Dict, List, Tuple, Optional
+import json
+
+import pandas as pd
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+# ==========================================
+# الإعدادات
+# ==========================================
+BINANCE_URL = "https://data-api.binance.vision"
+
+# بياناتك التجريبية
+TELEGRAM_TOKEN = "8776695041:AAGhYc-SDcrm6CrrPXGsmJf0netTfBhcio8"
+TELEGRAM_CHAT_ID = "127278288"
+
+STRUCTURE_INTERVAL = "4h"
+TRIGGER_INTERVAL = "1m"
+
+STRUCTURE_KLINE_LIMIT = 320
+TRIGGER_KLINE_LIMIT = 5
+
+SCAN_EVERY_SECONDS = 15
+PAIRS_CACHE_SECONDS = 3600
+ALERT_TTL_SECONDS = 21600
+REQUEST_TIMEOUT = 12
+
+SEND_STARTUP_MESSAGE = True
+SEND_STOP_MESSAGE = True
+SEND_TEST_MESSAGE_ON_START = True
+
+MAX_PAIRS_PER_CYCLE = 0
+
+FIXED_DEPTHS = [14, 20, 28, 34]
+MIN_CANDLES_AGO = 20
+MIN_STRUCTURE_SPAN = 6
+
+FOLLOW_URL = "https://x.com/rzinbitcoin"
+
+STABLE_COINS = {
+    "USDCUSDT", "FDUSDUSDT", "TUSDUSDT", "BUSDUSDT",
+    "EURUSDT", "DAIUSDT", "USDPUSDT", "AEURUSDT", "USDDUSDT"
+}
+
+STABLE_BASES = {
+    "USDT", "USDC", "FDUSD", "TUSD", "BUSD", "DAI", "USDP", "AEUR", "USDD",
+    "EUR", "TRY", "GBP", "AUD", "BRL", "BIDR", "IDRT", "UAH", "NGN", "RUB",
+    "ZAR", "RON", "PLN", "JPY", "KRW", "MXN", "CAD", "CHF"
+}
+
+VALID_INTERVALS = {
+    "1m", "3m", "5m", "15m", "30m",
+    "1h", "2h", "4h", "6h", "8h", "12h",
+    "1d", "3d", "1w", "1M",
+}
+
+TV_INTERVAL_MAP = {
+    "1m": "1",
+    "3m": "3",
+    "5m": "5",
+    "15m": "15",
+    "30m": "30",
+    "1h": "60",
+    "2h": "120",
+    "4h": "240",
+    "6h": "360",
+    "8h": "480",
+    "12h": "720",
+    "1d": "1D",
+    "3d": "3D",
+    "1w": "1W",
+    "1M": "1M",
+}
+
+# ==========================================
+# Logging
+# ==========================================
+logger = logging.getLogger("smc_bot_fixed")
+logger.setLevel(logging.INFO)
+logger.handlers.clear()
+
+formatter = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s", datefmt="%H:%M:%S")
+stream = logging.StreamHandler(sys.stdout)
+stream.setFormatter(formatter)
+logger.addHandler(stream)
+logger.propagate = False
+
+RUNNING = True
+STOP_REASON = "إيقاف يدوي أو انتهاء العملية"
+STOP_MESSAGE_SENT = False
+
+alert_cache: Dict[str, float] = {}
+pairs_cache: List[str] = []
+pairs_cache_time = 0.0
+
+# ==========================================
+# Dataclass
+# ==========================================
+@dataclass(frozen=True)
+class Pivot:
+    price: float
+    index: int
+    direction: int  # 1=high, -1=low
+
+# ==========================================
+# Logging helper
+# ==========================================
+def log_terminal(msg: str, *args) -> None:
+    logger.info(msg, *args)
+    for h in logger.handlers:
+        try:
+            h.flush()
+        except Exception:
+            pass
+
+# ==========================================
+# Session
+# ==========================================
+def build_session() -> requests.Session:
+    session = requests.Session()
+    retry = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        backoff_factor=0.7,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset(["GET", "POST"]),
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retry, pool_connections=30, pool_maxsize=30)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    session.headers.update({"User-Agent": "smc-bot-fixed/6.0"})
+    return session
+
+session = build_session()
+
+# ==========================================
+# Signals
+# ==========================================
+def handle_stop_signal(signum, frame) -> None:
+    global RUNNING, STOP_REASON
+    RUNNING = False
+    STOP_REASON = f"تم استقبال إشارة النظام: {signum}"
+    log_terminal("تم إيقاف البوت بإشارة نظام")
+
+signal.signal(signal.SIGINT, handle_stop_signal)
+signal.signal(signal.SIGTERM, handle_stop_signal)
+
+# ==========================================
+# Validation
+# ==========================================
+def validate_config() -> None:
+    if STRUCTURE_INTERVAL not in VALID_INTERVALS:
+        raise ValueError(f"STRUCTURE_INTERVAL غير صالح: {STRUCTURE_INTERVAL}")
+    if TRIGGER_INTERVAL not in VALID_INTERVALS:
+        raise ValueError(f"TRIGGER_INTERVAL غير صالح: {TRIGGER_INTERVAL}")
+    if STRUCTURE_KLINE_LIMIT < 220:
+        raise ValueError("STRUCTURE_KLINE_LIMIT يجب أن يكون 220 أو أكثر")
+    if TRIGGER_KLINE_LIMIT < 3:
+        raise ValueError("TRIGGER_KLINE_LIMIT يجب أن يكون 3 أو أكثر")
+    if SCAN_EVERY_SECONDS < 5:
+        raise ValueError("SCAN_EVERY_SECONDS يجب أن يكون 5 أو أكثر")
+    if STRUCTURE_INTERVAL not in TV_INTERVAL_MAP:
+        raise ValueError(f"لا يوجد تحويل TradingView للفريم: {STRUCTURE_INTERVAL}")
+
+# ==========================================
+# Telegram
+# ==========================================
+def build_tradingview_url(symbol: str) -> str:
+    tv_symbol = f"BINANCE:{symbol}"
+    tv_interval = TV_INTERVAL_MAP[STRUCTURE_INTERVAL]
+    return f"https://www.tradingview.com/chart/?symbol={tv_symbol}&interval={tv_interval}"
+
+def build_reply_markup(symbol: str) -> str:
+    markup = {
+        "inline_keyboard": [
+            [
+                {"text": "𝕏 تابعني", "url": FOLLOW_URL},
+                {"text": "شارت العملة", "url": build_tradingview_url(symbol)},
+            ]
+        ]
+    }
+    return json.dumps(markup, ensure_ascii=False)
+
+def send_telegram(msg: str, symbol: Optional[str] = None) -> bool:
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": msg,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": True,
+    }
+
+    if symbol:
+        payload["reply_markup"] = build_reply_markup(symbol)
+
+    try:
+        resp = session.post(url, data=payload, timeout=REQUEST_TIMEOUT)
+        if resp.status_code != 200:
+            log_terminal("Telegram send failed | code=%s | body=%s", resp.status_code, resp.text[:500])
+            return False
+
+        data = resp.json()
+        if not data.get("ok", False):
+            log_terminal("Telegram send failed | response=%s", str(data)[:500])
+            return False
+
+        return True
+    except Exception as exc:
+        log_terminal("Telegram exception: %s", exc)
+        return False
+
+def telegram_get_me() -> bool:
+    try:
+        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/getMe"
+        resp = session.get(url, timeout=REQUEST_TIMEOUT)
+        if resp.status_code != 200:
+            log_terminal("Telegram getMe failed | code=%s | body=%s", resp.status_code, resp.text[:500])
+            return False
+
+        data = resp.json()
+        if not data.get("ok", False):
+            log_terminal("Telegram getMe invalid response | %s", str(data)[:500])
+            return False
+
+        bot_username = data.get("result", {}).get("username", "unknown")
+        log_terminal("Telegram bot connected: @%s", bot_username)
+        return True
+    except Exception as exc:
+        log_terminal("Telegram getMe exception: %s", exc)
+        return False
+
+# ==========================================
+# Startup checks
+# ==========================================
+def startup_checks() -> bool:
+    try:
+        resp = session.get(f"{BINANCE_URL}/api/v3/ping", timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        log_terminal("Binance ping OK")
+
+        resp = session.get(
+            f"{BINANCE_URL}/api/v3/klines",
+            params={"symbol": "BTCUSDT", "interval": STRUCTURE_INTERVAL, "limit": 10},
+            timeout=REQUEST_TIMEOUT,
+        )
+        resp.raise_for_status()
+        rows = resp.json()
+        if not isinstance(rows, list) or len(rows) < 3:
+            log_terminal("Binance klines invalid response")
+            return False
+        log_terminal("Binance klines OK")
+
+        if not telegram_get_me():
+            return False
+
+        if SEND_TEST_MESSAGE_ON_START:
+            ok = send_telegram("✅ <b>فحص البداية نجح</b>\n\nالاتصال بـ Binance و Telegram يعمل.")
+            if not ok:
+                log_terminal("فشل إرسال رسالة الاختبار")
+                return False
+            log_terminal("رسالة الاختبار وصلت")
+
+        return True
+    except Exception as exc:
+        log_terminal("startup_checks failed: %s", exc)
+        return False
+
+# ==========================================
+# Data fetch
+# ==========================================
+def get_usdt_pairs() -> List[str]:
+    global pairs_cache, pairs_cache_time
+
+    now = time.time()
+    if pairs_cache and (now - pairs_cache_time) < PAIRS_CACHE_SECONDS:
+        return pairs_cache
+
+    try:
+        resp = session.get(f"{BINANCE_URL}/api/v3/exchangeInfo", timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+        symbols = data.get("symbols", [])
+
+        pairs: List[str] = []
+
+        for s in symbols:
+            symbol = s.get("symbol", "")
+            quote_asset = s.get("quoteAsset", "")
+            base_asset = s.get("baseAsset", "")
+
+            if not symbol:
+                continue
+            if quote_asset != "USDT":
+                continue
+            if s.get("status") != "TRADING":
+                continue
+            if not s.get("isSpotTradingAllowed", True):
+                continue
+            if symbol in STABLE_COINS:
+                continue
+            if base_asset in STABLE_BASES:
+                continue
+            if not symbol.isascii() or not symbol.isalnum():
+                continue
+
+            pairs.append(symbol)
+
+        pairs_cache = sorted(set(pairs))
+        pairs_cache_time = now
+        log_terminal("تم جلب الأزواج: %d", len(pairs_cache))
+        return pairs_cache
+
+    except Exception as exc:
+        log_terminal("get_usdt_pairs failed: %s", exc)
+        return pairs_cache.copy() if pairs_cache else []
+
+def get_klines(symbol: str, interval: str, limit: int) -> pd.DataFrame:
+    try:
+        resp = session.get(
+            f"{BINANCE_URL}/api/v3/klines",
+            params={"symbol": symbol, "interval": interval, "limit": limit},
+            timeout=REQUEST_TIMEOUT,
+        )
+        resp.raise_for_status()
+        rows = resp.json()
+
+        if not rows or not isinstance(rows, list):
+            return pd.DataFrame()
+
+        df = pd.DataFrame(
+            rows,
+            columns=[
+                "timestamp", "open", "high", "low", "close", "volume",
+                "close_time", "qav", "num_trades", "tbv", "tqv", "ignore"
+            ]
+        )
+
+        df = df[["timestamp", "open", "high", "low", "close", "close_time"]].copy()
+
+        for col in ["timestamp", "open", "high", "low", "close", "close_time"]:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+
+        return df.dropna().reset_index(drop=True)
+
+    except Exception as exc:
+        log_terminal("get_klines failed | %s | %s | %s", symbol, interval, exc)
+        return pd.DataFrame()
+
+# ==========================================
+# Pivot logic
+# ==========================================
+def is_pivot(df: pd.DataFrame, idx: int, depth: int, is_high: bool) -> bool:
+    if idx - depth < 0 or idx + depth >= len(df):
+        return False
+
+    col = "high" if is_high else "low"
+    center = float(df.at[idx, col])
+
+    for i in range(1, depth + 1):
+        left = float(df.at[idx - i, col])
+        right = float(df.at[idx + i, col])
+
+        if is_high and (center <= left or center <= right):
+            return False
+        if not is_high and (center >= left or center >= right):
+            return False
+
+    return True
+
+def build_pivots(df: pd.DataFrame, depth: int, min_span: int, max_pivots: int = 120) -> List[Pivot]:
+    pivots: List[Pivot] = []
+
+    for idx in range(depth, len(df) - depth):
+        is_high_pivot = is_pivot(df, idx, depth, True)
+        is_low_pivot = is_pivot(df, idx, depth, False)
+
+        if is_high_pivot and is_low_pivot:
+            continue
+
+        candidate: Optional[Pivot] = None
+        if is_high_pivot:
+            candidate = Pivot(float(df.at[idx, "high"]), idx, 1)
+        elif is_low_pivot:
+            candidate = Pivot(float(df.at[idx, "low"]), idx, -1)
+
+        if candidate is None:
+            continue
+
+        if not pivots:
+            pivots.append(candidate)
+            continue
+
+        last = pivots[-1]
+
+        if candidate.direction == last.direction:
+            if candidate.direction == 1 and candidate.price > last.price:
+                pivots[-1] = candidate
+            elif candidate.direction == -1 and candidate.price < last.price:
+                pivots[-1] = candidate
+        else:
+            if candidate.index - last.index >= min_span:
+                pivots.append(candidate)
+
+    return pivots[-max_pivots:]
+
+def get_protected_levels(
+    df: pd.DataFrame,
+    pivots: List[Pivot],
+    last_closed_idx: int,
+    min_age: int
+) -> Tuple[List[Dict[str, float]], List[Dict[str, float]]]:
+    highs: List[Dict[str, float]] = []
+    lows: List[Dict[str, float]] = []
+
+    for pv in reversed(pivots):
+        age = last_closed_idx - pv.index
+        if age < min_age:
+            continue
+
+        if pv.direction == 1:
+            segment = df.loc[pv.index + 1:last_closed_idx, "high"]
+            if not segment.empty and float(segment.max()) <= pv.price:
+                highs.append({"level": pv.price, "age": float(age)})
+        else:
+            segment = df.loc[pv.index + 1:last_closed_idx, "low"]
+            if not segment.empty and float(segment.min()) >= pv.price:
+                lows.append({"level": pv.price, "age": float(age)})
+
+    return highs, lows
+
+# ==========================================
+# Structure extraction
+# ==========================================
+def get_levels_from_structure(symbol: str) -> Tuple[List[Dict[str, float]], List[Dict[str, float]]]:
+    df = get_klines(symbol, STRUCTURE_INTERVAL, STRUCTURE_KLINE_LIMIT)
+    if len(df) < 220:
+        return [], []
+
+    # مهم: استبعاد آخر شمعة حية من بناء الهيكل
+    structure_df = df.iloc[:-1].copy()
+    if len(structure_df) < 220:
+        return [], []
+
+    last_closed_idx = len(structure_df) - 1
+    all_highs: List[Dict[str, float]] = []
+    all_lows: List[Dict[str, float]] = []
+
+    for depth in FIXED_DEPTHS:
+        pivots = build_pivots(structure_df, depth, MIN_STRUCTURE_SPAN)
+        if len(pivots) < 4:
+            continue
+
+        highs, lows = get_protected_levels(structure_df, pivots, last_closed_idx, MIN_CANDLES_AGO)
+
+        for h in highs[:3]:
+            all_highs.append({
+                "level": float(h["level"]),
+                "age": float(h["age"]),
+                "depth": depth,
+            })
+
+        for l in lows[:3]:
+            all_lows.append({
+                "level": float(l["level"]),
+                "age": float(l["age"]),
+                "depth": depth,
+            })
+
+    best_highs: Dict[str, Dict[str, float]] = {}
+    best_lows: Dict[str, Dict[str, float]] = {}
+
+    for item in all_highs:
+        key = f"{item['level']:.8f}"
+        old = best_highs.get(key)
+        if old is None or item["depth"] > old["depth"]:
+            best_highs[key] = item
+
+    for item in all_lows:
+        key = f"{item['level']:.8f}"
+        old = best_lows.get(key)
+        if old is None or item["depth"] > old["depth"]:
+            best_lows[key] = item
+
+    return list(best_highs.values()), list(best_lows.values())
+
+# ==========================================
+# Dedup
+# ==========================================
+def signal_family(sig_type: str) -> str:
+    if sig_type.startswith("BullBOS"):
+        return "BullBOS"
+    if sig_type.startswith("BearBOS"):
+        return "BearBOS"
+    if sig_type.startswith("Live_BSL"):
+        return "Live_BSL"
+    if sig_type.startswith("Live_SSL"):
+        return "Live_SSL"
+    return sig_type
+
+def choose_best_signal(signals: List[Dict[str, object]]) -> List[Dict[str, object]]:
+    chosen: Dict[str, Dict[str, object]] = {}
+
+    for sig in signals:
+        fam = f"{sig['symbol']}|{signal_family(str(sig['type']))}"
+        old = chosen.get(fam)
+
+        if old is None:
+            chosen[fam] = sig
+            continue
+
+        old_depth = int(old["depth"])
+        new_depth = int(sig["depth"])
+
+        old_dist = float(old.get("dist", 999999.0))
+        new_dist = float(sig.get("dist", 999999.0))
+
+        old_age = int(old["candles_ago"])
+        new_age = int(sig["candles_ago"])
+
+        if new_depth > old_depth:
+            chosen[fam] = sig
+        elif new_depth == old_depth and new_dist < old_dist:
+            chosen[fam] = sig
+        elif new_depth == old_depth and abs(new_dist - old_dist) < 1e-12 and new_age > old_age:
+            chosen[fam] = sig
+
+    return list(chosen.values())
+
+# ==========================================
+# Detection
+# ==========================================
+def detect_latest_signals(symbol: str) -> List[Dict[str, object]]:
+    highs, lows = get_levels_from_structure(symbol)
+    if not highs and not lows:
+        return []
+
+    trigger_df = get_klines(symbol, TRIGGER_INTERVAL, TRIGGER_KLINE_LIMIT)
+    if len(trigger_df) < 3:
+        return []
+
+    prev_closed = trigger_df.iloc[-3]
+    closed_candle = trigger_df.iloc[-2]
+    live_candle = trigger_df.iloc[-1]
+
+    signals: List[Dict[str, object]] = []
+
+    for item in highs[:10]:
+        level = float(item["level"])
+        age = int(item["age"])
+        depth = int(item["depth"])
+
+        if prev_closed["close"] <= level < closed_candle["close"]:
+            price = float(closed_candle["close"])
+            signals.append({
+                "symbol": symbol,
+                "title": "تأكيد اختراق (BOS)",
+                "type": f"BullBOS_{TRIGGER_INTERVAL}",
+                "state": "Closed",
+                "price": price,
+                "level": level,
+                "dist": abs(price - level),
+                "icon": "🟢",
+                "lname": "القمة",
+                "candles_ago": age,
+                "depth": depth,
+            })
+        elif closed_candle["close"] <= level and live_candle["high"] > level:
+            price = float(live_candle["close"])
+            signals.append({
+                "symbol": symbol,
+                "title": "سحب سيولة قمة (لحظي)",
+                "type": f"Live_BSL_{TRIGGER_INTERVAL}",
+                "state": "Live",
+                "price": price,
+                "level": level,
+                "dist": abs(price - level),
+                "icon": "⚡",
+                "lname": "القمة",
+                "candles_ago": age,
+                "depth": depth,
+            })
+
+    for item in lows[:10]:
+        level = float(item["level"])
+        age = int(item["age"])
+        depth = int(item["depth"])
+
+        if prev_closed["close"] >= level > closed_candle["close"]:
+            price = float(closed_candle["close"])
+            signals.append({
+                "symbol": symbol,
+                "title": "تأكيد كسر (BOS)",
+                "type": f"BearBOS_{TRIGGER_INTERVAL}",
+                "state": "Closed",
+                "price": price,
+                "level": level,
+                "dist": abs(price - level),
+                "icon": "🔴",
+                "lname": "القاع",
+                "candles_ago": age,
+                "depth": depth,
+            })
+        elif closed_candle["close"] >= level and live_candle["low"] < level:
+            price = float(live_candle["close"])
+            signals.append({
+                "symbol": symbol,
+                "title": "سحب سيولة قاع (لحظي)",
+                "type": f"Live_SSL_{TRIGGER_INTERVAL}",
+                "state": "Live",
+                "price": price,
+                "level": level,
+                "dist": abs(price - level),
+                "icon": "⚡",
+                "lname": "القاع",
+                "candles_ago": age,
+                "depth": depth,
+            })
+
+    return choose_best_signal(signals)
+
+# ==========================================
+# Helpers
+# ==========================================
+def clean_cache() -> None:
+    now = time.time()
+    expired = [k for k, v in alert_cache.items() if now - v > ALERT_TTL_SECONDS]
+    for key in expired:
+        del alert_cache[key]
+
+def fmt_price(x: float) -> str:
+    if x >= 1000:
+        return f"{x:,.2f}"
+    if x >= 1:
+        return f"{x:,.4f}"
+    if x >= 0.01:
+        return f"{x:.6f}"
+    return f"{x:.8f}"
+
+def format_signal(sig: Dict[str, object]) -> str:
+    return (
+        f"{sig['icon']} <b>{sig['title']}</b>\n\n"
+        f"✅ العملة: #{sig['symbol']}\n"
+        f"📍 الحالة: {sig['state']}\n"
+        f"🏗️ فريم الهيكل: #{STRUCTURE_INTERVAL.upper()}\n"
+        f"⚡ فريم التفعيل: #{TRIGGER_INTERVAL.upper()}\n"
+        f"🌊 عمق الهيكل: {sig['depth']}\n"
+        f"💰 السعر: {fmt_price(float(sig['price']))}\n"
+        f"🎯 {sig['lname']}: {fmt_price(float(sig['level']))}\n"
+        f"⏳ صمود المستوى: {sig['candles_ago']} شمعة"
+    )
+
+def format_start_message() -> str:
+    return (
+        f"🚀 <b>تم تشغيل البوت</b>\n\n"
+        f"🏗️ فريم الهيكل: #{STRUCTURE_INTERVAL.upper()}\n"
+        f"⚡ فريم التفعيل: #{TRIGGER_INTERVAL.upper()}\n"
+        f"🌊 الأعماق: {FIXED_DEPTHS}\n"
+        f"🔁 الفحص كل: {SCAN_EVERY_SECONDS} ثانية"
+    )
+
+def format_stop_message(reason: str) -> str:
+    return f"🛑 <b>تم إيقاف البوت</b>\n\nالسبب: {reason}"
+
+def send_signal_if_new(sig: Dict[str, object]) -> bool:
+    key = f"{sig['symbol']}|{signal_family(str(sig['type']))}|{float(sig['level']):.8f}"
+
+    if key in alert_cache:
+        return False
+
+    log_terminal("تم اكتشاف إشارة | %s | %s", sig["symbol"], sig["title"])
+
+    sent = send_telegram(format_signal(sig), symbol=str(sig["symbol"]))
+    if not sent:
+        log_terminal("فشل إرسال التنبيه | %s", sig["symbol"])
+        return False
+
+    alert_cache[key] = time.time()
+    return True
+
+def send_stop_once(reason: str) -> None:
+    global STOP_MESSAGE_SENT
+    if STOP_MESSAGE_SENT:
+        return
+    STOP_MESSAGE_SENT = True
+    if SEND_STOP_MESSAGE:
+        send_telegram(format_stop_message(reason))
+
+def sleep_interruptible(seconds: int) -> None:
+    end_time = time.time() + seconds
+    while RUNNING and time.time() < end_time:
+        time.sleep(0.5)
+
+# ==========================================
+# Main
+# ==========================================
+def main() -> None:
+    global STOP_REASON
+
+    validate_config()
+
+    if not startup_checks():
+        STOP_REASON = "فشل فحوصات البداية"
+        log_terminal("فشل التشغيل")
+        send_stop_once(STOP_REASON)
+        return
+
+    log_terminal("تم تشغيل البوت بنجاح")
+
+    if SEND_STARTUP_MESSAGE:
+        send_telegram(format_start_message())
+
+    try:
+        while RUNNING:
+            pairs = get_usdt_pairs()
+            if not pairs:
+                log_terminal("لم يتم جلب أي أزواج")
+                sleep_interruptible(10)
+                continue
+
+            if MAX_PAIRS_PER_CYCLE > 0:
+                pairs = pairs[:MAX_PAIRS_PER_CYCLE]
+
+            log_terminal("بدء دورة جديدة | عدد الأزواج: %d", len(pairs))
+
+            found_count = 0
+
+            for symbol in pairs:
+                if not RUNNING:
+                    break
+
+                try:
+                    signals = detect_latest_signals(symbol)
+                    if signals:
+                        for sig in signals:
+                            if not RUNNING:
+                                break
+                            if send_signal_if_new(sig):
+                                found_count += 1
+                            time.sleep(0.15)
+                except Exception as exc:
+                    log_terminal("خطأ أثناء فحص %s: %s", symbol, exc)
+
+            clean_cache()
+            log_terminal("انتهت الدورة | إشارات مرسلة: %d", found_count)
+            sleep_interruptible(SCAN_EVERY_SECONDS)
+
+    except KeyboardInterrupt:
+        STOP_REASON = "إيقاف من لوحة المفاتيح"
+        log_terminal("تم إيقاف البوت من الكيبورد")
+    except Exception as exc:
+        STOP_REASON = f"خطأ أثناء التشغيل: {exc}"
+        log_terminal("خطأ عام أثناء التشغيل: %s", exc)
+        send_stop_once("خطأ أثناء التشغيل")
+    finally:
+        log_terminal("تم إيقاف البوت")
+        send_stop_once(STOP_REASON)
+        try:
+            session.close()
+        except Exception:
+            pass
+
+if __name__ == "__main__":
+    main()
+
+كود سحب لحظي 
+import sys
+import time
+import signal
+import logging
+from dataclasses import dataclass
+from typing import Dict, List, Tuple, Optional
+import json
+
+import pandas as pd
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+# ==========================================
+# الإعدادات
+# ==========================================
+BINANCE_URL = "https://data-api.binance.vision"
+
+# بياناتك التجريبية
+TELEGRAM_TOKEN = "8776695041:AAGhYc-SDcrm6CrrPXGsmJf0netTfBhcio8"
+TELEGRAM_CHAT_ID = "127278288"
+
+STRUCTURE_INTERVAL = "4h"
+TRIGGER_INTERVAL = "1m"
+
+STRUCTURE_KLINE_LIMIT = 320
+TRIGGER_KLINE_LIMIT = 5
+
+SCAN_EVERY_SECONDS = 15
+PAIRS_CACHE_SECONDS = 3600
+ALERT_TTL_SECONDS = 21600
+REQUEST_TIMEOUT = 12
+
+SEND_STARTUP_MESSAGE = True
+SEND_STOP_MESSAGE = True
+SEND_TEST_MESSAGE_ON_START = True
+
+MAX_PAIRS_PER_CYCLE = 0
+
+FIXED_DEPTHS = [14, 20, 28, 34]
+MIN_CANDLES_AGO = 20
+MIN_STRUCTURE_SPAN = 6
+
+FOLLOW_URL = "https://x.com/rzinbitcoin"
+
+STABLE_COINS = {
+    "USDCUSDT", "FDUSDUSDT", "TUSDUSDT", "BUSDUSDT",
+    "EURUSDT", "DAIUSDT", "USDPUSDT", "AEURUSDT", "USDDUSDT"
+}
+
+STABLE_BASES = {
+    "USDT", "USDC", "FDUSD", "TUSD", "BUSD", "DAI", "USDP", "AEUR", "USDD",
+    "EUR", "TRY", "GBP", "AUD", "BRL", "BIDR", "IDRT", "UAH", "NGN", "RUB",
+    "ZAR", "RON", "PLN", "JPY", "KRW", "MXN", "CAD", "CHF"
+}
+
+VALID_INTERVALS = {
+    "1m", "3m", "5m", "15m", "30m",
+    "1h", "2h", "4h", "6h", "8h", "12h",
+    "1d", "3d", "1w", "1M",
+}
+
+TV_INTERVAL_MAP = {
+    "1m": "1",
+    "3m": "3",
+    "5m": "5",
+    "15m": "15",
+    "30m": "30",
+    "1h": "60",
+    "2h": "120",
+    "4h": "240",
+    "6h": "360",
+    "8h": "480",
+    "12h": "720",
+    "1d": "1D",
+    "3d": "3D",
+    "1w": "1W",
+    "1M": "1M",
+}
+
+# ==========================================
+# Logging
+# ==========================================
+logger = logging.getLogger("smc_bot_fixed")
+logger.setLevel(logging.INFO)
+logger.handlers.clear()
+
+formatter = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s", datefmt="%H:%M:%S")
+stream = logging.StreamHandler(sys.stdout)
+stream.setFormatter(formatter)
+logger.addHandler(stream)
+logger.propagate = False
+
+RUNNING = True
+STOP_REASON = "إيقاف يدوي أو انتهاء العملية"
+STOP_MESSAGE_SENT = False
+
+alert_cache: Dict[str, float] = {}
+pairs_cache: List[str] = []
+pairs_cache_time = 0.0
+
+# ==========================================
+# Dataclass
+# ==========================================
+@dataclass(frozen=True)
+class Pivot:
+    price: float
+    index: int
+    direction: int  # 1=high, -1=low
+
+# ==========================================
+# Logging helper
+# ==========================================
+def log_terminal(msg: str, *args) -> None:
+    logger.info(msg, *args)
+    for h in logger.handlers:
+        try:
+            h.flush()
+        except Exception:
+            pass
+
+# ==========================================
+# Session
+# ==========================================
+def build_session() -> requests.Session:
+    session = requests.Session()
+    retry = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        backoff_factor=0.7,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset(["GET", "POST"]),
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retry, pool_connections=30, pool_maxsize=30)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    session.headers.update({"User-Agent": "smc-bot-fixed/6.0"})
+    return session
+
+session = build_session()
+
+# ==========================================
+# Signals
+# ==========================================
+def handle_stop_signal(signum, frame) -> None:
+    global RUNNING, STOP_REASON
+    RUNNING = False
+    STOP_REASON = f"تم استقبال إشارة النظام: {signum}"
+    log_terminal("تم إيقاف البوت بإشارة نظام")
+
+signal.signal(signal.SIGINT, handle_stop_signal)
+signal.signal(signal.SIGTERM, handle_stop_signal)
+
+# ==========================================
+# Validation
+# ==========================================
+def validate_config() -> None:
+    if STRUCTURE_INTERVAL not in VALID_INTERVALS:
+        raise ValueError(f"STRUCTURE_INTERVAL غير صالح: {STRUCTURE_INTERVAL}")
+    if TRIGGER_INTERVAL not in VALID_INTERVALS:
+        raise ValueError(f"TRIGGER_INTERVAL غير صالح: {TRIGGER_INTERVAL}")
+    if STRUCTURE_KLINE_LIMIT < 220:
+        raise ValueError("STRUCTURE_KLINE_LIMIT يجب أن يكون 220 أو أكثر")
+    if TRIGGER_KLINE_LIMIT < 3:
+        raise ValueError("TRIGGER_KLINE_LIMIT يجب أن يكون 3 أو أكثر")
+    if SCAN_EVERY_SECONDS < 5:
+        raise ValueError("SCAN_EVERY_SECONDS يجب أن يكون 5 أو أكثر")
+    if STRUCTURE_INTERVAL not in TV_INTERVAL_MAP:
+        raise ValueError(f"لا يوجد تحويل TradingView للفريم: {STRUCTURE_INTERVAL}")
+
+# ==========================================
+# Telegram
+# ==========================================
+def build_tradingview_url(symbol: str) -> str:
+    tv_symbol = f"BINANCE:{symbol}"
+    tv_interval = TV_INTERVAL_MAP[STRUCTURE_INTERVAL]
+    return f"https://www.tradingview.com/chart/?symbol={tv_symbol}&interval={tv_interval}"
+
+def build_reply_markup(symbol: str) -> str:
+    markup = {
+        "inline_keyboard": [
+            [
+                {"text": "𝕏 تابعني", "url": FOLLOW_URL},
+                {"text": "شارت العملة", "url": build_tradingview_url(symbol)},
+            ]
+        ]
+    }
+    return json.dumps(markup, ensure_ascii=False)
+
+def send_telegram(msg: str, symbol: Optional[str] = None) -> bool:
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": msg,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": True,
+    }
+
+    if symbol:
+        payload["reply_markup"] = build_reply_markup(symbol)
+
+    try:
+        resp = session.post(url, data=payload, timeout=REQUEST_TIMEOUT)
+        if resp.status_code != 200:
+            log_terminal("Telegram send failed | code=%s | body=%s", resp.status_code, resp.text[:500])
+            return False
+
+        data = resp.json()
+        if not data.get("ok", False):
+            log_terminal("Telegram send failed | response=%s", str(data)[:500])
+            return False
+
+        return True
+    except Exception as exc:
+        log_terminal("Telegram exception: %s", exc)
+        return False
+
+def telegram_get_me() -> bool:
+    try:
+        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/getMe"
+        resp = session.get(url, timeout=REQUEST_TIMEOUT)
+        if resp.status_code != 200:
+            log_terminal("Telegram getMe failed | code=%s | body=%s", resp.status_code, resp.text[:500])
+            return False
+
+        data = resp.json()
+        if not data.get("ok", False):
+            log_terminal("Telegram getMe invalid response | %s", str(data)[:500])
+            return False
+
+        bot_username = data.get("result", {}).get("username", "unknown")
+        log_terminal("Telegram bot connected: @%s", bot_username)
+        return True
+    except Exception as exc:
+        log_terminal("Telegram getMe exception: %s", exc)
+        return False
+
+# ==========================================
+# Startup checks
+# ==========================================
+def startup_checks() -> bool:
+    try:
+        resp = session.get(f"{BINANCE_URL}/api/v3/ping", timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        log_terminal("Binance ping OK")
+
+        resp = session.get(
+            f"{BINANCE_URL}/api/v3/klines",
+            params={"symbol": "BTCUSDT", "interval": STRUCTURE_INTERVAL, "limit": 10},
+            timeout=REQUEST_TIMEOUT,
+        )
+        resp.raise_for_status()
+        rows = resp.json()
+        if not isinstance(rows, list) or len(rows) < 3:
+            log_terminal("Binance klines invalid response")
+            return False
+        log_terminal("Binance klines OK")
+
+        if not telegram_get_me():
+            return False
+
+        if SEND_TEST_MESSAGE_ON_START:
+            ok = send_telegram("✅ <b>فحص البداية نجح</b>\n\nالاتصال بـ Binance و Telegram يعمل.")
+            if not ok:
+                log_terminal("فشل إرسال رسالة الاختبار")
+                return False
+            log_terminal("رسالة الاختبار وصلت")
+
+        return True
+    except Exception as exc:
+        log_terminal("startup_checks failed: %s", exc)
+        return False
+
+# ==========================================
+# Data fetch
+# ==========================================
+def get_usdt_pairs() -> List[str]:
+    global pairs_cache, pairs_cache_time
+
+    now = time.time()
+    if pairs_cache and (now - pairs_cache_time) < PAIRS_CACHE_SECONDS:
+        return pairs_cache
+
+    try:
+        resp = session.get(f"{BINANCE_URL}/api/v3/exchangeInfo", timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+        symbols = data.get("symbols", [])
+
+        pairs: List[str] = []
+
+        for s in symbols:
+            symbol = s.get("symbol", "")
+            quote_asset = s.get("quoteAsset", "")
+            base_asset = s.get("baseAsset", "")
+
+            if not symbol:
+                continue
+            if quote_asset != "USDT":
+                continue
+            if s.get("status") != "TRADING":
+                continue
+            if not s.get("isSpotTradingAllowed", True):
+                continue
+            if symbol in STABLE_COINS:
+                continue
+            if base_asset in STABLE_BASES:
+                continue
+            if not symbol.isascii() or not symbol.isalnum():
+                continue
+
+            pairs.append(symbol)
+
+        pairs_cache = sorted(set(pairs))
+        pairs_cache_time = now
+        log_terminal("تم جلب الأزواج: %d", len(pairs_cache))
+        return pairs_cache
+
+    except Exception as exc:
+        log_terminal("get_usdt_pairs failed: %s", exc)
+        return pairs_cache.copy() if pairs_cache else []
+
+def get_klines(symbol: str, interval: str, limit: int) -> pd.DataFrame:
+    try:
+        resp = session.get(
+            f"{BINANCE_URL}/api/v3/klines",
+            params={"symbol": symbol, "interval": interval, "limit": limit},
+            timeout=REQUEST_TIMEOUT,
+        )
+        resp.raise_for_status()
+        rows = resp.json()
+
+        if not rows or not isinstance(rows, list):
+            return pd.DataFrame()
+
+        df = pd.DataFrame(
+            rows,
+            columns=[
+                "timestamp", "open", "high", "low", "close", "volume",
+                "close_time", "qav", "num_trades", "tbv", "tqv", "ignore"
+            ]
+        )
+
+        df = df[["timestamp", "open", "high", "low", "close", "close_time"]].copy()
+
+        for col in ["timestamp", "open", "high", "low", "close", "close_time"]:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+
+        return df.dropna().reset_index(drop=True)
+
+    except Exception as exc:
+        log_terminal("get_klines failed | %s | %s | %s", symbol, interval, exc)
+        return pd.DataFrame()
+
+# ==========================================
+# Pivot logic
+# ==========================================
+def is_pivot(df: pd.DataFrame, idx: int, depth: int, is_high: bool) -> bool:
+    if idx - depth < 0 or idx + depth >= len(df):
+        return False
+
+    col = "high" if is_high else "low"
+    center = float(df.at[idx, col])
+
+    for i in range(1, depth + 1):
+        left = float(df.at[idx - i, col])
+        right = float(df.at[idx + i, col])
+
+        if is_high and (center <= left or center <= right):
+            return False
+        if not is_high and (center >= left or center >= right):
+            return False
+
+    return True
+
+def build_pivots(df: pd.DataFrame, depth: int, min_span: int, max_pivots: int = 120) -> List[Pivot]:
+    pivots: List[Pivot] = []
+
+    for idx in range(depth, len(df) - depth):
+        is_high_pivot = is_pivot(df, idx, depth, True)
+        is_low_pivot = is_pivot(df, idx, depth, False)
+
+        if is_high_pivot and is_low_pivot:
+            continue
+
+        candidate: Optional[Pivot] = None
+        if is_high_pivot:
+            candidate = Pivot(float(df.at[idx, "high"]), idx, 1)
+        elif is_low_pivot:
+            candidate = Pivot(float(df.at[idx, "low"]), idx, -1)
+
+        if candidate is None:
+            continue
+
+        if not pivots:
+            pivots.append(candidate)
+            continue
+
+        last = pivots[-1]
+
+        if candidate.direction == last.direction:
+            if candidate.direction == 1 and candidate.price > last.price:
+                pivots[-1] = candidate
+            elif candidate.direction == -1 and candidate.price < last.price:
+                pivots[-1] = candidate
+        else:
+            if candidate.index - last.index >= min_span:
+                pivots.append(candidate)
+
+    return pivots[-max_pivots:]
+
+def get_protected_levels(
+    df: pd.DataFrame,
+    pivots: List[Pivot],
+    last_closed_idx: int,
+    min_age: int
+) -> Tuple[List[Dict[str, float]], List[Dict[str, float]]]:
+    highs: List[Dict[str, float]] = []
+    lows: List[Dict[str, float]] = []
+
+    for pv in reversed(pivots):
+        age = last_closed_idx - pv.index
+        if age < min_age:
+            continue
+
+        if pv.direction == 1:
+            segment = df.loc[pv.index + 1:last_closed_idx, "high"]
+            if not segment.empty and float(segment.max()) <= pv.price:
+                highs.append({"level": pv.price, "age": float(age)})
+        else:
+            segment = df.loc[pv.index + 1:last_closed_idx, "low"]
+            if not segment.empty and float(segment.min()) >= pv.price:
+                lows.append({"level": pv.price, "age": float(age)})
+
+    return highs, lows
+
+# ==========================================
+# Structure extraction
+# ==========================================
+def get_levels_from_structure(symbol: str) -> Tuple[List[Dict[str, float]], List[Dict[str, float]]]:
+    df = get_klines(symbol, STRUCTURE_INTERVAL, STRUCTURE_KLINE_LIMIT)
+    if len(df) < 220:
+        return [], []
+
+    # مهم: استبعاد آخر شمعة حية من بناء الهيكل
+    structure_df = df.iloc[:-1].copy()
+    if len(structure_df) < 220:
+        return [], []
+
+    last_closed_idx = len(structure_df) - 1
+    all_highs: List[Dict[str, float]] = []
+    all_lows: List[Dict[str, float]] = []
+
+    for depth in FIXED_DEPTHS:
+        pivots = build_pivots(structure_df, depth, MIN_STRUCTURE_SPAN)
+        if len(pivots) < 4:
+            continue
+
+        highs, lows = get_protected_levels(structure_df, pivots, last_closed_idx, MIN_CANDLES_AGO)
+
+        for h in highs[:3]:
+            all_highs.append({
+                "level": float(h["level"]),
+                "age": float(h["age"]),
+                "depth": depth,
+            })
+
+        for l in lows[:3]:
+            all_lows.append({
+                "level": float(l["level"]),
+                "age": float(l["age"]),
+                "depth": depth,
+            })
+
+    best_highs: Dict[str, Dict[str, float]] = {}
+    best_lows: Dict[str, Dict[str, float]] = {}
+
+    for item in all_highs:
+        key = f"{item['level']:.8f}"
+        old = best_highs.get(key)
+        if old is None or item["depth"] > old["depth"]:
+            best_highs[key] = item
+
+    for item in all_lows:
+        key = f"{item['level']:.8f}"
+        old = best_lows.get(key)
+        if old is None or item["depth"] > old["depth"]:
+            best_lows[key] = item
+
+    return list(best_highs.values()), list(best_lows.values())
+
+# ==========================================
+# Dedup
+# ==========================================
+def signal_family(sig_type: str) -> str:
+    if sig_type.startswith("BullBOS"):
+        return "BullBOS"
+    if sig_type.startswith("BearBOS"):
+        return "BearBOS"
+    if sig_type.startswith("Live_BSL"):
+        return "Live_BSL"
+    if sig_type.startswith("Live_SSL"):
+        return "Live_SSL"
+    return sig_type
+
+def choose_best_signal(signals: List[Dict[str, object]]) -> List[Dict[str, object]]:
+    chosen: Dict[str, Dict[str, object]] = {}
+
+    for sig in signals:
+        fam = f"{sig['symbol']}|{signal_family(str(sig['type']))}"
+        old = chosen.get(fam)
+
+        if old is None:
+            chosen[fam] = sig
+            continue
+
+        old_depth = int(old["depth"])
+        new_depth = int(sig["depth"])
+
+        old_dist = float(old.get("dist", 999999.0))
+        new_dist = float(sig.get("dist", 999999.0))
+
+        old_age = int(old["candles_ago"])
+        new_age = int(sig["candles_ago"])
+
+        if new_depth > old_depth:
+            chosen[fam] = sig
+        elif new_depth == old_depth and new_dist < old_dist:
+            chosen[fam] = sig
+        elif new_depth == old_depth and abs(new_dist - old_dist) < 1e-12 and new_age > old_age:
+            chosen[fam] = sig
+
+    return list(chosen.values())
+
+# ==========================================
+# Detection
+# ==========================================
+def detect_latest_signals(symbol: str) -> List[Dict[str, object]]:
+    highs, lows = get_levels_from_structure(symbol)
+    if not highs and not lows:
+        return []
+
+    trigger_df = get_klines(symbol, TRIGGER_INTERVAL, TRIGGER_KLINE_LIMIT)
+    if len(trigger_df) < 3:
+        return []
+
+    prev_closed = trigger_df.iloc[-3]
+    closed_candle = trigger_df.iloc[-2]
+    live_candle = trigger_df.iloc[-1]
+
+    signals: List[Dict[str, object]] = []
+
+    for item in highs[:10]:
+        level = float(item["level"])
+        age = int(item["age"])
+        depth = int(item["depth"])
+
+        if prev_closed["close"] <= level < closed_candle["close"]:
+            price = float(closed_candle["close"])
+            signals.append({
+                "symbol": symbol,
+                "title": "تأكيد اختراق (BOS)",
+                "type": f"BullBOS_{TRIGGER_INTERVAL}",
+                "state": "Closed",
+                "price": price,
+                "level": level,
+                "dist": abs(price - level),
+                "icon": "🟢",
+                "lname": "القمة",
+                "candles_ago": age,
+                "depth": depth,
+            })
+        elif closed_candle["close"] <= level and live_candle["high"] > level:
+            price = float(live_candle["close"])
+            signals.append({
+                "symbol": symbol,
+                "title": "سحب سيولة قمة (لحظي)",
+                "type": f"Live_BSL_{TRIGGER_INTERVAL}",
+                "state": "Live",
+                "price": price,
+                "level": level,
+                "dist": abs(price - level),
+                "icon": "⚡",
+                "lname": "القمة",
+                "candles_ago": age,
+                "depth": depth,
+            })
+
+    for item in lows[:10]:
+        level = float(item["level"])
+        age = int(item["age"])
+        depth = int(item["depth"])
+
+        if prev_closed["close"] >= level > closed_candle["close"]:
+            price = float(closed_candle["close"])
+            signals.append({
+                "symbol": symbol,
+                "title": "تأكيد كسر (BOS)",
+                "type": f"BearBOS_{TRIGGER_INTERVAL}",
+                "state": "Closed",
+                "price": price,
+                "level": level,
+                "dist": abs(price - level),
+                "icon": "🔴",
+                "lname": "القاع",
+                "candles_ago": age,
+                "depth": depth,
+            })
+        elif closed_candle["close"] >= level and live_candle["low"] < level:
+            price = float(live_candle["close"])
+            signals.append({
+                "symbol": symbol,
+                "title": "سحب سيولة قاع (لحظي)",
+                "type": f"Live_SSL_{TRIGGER_INTERVAL}",
+                "state": "Live",
+                "price": price,
+                "level": level,
+                "dist": abs(price - level),
+                "icon": "⚡",
+                "lname": "القاع",
+                "candles_ago": age,
+                "depth": depth,
+            })
+
+    return choose_best_signal(signals)
+
+# ==========================================
+# Helpers
+# ==========================================
+def clean_cache() -> None:
+    now = time.time()
+    expired = [k for k, v in alert_cache.items() if now - v > ALERT_TTL_SECONDS]
+    for key in expired:
+        del alert_cache[key]
+
+def fmt_price(x: float) -> str:
+    if x >= 1000:
+        return f"{x:,.2f}"
+    if x >= 1:
+        return f"{x:,.4f}"
+    if x >= 0.01:
+        return f"{x:.6f}"
+    return f"{x:.8f}"
+
+def format_signal(sig: Dict[str, object]) -> str:
+    return (
+        f"{sig['icon']} <b>{sig['title']}</b>\n\n"
+        f"✅ العملة: #{sig['symbol']}\n"
+        f"📍 الحالة: {sig['state']}\n"
+        f"🏗️ فريم الهيكل: #{STRUCTURE_INTERVAL.upper()}\n"
+        f"⚡ فريم التفعيل: #{TRIGGER_INTERVAL.upper()}\n"
+        f"🌊 عمق الهيكل: {sig['depth']}\n"
+        f"💰 السعر: {fmt_price(float(sig['price']))}\n"
+        f"🎯 {sig['lname']}: {fmt_price(float(sig['level']))}\n"
+        f"⏳ صمود المستوى: {sig['candles_ago']} شمعة"
+    )
+
+def format_start_message() -> str:
+    return (
+        f"🚀 <b>تم تشغيل البوت</b>\n\n"
+        f"🏗️ فريم الهيكل: #{STRUCTURE_INTERVAL.upper()}\n"
+        f"⚡ فريم التفعيل: #{TRIGGER_INTERVAL.upper()}\n"
+        f"🌊 الأعماق: {FIXED_DEPTHS}\n"
+        f"🔁 الفحص كل: {SCAN_EVERY_SECONDS} ثانية"
+    )
+
+def format_stop_message(reason: str) -> str:
+    return f"🛑 <b>تم إيقاف البوت</b>\n\nالسبب: {reason}"
+
+def send_signal_if_new(sig: Dict[str, object]) -> bool:
+    key = f"{sig['symbol']}|{signal_family(str(sig['type']))}|{float(sig['level']):.8f}"
+
+    if key in alert_cache:
+        return False
+
+    log_terminal("تم اكتشاف إشارة | %s | %s", sig["symbol"], sig["title"])
+
+    sent = send_telegram(format_signal(sig), symbol=str(sig["symbol"]))
+    if not sent:
+        log_terminal("فشل إرسال التنبيه | %s", sig["symbol"])
+        return False
+
+    alert_cache[key] = time.time()
+    return True
+
+def send_stop_once(reason: str) -> None:
+    global STOP_MESSAGE_SENT
+    if STOP_MESSAGE_SENT:
+        return
+    STOP_MESSAGE_SENT = True
+    if SEND_STOP_MESSAGE:
+        send_telegram(format_stop_message(reason))
+
+def sleep_interruptible(seconds: int) -> None:
+    end_time = time.time() + seconds
+    while RUNNING and time.time() < end_time:
+        time.sleep(0.5)
+
+# ==========================================
+# Main
+# ==========================================
+def main() -> None:
+    global STOP_REASON
+
+    validate_config()
+
+    if not startup_checks():
+        STOP_REASON = "فشل فحوصات البداية"
+        log_terminal("فشل التشغيل")
+        send_stop_once(STOP_REASON)
+        return
+
+    log_terminal("تم تشغيل البوت بنجاح")
+
+    if SEND_STARTUP_MESSAGE:
+        send_telegram(format_start_message())
+
+    try:
+        while RUNNING:
+            pairs = get_usdt_pairs()
+            if not pairs:
+                log_terminal("لم يتم جلب أي أزواج")
+                sleep_interruptible(10)
+                continue
+
+            if MAX_PAIRS_PER_CYCLE > 0:
+                pairs = pairs[:MAX_PAIRS_PER_CYCLE]
+
+            log_terminal("بدء دورة جديدة | عدد الأزواج: %d", len(pairs))
+
+            found_count = 0
+
+            for symbol in pairs:
+                if not RUNNING:
+                    break
+
+                try:
+                    signals = detect_latest_signals(symbol)
+                    if signals:
+                        for sig in signals:
+                            if not RUNNING:
+                                break
+                            if send_signal_if_new(sig):
+                                found_count += 1
+                            time.sleep(0.15)
+                except Exception as exc:
+                    log_terminal("خطأ أثناء فحص %s: %s", symbol, exc)
+
+            clean_cache()
+            log_terminal("انتهت الدورة | إشارات مرسلة: %d", found_count)
+            sleep_interruptible(SCAN_EVERY_SECONDS)
+
+    except KeyboardInterrupt:
+        STOP_REASON = "إيقاف من لوحة المفاتيح"
+        log_terminal("تم إيقاف البوت من الكيبورد")
+    except Exception as exc:
+        STOP_REASON = f"خطأ أثناء التشغيل: {exc}"
+        log_terminal("خطأ عام أثناء التشغيل: %s", exc)
+        send_stop_once("خطأ أثناء التشغيل")
+    finally:
+        log_terminal("تم إيقاف البوت")
+        send_stop_once(STOP_REASON)
+        try:
+            session.close()
+        except Exception:
+            pass
+
+if __name__ == "__main__":
+    main()
+
+كود كسر هيكل هابط 
+import json
+import os
+import signal
+import sqlite3
+import threading
+import time
+import urllib.parse
+import logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import dataclass
+from logging.handlers import RotatingFileHandler
+from typing import Dict, List, Optional, Tuple
+
+import requests
+
+# =========================================================
+# بياناتك التجريبية
+# =========================================================
+TELEGRAM_TOKEN = "8776695041:AAGhYc-SDcrm6CrrPXGsmJf0netTfBhcio8"
+TELEGRAM_CHAT_ID = "127278288"
+
+# =========================================================
+# إعدادات عامة
+# =========================================================
+BINANCE_BASE_URL = "https://data-api.binance.vision"
+
+SCAN_INTERVAL_SECONDS = 60
+REQUEST_TIMEOUT = 20
+MAX_RETRIES = 3
+RETRY_SLEEP_SECONDS = 2
+
+MAX_WORKERS = 10
+MAX_CONCURRENT_REQUESTS = 8
+
+SYMBOLS_CACHE_MINUTES = 60
+HEARTBEAT_INTERVAL_HOURS = 6
+
+DB_PATH = "scanner_state.db"
+LOG_FILE = "scanner.log"
+
+SHOW_REJECTED_LOGS = False
+ENABLE_VOLUME_FILTER = True
+MIN_QUOTE_VOLUME_24H = 500_000.0
+
+TWITTER_URL = "https://x.com/rzinbitcoin"
+
+# =========================================================
+# إعدادات الفريمات
+# =========================================================
+TIMEFRAME_CONFIGS: Dict[str, Dict] = {
+    "1h": {
+        "display_name": "1H",
+        "tv_interval": "60",
+        "klines_limit": 340,
+        "pivot_left": 20,
+        "pivot_right": 20,
+        "atr_period": 14,
+        "min_swing_distance_atr": 1.5,
+        "impulse_threshold_atr": 1.8,
+        "break_buffer_atr": 0.12,
+        "min_bars_between_structural_lows": 8,
+        "min_bars_from_structural_low_to_break": 100,
+        "symbol_cooldown_hours": 24,
+        "strategy": "protected_structural_low_live_break_only_1h",
+        "message_title": "🔴 تنبيه هيكلي هابط · 1H",
+    },
+    "1d": {
+        "display_name": "1D",
+        "tv_interval": "1D",
+        "klines_limit": 340,
+        "pivot_left": 20,
+        "pivot_right": 20,
+        "atr_period": 14,
+        "min_swing_distance_atr": 1.5,
+        "impulse_threshold_atr": 1.8,
+        "break_buffer_atr": 0.12,
+        "min_bars_between_structural_lows": 8,
+        "min_bars_from_structural_low_to_break": 30,
+        "symbol_cooldown_hours": 24,
+        "strategy": "protected_structural_low_live_break_only_1d",
+        "message_title": "🔴 تنبيه هيكلي هابط · 1D",
+    },
+}
+
+# =========================================================
+# العملات المستقرة
+# =========================================================
+STABLECOIN_BASES = {
+    "USDT", "USDC", "BUSD", "FDUSD", "TUSD", "USDP", "DAI", "USDE", "PYUSD", "USDS",
+    "RLUSD", "XUSD", "USD1", "USDX", "USDD", "CUSD", "GUSD", "HUSD", "SUSD", "MUSD",
+    "EUR", "AEUR", "CEUR", "EURT", "EURC", "EURI",
+    "TRY", "BRL", "GBP", "AUD", "BIDR", "IDRT", "UAH", "NGN", "RUB",
+    "ZAR", "RON", "PLN", "XSGD", "JPY", "KRW", "MXN", "CAD", "CHF",
+}
+
+# =========================================================
+# Data Classes
+# =========================================================
+@dataclass(frozen=True)
+class Kline:
+    open_time: int
+    open: float
+    high: float
+    low: float
+    close: float
+    volume: float
+    close_time: int
+
+@dataclass(frozen=True)
+class PivotLow:
+    index: int
+    price: float
+    open_time: int
+
+@dataclass(frozen=True)
+class StructuralLow:
+    index: int
+    price: float
+    open_time: int
+    impulse_high: float
+    impulse_distance: float
+    impulse_end_index: int
+    score: float
+
+# =========================================================
+# SQLite
+# =========================================================
+class SQLiteManager:
+    def __init__(self, db_path: str, logger: logging.Logger) -> None:
+        self.db_path = db_path
+        self.logger = logger
+        self._local = threading.local()
+        self._lock = threading.Lock()
+        self._init_schema()
+
+    def _get_conn(self) -> sqlite3.Connection:
+        if not hasattr(self._local, "conn") or self._local.conn is None:
+            conn = sqlite3.connect(self.db_path, check_same_thread=False)
+            conn.execute("PRAGMA journal_mode=WAL")
+            conn.execute("PRAGMA synchronous=NORMAL")
+            self._local.conn = conn
+        return self._local.conn
+
+    def _init_schema(self) -> None:
+        conn = self._get_conn()
+        with self._lock:
+            cur = conn.cursor()
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS sent_alerts (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    symbol TEXT NOT NULL,
+                    timeframe TEXT NOT NULL,
+                    strategy TEXT NOT NULL,
+                    structural_open_time INTEGER NOT NULL,
+                    structural_price REAL NOT NULL,
+                    sent_candle_open_time INTEGER NOT NULL,
+                    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                    UNIQUE(symbol, timeframe, strategy, structural_open_time, structural_price)
+                )
+            """)
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_symbol_tf_created
+                ON sent_alerts(symbol, timeframe, created_at)
+            """)
+            conn.commit()
+
+    def was_alert_sent(
+        self,
+        symbol: str,
+        timeframe: str,
+        strategy: str,
+        structural_open_time: int,
+        structural_price: float,
+    ) -> bool:
+        conn = self._get_conn()
+        cur = conn.cursor()
+        cur.execute("""
+            SELECT 1 FROM sent_alerts
+            WHERE symbol=? AND timeframe=? AND strategy=?
+              AND structural_open_time=? AND structural_price=?
+            LIMIT 1
+        """, (symbol, timeframe, strategy, structural_open_time, structural_price))
+        return cur.fetchone() is not None
+
+    def is_in_cooldown(self, symbol: str, timeframe: str, cooldown_hours: int) -> bool:
+        conn = self._get_conn()
+        cur = conn.cursor()
+        cur.execute("""
+            SELECT 1 FROM sent_alerts
+            WHERE symbol=? AND timeframe=?
+              AND created_at >= datetime('now', ?)
+            LIMIT 1
+        """, (symbol, timeframe, f"-{cooldown_hours} hours"))
+        return cur.fetchone() is not None
+
+    def save_alert(
+        self,
+        symbol: str,
+        timeframe: str,
+        strategy: str,
+        structural_open_time: int,
+        structural_price: float,
+        sent_candle_open_time: int,
+    ) -> None:
+        conn = self._get_conn()
+        with self._lock:
+            cur = conn.cursor()
+            cur.execute("""
+                INSERT OR IGNORE INTO sent_alerts
+                (symbol, timeframe, strategy, structural_open_time, structural_price, sent_candle_open_time)
+                VALUES (?, ?, ?, ?, ?, ?)
+            """, (symbol, timeframe, strategy, structural_open_time, structural_price, sent_candle_open_time))
+            conn.commit()
+
+    def close(self) -> None:
+        try:
+            if hasattr(self._local, "conn") and self._local.conn:
+                self._local.conn.close()
+                self._local.conn = None
+        except Exception as exc:
+            self.logger.error("DB close error: %s", exc)
+
+# =========================================================
+# Cache
+# =========================================================
+class CacheEntry:
+    def __init__(self, data, ttl_minutes: float) -> None:
+        self.data = data
+        self.expires_at = time.monotonic() + ttl_minutes * 60
+
+    def is_valid(self) -> bool:
+        return time.monotonic() < self.expires_at
+
+class CacheManager:
+    def __init__(self) -> None:
+        self._store: Dict[str, CacheEntry] = {}
+        self._lock = threading.Lock()
+
+    def get(self, key: str):
+        with self._lock:
+            entry = self._store.get(key)
+            if entry and entry.is_valid():
+                return entry.data
+            return None
+
+    def set(self, key: str, data, ttl_minutes: float) -> None:
+        with self._lock:
+            self._store[key] = CacheEntry(data, ttl_minutes)
+
+# =========================================================
+# Scanner
+# =========================================================
+class BinanceBosScanner:
+    def __init__(self) -> None:
+        self.logger = self._build_logger()
+        self.session = self._build_session()
+        self.db = SQLiteManager(DB_PATH, self.logger)
+        self.cache = CacheManager()
+        self.running = True
+        self._stop_event = threading.Event()
+        self._rate_limiter = threading.Semaphore(MAX_CONCURRENT_REQUESTS)
+        self._klines_cache: Dict[str, List[Kline]] = {}
+        self._klines_cache_lock = threading.Lock()
+        self._last_heartbeat = time.monotonic()
+        self._cycle_count = 0
+        self._last_alert_info = "لا يوجد تنبيه بعد"
+        self._last_cycle_time = 0.0
+
+    def _build_logger(self) -> logging.Logger:
+        logger = logging.getLogger("bos_scanner")
+        logger.setLevel(logging.INFO)
+        if logger.handlers:
+            logger.handlers.clear()
+
+        fmt = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s")
+
+        fh = RotatingFileHandler(LOG_FILE, maxBytes=2_000_000, backupCount=3, encoding="utf-8")
+        fh.setFormatter(fmt)
+
+        ch = logging.StreamHandler()
+        ch.setFormatter(fmt)
+
+        logger.addHandler(fh)
+        logger.addHandler(ch)
+        logger.propagate = False
+        return logger
+
+    def _build_session(self) -> requests.Session:
+        session = requests.Session()
+        session.headers.update({"User-Agent": "Binance-BOS-Scanner/15.1"})
+        return session
+
+    def _request_json(self, method: str, endpoint: str, params: Optional[Dict] = None):
+        url = f"{BINANCE_BASE_URL}{endpoint}"
+        last_error: Optional[Exception] = None
+
+        with self._rate_limiter:
+            for attempt in range(1, MAX_RETRIES + 1):
+                try:
+                    resp = self.session.request(
+                        method=method,
+                        url=url,
+                        params=params,
+                        timeout=REQUEST_TIMEOUT,
+                    )
+                    resp.raise_for_status()
+                    return resp.json()
+
+                except requests.exceptions.HTTPError as exc:
+                    status = exc.response.status_code if exc.response is not None else 0
+
+                    if status == 429:
+                        retry_after = int(exc.response.headers.get("Retry-After", 5))
+                        self.logger.warning("Rate limited 429 | waiting %ds", retry_after)
+                        time.sleep(retry_after)
+                        last_error = exc
+                        continue
+
+                    if 400 <= status < 500:
+                        raise RuntimeError(f"Client error {status} | {endpoint}") from exc
+
+                    last_error = exc
+
+                except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as exc:
+                    last_error = exc
+
+                except Exception as exc:
+                    raise RuntimeError(f"Unexpected request error: {exc} | {endpoint}") from exc
+
+                self.logger.warning(
+                    "Retry %d/%d | %s | %s",
+                    attempt, MAX_RETRIES, endpoint, last_error
+                )
+                time.sleep(RETRY_SLEEP_SECONDS)
+
+        raise RuntimeError(f"Failed after retries: {endpoint} | {last_error}")
+
+    def get_usdt_spot_symbols(self) -> List[str]:
+        cached = self.cache.get("symbols")
+        if cached is not None:
+            return cached
+
+        data = self._request_json("GET", "/api/v3/exchangeInfo")
+        if not isinstance(data, dict) or "symbols" not in data:
+            raise RuntimeError("Invalid exchangeInfo response")
+
+        out: List[str] = []
+        for item in data.get("symbols", []):
+            if not isinstance(item, dict):
+                continue
+
+            symbol = item.get("symbol", "")
+            base_asset = item.get("baseAsset", "")
+            quote_asset = item.get("quoteAsset", "")
+
+            if not symbol or not base_asset or not quote_asset:
+                continue
+            if item.get("status") != "TRADING":
+                continue
+            if quote_asset != "USDT":
+                continue
+            if not item.get("isSpotTradingAllowed", False):
+                continue
+            if base_asset in STABLECOIN_BASES:
+                continue
+            if not symbol.isascii() or not symbol.isalnum():
+                continue
+
+            out.append(symbol)
+
+        out.sort()
+        self.cache.set("symbols", out, ttl_minutes=SYMBOLS_CACHE_MINUTES)
+        self.logger.info("Symbols fetched: %d", len(out))
+        return out
+
+    def get_all_24h_volumes(self) -> Dict[str, float]:
+        data = self._request_json("GET", "/api/v3/ticker/24hr")
+        if not isinstance(data, list):
+            raise RuntimeError("Invalid ticker/24hr response")
+
+        volumes: Dict[str, float] = {}
+        for item in data:
+            if not isinstance(item, dict):
+                continue
+            sym = item.get("symbol")
+            if not sym:
+                continue
+            try:
+                volumes[sym] = float(item.get("quoteVolume", 0))
+            except (TypeError, ValueError):
+                continue
+        return volumes
+
+    def _fetch_klines_raw(self, symbol: str, interval: str, limit: int) -> List[Kline]:
+        raw = self._request_json(
+            "GET",
+            "/api/v3/klines",
+            params={"symbol": symbol, "interval": interval, "limit": limit},
+        )
+        if not isinstance(raw, list):
+            return []
+
+        klines: List[Kline] = []
+        for row in raw:
+            if not isinstance(row, list) or len(row) < 7:
+                continue
+            try:
+                klines.append(Kline(
+                    open_time=int(row[0]),
+                    open=float(row[1]),
+                    high=float(row[2]),
+                    low=float(row[3]),
+                    close=float(row[4]),
+                    volume=float(row[5]),
+                    close_time=int(row[6]),
+                ))
+            except (TypeError, ValueError, IndexError):
+                continue
+        return klines
+
+    def get_klines_cached(self, symbol: str, interval: str, limit: int) -> List[Kline]:
+        key = f"{symbol}_{interval}"
+
+        with self._klines_cache_lock:
+            cached = self._klines_cache.get(key)
+
+        if cached and len(cached) >= 5:
+            try:
+                new_raw = self._fetch_klines_raw(symbol, interval, limit=5)
+                if new_raw:
+                    existing = {k.open_time: k for k in cached}
+                    for k in new_raw:
+                        existing[k.open_time] = k
+                    merged = sorted(existing.values(), key=lambda x: x.open_time)
+                    merged = merged[-limit:]
+                    with self._klines_cache_lock:
+                        self._klines_cache[key] = merged
+                    return merged
+            except Exception as exc:
+                self.logger.warning("Klines incremental update failed | %s | %s | fallback cache", symbol, exc)
+                return cached
+
+        full = self._fetch_klines_raw(symbol, interval, limit=limit)
+        with self._klines_cache_lock:
+            self._klines_cache[key] = full
+        return full
+
+    def calculate_atr(self, klines: List[Kline], period: int) -> List[Optional[float]]:
+        if len(klines) < period + 1:
+            return [None] * len(klines)
+
+        trs: List[float] = [0.0]
+        for i in range(1, len(klines)):
+            h = klines[i].high
+            l = klines[i].low
+            pc = klines[i - 1].close
+            trs.append(max(h - l, abs(h - pc), abs(l - pc)))
+
+        atrs: List[Optional[float]] = [None] * len(klines)
+        atrs[period] = sum(trs[1:period + 1]) / period
+
+        for i in range(period + 1, len(klines)):
+            prev = atrs[i - 1]
+            if prev is None:
+                continue
+            atrs[i] = (prev * (period - 1) + trs[i]) / period
+
+        return atrs
+
+    def is_pivot_low(self, klines: List[Kline], idx: int, left: int, right: int) -> bool:
+        if idx - left < 0 or idx + right >= len(klines):
+            return False
+
+        center = klines[idx].low
+
+        for i in range(idx - left, idx):
+            if klines[i].low < center:
+                return False
+
+        for i in range(idx + 1, idx + right + 1):
+            if klines[i].low <= center:
+                return False
+
+        return True
+
+    def extract_pivot_lows(self, klines: List[Kline], left: int, right: int) -> List[PivotLow]:
+        out: List[PivotLow] = []
+        for i in range(left, len(klines) - right):
+            if self.is_pivot_low(klines, i, left, right):
+                out.append(PivotLow(
+                    index=i,
+                    price=klines[i].low,
+                    open_time=klines[i].open_time,
+                ))
+        return out
+
+    def build_structural_lows(
+        self,
+        klines: List[Kline],
+        atrs: List[Optional[float]],
+        pivot_lows: List[PivotLow],
+        min_swing_atr: float,
+        impulse_thr_atr: float,
+        min_bars_gap: int,
+    ) -> List[StructuralLow]:
+        result: List[StructuralLow] = []
+
+        for i, pv in enumerate(pivot_lows):
+            atr = atrs[pv.index]
+            if atr is None or atr <= 0:
+                continue
+
+            nxt = pivot_lows[i + 1].index if i + 1 < len(pivot_lows) else len(klines) - 1
+            seg_start = pv.index + 1
+            seg_end = max(seg_start, nxt)
+
+            segment = klines[seg_start:seg_end + 1]
+            if not segment:
+                continue
+
+            imp_high = max(c.high for c in segment)
+            imp_dist = imp_high - pv.price
+
+            if imp_dist < atr * impulse_thr_atr:
+                continue
+
+            score = (imp_dist / atr) + (seg_end - pv.index) * 0.02
+
+            cand = StructuralLow(
+                index=pv.index,
+                price=pv.price,
+                open_time=pv.open_time,
+                impulse_high=imp_high,
+                impulse_distance=imp_dist,
+                impulse_end_index=seg_end,
+                score=score,
+            )
+
+            if result:
+                prev = result[-1]
+                bars_gap = cand.index - prev.index
+                price_gap = abs(cand.price - prev.price)
+
+                if bars_gap < min_bars_gap or price_gap < atr * min_swing_atr:
+                    if cand.score > prev.score and cand.price <= prev.price:
+                        result[-1] = cand
+                    continue
+
+            result.append(cand)
+
+        return result
+
+    def select_protected_low(
+        self,
+        lows: List[StructuralLow],
+        last_idx: int,
+        min_bars: int,
+    ) -> Optional[StructuralLow]:
+        eligible = [l for l in lows if (last_idx - l.index) >= min_bars]
+        if not eligible:
+            return None
+
+        best = eligible[0]
+        for c in eligible[1:]:
+            if c.price < best.price and c.score >= best.score * 0.95:
+                best = c
+            elif c.score > best.score * 1.20 and c.price <= best.impulse_high:
+                best = c
+
+        return best
+
+    def passes_volume_filter(self, symbol: str, volumes: Dict[str, float]) -> bool:
+        if not ENABLE_VOLUME_FILTER:
+            return True
+        return volumes.get(symbol, 0.0) >= MIN_QUOTE_VOLUME_24H
+
+    def build_tv_url(self, symbol: str, tv_interval: str) -> str:
+        s = urllib.parse.quote(f"BINANCE:{symbol}", safe="")
+        return f"https://www.tradingview.com/chart/?symbol={s}&interval={tv_interval}"
+
+    def _fmt_price(self, price: float) -> str:
+        if price >= 1000:
+            return f"{price:,.2f}"
+        if price >= 1:
+            return f"{price:,.4f}"
+        if price >= 0.01:
+            return f"{price:.6f}"
+        return f"{price:.8f}"
+
+    def find_first_break(self, klines: List[Kline], start: int, level: float, buffer: float) -> Optional[int]:
+        for i in range(start, len(klines)):
+            if klines[i].low < (level - buffer):
+                return i
+        return None
+
+    def has_lower_pivot_after_break(
+        self,
+        klines: List[Kline],
+        broken_level: float,
+        break_idx: int,
+        left: int,
+        right: int,
+    ) -> bool:
+        s = max(left, break_idx + 1)
+        e = len(klines) - right
+
+        for i in range(s, e):
+            if klines[i].low < broken_level and self.is_pivot_low(klines, i, left, right):
+                return True
+        return False
+
+    def detect_break(self, symbol: str, timeframe: str, klines: List[Kline], cfg: Dict) -> Tuple[Optional[Dict], str]:
+        pl = cfg["pivot_left"]
+        pr = cfg["pivot_right"]
+        atr_p = cfg["atr_period"]
+        min_sw = cfg["min_swing_distance_atr"]
+        imp_thr = cfg["impulse_threshold_atr"]
+        buf_atr = cfg["break_buffer_atr"]
+        min_gap = cfg["min_bars_between_structural_lows"]
+        min_dist = cfg["min_bars_from_structural_low_to_break"]
+        strategy = cfg["strategy"]
+        cooldown = cfg["symbol_cooldown_hours"]
+
+        min_req = max(atr_p + 5, pl + pr + 50, min_dist + pl + pr + 20)
+        if len(klines) < min_req:
+            return None, "rejected_not_enough_klines"
+
+        live_idx = len(klines) - 1
+        live_candle = klines[live_idx]
+        struct_k = klines[:-1]
+
+        if len(struct_k) < min_req - 1:
+            return None, "rejected_not_enough_structure_klines"
+
+        all_atrs = self.calculate_atr(klines, atr_p)
+        s_atrs = all_atrs[:live_idx]
+        cur_atr = all_atrs[live_idx]
+
+        if cur_atr is None or cur_atr <= 0:
+            return None, "rejected_invalid_atr"
+
+        s_last = len(struct_k) - 1
+        pivots = self.extract_pivot_lows(struct_k, pl, pr)
+        if not pivots:
+            return None, "rejected_no_pivots"
+
+        s_lows = self.build_structural_lows(struct_k, s_atrs, pivots, min_sw, imp_thr, min_gap)
+        if not s_lows:
+            return None, "rejected_no_structural_lows"
+
+        prot = self.select_protected_low(s_lows, s_last, min_dist)
+        if prot is None:
+            return None, "rejected_no_protected_low"
+
+        bars_dist = live_idx - prot.index
+        if bars_dist < min_dist:
+            return None, "rejected_distance"
+
+        buffer = cur_atr * buf_atr
+
+        if not (live_candle.low < prot.price - buffer):
+            return None, "rejected_not_breaking"
+
+        if live_candle.close >= prot.price:
+            return None, "rejected_close_above_structural_low"
+
+        fbi = self.find_first_break(
+            klines,
+            start=prot.impulse_end_index + 1,
+            level=prot.price,
+            buffer=buffer,
+        )
+        if fbi is None:
+            return None, "rejected_no_first_break"
+
+        if fbi < live_idx and self.has_lower_pivot_after_break(klines, prot.price, fbi, pl, pr):
+            return None, "rejected_old_break_new_pivot"
+
+        if self.db.was_alert_sent(symbol, timeframe, strategy, prot.open_time, prot.price):
+            return None, "rejected_duplicate"
+
+        if self.db.is_in_cooldown(symbol, timeframe, cooldown):
+            return None, "rejected_cooldown"
+
+        return {
+            "symbol": symbol,
+            "timeframe": timeframe,
+            "strategy": strategy,
+            "structural_open_time": prot.open_time,
+            "structural_price": prot.price,
+            "current_price": live_candle.close,
+            "current_open_time": live_candle.open_time,
+            "bars_distance": bars_dist,
+        }, "accepted"
+
+    def build_alert_payload(self, alert: Dict, cfg: Dict) -> Dict:
+        symbol = alert["symbol"]
+        tf = cfg["display_name"]
+        tv_url = self.build_tv_url(symbol, cfg["tv_interval"])
+        s_price = alert["structural_price"]
+        c_price = alert["current_price"]
+        bars = alert["bars_distance"]
+        drop_pct = abs((c_price - s_price) / s_price * 100)
+
+        text = (
+            f"<b>{cfg['message_title']}</b>\n\n"
+            f"🪙 <b>{symbol}</b>\n\n"
+            f"⏰ الفريم      <b>{tf}</b>\n"
+            f"📍 القاع       <code>{self._fmt_price(s_price)}</code>\n"
+            f"💰 السعر       <code>{self._fmt_price(c_price)}</code>\n"
+            f"📉 الكسر       <b>{drop_pct:.2f}% ↓</b>\n"
+            f"🕯 البعد       <b>{bars} شمعة</b>\n\n"
+            f"<i>⚠️ ليس توصية استثمارية</i>"
+        )
+
+        keyboard = {
+            "inline_keyboard": [
+                [
+                    {"text": "📊 فتح الشارت", "url": tv_url},
+                    {"text": "𝕏 تابعني على X", "url": TWITTER_URL},
+                ]
+            ]
+        }
+
+        return {
+            "chat_id": TELEGRAM_CHAT_ID,
+            "text": text,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": True,
+            "reply_markup": json.dumps(keyboard),
+        }
+
+    def send_telegram(self, payload: Dict) -> bool:
+        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+        try:
+            resp = self.session.post(url, data=payload, timeout=REQUEST_TIMEOUT)
+            resp.raise_for_status()
+            data = resp.json()
+            ok = bool(data.get("ok", False))
+            if ok:
+                self.logger.info("TELEGRAM SENT")
+            else:
+                self.logger.error("Telegram failed response: %s", data)
+            return ok
+        except Exception as exc:
+            self.logger.error("Telegram error: %s", exc)
+            return False
+
+    def _maybe_send_heartbeat(self) -> None:
+        now = time.monotonic()
+        elapsed = now - self._last_heartbeat
+        if elapsed < HEARTBEAT_INTERVAL_HOURS * 3600:
+            return
+
+        self._last_heartbeat = now
+
+        text = (
+            "💚 <b>البوت يعمل بشكل طبيعي</b>\n\n"
+            f"🔄 الدورات المكتملة   <b>{self._cycle_count}</b>\n"
+            f"⏱ آخر دورة          <b>{self._last_cycle_time:.1f}s</b>\n"
+            f"📡 آخر تنبيه         <b>{self._last_alert_info}</b>"
+        )
+
+        payload = {
+            "chat_id": TELEGRAM_CHAT_ID,
+            "text": text,
+            "parse_mode": "HTML",
+        }
+
+        self.send_telegram(payload)
+        self.logger.info("Heartbeat sent")
+
+    def scan_symbol(self, symbol: str, timeframe: str) -> Optional[Dict]:
+        try:
+            cfg = TIMEFRAME_CONFIGS[timeframe]
+            klines = self.get_klines_cached(symbol, timeframe, cfg["klines_limit"])
+
+            if len(klines) < cfg["klines_limit"] // 2:
+                if SHOW_REJECTED_LOGS:
+                    self.logger.info("REJECTED | %s | %s | too_few_klines=%d", timeframe, symbol, len(klines))
+                return None
+
+            alert, reason = self.detect_break(symbol, timeframe, klines, cfg)
+
+            if alert is None:
+                if SHOW_REJECTED_LOGS:
+                    self.logger.info("REJECTED | %s | %s | %s", timeframe, symbol, reason)
+                return None
+
+            return alert
+
+        except Exception as exc:
+            self.logger.exception("scan_symbol error | %s | %s | %s", timeframe, symbol, exc)
+            return None
+
+    def handle_stop(self, signum, frame) -> None:
+        self.logger.info("Stop signal: %s", signum)
+        self.shutdown()
+
+    def shutdown(self) -> None:
+        self.running = False
+        self._stop_event.set()
+        try:
+            self.db.close()
+        finally:
+            try:
+                self.session.close()
+            except Exception:
+                pass
+        self.logger.info("Scanner stopped cleanly.")
+
+    def run_forever(self) -> None:
+        self.logger.info("Binance BOS Scanner — STARTED")
+
+        while self.running:
+            cycle_start = time.monotonic()
+
+            try:
+                symbols = self.get_usdt_spot_symbols()
+                volumes = self.get_all_24h_volumes()
+
+                filtered = [s for s in symbols if self.passes_volume_filter(s, volumes)]
+
+                self.logger.info(
+                    "Cycle #%d | Symbols=%d | Filtered=%d",
+                    self._cycle_count + 1,
+                    len(symbols),
+                    len(filtered),
+                )
+
+                tasks = [(symbol, tf) for symbol in filtered for tf in TIMEFRAME_CONFIGS]
+                alerts_count = 0
+
+                with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+                    futures = {
+                        executor.submit(self.scan_symbol, sym, tf): (sym, tf)
+                        for sym, tf in tasks
+                    }
+
+                    for future in as_completed(futures):
+                        if not self.running:
+                            break
+
+                        sym, tf = futures[future]
+
+                        try:
+                            alert = future.result()
+                        except Exception as exc:
+                            self.logger.error("Future error | %s | %s | %s", tf, sym, exc)
+                            continue
+
+                        if alert is None:
+                            continue
+
+                        cfg = TIMEFRAME_CONFIGS[tf]
+                        payload = self.build_alert_payload(alert, cfg)
+                        sent = self.send_telegram(payload)
+
+                        if sent:
+                            self.db.save_alert(
+                                symbol=alert["symbol"],
+                                timeframe=tf,
+                                strategy=alert["strategy"],
+                                structural_open_time=alert["structural_open_time"],
+                                structural_price=alert["structural_price"],
+                                sent_candle_open_time=alert["current_open_time"],
+                            )
+                            alerts_count += 1
+
+                            drop = abs(
+                                (alert["current_price"] - alert["structural_price"])
+                                / alert["structural_price"] * 100
+                            )
+                            info = f"{alert['symbol']} {tf} ({drop:.2f}%)"
+                            self._last_alert_info = info
+                            self.logger.info("ALERT | %s", info)
+                        else:
+                            self.logger.error("SEND FAILED | %s | %s", tf, sym)
+
+                self._cycle_count += 1
+                self._last_cycle_time = time.monotonic() - cycle_start
+
+                self.logger.info(
+                    "Cycle #%d done | %.1fs | Alerts=%d",
+                    self._cycle_count,
+                    self._last_cycle_time,
+                    alerts_count,
+                )
+
+                self._maybe_send_heartbeat()
+
+            except Exception as exc:
+                self.logger.exception("Cycle error: %s", exc)
+
+            if not self.running:
+                break
+
+            elapsed = time.monotonic() - cycle_start
+            wait_time = max(0.0, SCAN_INTERVAL_SECONDS - elapsed)
+
+            self.logger.info("Next cycle in %.1fs", wait_time)
+
+            if wait_time > 0:
+                self._stop_event.wait(timeout=wait_time)
+                self._stop_event.clear()
+
+# =========================================================
+# Entry Point
+# =========================================================
+def main() -> None:
+    scanner = BinanceBosScanner()
+    signal.signal(signal.SIGINT, scanner.handle_stop)
+    signal.signal(signal.SIGTERM, scanner.handle_stop)
+    scanner.run_forever()
+
+if __name__ == "__main__":
+    main()
+
