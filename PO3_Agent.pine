@@ -1,0 +1,376 @@
+//@version=6
+indicator("PO3 Agent — Accumulation • Manipulation • Distribution", overlay = true, max_boxes_count = 100, max_lines_count = 100, max_labels_count = 200)
+
+// ================= المدخلات =================
+gA      = "التجميع (النطاق)"
+sens    = input.string("متوسط", "الحساسية", options = ["حساس","متوسط","صارم"], group = gA)
+minConf = input.int(60, "أقل درجة ثقة %", minval = 30, maxval = 95, step = 5, group = gA)
+minW    = input.int(120, "أصغر نافذة", minval = 60, maxval = 700, group = gA)
+maxW    = input.int(300, "أكبر نافذة", minval = 150, maxval = 700, group = gA)
+confirmOnly = input.bool(true, "تأكيد الإغلاق (منع إعادة الرسم)", tooltip = "يقصر اتخاذ القرار على الشموع المغلقة فقط. يلغي إعادة الرسم داخل الشمعة الجارية.", group = gA)
+
+gM      = "التلاعب (الفيبو — لوغاريتمي)"
+fibExt   = input.float(1.618, "حد التلاعب (امتداد فيبو)", minval = 1.1, maxval = 2.618, step = 0.1, group = gM)
+manipLen = input.int(60, "نافذة المراقبة (شموع)", minval = 10, maxval = 500, group = gM)
+targetMode = input.string("فيبو 1.618", "هدف التلاعب", options = ["فيبو 1.618","انحراف معياري STDV"], tooltip = "فيبو: الهدف عند امتداد الفيبو اللوغاريتمي. STDV: الهدف عند حافة النطاق ± (المضاعف × الانحراف المعياري الإحصائي للسعر). الهدف المختار يُحدّد الرسم والتفعيل والفشل معاً.", group = gM)
+tolPct   = input.float(3.0, "نسبة السماح فوق الهدف %", minval = 0.5, maxval = 10.0, step = 0.5, group = gM)
+stdvN    = input.float(2.0, "مضاعف الانحراف المعياري STDV", minval = 1.5, maxval = 4.0, step = 0.5, tooltip = "يُستخدم فقط مع وضع STDV. المدى الموصى به: 2-2.5 سيغما.", group = gM)
+
+gV      = "فلتر الفوليوم (التلاعب الحقيقي)"
+useVol   = input.bool(true, "تفعيل فلتر الفوليوم", group = gV)
+volLook  = input.int(30, "نافذة متوسط الفوليوم", minval = 10, maxval = 100, group = gV)
+volZ     = input.float(1.5, "أدنى Z-Score للفوليوم", minval = 0.5, maxval = 4.0, step = 0.5, group = gV)
+
+gD      = "الهوية البصرية (حر)"
+cUp        = input.color(color.lime, "أخضر (صاعد/شراء)", group = gD)
+cDn        = input.color(color.red,  "أحمر (هابط/بيع)", group = gD)
+cFail      = input.color(color.new(color.gray, 55), "لون النموذج الفاشل (باهت)", group = gD)
+fillTransp = input.int(90, "شفافية تعبئة الصندوق", minval = 0, maxval = 100, group = gD)
+bStyleStr  = input.string("منقط", "نمط حدود الصندوق", options = ["منقط","متصل","متقطع"], group = gD)
+bWidth     = input.int(1, "عرض حدود الصندوق", minval = 1, maxval = 4, group = gD)
+lnStyleStr = input.string("منقط", "نمط خط التلاعب", options = ["منقط","متصل","متقطع"], group = gD)
+lnWidth    = input.int(1, "عرض خط التلاعب", minval = 1, maxval = 4, group = gD)
+lblSizeStr = input.string("صغير", "حجم نص الإشارة", options = ["صغير جدا","صغير","عادي"], group = gD)
+
+gDash   = "الداش بورد"
+showDash= input.bool(true, "إظهار الداش بورد", group = gDash)
+dashPos = input.string("أعلى يمين", "موقع الداش", options = ["أعلى يمين","أعلى يسار","أسفل يمين","أسفل يسار"], group = gDash)
+
+// ================= ترجمة خيارات النمط/الحجم =================
+f_bStyle(string s) => s == "متصل" ? line.style_solid : s == "متقطع" ? line.style_dashed : line.style_dotted
+bStyle  = f_bStyle(bStyleStr)
+lnStyle = f_bStyle(lnStyleStr)
+f_size(string s) => s == "عادي" ? size.normal : s == "صغير" ? size.small : size.tiny
+lblSize = f_size(lblSizeStr)
+
+// ================= معايير الحساسية =================
+sec        = timeframe.in_seconds()
+pvLen      = sec <= 300 ? 10 : sec <= 3600 ? 8 : sec <= 14400 ? 6 : 5
+slopeMax   = sens == "حساس" ? 0.06 : sens == "متوسط" ? 0.04 : 0.025
+sepPctMin  = sens == "حساس" ? 40.0 : sens == "متوسط" ? 50.0 : 60.0
+minAlt     = 4
+eqTolPct   = 20.0
+sepTimePct = 25.0
+sdK        = 2.0
+cooldown   = pvLen * 2
+wStep      = 30
+maxWatch   = manipLen * 3
+
+// حارس ترتيب النوافذ (منع minW > maxW)
+effMinW    = math.min(minW, maxW)
+effMaxW    = math.max(minW, maxW)
+
+// ================= حساب مستوى الفيبو (لوغاريتمي دائماً) =================
+f_fib(int dir, float hi, float lo, float ext) =>
+    float lvl = na
+    if hi > 0 and lo > 0
+        lvl := dir == 1 ? hi * math.pow(hi / lo, ext - 1.0) : lo * math.pow(lo / hi, ext - 1.0)
+    else
+        lvl := dir == 1 ? hi + (ext - 1.0) * (hi - lo) : lo - (ext - 1.0) * (hi - lo)
+    lvl
+
+// ================= فلتر الفوليوم (Z-Score) =================
+volSma  = ta.sma(volume, volLook)
+volStd  = ta.stdev(volume, volLook)
+volZsc  = volStd > 0 ? (volume - volSma) / volStd : 0.0
+volOK   = not useVol or na(volume) or volZsc >= volZ
+
+// ================= الانحراف المعياري للسعر (لوضع STDV) =================
+priceStdev = ta.stdev(close, manipLen)
+
+// ================= ذاكرة القمم/القيعان =================
+ph = ta.pivothigh(high, pvLen, pvLen)
+pl = ta.pivotlow(low, pvLen, pvLen)
+var float[] swPx = array.new<float>()
+var int[]   swBx = array.new<int>()
+var int[]   swTy = array.new<int>()
+f_pushSwing(float px, int ty) =>
+    array.push(swPx, px)
+    array.push(swBx, bar_index - pvLen)
+    array.push(swTy, ty)
+    if array.size(swPx) > 400
+        array.shift(swPx)
+        array.shift(swBx)
+        array.shift(swTy)
+if not na(ph)
+    f_pushSwing(ph, 1)
+if not na(pl)
+    f_pushSwing(pl, -1)
+
+// ================= تحليل النطاق هندسياً =================
+f_channel(int startBar, int endBar, float rng) =>
+    int   altCount = 0
+    int   eqH = 0
+    int   eqL = 0
+    int   prevTy = 0
+    int   runAlt = 0
+    float tol = rng * eqTolPct / 100
+    int   n = array.size(swPx)
+    float hiSum = 0.0
+    float loSum = 0.0
+    int   hiN = 0
+    int   loN = 0
+    float retHiAvg  = na
+    float retLoAvg  = na
+    float retHiSd   = 0.0
+    float retLoSd   = 0.0
+    bool  retOkHiSep = false
+    bool  retOkLoSep = false
+    if n > 0
+        for i = 0 to n - 1
+            int bx = array.get(swBx, i)
+            if bx >= startBar and bx <= endBar
+                int   ty = array.get(swTy, i)
+                float px = array.get(swPx, i)
+                runAlt := ty != prevTy ? runAlt + 1 : 1
+                altCount := math.max(altCount, runAlt)
+                prevTy := ty
+                if ty == 1
+                    hiSum += px
+                    hiN += 1
+                else
+                    loSum += px
+                    loN += 1
+        float hiAvg = hiN > 0 ? hiSum / hiN : na
+        float loAvg = loN > 0 ? loSum / loN : na
+        float hiVar = 0.0
+        float loVar = 0.0
+        int   eqHf = -1
+        int   eqHl = -1
+        int   eqLf = -1
+        int   eqLl = -1
+        float minSepBars = (endBar - startBar) * sepTimePct / 100.0
+        for i = 0 to n - 1
+            int bx = array.get(swBx, i)
+            if bx >= startBar and bx <= endBar
+                int   ty = array.get(swTy, i)
+                float px = array.get(swPx, i)
+                if ty == 1 and not na(hiAvg)
+                    hiVar += (px - hiAvg) * (px - hiAvg)
+                    if math.abs(px - hiAvg) <= tol
+                        eqH += 1
+                        eqHf := eqHf == -1 ? bx : eqHf
+                        eqHl := bx
+                if ty == -1 and not na(loAvg)
+                    loVar += (px - loAvg) * (px - loAvg)
+                    if math.abs(px - loAvg) <= tol
+                        eqL += 1
+                        eqLf := eqLf == -1 ? bx : eqLf
+                        eqLl := bx
+        retHiAvg := hiAvg
+        retLoAvg := loAvg
+        retHiSd := hiN > 1 ? math.sqrt(hiVar / hiN) : 0.0
+        retLoSd := loN > 1 ? math.sqrt(loVar / loN) : 0.0
+        retOkHiSep := (eqHf >= 0 and eqHl >= 0 ? eqHl - eqHf : 0) >= minSepBars
+        retOkLoSep := (eqLf >= 0 and eqLl >= 0 ? eqLl - eqLf : 0) >= minSepBars
+    [altCount, eqH, eqL, retHiAvg, retLoAvg, retHiSd, retLoSd, retOkHiSep, retOkLoSep]
+
+// ================= فحص نافذة (يدوي بلا ta.* داخل الحلقة) =================
+f_check(int w) =>
+    float hi = high
+    float lo = low
+    float sx = 0.0
+    float sy = 0.0
+    float sxx = 0.0
+    float sxy = 0.0
+    float sumFirst = 0.0
+    float sumMid = 0.0
+    float sumLast = 0.0
+    int   nFirst = 0
+    int   nMid = 0
+    int   nLast = 0
+    int   third = w / 3
+    for k = 0 to w - 1
+        float h = high[k]
+        float l = low[k]
+        float c = close[k]
+        hi := math.max(hi, h)
+        lo := math.min(lo, l)
+        float x = float(k)
+        sx += x
+        sy += c
+        sxx += x * x
+        sxy += x * c
+        // الأثلاث: k=0 الأحدث .. k=w-1 الأقدم. نوزّع زمنياً
+        if k < third
+            sumLast += c
+            nLast += 1
+        else if k < 2 * third
+            sumMid += c
+            nMid += 1
+        else
+            sumFirst += c
+            nFirst += 1
+    float rng = hi - lo
+    float nF = float(w)
+    float denom = nF * sxx - sx * sx
+    float slope = denom != 0 ? (nF * sxy - sx * sy) / denom : 0.0
+    float sl  = close != 0 ? -slope / close * 100 : 999.0
+    // عبور خط الوسط: التجميع يتذبذب فيعبر الوسط كثيراً؛ القمة/الاتجاه نادراً
+    float mid = (hi + lo) / 2.0
+    int cross = 0
+    for k = 1 to w - 1
+        float sideOlder = close[k] - mid
+        float sideNewer = close[k - 1] - mid
+        if sideOlder * sideNewer < 0
+            cross += 1
+    int  minCross = w / 15
+    bool crossOK = cross >= minCross
+    // فلتر القوس: التجميع أفقي (وسطه ≈ أطرافه)؛ القمة/القاع قوس (وسطه يبرز)
+    float avgFirst = nFirst > 0 ? sumFirst / nFirst : 0.0
+    float avgMid   = nMid   > 0 ? sumMid   / nMid   : 0.0
+    float avgLast  = nLast  > 0 ? sumLast  / nLast  : 0.0
+    float avgEdges = (avgFirst + avgLast) / 2.0
+    float archRatio = rng > 0 ? math.abs(avgMid - avgEdges) / rng : 0.0
+    bool  archOK = archRatio < 0.22
+    int   st  = bar_index - w + 1
+    [altCount, eqH, eqL, hiAvg, loAvg, hiSd, loSd, okHiSep, okLoSep] = f_channel(st, bar_index, rng)
+    float sep  = (na(hiAvg) or na(loAvg)) ? 0.0 : hiAvg - loAvg
+    float sepP = rng > 0 ? sep / rng * 100 : 0.0
+    bool  slopeOK = math.abs(sl) <= slopeMax
+    bool  gate = (altCount >= minAlt) and (eqH >= 2 and eqL >= 2) and (sepP >= sepPctMin) and okHiSep and okLoSep and slopeOK and crossOK and archOK
+    float sSlope = 30.0 * math.max(0.0, 1.0 - math.abs(sl) / slopeMax)
+    float sAlt   = altCount >= minAlt ? 30.0 : 30.0 * altCount / minAlt
+    float sEq    = (eqH >= 2 and eqL >= 2) ? math.min(40.0, (math.min(eqH, 5) + math.min(eqL, 5)) * 4.0) : 0.0
+    float conf   = gate ? sSlope + sAlt + sEq : 0.0
+    float topEdge = not na(hiAvg) ? math.min(hi, hiAvg + sdK * hiSd) : hi
+    float botEdge = not na(loAvg) ? math.max(lo, loAvg - sdK * loSd) : lo
+    [conf, topEdge, botEdge]
+
+// ================= حالة الوكيل =================
+var box    accBox    = na
+var line   manipLn   = na
+var label  sigTag    = na
+var bool   accActive = false
+var bool   locked    = false
+var float  rHi       = na
+var float  rLo       = na
+var int    lastEnd   = na
+var float  fibLevel  = na
+var int    mDir      = 0
+var int    breakBar  = na
+var bool   mActivated= false
+var int    cntSucc   = 0
+var int    cntFail   = 0
+
+// تأكيد القرار: على الشمعة المغلقة فقط عند تفعيل منع إعادة الرسم
+barOK     = not confirmOnly or barstate.isconfirmed
+canSearch = barOK and not accActive and not locked and (na(lastEnd) or (bar_index - lastEnd) >= cooldown)
+float fConf = 0.0
+float fHi = na
+float fLo = na
+int   fW = 0
+bool  found = false
+if canSearch
+    int w = effMaxW
+    while w >= effMinW and not found
+        [conf, topEdge, botEdge] = f_check(w)
+        if conf >= minConf and (na(lastEnd) or bar_index - w + 1 > lastEnd)
+            fConf := conf
+            fHi := topEdge
+            fLo := botEdge
+            fW := w
+            found := true
+        w -= wStep
+
+// (أ) إنشاء مربع التجميع (محايد رمادي حتى الكسر)
+if found and not accActive and not locked and not na(fHi)
+    accActive := true
+    rHi := fHi
+    rLo := fLo
+    accBox := box.new(bar_index - fW + 1, rHi, bar_index, rLo, border_color = color.new(color.gray, 40), border_width = bWidth, border_style = bStyle, bgcolor = color.new(color.gray, fillTransp))
+
+// (ب) التجميع نشط: مدّ المربع حتى أول إغلاق خارج الحدود + تلوين حسب الاتجاه
+// لا نسمح بالكسر في نفس شمعة الإنشاء (not found)
+if accActive and not na(accBox)
+    box.set_right(accBox, bar_index)
+    if barOK and not found
+        bool brokeUp = close > rHi
+        bool brokeDn = close < rLo
+        if brokeUp or brokeDn
+            accActive := false
+            locked := true
+            mDir := brokeUp ? 1 : -1
+            breakBar := bar_index
+            mActivated := false
+            color cDir = mDir == 1 ? cDn : cUp
+            box.set_border_color(accBox, color.new(cDir, 30))
+            box.set_bgcolor(accBox, color.new(cDir, fillTransp))
+            // الهدف: STDV = حافة النطاق ± (المضاعف × الانحراف المعياري) | غير ذلك = فيبو لوغاريتمي
+            fibLevel := targetMode == "انحراف معياري STDV" ? (mDir == 1 ? rHi + stdvN * priceStdev : rLo - stdvN * priceStdev) : f_fib(mDir, rHi, rLo, fibExt)
+            manipLn := line.new(breakBar, fibLevel, breakBar + manipLen, fibLevel, color = cDir, style = lnStyle, width = lnWidth)
+            sigTag := label.new(breakBar + manipLen, fibLevel, "x PO3", style = label.style_none, textcolor = cDir, size = lblSize)
+
+// (ج) النطاق مثبّت — التفعيل (وصول الفيبو) ثم الحكم بالانعكاس لا بالزمن
+// النجاح: السعر فُعّل (لمس الهدف) ثم انعكس عائداً لمنطقة التجميع.
+// الفشل: السعر اخترق الهدف + سماح (استمرار الاختراق، لا تلاعب) أو انتهت النافذة بلا تفعيل.
+if locked and barOK
+    int  age = bar_index - breakBar
+    bool withinLife = age <= manipLen
+    // التفعيل: وصول السعر لمنطقة الهدف خلال نافذة التفعيل
+    bool inUp = mDir == 1  and close > rHi and close <= fibLevel
+    bool inDn = mDir == -1 and close < rLo and close >= fibLevel
+    if withinLife and not mActivated and (inUp or inDn) and volOK
+        mActivated := true
+
+    // الفشل: تجاوز الهدف المختار + سماح
+    bool failed = mDir == 1 ? close > fibLevel * (1.0 + tolPct / 100.0) : close < fibLevel * (1.0 - tolPct / 100.0)
+
+    // النجاح: بعد التفعيل، انعكس السعر وعاد لمنطقة التجميع
+    bool revUp = mDir == -1 and mActivated and close >= rLo
+    bool revDn = mDir == 1  and mActivated and close <= rHi
+    bool succeeded = revUp or revDn
+
+    // انتهاء التفعيل بلا وصول للهدف = فشل (لم يصل هدف التلاعب)
+    bool expired = (age >= manipLen) and not mActivated
+
+    if failed or expired
+        // فشل نهائي
+        box.set_border_color(accBox, cFail)
+        box.set_bgcolor(accBox, color.new(cFail, fillTransp))
+        line.set_color(manipLn, cFail)
+        label.set_textcolor(sigTag, cFail)
+        cntFail += 1
+        lastEnd := bar_index
+        locked := false
+        mDir := 0
+        mActivated := false
+        accBox := na
+        manipLn := na
+        sigTag := na
+    else if succeeded
+        // نجاح نهائي (انعكاس مؤكد)
+        cntSucc += 1
+        lastEnd := bar_index
+        locked := false
+        mDir := 0
+        mActivated := false
+        accBox := na
+        manipLn := na
+        sigTag := na
+    else if age >= maxWatch
+        // صمام أمان: لا يُبلَغ إلا بعد التفعيل (وإلا أطلق expired الفشل سابقاً)
+        // فُعّل ولم ينهَر طوال المراقبة القصوى = ناجح
+        cntSucc += 1
+        lastEnd := bar_index
+        locked := false
+        mDir := 0
+        mActivated := false
+        accBox := na
+        manipLn := na
+        sigTag := na
+
+// ================= الداش بورد =================
+f_pos() => dashPos == "أعلى يمين" ? position.top_right : dashPos == "أعلى يسار" ? position.top_left : dashPos == "أسفل يمين" ? position.bottom_right : position.bottom_left
+var table dash = table.new(f_pos(), 2, 4, border_width = 1, frame_width = 1, frame_color = color.gray)
+f_row(int r, string k, string v, color vc) =>
+    table.cell(dash, 0, r, k, text_color = color.white, bgcolor = color.new(color.gray, 70), text_size = size.tiny, text_halign = text.align_right)
+    table.cell(dash, 1, r, v, text_color = vc, bgcolor = color.new(#1a1a1a, 0), text_size = size.tiny, text_halign = text.align_center)
+
+if showDash and barstate.islast
+    total   = cntSucc + cntFail
+    winRate = total > 0 ? math.round(cntSucc * 100.0 / total) : 0
+    f_row(0, "الفريم", timeframe.period, color.aqua)
+    f_row(1, "نماذج ناجحة", str.tostring(cntSucc), cUp)
+    f_row(2, "نماذج فاشلة", str.tostring(cntFail), cDn)
+    f_row(3, "نسبة النجاح", (total > 0 ? str.tostring(winRate) + "%" : "—"), total > 0 ? (winRate >= 50 ? cUp : cDn) : color.gray)
