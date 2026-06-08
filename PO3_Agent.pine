@@ -307,10 +307,10 @@ if accActive and not na(accBox)
 if locked and barOK
     int  age = bar_index - breakBar
     bool withinLife = age <= manipLen
-    // التفعيل: وصول السعر لمنطقة الهدف خلال نافذة التفعيل
-    bool inUp = mDir == 1  and close > rHi and close <= fibLevel
-    bool inDn = mDir == -1 and close < rLo and close >= fibLevel
-    if withinLife and not mActivated and (inUp or inDn) and volOK
+    // التفعيل: السعر لمس/تجاوز هدف التلاعب (كنس السيولة) خلال نافذة المراقبة
+    // نعتمد ذروة الشمعة (high/low) لا الإغلاق؛ شمعة واحدة قد تكنس الهدف وتنعكس
+    bool reached = mDir == 1 ? high >= fibLevel : low <= fibLevel
+    if withinLife and not mActivated and reached and volOK
         mActivated := true
 
     // الفشل: تجاوز الهدف المختار + سماح
